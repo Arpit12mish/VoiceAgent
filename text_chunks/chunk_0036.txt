@@ -1,0 +1,127 @@
+The tags of all service composite data elements contained in the composite data element directory start with the letter "S", and the tags of all service simple data elements start with the figure "0".
+
+Name of a component data element in small letters
+
+The status of the component data element in the composite data element (where M = Man datory and C = Conditional)
+
+Data value representation of the component data elements in the composite:
+
+alphabetic characters
+
+numeric characters
+
+alphanumeric characters
+
+3 alphabetic characters, fixed length
+
+3 numeric characters, fixed length
+
+an3
+
+3 alphanumeric characters, fixed length
+
+a..3
+
+up to 3 alphabetic characters
+
+n..3
+
+up to 3 numeric characters
+
+up to 3 alphanumeric characters
+
+Desc.
+
+Description of the composite data element
+
+5.2.2
+
+Dependency note identifiers
+
+Code D1
+
+One and only one
+
+All or none
+
+One or more
+
+One or none
+
+Code D5
+
+If first, then all
+
+If first, then at least one more
+
+If first, then none of the others
+
+See ISO 9735-1:2002, 11.5 for the definition of the dependency note identifiers.
+
+5.2.3
+
+Index of service composite data elements by tag
+
+Change indicators (compared with the previous edition of this document):
+
+a plus sign (+)
+
+for an addition
+
+an asterisk (*)
+
+for an amendment to structure
+
+a hash sign (#)
+
+for changes to names
+
+a vertical bar (|)
+
+for changes to text for descriptions, notes and functions
+
+a minus sign (-)
+
+for a deletion
+
+an X sign (X)
+
+for marked for deletion
+
+Tag S001
+
+Syntax identifier
+
+S002
+
+Interchange sender
+
+S003
+
+Interchange recipient
+
+S004
+
+Date and time of preparation
+
+S005
+
+Recipient reference/password details
+
+S006
+
+Application sender identification
+
+S007
+
+Application recipient identification
+
+S009
+
+Message identifier
+
+S010
+
+Status of the transfer
+
+S011

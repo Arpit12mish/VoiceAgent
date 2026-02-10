@@ -1,0 +1,193 @@
+Data element identification
+
+S016
+
+Message subset identification
+
+S017
+
+Message implementation guideline identification
+
+S018
+
+Scenario identification
+
+S020
+
+Reference identification
+
+S021
+
+Object type identification
+
+S022
+
+Status of the object
+
+S300
+
+Date and/or time of initiation
+
+S301
+
+Status of transfer - interactive
+
+S302
+
+Dialogue reference
+
+S303
+
+Transaction reference
+
+S305
+
+Dialogue identification
+
+S306
+
+Interactive message identifier
+
+S307
+
+Status information
+
+S500
+
+Security identification details
+
+S501
+
+Security date and time
+
+Tag S502
+
+Security algorithm
+
+S503
+
+Algorithm parameter
+
+S504
+
+List parameter
+
+S505
+
+Service character for signature
+
+S508
+
+Validation result
+
+5.2.4
+
+Index of service composite data elements by name
+
+Change indicators (compared with the previous edition of this document):
+
+a plus sign (+)
+
+for an addition
+
+an asterisk (*)
+
+for an amendment to structure
+
+a hash sign (#)
+
+for changes to names
+
+a vertical bar (|)
+
+for changes to text for descriptions, notes and functions
+
+a minus sign (-)
+
+for a deletion
+
+an X sign (X)
+
+for marked for deletion
+
+Tag S503
+
+Algorithm parameter
+
+S007
+
+Application recipient identification
+
+S006
+
+Application sender identification
+
+S011
+
+Data element identification
+
+S004
+
+Date and time of preparation
+
+S300
+
+Date and/or time of initiation
+
+S305
+
+Dialogue identification
+
+S302
+
+Dialogue reference
+
+S306
+
+Interactive message identifier
+
+S003
+
+Interchange recipient
+
+S002
+
+Interchange sender
+
+S504
+
+List parameter
+
+S009
+
+Message identifier
+
+S017
+
+Message implementation guideline identification
+
+S016
+
+Message subset identification
+
+S021
+
+Object type identification
+
+S005
+
+Recipient reference/password details
+
+S020
+
+Reference identification
+
+S018
+
+Scenario identification
+
+S502
+
+Security algorithm
+
+S501

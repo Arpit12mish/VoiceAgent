@@ -1,0 +1,85 @@
+Sequence of transfers
+
+n..2
+
+0073
+
+First and last transfer
+
+Table 44 - S011 DATA ELEMENT IDENTIFICATION
+
+S011 DATA ELEMENT IDENTIFICATION Desc.: Identification of the position for an erroneous data element. This can be the position of a stand-alone or composite data element in the definition of a segment or a component data element in the definition of a composite data element. POS
+
+0098
+
+Erroneous data element position in segment
+
+n..3
+
+0104
+
+Erroneous component data element position
+
+n..3
+
+1,2
+
+0136
+
+Erroneous data element occurrence
+
+n..6
+
+1,3
+
+DEPENDENCY NOTES: D4(020, 030) One or none. OTHER REMARKS: 0104, only used if an error is to be reported in a component data element. 3 0136, only used if an error is to be reported in a repeating data element.
+
+Table 45 - S016 MESSAGE SUBSET IDENTIFICATION
+
+S016 MESSAGE SUBSET IDENTIFICATION Desc.: Identification of a message subset by its identifier, version, release and source. POS
+
+0115
+
+Message subset identification
+
+an..14
+
+0116
+
+Message subset version number
+
+0118
+
+Message subset release number
+
+0051
+
+Controlling agency, coded
+
+Table 46 - S017 MESSAGE IMPLEMENTATION GUIDELINE IDENTIFICATION
+
+S017 MESSAGE IMPLEMENTATION GUIDELINE IDENTIFICATION Desc.: Identification of a message implementation guideline by its identifier, version, release and source. POS
+
+0121
+
+Message implementation guideline identification
+
+an..14
+
+0122
+
+Message implementation guideline version number
+
+Table 46 (continued)
+
+S017 MESSAGE IMPLEMENTATION GUIDELINE IDENTIFICATION Desc.: Identification of a message implementation guideline by its identifier, version, release and source. POS 030
+
+0124
+
+Message implementation guideline release number
+
+0051
+
+Controlling agency, coded
+
+Table 47 - S018 SCENARIO IDENTIFICATION

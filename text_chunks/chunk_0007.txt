@@ -1,0 +1,83 @@
+Service segment specification legend
+
+Function
+
+The function of the segment
+
+POS
+
+The sequential position number of the stand-alone data element or composite data element in the segment table
+
+The tags for all service segments contained in the segment directory shall start with the letter "U". The tags of all service composite data elements start with the letter "S", and the tags of all service simple data elements start with the figure "0".
+
+Name of a COMPOSITE DATA ELEMENT in capital letters Name of a STAND-ALONE DATA ELEMENT in capital letters Name of a component data element in small letters
+
+The status of the stand-alone data element or composite data element in the segment, or of the components in the composite (where M = Mandatory and C = Conditional)
+
+The maximum number of occurrences of a stand-alone data element or composite data element in the segment
+
+Data value representation of the stand-alone data element or component data elements in the composite:
+
+alphabetic characters
+
+numeric characters
+
+alphanumeric characters
+
+3 alphabetic characters, fixed length
+
+3 numeric characters, fixed length
+
+an3
+
+3 alphanumeric characters, fixed length
+
+a..3
+
+up to 3 alphabetic characters
+
+n..3
+
+up to 3 numeric characters
+
+up to 3 alphanumeric characters
+
+5.1.2
+
+Dependency note identifiers
+
+Code D1
+
+One and only one
+
+All or none
+
+One or more
+
+One or none
+
+If first, then all
+
+If first, then at least one more
+
+If first, then none of the others
+
+See ISO 9735-1:2002, 11.5 for the definition of the dependency note identifiers.
+
+5.1.3
+
+Index of service segments by tag
+
+Change indicators (compared with the previous edition of this document):
+
+a plus sign (+)
+
+for an addition
+
+an asterisk (*)
+
+for an amendment to structure
+
+a hash sign (#)
+
+for changes to names

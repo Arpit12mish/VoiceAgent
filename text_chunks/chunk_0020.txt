@@ -1,0 +1,147 @@
+UIT INTERACTIVE MESSAGE TRAILER segment Function: To end and check the completeness of a message.
+
+0340
+
+INTERACTIVE MESSAGE REFERENCE NUMBER
+
+0074
+
+NUMBER OF SEGMENTS IN A MESSAGE
+
+n..10
+
+REMARKS: 0340, the value shall be identical to the value in 0340 in the corresponding UIH segment.
+
+Table 12 - Details of UIZ INTERACTIVE INTERCHANGE TRAILER segment
+
+UIZ INTERACTIVE INTERCHANGE TRAILER segment Function: To end and check the completeness of an interchange.
+
+S302
+
+DIALOGUE REFERENCE
+
+0300
+
+Initiator control reference
+
+0303
+
+Initiator reference identification
+
+0051
+
+Controlling agency, coded
+
+0304
+
+Responder control reference
+
+0036
+
+INTERCHANGE CONTROL COUNT
+
+n..6
+
+0325
+
+DUPLICATE INDICATOR
+
+REMARKS: S302, the value shall be identical to the value in the responder's dialogue reference in S302 in the UIB segment. 0325, only used if the interchange is a duplicate transfer.
+
+Table 13 - Details of UNB INTERCHANGE HEADER segment
+
+UNB INTERCHANGE HEADER segment Function: To identify an interchange.
+
+S001
+
+SYNTAX IDENTIFIER
+
+0001
+
+Syntax identifier
+
+0002
+
+Syntax version number
+
+an1
+
+0080
+
+Service code list directory version number
+
+an..6
+
+0133
+
+Character encoding, coded
+
+0076
+
+Syntax release number
+
+an2
+
+S002
+
+INTERCHANGE SENDER
+
+0004
+
+Interchange sender identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+0008
+
+Interchange sender internal identification
+
+0042
+
+Interchange sender internal sub-identification
+
+S003
+
+INTERCHANGE RECIPIENT
+
+0010
+
+Interchange recipient identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+0014
+
+Interchange recipient internal identification
+
+0046
+
+Interchange recipient internal sub-identification
+
+S004
+
+DATE AND TIME OF PREPARATION
+
+0017
+
+Date
+
+0019
+
+Time
+
+0020
+
+INTERCHANGE CONTROL REFERENCE
+
+an..14
+
+S005

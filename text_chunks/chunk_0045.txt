@@ -1,0 +1,187 @@
+3 numeric characters, fixed length
+
+an3
+
+3 alphanumeric characters, fixed length
+
+a..3
+
+up to 3 alphabetic characters
+
+n..3
+
+up to 3 numeric characters
+
+up to 3 alphanumeric characters
+
+5.3.3
+
+Index of service simple data elements by tag
+
+Change indicators (compared with the previous edition of this document)
+
+a plus sign (+)
+
+for an addition
+
+an asterisk (*)
+
+for an amendment to structure
+
+a hash sign (#)
+
+for changes to names
+
+a vertical bar (|)
+
+for changes to text for descriptions, notes and functions
+
+a minus sign (-)
+
+for a deletion
+
+an X sign (X)
+
+for marked for deletion
+
+Tag 0001
+
+Syntax identifier
+
+0002
+
+Syntax version number
+
+0004
+
+Interchange sender identification
+
+0007
+
+Identification code qualifier
+
+0008
+
+Interchange sender internal identification
+
+0010
+
+Interchange recipient identification
+
+0014
+
+Interchange recipient internal identification
+
+0017
+
+Date
+
+0019
+
+Time
+
+0020
+
+Interchange control reference
+
+0022
+
+Recipient reference/password
+
+0025
+
+Recipient reference/password qualifier
+
+0026
+
+Application reference
+
+0029
+
+Processing priority code
+
+0031
+
+Acknowledgement request
+
+0032
+
+Interchange agreement identifier
+
+0035
+
+Test indicator
+
+0036
+
+Interchange control count
+
+0040
+
+Application sender identification
+
+0042
+
+Interchange sender internal sub-identification
+
+0044
+
+Application recipient identification
+
+0046
+
+Interchange recipient internal sub-identification
+
+0048
+
+Group reference number
+
+0051
+
+Controlling agency, coded
+
+0052
+
+Message version number
+
+Tag 0054
+
+Message release number
+
+0057
+
+Association assigned code
+
+0058
+
+Application password
+
+0060
+
+Group control count
+
+0062
+
+Message reference number
+
+0065
+
+Message type
+
+0068
+
+Common access reference
+
+0070
+
+Sequence of transfers
+
+0073
+
+First and last transfer
+
+0074
+
+Number of segments in a message
+
+0076

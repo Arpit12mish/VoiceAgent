@@ -1,0 +1,101 @@
+RECIPIENT REFERENCE/PASSWORD DETAILS
+
+0022
+
+Recipient reference/password
+
+an..14
+
+0025
+
+Recipient reference/password qualifier
+
+an2
+
+REMARKS: S001/0002, shall be "4" to indicate this version of the syntax. The combination of the values carried in data elements S002, S003 and 0020 shall be used to identify uniquely the interchange, for the purpose of acknowledgement.
+
+Table 13 (continued)
+
+UNB INTERCHANGE HEADER segment Function: To identify an interchange.
+
+0026
+
+APPLICATION REFERENCE
+
+an..14
+
+0029
+
+PROCESSING PRIORITY CODE
+
+0031
+
+ACKNOWLEDGEMENT REQUEST
+
+0032
+
+INTERCHANGE AGREEMENT IDENTIFIER
+
+0035
+
+TEST INDICATOR
+
+REMARKS: S001/0002, shall be "4" to indicate this version of the syntax. The combination of the values carried in data elements S002, S003 and 0020 shall be used to identify uniquely the interchange, for the purpose of acknowledgement.
+
+Table 14 - Details of UNE GROUP TRAILER segment
+
+UNE GROUP TRAILER segment Function: To end and check the completeness of a group.
+
+0060
+
+GROUP CONTROL COUNT
+
+n..6
+
+0048
+
+GROUP REFERENCE NUMBER
+
+an..14
+
+REMARKS: 0048, the value shall be identical to the value in 0048 in the corresponding UNG segment.
+
+Table 15 - Details of UNG GROUP HEADER segment
+
+UNG GROUP HEADER segment Function: To head, identify and specify a group of messages and/or packages, which may be used for internal routing and which may contain one or more message types and/or packages.
+
+X 0038
+
+MESSAGE GROUP IDENTIFICATION
+
+an..6
+
+1,2,4
+
+S006
+
+APPLICATION SENDER IDENTIFICATION
+
+0040
+
+Application sender identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+S007
+
+APPLICATION RECIPIENT IDENTIFICATION
+
+0044
+
+Application recipient identification
+
+0007
+
+Identification code qualifier
+
+an..4

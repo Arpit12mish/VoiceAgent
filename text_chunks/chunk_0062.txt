@@ -1,0 +1,21 @@
+Remark 1: This element shall specify the security error encountered. These may be the reason for non-acknowledgement by a request for secure acknowledgement, or may be sent on the initiative of the receiver of an AUTACK or secured EDIFACT structure which contains error.
+
+0572 Certificate sequence number Desc.: Specification of a certificate's position within a certification path. Repr.: n..4 Remark 1: Allows certification paths to be ordered by specifying the ordinal number of the certificate within a certification path.
+
+0575 List parameter qualifier Desc.: Specification of the type of list parameter.
+
+0577 Security party qualifier Desc.: Identification of the role of the security party.
+
+0579 Key management function qualifier Desc.: Specification of the type of key management function.
+
+0582 Number of padding bytes Desc.: Count of the number of padding bytes. Repr.: n..2
+
+0586 Security party name Desc.: Name of the security party. Repr.: an..35
+
+0588 Number of security segments Desc.: The number of security segments in a security header/trailer group pair, plus the USD and USU segments where the security header/trailer group pair is used for encryption. Repr.: n..10 Remark 1: Each security header/trailer group pair shall contain its own count of the number of security segments within that group pair. Remark 2: The count of the number of security segments includes the USR segment in the security trailer.
+
+0591 Padding mechanism, coded Desc.: Padding mechanism or padding scheme applied.
+
+0601 Padding mechanism code list identifier Desc.: Specification of the code list used to identify the padding mechanism or padding scheme.
+
+0800 Package reference number Desc.: Unique package reference number assigned by the sender. Repr.: an..35

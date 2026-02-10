@@ -1,0 +1,99 @@
+0116
+
+Message subset version number
+
+0118
+
+Message subset release number
+
+0051
+
+Controlling agency, coded MESSAGE IMPLEMENTATION GUIDELINE IDENTIFI
+
+S017
+
+CATION
+
+0121
+
+Message implementation guideline identification
+
+an..14
+
+0122
+
+Message implementation guideline version number
+
+0124
+
+Message implementation guideline release number
+
+0051
+
+Controlling agency, coded
+
+S018
+
+SCENARIO IDENTIFICATION
+
+0127
+
+Scenario identification
+
+an..14
+
+0128
+
+Scenario version number
+
+0130
+
+Scenario release number
+
+0051
+
+Controlling agency, coded
+
+REMARKS: Data element S009/0057 is retained for upward compatibility. The use of S016 and/or S017 is encouraged in preference. The combination of the values carried in data elements 0062 and S009 shall be used to identify uniquely the message within its group (if used) or if not used, within its interchange, for the purpose of acknowledgement.
+
+Table 17 - Details of UNO OBJECT HEADER segment
+
+UNO OBJECT HEADER segment Function: To head, identify and specify an object.
+
+0800
+
+PACKAGE REFERENCE NUMBER
+
+S020
+
+REFERENCE IDENTIFICATION
+
+0813
+
+Reference qualifier
+
+0802
+
+Reference identification number
+
+S021
+
+OBJECT TYPE IDENTIFICATION
+
+0805
+
+Object type qualifier
+
+0809
+
+Object type attribute identification
+
+an..256
+
+0808
+
+Object type attribute
+
+an..256
+
+REMARKS: The value in 0800 shall be unique within the interchange (except for a duplicate transfer). One mandatory occurrence of S020 shall identify the Object Identification Number. 3 One occurrence of S021 is mandatory and shall be used for file format identification. 4 Data elements S302, S301, S300 and 0035 are for interactive EDI use only: - The value(s) in S302 shall be identical to the value(s) in S302 in the preceding UIB. - 0035, when used, test applies to the message or package only.

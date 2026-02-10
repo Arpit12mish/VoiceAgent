@@ -1,0 +1,39 @@
+No filter No filter function is used.
+
+Table A.26 - 0507 Original character set encoding, coded
+
+0507 Original character set encoding, coded Desc.: Identification of the character set in which the secured EDIFACT structure was encoded when security mechanisms were applied.
+
+ASCII 7 bit ASCII 7 bit code.
+
+Table A.27 - 0509 Role of security provider, coded
+
+0509 Role of security provider, coded Desc.: Identification of the role of the security provider in relation to the secured item.
+
+Issuer The security provider is the rightful issuer of the signed document.
+
+Table A.28 - 0513 Security party code list qualifier
+
+0513 Security party code list qualifier Desc.: Identification of the type of identification used to register the security parties.
+
+ACH Automated clearing house identification.
+
+Table A.29 - 0515 Security party code list responsible agency, coded
+
+0515 Security party code list responsible agency, coded Desc.: Identification of the agency in charge of registration of the security parties.
+
+UN/CEFACT United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT).
+
+Table A.30 - 0517 Date and time qualifier
+
+0517 Date and time qualifier Desc.: Specification of the type of date and time.
+
+Security Timestamp Security timestamp of the secured message.
+
+Table A.31 - 0523 Use of algorithm, coded
+
+0523 Use of algorithm, coded Desc.: Specification of the usage made of the algorithm.
+
+Owner hashing Specifies that the algorithm is used by the message sender to compute the hash function on the message (as in the case of Integrity or Non-repudiation of Origin identified in the security function qualifier of USH).
+
+Table A.32 - 0525 Cryptographic mode of operation, coded

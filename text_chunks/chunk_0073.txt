@@ -1,0 +1,65 @@
+0601 Padding mechanism code list identifier Desc.: Specification of the code list used to identify the padding mechanism or padding scheme.
+
+UN/CEFACT United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT).
+
+Table A.51 - 0805 Object type qualifier
+
+0805 Object type qualifier Desc.: Qualifier referring to the type of object.
+
+Computer environment type Specification of the type of computer environment for which the object is intended.
+
+Table A.52 - 0813 Reference qualifier
+
+0813 Reference qualifier Desc.: Code giving specific meaning to a reference identification number.
+
+Object identification number Identification number assigned to an object.
+
+
+
+Bibliography
+
+ISO 639 (all parts), Codes for the representation of names of languages
+
+[1]
+
+ISO/IEC 646, Information technology - ISO 7-bit coded character set for information interchange
+
+[2]
+
+ISO/IEC 2022, Information technology - Character code structure and extension techniques
+
+[3]
+
+ISO/IEC 2375, Information technology - Procedure for registration of escape sequences and coded
+
+[4]
+
+character sets
+
+ISO/IEC 6523 (all parts), Information technology - Structure for the identification of organizations
+
+[5]
+
+and organization parts
+
+ISO 8601 (all parts), Data elements and interchange formats - Information interchange -
+
+[6]
+
+Representation of dates and times
+
+ISO/IEC 8859 (all parts), Information technology - 8-bit single-byte coded graphic character sets
+
+[7]
+
+ISO/IEC 9594-8, Information technology - Open systems interconnection - Part 8: The Directory:
+
+[8]
+
+Public-key and attribute certificate frameworks
+
+ISO 9735:1988, Electronic data interchange for administration, commerce and transport (EDIFACT)
+
+[9]
+
+- Application level syntax rules

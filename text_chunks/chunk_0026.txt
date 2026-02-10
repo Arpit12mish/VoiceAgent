@@ -1,0 +1,99 @@
+REMARKS: Segment to be used by message designers only when required to avoid ambiguities.
+
+Table 20 - Details of UNT MESSAGE TRAILER
+
+UNT MESSAGE TRAILER Function: To end and check the completeness of a message.
+
+0074
+
+NUMBER OF SEGMENTS IN A MESSAGE
+
+n..10
+
+0062
+
+MESSAGE REFERENCE NUMBER
+
+an..14
+
+REMARKS: 0062, the value shall be identical to the value in 0062 in the corresponding UNH segment.
+
+Table 21 - Details of UNZ INTERCHANGE TRAILER segment
+
+UNZ INTERCHANGE TRAILER segment Function: To end and check the completeness of an interchange.
+
+0036
+
+INTERCHANGE CONTROL COUNT
+
+n..6
+
+0020
+
+INTERCHANGE CONTROL REFERENCE
+
+an..14
+
+REMARKS: 0020, the value shall be identical to the value in 0020 in the corresponding UNB segment.
+
+Table 22 - Details of USA SECURITY ALGORITHM segment
+
+USA SECURITY ALGORITHM segment Function: To identify a security algorithm, the technical usage made of it, and to contain the technical parameters required.
+
+S502
+
+SECURITY ALGORITHM
+
+0523
+
+Use of algorithm, coded
+
+0525
+
+Cryptographic mode of operation, coded
+
+0533
+
+Mode of operation code list identifier
+
+0527
+
+Algorithm, coded
+
+0529
+
+Algorithm code list identifier
+
+0591
+
+Padding mechanism, coded
+
+0601
+
+Padding mechanism code list identifier
+
+S503
+
+ALGORITHM PARAMETER
+
+0531
+
+Algorithm parameter qualifier
+
+0554
+
+Algorithm parameter value
+
+an..512
+
+REMARKS: S503, provides space for one parameter. The number of repetitions of S503 actually used will depend on the algorithm used. The order of the parameters is arbitrary but, in each case, the actual value is preceded by a coded algorithm parameter qualifier.
+
+Table 23 - Details of USB SECURED DATA IDENTIFICATION segment
+
+USB SECURED DATA IDENTIFICATION segment Function: To contain details related to the AUTACK.
+
+0503
+
+RESPONSE TYPE, CODED
+
+S501

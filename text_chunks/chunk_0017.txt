@@ -1,0 +1,57 @@
+DEPENDENCY NOTES: D5(030, 020) If first, then all. D5(050, 020) If first, then all. OTHER REMARKS: 3 S001/0002, shall be "4" to indicate this version of the syntax. 4 S302/0304, when provided by the responder, shall be returned by the initiator throughout the dialogue. 5 S002/0004, may be same as S302/0303 for initiator of transaction. 6 0325, only used if the interchange is a duplicate transfer. 7 0035, set by the initiator if the dialogue is a test. Applies to every subsequent message and service segment in the dialogue. Otherwise not used. 8 Dialogue and transaction control can be accomplished through the dialogue (S302) and transaction (S303) references. Optionally, if another means of control is chosen, these two composite data elements need not be utilized.
+
+Table 9 - Details of UIH INTERACTIVE MESSAGE HEADER segment
+
+UIH INTERACTIVE MESSAGE HEADER segment Function: To head, identify and specify a message.
+
+S306
+
+INTERACTIVE MESSAGE IDENTIFIER
+
+0065
+
+Message type
+
+an..6
+
+0052
+
+Message version number
+
+0054
+
+Message release number
+
+0113
+
+Message type sub-function identification
+
+an..6
+
+0051
+
+Controlling agency, coded
+
+0057
+
+Association assigned code
+
+an..6
+
+0340
+
+INTERACTIVE MESSAGE REFERENCE NUMBER
+
+1,5
+
+S302
+
+DIALOGUE REFERENCE
+
+2,4,5
+
+0300
+
+Initiator control reference
+
+REMARKS: The value in 0340 shall be unique within the interchange (except for a duplicate transfer). The value(s) in S302 shall be identical to the value(s) in S302 in the preceding UIB. 3 0035, when used, test applies to the message only. 4 Dialogue control can be accomplished through the dialogue reference (S302). Optionally, if another means of control is chosen, this composite data element need not be utilized. 5 A combination of 0340 and S302 may be used to identify uniquely a message.

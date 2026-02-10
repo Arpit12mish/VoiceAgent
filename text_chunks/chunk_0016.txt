@@ -1,0 +1,61 @@
+Interchange sender internal identification
+
+0042
+
+Interchange sender internal sub-identification
+
+S003
+
+INTERCHANGE RECIPIENT
+
+0010
+
+Interchange recipient identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+DEPENDENCY NOTES: D5(030, 020) If first, then all. D5(050, 020) If first, then all. OTHER REMARKS: 3 S001/0002, shall be "4" to indicate this version of the syntax. 4 S302/0304, when provided by the responder, shall be returned by the initiator throughout the dialogue. 5 S002/0004, may be same as S302/0303 for initiator of transaction. 6 0325, only used if the interchange is a duplicate transfer. 7 0035, set by the initiator if the dialogue is a test. Applies to every subsequent message and service segment in the dialogue. Otherwise not used. 8 Dialogue and transaction control can be accomplished through the dialogue (S302) and transaction (S303) references. Optionally, if another means of control is chosen, these two composite data elements need not be utilized.
+
+Table 8 (continued)
+
+UIB INTERACTIVE INTERCHANGE HEADER segment Function: To head and identify an interchange.
+
+0014
+
+Interchange recipient internal identification
+
+0046
+
+Interchange recipient internal sub-identification
+
+S300
+
+DATE AND/OR TIME OF INITIATION
+
+0338
+
+Event date
+
+n..8
+
+0314
+
+Event time
+
+an..15
+
+0336
+
+Time offset
+
+0325
+
+DUPLICATE INDICATOR
+
+0035
+
+TEST INDICATOR

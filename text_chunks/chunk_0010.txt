@@ -1,0 +1,53 @@
+UCF GROUP RESPONSE segment Function: To identify a group in the subject interchange and to indicate acknowledgement or rejection (action taken) of the UNG and UNE segments, and to identify any error related to these segments. It can also identify errors related to the USA, USC, USD, USH, USR, UST, or USU security segments when they appear at the group level. De pending on the action code, it may also indicate the action taken on the messages and packages within that group.
+
+0048
+
+GROUP REFERENCE NUMBER
+
+an..14
+
+S006
+
+APPLICATION SENDER IDENTIFICATION
+
+0040
+
+Application sender identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+DEPENDENCY NOTES: D5(060, 050) If first, then all. D5(070, 060, 050) If first, then all. 3 D5(080, 060, 050, 090) If first, then all. 4 D5(090, 080, 060, 050) If first, then all. OTHER REMARKS: 5 0135, may only contain the values UNG, UNE, USA, USC, USD, USH, USR, UST, or USU. 6 This data element shall be present when reporting an error in a security segment. 7 This data element shall be present if it was present in the subject interchange.
+
+Table 2 (continued)
+
+UCF GROUP RESPONSE segment Function: To identify a group in the subject interchange and to indicate acknowledgement or rejection (action taken) of the UNG and UNE segments, and to identify any error related to these segments. It can also identify errors related to the USA, USC, USD, USH, USR, UST, or USU security segments when they appear at the group level. De pending on the action code, it may also indicate the action taken on the messages and packages within that group.
+
+S007
+
+APPLICATION RECIPIENT IDENTIFICATION
+
+0044
+
+Application recipient identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+0083
+
+ACTION, CODED
+
+0085
+
+SYNTAX ERROR, CODED
+
+1,2,3,4
+
+0135

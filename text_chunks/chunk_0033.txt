@@ -1,0 +1,47 @@
+REMARKS: 0541, if not present the default scope is the current security header segment group and the message body or object itself. 0507, the original character set encoding of the EDIFACT structure when it was secured. If no value is specified, the character set encoding corresponds to that identified by the syntax identifier character repertoire in the UNB segment. 3 S500, two occurrences are possible: one for the security originator, one for the security recipient. 4 S500/0538, may be used to establish the key relationship between the sending and receiving parties. 5 S501, may be used as a security timestamp. It is security related and may differ from any dates and times that may appear elsewhere in the EDIFACT structure. It may be used to provide sequence integrity.
+
+Table 29 - Details of USL SECURITY LIST STATUS segment
+
+USL SECURITY LIST STATUS segment Function: To specify the status of security objects, such as keys or certificates to be delivered in a list, and the corresponding list parameters.
+
+0567
+
+SECURITY STATUS, CODED
+
+S504
+
+LIST PARAMETER
+
+0575
+
+List parameter qualifier
+
+0558
+
+List parameter
+
+an..70
+
+Table 30 - Details of USR SECURITY RESULT segment
+
+USR SECURITY RESULT segment Function: To contain the result of the security mechanisms.
+
+Notes
+
+S508
+
+VALIDATION RESULT
+
+0563
+
+Validation value qualifier
+
+0560
+
+Validation value
+
+an..1024
+
+REMARKS: S508, two occurrences shall be used in the case of signature algorithms requiring two parameters to express the result. In the case of an RSA signature, only one occurrence of S508 shall be used. In the case of a DSA signature, two occurrences of S508 shall be used.
+
+Table 31 - Details of UST SECURITY TRAILER segment

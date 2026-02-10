@@ -1,0 +1,87 @@
+DEPENDENCY NOTES: D2(010, 060, 070) All or none. OTHER REMARKS: This data element is only used if the following conditions apply: i) the group contains messages only, and ii) the messages are of a single message type. 3 S004, if S004 is not present in UNG, the date and time of preparation is the same as indicated for the interchange in S004 in UNB. 4 This data element will be deleted from the UNG segment in the next version of the standard. Therefore, its use in UNG is not recommended. 5 The combination of the values carried in data elements S006, S007 and 0048 shall be used to identify uniquely the group within its interchange, for the purpose of acknowledgement.
+
+Table 16 - Details of UNH MESSAGE HEADER segment
+
+UNH MESSAGE HEADER segment Function: To head, identify and specify a message.
+
+0062
+
+MESSAGE REFERENCE NUMBER
+
+an..14
+
+S009
+
+MESSAGE IDENTIFIER
+
+1,2
+
+0065
+
+Message type
+
+an..6
+
+0052
+
+Message version number
+
+0054
+
+Message release number
+
+0051
+
+Controlling agency, coded
+
+0057
+
+Association assigned code
+
+an..6
+
+0110
+
+Code list directory version number
+
+an..6
+
+0113
+
+Message type sub-function identification
+
+an..6
+
+0068
+
+COMMON ACCESS REFERENCE
+
+S010
+
+STATUS OF THE TRANSFER
+
+REMARKS: Data element S009/0057 is retained for upward compatibility. The use of S016 and/or S017 is encouraged in preference. The combination of the values carried in data elements 0062 and S009 shall be used to identify uniquely the message within its group (if used) or if not used, within its interchange, for the purpose of acknowledgement.
+
+Table 16 (continued)
+
+UNH MESSAGE HEADER segment Function: To head, identify and specify a message.
+
+0070
+
+Sequence of transfers
+
+n..2
+
+0073
+
+First and last transfer
+
+S016
+
+MESSAGE SUBSET IDENTIFICATION
+
+0115
+
+Message subset identification
+
+an..14

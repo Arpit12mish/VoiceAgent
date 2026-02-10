@@ -1,0 +1,29 @@
+Header/detail section separation To qualify the segment UNS, when separating the header from the detail section of a message.
+
+Table A.14 - 0083 Action, coded
+
+0083 Action, coded Desc.: A code indicating acknowledgement, or rejection (the action taken) of a subject interchange, or part of the subject interchange, or indication of interchange receipt.
+
+This level and all lower levels rejected The corresponding referenced-level and all its lower referenced-levels are rejected. One or more errors are reported at this reporting-level or a lower reporting-level.
+
+Table A.15 - 0085 Syntax error, coded
+
+0085 Syntax error, coded Desc.: A code indicating the error detected.
+
+Syntax version or level not supported Notification that the syntax version and/or level is not supported by the recipient.
+
+Table A.16 - 0113 Message type sub-function identification
+
+0113 Message type sub-function identification Desc.: Code identifying a sub-function of a message type. Repr.: an..6 Remark 1: The code qualifies the message type data element (0065) to allow the recipient to identify a specific sub-function of a message. AA
+
+Interactive, perform sell This sub-function is to notify the receiver that the purpose of the message is an instruction to perform a sell.
+
+Table A.17 - 0133 Character encoding, coded
+
+0133 Character encoding, coded Desc.: Coded identification of the character encoding used in the interchange.
+
+Table A.17 (continued)
+
+Remark 1: To be used as specified in the partners' interchange agreement, for the purpose of identifying the char acter repertoire encoding technique used in the interchange (when the default encoding defined by the character repertoire's associated character set specification is not used).
+
+ASCII 7 bit ASCII 7 bit code.

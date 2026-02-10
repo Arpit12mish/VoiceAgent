@@ -1,0 +1,123 @@
+S018 SCENARIO IDENTIFICATION Desc.: Identification of a scenario. POS
+
+0127
+
+Scenario identification
+
+an..14
+
+0128
+
+Scenario version number
+
+0130
+
+Scenario release number
+
+0051
+
+Controlling agency, coded
+
+Table 48 - S020 REFERENCE IDENTIFICATION
+
+S020 REFERENCE IDENTIFICATION Desc.: Identification of the reference relating to the object. POS
+
+0813
+
+Reference qualifier
+
+0802
+
+Reference identification number
+
+Table 49 - S021 OBJECT TYPE IDENTIFICATION
+
+S021 OBJECT TYPE IDENTIFICATION Desc.: Identification of the attribute related to the object type. POS
+
+0805
+
+Object type qualifier
+
+0809
+
+Object type attribute identification
+
+an..256
+
+0808
+
+Object type attribute
+
+an..256
+
+0051
+
+Controlling agency, coded
+
+DEPENDENCY NOTES: D3(020, 030) One or more.
+
+Table 50 - S022 STATUS OF THE OBJECT
+
+S022 STATUS OF THE OBJECT Desc.: Identification of the length and if required the transfer status of the object. POS
+
+0810
+
+Length of object in octets of bits
+
+n..18
+
+0814
+
+Number of segments before object
+
+n..3
+
+0070
+
+Sequence of transfers
+
+n..2
+
+0073
+
+First and last transfer
+
+Table 51 - S300 DATE AND/OR TIME OF INITIATION
+
+S300 DATE AND/OR TIME OF INITIATION Desc.: Date and/or time of event initiation. POS
+
+0338
+
+Event date
+
+n..8
+
+0314
+
+Event time
+
+an..15
+
+0336
+
+Time offset
+
+DEPENDENCY NOTES: D5(030, 020) If first, then all.
+
+Table 52 - S301 STATUS OF TRANSFER - INTERACTIVE
+
+S301 STATUS OF TRANSFER - INTERACTIVE Desc.: Identifies the sequence of the message/package within the sender's interchange and the position in a mul ti-message and/or package transfer. POS
+
+0320
+
+Sender sequence number
+
+n..6
+
+0323
+
+Transfer position, coded
+
+0325
+
+Duplicate Indicator

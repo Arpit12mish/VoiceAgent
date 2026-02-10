@@ -1,0 +1,31 @@
+0306 Transaction control reference Desc.: A reference assigned by the transaction initiator. Repr.: an..35
+
+0311 Dialogue identification Desc.: Code identifying a dialogue. Repr.: an..14
+
+0314 Event time Desc.: Time of event. Repr.: an..15 Remark 1: Format is HHMMSS ... with up to 9 more digits of precision. A "Z" as the last character indicates UTC time. (see the ISO 8601 series).
+
+0320 Sender sequence number Desc.: Identification of the sequence number of the message or package within the sender interchange. Repr.: n..6
+
+0323 Transfer position, coded Desc.: Indication of the position of a transfer. Repr.: a1
+
+0325 Duplicate Indicator Desc.: Indication that the structure is a duplicate of a previously sent structure. Repr.: a1
+
+0331 Report function, coded Desc.: Coded value identifying type of status or error report.
+
+0332 Status Desc.: Textual explanation of the reason for the status or error report. Repr.: an..70
+
+0333 Status, coded Desc.: Code identifying the reason for the status or error report.
+
+0335 Language, coded Desc.: Code identifying the language used.
+
+Remark 1: The code list for this data element is maintained by ISO (see the ISO 639 series).
+
+0336 Time offset Desc.: UTC (Universal Coordinated Time) offset from event time. Repr.: n4 Remark 1: Format is HHMM. Shall be prefixed with "-" for negative offsets (see the ISO 8601 series).
+
+0338 Event date Desc.: Date of event. Repr.: n..8 Remark 1: Format is YYMMDD or CCYYMMDD.
+
+0340 Interactive message reference number Desc.: Unique interactive message reference assigned by the sender. Repr.: an..35
+
+0342 Dialogue version number Desc.: Version number of a dialogue.
+
+0344 Dialogue release number Desc.: Release number of a dialogue.

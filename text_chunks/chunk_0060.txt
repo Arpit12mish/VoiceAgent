@@ -1,0 +1,27 @@
+0525 Cryptographic mode of operation, coded Desc.: Specification of the mode of operation used for the algorithm.
+
+0527 Algorithm, coded Desc.: Identification of the algorithm.
+
+0529 Algorithm code list identifier Desc.: Specification of the code list used to identify the algorithm.
+
+0531 Algorithm parameter qualifier Desc.: Specification of the type of parameter value.
+
+0533 Mode of operation code list identifier Desc.: Specification of the code list used to identify the cryptographic mode of operation.
+
+0534 Security reference number Desc.: Unique reference number assigned by the security originator to a pair of security header and security trailer groups. Repr.: an..14 Remark 1: The value shall be arbitrarily assigned, but the same value shall not be used more than once within the same EDIFACT structure, i.e. interchange, group, message or package.
+
+0536 Certificate reference Desc.: Identifies one certificate for a certification authority. Repr.: an..70
+
+0538 Key name Desc.: Name used to establish a key relationship between the parties.
+
+Repr.: an..35
+
+0541 Scope of security application, coded Desc.: Specification of the scope of application of the security service defined in the security header.
+
+Remark 1: It defines the data that have to be taken into account by the related cryptographic process.
+
+0543 Certificate original character set repertoire, coded Desc.: Identification of the character set repertoire used to create the certificate it was signed.
+
+0545 Certificate syntax and version, coded Desc.: Coded identification of the syntax and version used to create the certificate.
+
+0546 User authorization level Desc.: Specification of the authorization level associated with the owner of the certificate. Repr.: an..35

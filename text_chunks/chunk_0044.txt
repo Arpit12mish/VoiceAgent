@@ -1,0 +1,87 @@
+Table 61 - S503 ALGORITHM PARAMETER
+
+S503 ALGORITHM PARAMETER Desc.: Parameter required by a security algorithm. POS
+
+0531
+
+Algorithm parameter qualifier
+
+0554
+
+Algorithm parameter value
+
+an..512
+
+Table 62 - S504 LIST PARAMETER
+
+S504 LIST PARAMETER Desc.: Identification of a parameter for a list request or delivery POS
+
+0575
+
+List parameter qualifier
+
+0558
+
+List parameter
+
+an..70
+
+Table 63 - S505 SERVICE CHARACTER FOR SIGNATURE
+
+S505 SERVICE CHARACTER FOR SIGNATURE Desc.: Identification of the characters used as syntactical service characters when a signature was computed. POS
+
+0551
+
+Service character for signature qualifier
+
+0548
+
+Service character for signature
+
+an..4
+
+S508 VALIDATION RESULT Desc.: Result of the application of the security mechanism. POS
+
+0563
+
+Validation value qualifier
+
+0560
+
+Validation value
+
+an..1024
+
+REMARKS: 0560, the length of this data element shall be determined by the characteristics of the cryptographic algorithm used to compute the validation value and the filter function applied to the result.
+
+5.3 Service simple data element directory
+
+5.3.1
+
+General
+
+The syntax service code list directory forms part of the UN Trade Data Interchange Directory (UNTDID). The most recent UNTDID should be used to reference the code values for the coded data elements in the following simple data element directory.
+
+5.3.2
+
+Service simple data element specification legend
+
+Tag
+
+The tags of all service simple data elements contained in the simple data element directory start with figure "0"
+
+Name of a simple data element
+
+Desc.
+
+Description of the simple data element
+
+Data value representation of the simple data element:
+
+alphabetic characters
+
+numeric characters
+
+alphanumeric characters
+
+3 alphabetic characters, fixed length

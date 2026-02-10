@@ -1,0 +1,59 @@
+SERVICE SEGMENT TAG, CODED
+
+1,2,3,4,5
+
+S011
+
+DATA ELEMENT IDENTIFICATION
+
+0098
+
+Erroneous data element position in segment
+
+n..3
+
+0104
+
+Erroneous component data element position
+
+n..3
+
+0136
+
+Erroneous data element occurrence
+
+n..6
+
+0534
+
+SECURITY REFERENCE NUMBER
+
+an..14
+
+3,4,6
+
+0138
+
+SECURITY SEGMENT POSITION
+
+n..6
+
+3,4,6
+
+DEPENDENCY NOTES: D5(060, 050) If first, then all. D5(070, 060, 050) If first, then all. 3 D5(080, 060, 050, 090) If first, then all. 4 D5(090, 080, 060, 050) If first, then all. OTHER REMARKS: 5 0135, may only contain the values UNG, UNE, USA, USC, USD, USH, USR, UST, or USU. 6 This data element shall be present when reporting an error in a security segment. 7 This data element shall be present if it was present in the subject interchange.
+
+Table 3 - Details of UCI INTERCHANGE RESPONSE segment:
+
+UCI INTERCHANGE RESPONSE segment: Function: To identify the subject interchange, to indicate interchange receipt, to indicate acknowledgement or rejection (action taken) of the UNA, UNB and UNZ segments, and to identify any error related to these segments. It can also identify errors related to the USA, USC, USD, USH, USR, UST, or USU security segments when they ap pear at the interchange level. Depending on the action code, it may also indicate the action taken on the groups, messages, and packages within that interchange.
+
+0020
+
+INTERCHANGE CONTROL REFERENCE
+
+an..14
+
+S002
+
+INTERCHANGE SENDER
+
+DEPENDENCY NOTES: D5(060, 050) If first, then all. D5(070, 060, 050) If first, then all. 3 D5(080, 060, 050, 090) If first, then all. 4 D5(090, 080, 060, 050) If first, then all. OTHER REMARKS: 5 0135, may only contain the values UNA, UNB, UNZ, USA, USC, USD, USH, USR, UST, or USU. 6 This data element shall be present when reporting an error in a security segment.

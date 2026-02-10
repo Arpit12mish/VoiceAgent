@@ -1,0 +1,21 @@
+0054 Message release number Desc.: Release number within the current message version number.
+
+0057 Association assigned code Desc.: Code, assigned by the association responsible for the design and maintenance of the message type concerned, which further identifies the message. Repr.: an..6
+
+0058 Application password Desc.: Password to the recipient's division, department or sectional application system/process. Repr.: an..14
+
+0060 Group control count Desc.: The number of messages and packages in the group. Repr.: n..6
+
+0062 Message reference number Desc.: Unique message reference assigned by the sender. Repr.: an..14
+
+0065 Message type Desc.: Code identifying a type of message and assigned by its controlling agency. Repr.: an..6 Remark 1: In UNSMs (United Nations Standard Messages), the representation is a6.
+
+0068 Common access reference Desc.: Reference serving as a key to relate all subsequent transfers of data to the same business case or file. Repr.: an..35
+
+0070 Sequence of transfers Desc.: Number assigned by the sender indicating the transfer sequence of a message related to the same topic. The message could be an addition or a change to an earlier transfer related to the same topic. Repr.: n..2 Remark 1: The first message in the sequence shall be assigned as number 1.
+
+0073 First and last transfer Desc.: Indication used for the first and last message in a sequence of messages related to the same topic. Repr.: a1
+
+0074 Number of segments in a message Desc.: The number of segments in a message body, plus the message header segment and message trailer segment. Repr.: n..10
+
+0076 Syntax release number Desc.: The number of a syntax release (within an existing syntax version number). Repr.: an2

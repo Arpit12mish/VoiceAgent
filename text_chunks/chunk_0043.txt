@@ -1,0 +1,113 @@
+Language, coded
+
+DEPENDENCY NOTES: D5(030, 020) If first, then all. OTHER REMARKS: 0332, defaults to English in the absence of a value in 0335.
+
+Table 58 - S500 SECURITY IDENTIFICATION DETAILS
+
+S500 SECURITY IDENTIFICATION DETAILS Desc.: Identification of parties involved in the security process. POS
+
+0577
+
+Security party qualifier
+
+0538
+
+Key name
+
+0511
+
+Security party identification
+
+an..1024
+
+0513
+
+Security party code list qualifier
+
+0515
+
+Security party code list responsible agency, coded
+
+0586
+
+Security party name
+
+0586
+
+Security party name
+
+DEPENDENCY NOTES: D2(030, 040, 050) All or none.
+
+Table 58 (continued)
+
+S500 SECURITY IDENTIFICATION DETAILS Desc.: Identification of parties involved in the security process. POS 080
+
+0586
+
+Security party name
+
+DEPENDENCY NOTES: D2(030, 040, 050) All or none.
+
+Table 59 - S501 SECURITY DATE AND TIME
+
+S501 SECURITY DATE AND TIME Desc.: Security related date and time. POS
+
+0517
+
+Date and time qualifier
+
+0338
+
+Event date
+
+n..8
+
+0314
+
+Event time
+
+an..15
+
+0336
+
+Time offset
+
+Table 60 - S502 SECURITY ALGORITHM
+
+S502 SECURITY ALGORITHM Desc.: Identification of a security algorithm. POS
+
+0523
+
+Use of algorithm, coded
+
+0525
+
+Cryptographic mode of operation, coded
+
+1,3,6
+
+0533
+
+Mode of operation code list identifier
+
+0527
+
+Algorithm, coded
+
+2,3,5
+
+0529
+
+Algorithm code list identifier
+
+0591
+
+Padding mechanism, coded
+
+4,5
+
+0601
+
+Padding mechanism code list identifier
+
+DEPENDENCY NOTES: D5(030, 020) If first, then all. D5(050, 040) If first, then all. 3 D5(020, 040) If first, then all. 4 D5(070, 060) If first, then all. 5 D5(060, 040) If first, then all. OTHER REMARKS: 6 0525, a mode of operation shall be chosen in relation to the chosen algorithm (data element 0527). Some combinations of mode of operation and algorithm are not appropriate.

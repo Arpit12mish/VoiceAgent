@@ -1,0 +1,89 @@
+GENERAL REMARK: To avoid endless loops, the UIR segment is not used to respond to a UIR received with syntax errors. DEPENDENCY NOTES: D1(050, 060) One and only one. D5(080, 070) If first, then all. 3 D5(090, 070, 080) If first, then all. OTHER REMARKS: 4 0340, the value shall be identical to the value in 0340 in the UIH of a message received by the sender of the UIR within the same dialogue. 5 0800, the value shall be identical to the value in 0800 in the UNO received by the sender of the UIR within the same dialogue.
+
+Table 10 (continued)
+
+UIR INTERACTIVE STATUS segment Function: To report the status of the dialogue.
+
+0303
+
+Initiator reference identification
+
+0051
+
+Controlling agency, coded
+
+0304
+
+Responder control reference
+
+S300
+
+DATE AND/OR TIME OF INITIATION
+
+0338
+
+Event date
+
+n..8
+
+0314
+
+Event time
+
+an..15
+
+0336
+
+Time offset
+
+0340
+
+INTERACTIVE MESSAGE REFERENCE NUMBER
+
+1,4
+
+0800
+
+PACKAGE REFERENCE NUMBER
+
+1,5
+
+0085
+
+SYNTAX ERROR, CODED
+
+2,3
+
+0096
+
+SEGMENT POSITION IN MESSAGE BODY
+
+n..6
+
+2,3
+
+S011
+
+DATA ELEMENT IDENTIFICATION
+
+0098
+
+Erroneous data element position in segment
+
+n..3
+
+0104
+
+Erroneous component data element position
+
+n..3
+
+0136
+
+Erroneous data element occurrence
+
+n..6
+
+GENERAL REMARK: To avoid endless loops, the UIR segment is not used to respond to a UIR received with syntax errors. DEPENDENCY NOTES: D1(050, 060) One and only one. D5(080, 070) If first, then all. 3 D5(090, 070, 080) If first, then all. OTHER REMARKS: 4 0340, the value shall be identical to the value in 0340 in the UIH of a message received by the sender of the UIR within the same dialogue. 5 0800, the value shall be identical to the value in 0800 in the UNO received by the sender of the UIR within the same dialogue.
+
+Table 11 - Details of UIT INTERACTIVE MESSAGE TRAILER segment

@@ -1,0 +1,93 @@
+SECURITY DATE AND TIME
+
+0517
+
+Date and time qualifier
+
+0338
+
+Event date
+
+n..8
+
+0314
+
+Event time
+
+an..15
+
+0336
+
+Time offset
+
+S002
+
+INTERCHANGE SENDER
+
+0004
+
+Interchange sender identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+0008
+
+Interchange sender internal identification
+
+0042
+
+Interchange sender internal sub-identification
+
+S003
+
+INTERCHANGE RECIPIENT
+
+0010
+
+Interchange recipient identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+0014
+
+Interchange recipient internal identification
+
+0046
+
+Interchange recipient internal sub-identification
+
+Table 24 - Details of USC CERTIFICATE segment
+
+USC CERTIFICATE segment Function: To convey the public key and the credentials of its owner.
+
+0536
+
+CERTIFICATE REFERENCE
+
+an..70
+
+S500
+
+SECURITY IDENTIFICATION DETAILS
+
+0577
+
+Security party qualifier
+
+0538
+
+Key name
+
+0511
+
+Security party identification
+
+an..1024

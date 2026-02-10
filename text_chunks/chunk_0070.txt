@@ -1,0 +1,37 @@
+0525 Cryptographic mode of operation, coded Desc.: Specification of the mode of operation used for the algorithm.
+
+ECB DES modes of operation, Electronic Code Book; FIPS Pub 81 (1981); ISO/IEC 10116 (n-bits).
+
+Table A.33 - 0527 Algorithm, coded
+
+0527 Algorithm, coded Desc.: Identification of the algorithm.
+
+DES Data Encryption Standard. FIPS Pub 46 (January 1977).
+
+Table A.34 - 0529 Algorithm code list identifier
+
+0529 Algorithm code list identifier Desc.: Specification of the code list used to identify the algorithm.
+
+UN/CEFACT United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT).
+
+Table A.35 - 0531 Algorithm parameter qualifier
+
+0531 Algorithm parameter qualifier Desc.: Specification of the type of parameter value.
+
+Initialisation value, clear text Identifies the algorithm parameter value as an unencrypted initialisation value.
+
+Table A.36 - 0533 Mode of operation code list identifier
+
+0533 Mode of operation code list identifier Desc.: Specification of the code list used to identify the cryptographic mode of operation.
+
+UN/CEFACT United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT).
+
+Table A.37 - 0541 Scope of security application, coded
+
+0541 Scope of security application, coded Desc.: Specification of the scope of application of the security service defined in the security header.
+
+Remark 1: It defines the data that have to be taken into account by the related cryptographic process.
+
+Security header and message body The current security header segment group and the object body itself, only. In this case no other security header or security trailer segment group shall be encompassed within this scope.
+
+Table A.38 - 0543 Certificate original character set repertoire, coded

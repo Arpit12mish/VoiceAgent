@@ -1,0 +1,29 @@
+0802 Reference identification number Desc.: Reference number to identify a message, message group and/or interchange, which relates to the object. Repr.: an..35
+
+0805 Object type qualifier Desc.: Qualifier referring to the type of object.
+
+0808 Object type attribute Desc.: The attribute applying to the object type. Repr.: an..256
+
+0809 Object type attribute identification Desc.: Coded identification of the attribute applying to the object type. Repr.: an..256
+
+0810 Length of object in octets of bits Desc.: Count of the number of octets of bits in the object. Repr.: n..18 Remark 1: The count shall exclude the segment terminator of the preceding EDIFACT structured segment and the first character ("U") of the following EDIFACT structured segment.
+
+0813 Reference qualifier Desc.: Code giving specific meaning to a reference identification number.
+
+0814 Number of segments before object Desc.: A count of the number of segments appearing between the UNO segment and the start of the object. Repr.: n..3
+
+
+
+6 Syntax service code list directory
+
+The syntax service code list directory is maintained by ISO/TC 154/JWG1, Joint syntax working group (with UN/ECE); as such it is not reproduced in this document. The most recent version of the syntax service code list directory should be used to reference the code values for the coded data elements in the service simple data element directory (see 5.3).
+
+The syntax service code list directory can be downloaded from the JWG 1 website at https://​www​ .gefeg​.com/​jswg/​v4x/​data/​v4x​.html. To assist users of the ISO 9735 series, however, an overview of the syntax service code list directory valid at the time of preparation of this document is included for information as Annex A.
+
+
+
+Annex A
+
+
+
+(informative)

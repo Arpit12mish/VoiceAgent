@@ -1,0 +1,55 @@
+UCS SEGMENT ERROR INDICATION segment Function: To identify either a segment containing an error or a missing segment, and to identify any error related to the complete segment.
+
+0096
+
+SEGMENT POSITION IN MESSAGE BODY
+
+n..6
+
+0085
+
+SYNTAX ERROR, CODED
+
+REMARKS: 0085, shall contain a value only if the error pertains to the segment identified by data element 0096.
+
+Table 6 - Details of UGH ANTI-COLLISION SEGMENT GROUP HEADER segment
+
+UGH ANTI-COLLISION SEGMENT GROUP HEADER segment Function: To head, identify and specify an anti-collision segment group.
+
+0087
+
+ANTI-COLLISION SEGMENT GROUP IDENTIFICATION M
+
+an..4
+
+REMARKS: 0087, the value shall be the segment group number of the UGH/UGT segment group as stated in the message specification. It shall be identical to the value in 0087 in the corresponding UGT segment.
+
+Table 7 - Details of UGT ANTI-COLLISION SEGMENT GROUP TRAILER segment
+
+UGT ANTI-COLLISION SEGMENT GROUP TRAILER segment Function: To end and check the completeness of an anti-collision segment group.
+
+0087
+
+ANTI-COLLISION SEGMENT GROUP IDENTIFICATION M
+
+an..4
+
+REMARKS: 0087, the value shall be the segment group number of the UGH/UGT segment group as stated in the message specification. It shall be identical to the value in 0087 in the corresponding UGH segment.
+
+Table 8 - Details of UIB INTERACTIVE INTERCHANGE HEADER segment
+
+UIB INTERACTIVE INTERCHANGE HEADER segment Function: To head and identify an interchange.
+
+S001
+
+SYNTAX IDENTIFIER
+
+0001
+
+Syntax identifier
+
+0002
+
+Syntax version number
+
+an1

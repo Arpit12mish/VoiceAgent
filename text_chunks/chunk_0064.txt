@@ -1,0 +1,51 @@
+Overview of the syntax service code list directory
+
+
+
+A.1 General
+
+In order to illustrate the usage of the coded data elements shown in the service simple data elements directory, this annex specifies the syntax service code list directory with a link to the external code list.
+
+The syntax service code list directory is maintained by ISO/TC 154/JWG1, Joint syntax working group (with UN/ECE).
+
+The complete ISO 9735 syntax service code list directory is published on the JWG1 website https://​ www​.gefeg​.com/​jswg/​v4x/​data/​v4x​.html.
+
+NOTE
+
+Each code list below is showing only one code entry as an example.
+
+
+
+A.2 Code lists
+
+Change indicators (in comparison with previous release of the syntax service code list):
+
+a plus sign (+)
+
+for an addition
+
+an asterisk (*)
+
+for an addition/subtraction/change to an entry for a particular data element
+
+a hash sign (#)
+
+for changes to names
+
+a vertical bar (|)
+
+for changes to text for descriptions, notes and functions
+
+an X sign (X)
+
+for marked for deletion
+
+Details of the data elements are specified in Table A.1 to Table A.52.
+
+Table A.1 - 0001 Syntax identifier
+
+0001 Syntax identifier Desc.: Coded identification of the agency controlling the syntax, and of the character repertoire used in an inter change. Repr.: a4 Remark 1: The data value consists of the letters "UN", upper case, identifying the syntax controlling agency, di rectly followed by an a2 code identifying the character repertoire used. UNOA
+
+UN/ECE level A As defined in the basic code table of ISO/IEC 646 with the exceptions of lowercase letters, alternative graphic character allocations and national or application-oriented graphic character allocations.
+
+Table A.2 - 0002 Syntax version number

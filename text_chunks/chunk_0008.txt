@@ -1,0 +1,219 @@
+a vertical bar (|)
+
+for changes to text for descriptions, notes and functions
+
+a minus sign (-)
+
+for a deletion
+
+an X sign (X)
+
+for marked for deletion
+
+Tag UCD
+
+Data element error indication
+
+UCF
+
+Group response
+
+UCI
+
+Interchange response
+
+UCM
+
+Message/package response
+
+UCS
+
+Segment error indication
+
+UGH
+
+Anti-collision segment group header
+
+UGT
+
+Anti-collision segment group trailer
+
+UIB
+
+Interactive interchange header
+
+UIH
+
+Interactive message header
+
+UIR
+
+Interactive status
+
+UIT
+
+Interactive message trailer
+
+UIZ
+
+Interactive interchange trailer
+
+UNB
+
+Interchange header
+
+UNE
+
+Group trailer
+
+UNG
+
+Group header
+
+UNH
+
+Message header
+
+UNO
+
+Object header
+
+UNP
+
+Object trailer
+
+UNS
+
+Section control
+
+UNT
+
+Message trailer
+
+UNZ
+
+Interchange trailer
+
+USA
+
+Security algorithm
+
+USB
+
+Secured data identification
+
+USC
+
+Certificate
+
+USD
+
+Data encryption header
+
+USE
+
+Security message relation
+
+USF
+
+Key management function
+
+USH
+
+Security header
+
+USL
+
+Security list status
+
+USR
+
+Security result
+
+UST
+
+Security trailer
+
+USU
+
+Data encryption trailer
+
+USX
+
+Security references
+
+USY
+
+Security on references
+
+5.1.4
+
+Index of service segments by name
+
+Change indicators (compared with the previous edition of this document):
+
+a plus sign (+)
+
+for an addition
+
+an asterisk (*)
+
+for an amendment to structure
+
+a hash sign (#)
+
+for changes to names
+
+a vertical bar (|)
+
+for changes to text for descriptions, notes and functions
+
+a minus sign (-)
+
+for a deletion
+
+an X sign (X)
+
+for marked for deletion
+
+Tag UGH
+
+Anti-collision segment group header
+
+UGT
+
+Anti-collision segment group trailer
+
+USC
+
+Certificate
+
+UCD
+
+Data element error indication
+
+USD
+
+Data encryption header
+
+USU
+
+Data encryption trailer
+
+UNG
+
+Group header
+
+UCF
+
+Group response
+
+UNE
+
+Group trailer
+
+UIB
+
+Interactive interchange header
+
+UIZ

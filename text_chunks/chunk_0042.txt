@@ -1,0 +1,115 @@
+REMARKS: 0320, starts at 1 and is incremented by 1 for each message and package within the interchange. 0323, only used where more than one message or package is contained in a single query or response. 3 0325, only used if a duplicate transfer.
+
+Table 53 - S302 DIALOGUE REFERENCE
+
+S302 DIALOGUE REFERENCE Desc.: Unique reference for the dialogue between co-operating parties within the interactive EDI transaction. POS
+
+0300
+
+Initiator control reference
+
+0303
+
+Initiator reference identification
+
+0051
+
+Controlling agency, coded
+
+0304
+
+Responder control reference
+
+DEPENDENCY NOTES: D5(030, 020) If first, then all.
+
+Table 54 - S303 TRANSACTION REFERENCE
+
+S303 TRANSACTION REFERENCE Desc.: Unique reference for the business transaction to which the dialogue belongs. POS
+
+0306
+
+Transaction control reference
+
+0303
+
+Initiator reference identification
+
+0051
+
+Controlling agency, coded
+
+DEPENDENCY NOTES: D5(030, 020) If first, then all.
+
+Table 55 - S305 DIALOGUE IDENTIFICATION
+
+S305 DIALOGUE IDENTIFICATION Desc.: Identification of the dialogue type being used for the interactive EDI transaction. POS
+
+0311
+
+Dialogue identification
+
+an..14
+
+0342
+
+Dialogue version number
+
+0344
+
+Dialogue release number
+
+0051
+
+Controlling agency, coded
+
+Table 56 - S306 INTERACTIVE MESSAGE IDENTIFIER
+
+S306 INTERACTIVE MESSAGE IDENTIFIER Desc.: Identification of the type, version and details of the message being interchanged. POS
+
+0065
+
+Message type
+
+an..6
+
+0052
+
+Message version number
+
+0054
+
+Message release number
+
+0113
+
+Message type sub-function identification
+
+an..6
+
+0051
+
+Controlling agency, coded
+
+0057
+
+Association assigned code
+
+an..6
+
+Table 57 - S307 STATUS INFORMATION
+
+S307 STATUS INFORMATION Desc.: Reason for status or error report. POS
+
+0333
+
+Status, coded
+
+0332
+
+Status
+
+an..70
+
+1,2
+
+0335

@@ -1,0 +1,47 @@
+Table A.18 - 0135 Service segment tag, coded
+
+0135 Service segment tag, coded Desc.: Code identifying a service segment.
+
+UCD
+
+Data element error indication To identify an erroneous stand-alone, composite or component data element, and to identify the nature of the error.
+
+Table A.19 - 0323 Transfer position, coded
+
+0323 Transfer position, coded Desc.: Indication of the position of a transfer. Repr.: a1 F
+
+First message First message in sequence. Can only appear once at the start of the sequence.
+
+Table A.20 - 0325 Duplicate Indicator
+
+0325 Duplicate Indicator Desc.: Indication that the structure is a duplicate of a previously sent structure. Repr.: a1 D
+
+Duplicate A duplicate transfer.
+
+Table A.21 - 0331 Report function, coded
+
+0331 Report function, coded Desc.: Coded value identifying type of status or error report.
+
+Information Non Error information, e.g. acknowledgement that party is still operational.
+
+Table A.22 - 0333 Status, coded
+
+0333 Status, coded Desc.: Code identifying the reason for the status or error report.
+
+OK response No further information.
+
+Table A.23 - 0501 Security service, coded
+
+0501 Security service, coded Desc: Specification of the security service applied. Repr: an..3
+
+Non-repudiation of origin The message includes a digital signature protecting the receiver of the message from the sender's denial of having sent the message.
+
+Table A.24 - 0503 Response type, coded
+
+0503 Response type, coded Desc.: Specification of the type of response expected from the recipient.
+
+No acknowledgement required No AUTACK acknowledgement message expected.
+
+Table A.25 - 0505 Filter function, coded
+
+0505 Filter function, coded Desc.: Identification of the filtering function used to reversibly map any bit pattern on to a restricted character set.

@@ -1,0 +1,141 @@
+Security date and time
+
+S500
+
+Security identification details
+
+S505
+
+Service character for signature
+
+S307
+
+Status information
+
+S022
+
+Status of the object
+
+Tag S010
+
+Status of the transfer
+
+S301
+
+Status of transfer - interactive
+
+S001
+
+Syntax identifier
+
+S303
+
+Transaction reference
+
+S508
+
+Validation result
+
+5.2.5
+
+Service composite data element specifications
+
+Change indicators (compared with the previous edition of this document):
+
+a plus sign (+)
+
+for an addition
+
+an asterisk (*)
+
+for an amendment to structure
+
+a hash sign (#)
+
+for changes to names
+
+a vertical bar (|)
+
+for changes to text for descriptions, notes and functions
+
+a minus sign (-)
+
+for a deletion
+
+an X sign (X)
+
+for marked for deletion
+
+Details of the service composite data elements are specified in Table 35 to Table 63.
+
+Table 35 - S001 SYNTAX IDENTIFIER
+
+S001 SYNTAX IDENTIFIER Desc.: Identification of the agency controlling the syntax, the syntax level and version number, and the service code directory. POS
+
+0001
+
+Syntax identifier
+
+0002
+
+Syntax version number
+
+an1
+
+0080
+
+Service code list directory version number
+
+an..6
+
+0133
+
+Character encoding, coded
+
+0076
+
+Syntax release number
+
+an2
+
+Table 36 - S002 INTERCHANGE SENDER
+
+S002 INTERCHANGE SENDER Desc.: Identification of the sender of the interchange. POS
+
+0004
+
+Interchange sender identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+0008
+
+Interchange sender internal identification
+
+0042
+
+Interchange sender internal sub-identification
+
+Table 37 - S003 INTERCHANGE RECIPIENT
+
+S003 INTERCHANGE RECIPIENT Desc.: Identification of the recipient of the interchange. POS
+
+0010
+
+Interchange recipient identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+0014
+
+Interchange recipient internal identification
+
+0046

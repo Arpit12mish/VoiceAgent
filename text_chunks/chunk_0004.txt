@@ -1,0 +1,43 @@
+This document can be used in any application; but messages using these rules can only be referred to as EDIFACT messages if they comply with other guidelines, rules and directories in the UNTDID. For UN/EDIFACT, batch messages comply with the message design rules for batch usage. These rules are maintained in the UNTDID.
+
+Communications specifications and protocols are outside the scope of this document.
+
+INTERNATIONAL STANDARD
+
+
+
+Electronic data interchange for administration, commerce
+
+
+
+and transport (EDIFACT) - Application level syntax
+
+
+
+rules -
+
+
+
+Part 10: Syntax service directories (Syntax version number: 4,
+
+
+
+Syntax release number: 3)
+
+
+
+1 Scope
+
+This document specifies the syntax service directories of all parts in the ISO 9735 series.
+
+
+
+2 Normative references
+
+The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.
+
+ISO 9735-1, Electronic data interchange for administration, commerce and transport (EDIFACT) - Application level syntax rules (Syntax version number: 4, Syntax release number: 1) - Part 1: Syntax rules common to all parts
+
+ISO 9735-2, Electronic data interchange for administration, commerce and transport (EDIFACT) - Application level syntax rules (Syntax version number: 4, Syntax release number: 1) - Part 2: Syntax rules specific to batch EDI
+
+ISO 9735-3, Electronic data interchange for administration, commerce and transport (EDIFACT) - Application level syntax rules (Syntax version number: 4, Syntax release number: 1) - Part 3: Syntax rules specific to interactive EDI

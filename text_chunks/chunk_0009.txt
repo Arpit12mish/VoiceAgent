@@ -1,0 +1,157 @@
+Interactive interchange trailer
+
+UIH
+
+Interactive message header
+
+UIT
+
+Interactive message trailer
+
+UIR
+
+Interactive status
+
+UNB
+
+Interchange header
+
+UCI
+
+Interchange response
+
+UNZ
+
+Interchange trailer
+
+USF
+
+Key management function
+
+UNH
+
+Message header
+
+UNT
+
+Message trailer
+
+UCM
+
+Message/package response
+
+UNO
+
+Object header
+
+UNP
+
+Object trailer
+
+UNS
+
+Section control
+
+USB
+
+Secured data identification
+
+USA
+
+Security algorithm
+
+USH
+
+Security header
+
+USL
+
+Security list status
+
+USE
+
+Security message relation
+
+USY
+
+Security on references
+
+USX
+
+Security references
+
+USR
+
+Security result
+
+UST
+
+Security trailer
+
+UCS
+
+Segment error indication
+
+5.1.5
+
+Service segment specifications
+
+Change indicators (compared with the previous edition of this document):
+
+a plus sign (+)
+
+for an addition
+
+an asterisk (*)
+
+for an amendment to structure
+
+a hash sign (#)
+
+for changes to names
+
+a vertical bar (|)
+
+for changes to text for descriptions, notes and functions
+
+a minus sign (-)
+
+for a deletion
+
+an X sign (X)
+
+for marked for deletion
+
+Details of the service segments are specified in Table 1 to Table 34.
+
+Table 1 - Details of UCD DATA ELEMENT ERROR INDICATION segment
+
+UCD DATA ELEMENT ERROR INDICATION segment Function: To identify an erroneous stand-alone, composite or component data element, and to identify the nature of the error.
+
+0085
+
+SYNTAX ERROR, CODED
+
+S011
+
+DATA ELEMENT IDENTIFICATION
+
+0098
+
+Erroneous data element position in segment
+
+n..3
+
+0104
+
+Erroneous component data element position
+
+n..3
+
+0136
+
+Erroneous data element occurrence
+
+n..6
+
+Table 2 - Details of UCF GROUP RESPONSE segment

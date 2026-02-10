@@ -1,0 +1,33 @@
+Table A.8 - 0051 Controlling agency, coded
+
+0051 Controlling agency, coded Desc.: Code identifying a controlling agency.
+
+EDICONSTRUCT French construction project.
+
+Table A.9 - 0052 Message version number
+
+0052 Message version number Desc.: Version number of a message type.
+
+Status 1 version Message approved and issued as a status 1 (trial) message. (Valid for directories published after March 1990 and prior to March 1993).
+
+Table A.10 - 0054 Message release number
+
+* 0054 Message release number Desc.: Release number within the current message version number.
+
+First release User message approved and issued in the first release of the year of the UNTDID (United Nations Trade Data Interchange Directory); valid for directories published prior to March 1990. Service message ap proved and issued as the first release of the message within a version of ISO 9735; valid for version 4 of ISO 9735 and later.
+
+Table A.11 - 0065 Message type
+
+0065 Message type Desc.: Code identifying a type of message and assigned by its controlling agency. Repr.: an..6 Remark 1: In UNSMs (United Nations Standard Messages), the representation is a6. APERAK
+
+Application error and acknowledgement message A code to identify the application error and acknowledgement message.
+
+Table A.12 - 0073 First and last transfer
+
+0073 First and last transfer Desc.: Indication used for the first and last message in a sequence of messages related to the same topic. Repr.: a1
+
+Creation First transmission of a number of transfers of the same message.
+
+Table A.13 - 0081 Section identification
+
+0081 Section identification Desc.: Identification of the separation of sections of a message. Repr.: a1 D

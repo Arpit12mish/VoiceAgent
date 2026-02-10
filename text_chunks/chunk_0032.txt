@@ -1,0 +1,81 @@
+REMARKS: 0541, if not present the default scope is the current security header segment group and the message body or object itself. 0507, the original character set encoding of the EDIFACT structure when it was secured. If no value is specified, the character set encoding corresponds to that identified by the syntax identifier character repertoire in the UNB segment. 3 S500, two occurrences are possible: one for the security originator, one for the security recipient. 4 S500/0538, may be used to establish the key relationship between the sending and receiving parties. 5 S501, may be used as a security timestamp. It is security related and may differ from any dates and times that may appear elsewhere in the EDIFACT structure. It may be used to provide sequence integrity.
+
+Table 28 (continued)
+
+USH SECURITY HEADER segment Function: To specify a security mechanism applied to an EDIFACT structure (i.e. either message/package, group or interchange).
+
+0507
+
+ORIGINAL CHARACTER SET ENCODING, CODED
+
+0509
+
+ROLE OF SECURITY PROVIDER, CODED
+
+S500
+
+SECURITY IDENTIFICATION DETAILS
+
+3,4
+
+0577
+
+Security party qualifier
+
+0538
+
+Key name
+
+0511
+
+Security party identification
+
+an..1024
+
+0513
+
+Security party code list qualifier
+
+0515
+
+Security party code list responsible agency, coded
+
+0586
+
+Security party name
+
+0586
+
+Security party name
+
+0586
+
+Security party name
+
+0520
+
+SECURITY SEQUENCE NUMBER
+
+S501
+
+SECURITY DATE AND TIME
+
+0517
+
+Date and time qualifier
+
+0338
+
+Event date
+
+n..8
+
+0314
+
+Event time
+
+an..15
+
+0336
+
+Time offset

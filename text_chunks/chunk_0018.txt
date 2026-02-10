@@ -1,0 +1,93 @@
+Table 9 (continued)
+
+UIH INTERACTIVE MESSAGE HEADER segment Function: To head, identify and specify a message.
+
+0303
+
+Initiator reference identification
+
+0051
+
+Controlling agency, coded
+
+0304
+
+Responder control reference
+
+S301
+
+STATUS OF TRANSFER - INTERACTIVE
+
+0320
+
+Sender sequence number
+
+n..6
+
+0323
+
+Transfer position, coded
+
+0325
+
+Duplicate Indicator
+
+S300
+
+DATE AND/OR TIME OF INITIATION
+
+0338
+
+Event date
+
+n..8
+
+0314
+
+Event time
+
+an..15
+
+0336
+
+Time offset
+
+0035
+
+TEST INDICATOR
+
+REMARKS: The value in 0340 shall be unique within the interchange (except for a duplicate transfer). The value(s) in S302 shall be identical to the value(s) in S302 in the preceding UIB. 3 0035, when used, test applies to the message only. 4 Dialogue control can be accomplished through the dialogue reference (S302). Optionally, if another means of control is chosen, this composite data element need not be utilized. 5 A combination of 0340 and S302 may be used to identify uniquely a message.
+
+Table 10 - Details of UIR INTERACTIVE STATUS segment
+
+UIR INTERACTIVE STATUS segment Function: To report the status of the dialogue.
+
+0331
+
+REPORT FUNCTION, CODED
+
+S307
+
+STATUS INFORMATION
+
+0333
+
+Status, coded
+
+0332
+
+Status
+
+an..70
+
+0335
+
+Language, coded
+
+S302
+
+DIALOGUE REFERENCE
+
+0300
+
+Initiator control reference

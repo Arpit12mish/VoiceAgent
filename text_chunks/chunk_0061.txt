@@ -1,0 +1,21 @@
+0548 Service character for signature Desc.: Service character used when the signature was computed. Repr.: an..4 Remark 1: In order to avoid translator problems, this service character is represented by its value in the character set identified by the original character set encoding data element (0507), hexa-filtered on, at least, two characters. For example, the service character "'" is coded "27" (two characters), if ASCII 8bit code page is used.
+
+0551 Service character for signature qualifier Desc.: Identification of the type of service character used when the signature was computed.
+
+0554 Algorithm parameter value Desc.: Value of a parameter required by the algorithm. Repr.: an..512 Remark 1: If necessary, this value shall be filtered by an appropriate filter function. Note that key names do not need to be filtered.
+
+0556 Length of data in octets of bits Desc.: A count of the data octets of bits. Repr.: n..18
+
+0558 List parameter Desc.: Specification of the list requested or delivered. Repr.: an..70
+
+0560 Validation value Desc.: Security result corresponding to the security function specified. Repr.: an..1024 Remark 1: If necessary, this value shall be filtered by an appropriate filter function.
+
+0563 Validation value, qualifier Desc.: Identification of the type of validation value.
+
+0565 Message relation, coded Desc.: Relationship with another message, past or future.
+
+0567 Security status, coded Desc.: Identification of the security element (key or certificate, for instance) status.
+
+0569 Revocation reason, coded Desc.: Identification of the reason why the certificate has been revoked.
+
+0571 Security error, coded Desc.: Identifies the security error causing the rejection of the EDIFACT structure.

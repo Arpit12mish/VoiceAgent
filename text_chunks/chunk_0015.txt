@@ -1,0 +1,121 @@
+DEPENDENCY NOTES: D5(030, 020) If first, then all. D5(050, 020) If first, then all. OTHER REMARKS: 3 S001/0002, shall be "4" to indicate this version of the syntax. 4 S302/0304, when provided by the responder, shall be returned by the initiator throughout the dialogue. 5 S002/0004, may be same as S302/0303 for initiator of transaction. 6 0325, only used if the interchange is a duplicate transfer. 7 0035, set by the initiator if the dialogue is a test. Applies to every subsequent message and service segment in the dialogue. Otherwise not used. 8 Dialogue and transaction control can be accomplished through the dialogue (S302) and transaction (S303) references. Optionally, if another means of control is chosen, these two composite data elements need not be utilized.
+
+Table 8 (continued)
+
+UIB INTERACTIVE INTERCHANGE HEADER segment Function: To head and identify an interchange.
+
+0080
+
+Service code list directory version number
+
+an..6
+
+0133
+
+Character encoding, coded
+
+0076
+
+Syntax release number
+
+an2
+
+S302
+
+DIALOGUE REFERENCE
+
+1,2,4,5,8
+
+0300
+
+Initiator control reference
+
+0303
+
+Initiator reference identification
+
+0051
+
+Controlling agency, coded
+
+0304
+
+Responder control reference
+
+S303
+
+TRANSACTION REFERENCE
+
+1,8
+
+0306
+
+Transaction control reference
+
+0303
+
+Initiator reference identification
+
+0051
+
+Controlling agency, coded
+
+S018
+
+SCENARIO IDENTIFICATION
+
+0127
+
+Scenario identification
+
+an..14
+
+0128
+
+Scenario version number
+
+0130
+
+Scenario release number
+
+0051
+
+Controlling agency, coded
+
+S305
+
+DIALOGUE IDENTIFICATION
+
+0311
+
+Dialogue identification
+
+an..14
+
+0342
+
+Dialogue version number
+
+0344
+
+Dialogue release number
+
+0051
+
+Controlling agency, coded
+
+S002
+
+INTERCHANGE SENDER
+
+0004
+
+Interchange sender identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+0008

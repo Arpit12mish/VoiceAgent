@@ -1,0 +1,55 @@
+DEPENDENCY NOTES: D2(010, 060, 070) All or none. OTHER REMARKS: This data element is only used if the following conditions apply: i) the group contains messages only, and ii) the messages are of a single message type. 3 S004, if S004 is not present in UNG, the date and time of preparation is the same as indicated for the interchange in S004 in UNB. 4 This data element will be deleted from the UNG segment in the next version of the standard. Therefore, its use in UNG is not recommended. 5 The combination of the values carried in data elements S006, S007 and 0048 shall be used to identify uniquely the group within its interchange, for the purpose of acknowledgement.
+
+Table 15 (continued)
+
+UNG GROUP HEADER segment Function: To head, identify and specify a group of messages and/or packages, which may be used for internal routing and which may contain one or more message types and/or packages.
+
+S004
+
+DATE AND TIME OF PREPARATION
+
+0017
+
+Date
+
+0019
+
+Time
+
+0048
+
+GROUP REFERENCE NUMBER
+
+an..14
+
+0051
+
+CONTROLLING AGENCY, CODED
+
+1,2,4
+
+X S008
+
+MESSAGE VERSION
+
+1,2,4
+
+0052
+
+Message version number
+
+0054
+
+Message release number
+
+0057
+
+Association assigned code
+
+an..6
+
+0058
+
+APPLICATION PASSWORD
+
+an..14

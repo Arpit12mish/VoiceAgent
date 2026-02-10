@@ -1,0 +1,167 @@
+Scope of security application, coded
+
+0081
+
+Section identification
+
+0571
+
+Security error, coded
+
+0513
+
+Security party code list qualifier
+
+0515
+
+Security party code list responsible agency, coded
+
+0511
+
+Security party identification
+
+0586
+
+Security party name
+
+0577
+
+Security party qualifier
+
+0534
+
+Security reference number
+
+0138
+
+Security segment position
+
+0520
+
+Security sequence number
+
+0501
+
+Security service, coded
+
+Tag 0567
+
+Security status, coded
+
+0096
+
+Segment position in message body
+
+0320
+
+Sender sequence number
+
+0070
+
+Sequence of transfers
+
+0548
+
+Service character for signature
+
+0551
+
+Service character for signature qualifier
+
+0080
+
+Service code list directory version number
+
+0135
+
+Service segment tag, coded
+
+0332
+
+Status
+
+0333
+
+Status, coded
+
+0085
+
+Syntax error, coded
+
+0001
+
+Syntax identifier
+
+0076
+
+Syntax release number
+
+0002
+
+Syntax version number
+
+0035
+
+Test indicator
+
+0019
+
+Time
+
+0336
+
+Time offset
+
+0306
+
+Transaction control reference
+
+0323
+
+Transfer position, coded
+
+0523
+
+Use of algorithm, coded
+
+0546
+
+User authorization level
+
+0560
+
+Validation value
+
+0563
+
+Validation value qualifier
+
+5.3.5
+
+Service simple data element specifications
+
+Change indicators (compared with the previous edition of this document):
+
+a plus sign (+)
+
+for an addition
+
+an asterisk (*)
+
+for an amendment to structure
+
+a hash sign (#)
+
+for changes to names
+
+a vertical bar (|)
+
+for changes to text for descriptions, notes and functions
+
+a minus sign (-)
+
+for a deletion
+
+an X sign (X)
+
+for marked for deletion

@@ -1,0 +1,191 @@
+Date and time qualifier
+
+0518
+
+Encryption reference number
+
+0520
+
+Security sequence number
+
+0523
+
+Use of algorithm, coded
+
+0525
+
+Cryptographic mode of operation, coded
+
+0527
+
+Algorithm, coded
+
+0529
+
+Algorithm code list identifier
+
+0531
+
+Algorithm parameter qualifier
+
+0533
+
+Mode of operation code list identifier
+
+0534
+
+Security reference number
+
+0536
+
+Certificate reference
+
+0538
+
+Key name
+
+0541
+
+Scope of security application, coded
+
+0543
+
+Certificate original character set repertoire, coded
+
+0545
+
+Certificate syntax and version, coded
+
+0546
+
+User authorization level
+
+0548
+
+Service character for signature
+
+0551
+
+Service character for signature qualifier
+
+0554
+
+Algorithm parameter value
+
+0556
+
+Length of data in octets of bits
+
+0558
+
+List parameter
+
+0560
+
+Validation value
+
+0563
+
+Validation value qualifier
+
+0565
+
+Message relation, coded
+
+0567
+
+Security status, coded
+
+0569
+
+Revocation reason, coded
+
+0571
+
+Security error, coded
+
+0572
+
+Certificate sequence number
+
+0575
+
+List parameter qualifier
+
+0577
+
+Security party qualifier
+
+Tag 0579
+
+Key management function qualifier
+
+0582
+
+Number of padding bytes
+
+0586
+
+Security party name
+
+0588
+
+Number of security segments
+
+0591
+
+Padding mechanism, coded
+
+0601
+
+Padding mechanism code list identifier
+
+0800
+
+Package reference number
+
+0802
+
+Reference identification number
+
+0805
+
+Object type qualifier
+
+0808
+
+Object type attribute
+
+0809
+
+Object type attribute identification
+
+0810
+
+Length of object in octets of bits
+
+0813
+
+Reference qualifier
+
+0814
+
+Number of segments before object
+
+5.3.4
+
+Index of service simple data elements by name
+
+Change indicators (compared with the previous edition of this document):
+
+a plus sign (+)
+
+for an addition
+
+an asterisk (*)
+
+for an amendment to structure
+
+a hash sign (#)
+
+for changes to names

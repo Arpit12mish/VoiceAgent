@@ -1,0 +1,13 @@
+Remark 1: To be used as specified in the partners' interchange agreement, for the purpose of identifying the character repertoire encoding technique used in the interchange (when the default encoding defined by the character repertoire's associated character set specification is not used).
+
+0135 Service segment tag, coded Desc.: Code identifying a service segment.
+
+0136 Erroneous data element occurrence Desc.: The numerical occurrence of the repeating stand-alone or composite data element in error. Each occurrence (as indicated by the repetition separator) shall cause the count to be incremented. The count starts at 1. Repr.: n..6
+
+0138 Security segment position Desc.: The numerical count position of a specific security segment that is within the actual received security header/trailer segment group pair, identified by its security reference number. The numbering starts with, and includes, the USH segment as segment number 1. To identify a security segment that contains an error, this is the numerical count position of that security segment. To report that a security segment is missing, this is the numerical count position of the last security segment that was processed before the position where the missing security segment was expected to be. A missing security segment group is denoted by identifying the first segment in the security segment group as missing. Repr.: n..6
+
+0300 Initiator control reference Desc.: A reference assigned by the dialogue initiator. Repr.: an..35
+
+0303 Initiator reference identification Desc.: Organization code or name assigned by the party that initiated the transaction or dialogue. Repr.: an..35
+
+0304 Responder control reference Desc.: A reference assigned by the dialogue responder. Repr.: an..35

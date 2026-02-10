@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+
+# Models
+tts_models/
+*.pth
+*.pt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/

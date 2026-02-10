@@ -1,0 +1,11 @@
+0001 Syntax identifier Desc.: Coded identification of the agency controlling the syntax, and of the character repertoire used in an interchange. Repr.: a4 Remark 1: The data value consists of the letters "UN", upper case, identifying the syntax controlling agency, directly followed by an a2 code identifying the character repertoire used.
+
+0002 Syntax version number Desc.: Version number of the syntax. Repr.: an1 Remark 1: Shall be "4" to indicate this version of the syntax.
+
+0004 Interchange sender identification Desc.: Name or coded identification of the sender of the interchange. Repr.: an..35 Remark 1: Organization code or name as agreed between interchange partners. Remark 2: If coded representation is used, its source may be specified by the qualifier in data element 0007.
+
+0007 Identification code qualifier Desc.: Qualifier referring to the identification code. Repr.: an..4 Remark 1: A qualifier code may refer to an organization identification as in the ISO/IEC 6523 series.
+
+0008 Interchange sender internal identification Desc.: Identification (e.g. a division, branch or computer system/process) specified by the sender of inter change, to be included if agreed, by the recipient in response interchanges, to facilitate internal routing. Repr.: an..35
+
+0010 Interchange recipient identification Desc.: Name or coded identification of the recipient of the interchange. Repr.: an..35 Remark 1: Organization code or name as agreed between interchange partners. Remark 2: If coded representation is used, its source may be specified by the qualifier in data element 0007.

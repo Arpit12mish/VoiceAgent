@@ -1,0 +1,15 @@
+0014 Interchange recipient internal identification Desc.: Identification (e.g. a division, branch or computer system/process) specified by the recipient of interchange, to be included if agreed, by the sender in response interchanges, to facilitate internal routing. Repr.: an..35
+
+0017 Date Desc.: Local date when an interchange or a group was prepared. Repr.: n8 Remark 1: Format is CCYYMMDD.
+
+0019 Time Desc.: Local time of day when an interchange or a group was prepared. Repr.: n4 Remark 1: Format is HHMM in 24 h clock.
+
+0020 Interchange control reference Desc.: Unique reference assigned by the sender to an interchange. Repr.: an..14
+
+0022 Recipient reference/password Desc.: Reference or password to the recipient's system or to a third party network as specified in the partners' interchange agreement. Repr.: an..14 Remark 1: To be used as specified in the partners' interchange agreement. It may be qualified by data element 0025.
+
+0025 Recipient reference/password qualifier Desc.: Qualifier for the recipient's reference or password. Repr.: an2 Remark 1: To be used as specified in the partners' interchange agreement.
+
+0026 Application reference Desc.: Identification of the application area assigned by the sender, to which the messages in the inter change relate e.g. the message type, if all the messages in the interchange are of the same type. Repr.: an..14 Remark 1: Identification of the application area (e.g. accounting, purchasing) or of the message type, as applicable.
+
+0029 Processing priority code Desc.: Code determined by the sender requesting processing priority for the interchange. Repr.: a1 Remark 1: To be used as specified in the partners' interchange agreement.

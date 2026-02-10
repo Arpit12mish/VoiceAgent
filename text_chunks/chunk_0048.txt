@@ -1,0 +1,197 @@
+a vertical bar (|)
+
+for changes to text for descriptions, notes and functions
+
+a minus sign (-)
+
+for a deletion
+
+an X sign (X)
+
+for marked for deletion
+
+Tag 0031
+
+Acknowledgement request
+
+0083
+
+Action, coded
+
+0529
+
+Algorithm code list identifier
+
+0531
+
+Algorithm parameter qualifier
+
+0554
+
+Algorithm parameter value
+
+0527
+
+Algorithm, coded
+
+0087
+
+Anti-collision segment group identification
+
+0058
+
+Application password
+
+0044
+
+Application recipient identification
+
+0026
+
+Application reference
+
+0040
+
+Application sender identification
+
+0057
+
+Association assigned code
+
+0543
+
+Certificate original character set repertoire, coded
+
+0536
+
+Certificate reference
+
+0572
+
+Certificate sequence number
+
+0545
+
+Certificate syntax and version, coded
+
+Tag 0133
+
+Character encoding, coded
+
+0110
+
+Code list directory version number
+
+0068
+
+Common access reference
+
+0051
+
+Controlling agency, coded
+
+0525
+
+Cryptographic mode of operation, coded
+
+0017
+
+Date
+
+0517
+
+Date and time qualifier
+
+0311
+
+Dialogue identification
+
+0344
+
+Dialogue release number
+
+0342
+
+Dialogue version number
+
+0325
+
+Duplicate Indicator
+
+0518
+
+Encryption reference number
+
+0104
+
+Erroneous component data element position
+
+0136
+
+Erroneous data element occurrence
+
+0098
+
+Erroneous data element position in segment
+
+0338
+
+Event date
+
+0314
+
+Event time
+
+0505
+
+Filter function, coded
+
+0073
+
+First and last transfer
+
+0060
+
+Group control count
+
+0048
+
+Group reference number
+
+0007
+
+Identification code qualifier
+
+0300
+
+Initiator control reference
+
+0303
+
+Initiator reference identification
+
+0340
+
+Interactive message reference number
+
+0032
+
+Interchange agreement identifier
+
+0036
+
+Interchange control count
+
+0020
+
+Interchange control reference
+
+0010
+
+Interchange recipient identification
+
+0014
+
+Interchange recipient internal identification
+
+0046

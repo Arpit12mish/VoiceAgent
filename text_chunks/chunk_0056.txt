@@ -1,0 +1,25 @@
+0104 Erroneous component data element position Desc.: The numerical count position of the component data element in error. Each component data ele ment position defined in the composite data element description shall cause the count to be incremented. The count starts at 1. Repr.: n..3
+
+0110 Code list directory version number Desc.: Version number of the code list directory. Repr.: an..6
+
+0113 Message type sub-function identification Desc.: Code identifying a sub-function of a message type. Repr.: an..6 Remark 1: The code qualifies the message type data element (0065) to allow the recipient to identify a specific sub-function of a message.
+
+0115 Message subset identification Desc.: Coded identification of a message subset, assigned by its controlling agency. Repr.: an..14
+
+0116 Message subset version number Desc.: Version number of the message subset.
+
+0118 Message subset release number Desc.: Release number within the message subset version number.
+
+0121 Message implementation guideline identification Desc.: Coded identification of the message implementation guideline, assigned by its controlling agency. Repr.: an..14
+
+0122 Message implementation guideline version number Desc.: Version number of the message implementation guideline.
+
+0124 Message implementation guideline release number Desc.: Release number within the message implementation guideline version number.
+
+0127 Scenario identification Desc.: Code identifying scenario. Repr.: an..14
+
+0128 Scenario version number Desc.: Version number of a scenario.
+
+0130 Scenario release number Desc.: Release number within the scenario version number.
+
+0133 Character encoding, coded Desc.: Coded identification of the character encoding used in the interchange.

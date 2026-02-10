@@ -1,0 +1,125 @@
+UCM MESSAGE/PACKAGE RESPONSE segment Function: To identify a message or package in the subject interchange, and to indicate that message's or package's acknowledgement or rejection (action taken), and to identify any error related to the UNH, UNT, UNO, and UNP segments. It can also identify errors related to the USA, USC, USD, USH, USR, UST, or USU security segments when they appear at the message or package level.
+
+0062
+
+MESSAGE REFERENCE NUMBER
+
+an..14
+
+1,2
+
+S009
+
+MESSAGE IDENTIFIER
+
+0065
+
+Message type
+
+an..6
+
+0052
+
+Message version number
+
+0054
+
+Message release number
+
+0051
+
+Controlling agency, coded
+
+0057
+
+Association assigned code
+
+an..6
+
+0110
+
+Code list directory version number
+
+an..6
+
+0113
+
+Message type sub-function identification
+
+an..6
+
+0083
+
+ACTION, CODED
+
+0085
+
+SYNTAX ERROR, CODED
+
+4,5,6,7
+
+0135
+
+SERVICE SEGMENT TAG, CODED
+
+4,5,6,7,8
+
+S011
+
+DATA ELEMENT IDENTIFICATION
+
+0098
+
+Erroneous data element position in segment
+
+n..3
+
+0104
+
+Erroneous component data element position
+
+n..3
+
+0136
+
+Erroneous data element occurrence
+
+n..6
+
+0800
+
+PACKAGE REFERENCE NUMBER
+
+1,3
+
+S020
+
+REFERENCE IDENTIFICATION
+
+0813
+
+Reference qualifier
+
+0802
+
+Reference identification number
+
+0534
+
+SECURITY REFERENCE NUMBER
+
+an..14
+
+6,7,9
+
+0138
+
+SECURITY SEGMENT POSITION
+
+n..6
+
+6,7,9
+
+DEPENDENCY NOTES: D1(010, 070) One and only one. D2(010, 020) All or none. 3 D2(070, 080) All or none. 4 D5(050, 040) If first, then all. 5 D5(060, 050, 040) If first, then all. 6 D5(090, 050, 040, 100) If first, then all. 7 D5(100, 090, 050, 040) If first, then all. OTHER REMARKS: 8 0135, may only contain the values UNH, UNT, UNO, UNP, USA, USC, USD, USH, USR, UST, or USU. 9 This data element shall be present when reporting an error in a security segment.
+
+Table 5 - Details of UCS SEGMENT ERROR INDICATION segment

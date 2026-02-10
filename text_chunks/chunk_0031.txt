@@ -1,0 +1,87 @@
+USD DATA ENCRYPTION HEADER segment Function: To specify size (i.e. length of data in octets of bits) of encrypted data following the segment terminator of this segment.
+
+0556
+
+LENGTH OF DATA IN OCTETS OF BITS
+
+n..18
+
+0518
+
+ENCRYPTION REFERENCE NUMBER
+
+0582
+
+NUMBER OF PADDING BYTES
+
+n..2
+
+Table 26 - Details of USE SECURITY MESSAGE RELATION segment
+
+USE SECURITY MESSAGE RELATION segment Function: To specify the relation to earlier security messages, such as response to a particular request, or request for a particular answer.
+
+0565
+
+MESSAGE RELATION, CODED
+
+Table 27 - Details of USF KEY MANAGEMENT FUNCTION segment
+
+USF KEY MANAGEMENT FUNCTION segment Function: To specify the type of key management function and the status of a corresponding key or certificate.
+
+0579
+
+KEY MANAGEMENT FUNCTION QUALIFIER
+
+S504
+
+LIST PARAMETER
+
+0575
+
+List parameter qualifier
+
+0558
+
+List parameter
+
+an..70
+
+0567
+
+SECURITY STATUS, CODED
+
+0572
+
+CERTIFICATE SEQUENCE NUMBER
+
+n..4
+
+0505
+
+FILTER FUNCTION, CODED
+
+Table 28 - Details of USH SECURITY HEADER segment
+
+USH SECURITY HEADER segment Function: To specify a security mechanism applied to an EDIFACT structure (i.e. either message/package, group or interchange).
+
+0501
+
+SECURITY SERVICE, CODED
+
+0534
+
+SECURITY REFERENCE NUMBER
+
+an..14
+
+0541
+
+SCOPE OF SECURITY APPLICATION, CODED
+
+0503
+
+RESPONSE TYPE, CODED
+
+0505
+
+FILTER FUNCTION, CODED

@@ -1,0 +1,23 @@
+0501 Security service, coded Desc.: Specification of the security service applied.
+
+0503 Response type, coded Desc.: Specification of the type of response expected from the recipient.
+
+0505 Filter function, coded Desc.: Identification of the filtering function used to reversibly map any bit pattern on to a restricted character set.
+
+0507 Original character set encoding, coded Desc.: Identification of the character set in which the secured EDIFACT structure was encoded when security mechanisms were applied.
+
+0509 Role of security provider, coded Desc.: Identification of the role of the security provider in relation to the secured item.
+
+0511 Security party identification Desc.: Identification of a party involved in the security process, according to a defined registry of se curity parties. Repr.: an..1024
+
+0513 Security party code list qualifier Desc.: Identification of the type of identification used to register the security parties.
+
+0515 Security party code list responsible agency, coded Desc.: Identification of the agency in charge of registration of the security parties.
+
+0517 Date and time qualifier Desc.: Specification of the type of date and time.
+
+0518 Encryption reference number Desc.: Reference number to the encrypted EDIFACT structure. Repr.: an..35
+
+0520 Security sequence number Desc.: Sequence number assigned to the EDIFACT structure to which security is applied. Repr.: an..35 Remark 1: This sequence number is security related and may differ from the identification of the EDIFACT structure that may appear elsewhere. It may be used when sequence integrity is required.
+
+0523 Use of algorithm, coded Desc.: Specification of the usage made of the algorithm.

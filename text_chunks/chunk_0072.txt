@@ -1,0 +1,37 @@
+Owner key compromised The owner key linked to this certificate has been compromised.
+
+Table A.45 - 0571 Security error, coded
+
+0571 Security error, coded Desc.: Identifies the security error causing the rejection of the EDIFACT structure.
+
+Remark 1: This element shall specify the security error encountered. These may be the reason for non-acknowl edgement by a request for secure acknowledgement, or may be sent on the initiative of the receiver of an AUTACK or secured EDIFACT structure which contains error.
+
+Wrong authenticator The validation is wrong.
+
+Table A.46 - 0575 List parameter qualifier
+
+0575 List parameter qualifier Desc.: Specification of the type of list parameter.
+
+ZZZ
+
+Mutually defined Mutually defined between trading partners.
+
+Table A.47 - 0577 Security party qualifier
+
+0577 Security party qualifier Desc.: Identification of the role of the security party.
+
+Message sender Identifies the party which generates the security parameters of the message (i.e. security originator).
+
+Table A.48 - 0579 Key management function qualifier
+
+0579 Key management function qualifier Desc.: Specification of the type of key management function.
+
+Registration submission Submission of information for registration.
+
+Table A.49 - 0591 Padding mechanism, coded
+
+0591 Padding mechanism, coded Desc.: Padding mechanism or padding scheme applied.
+
+Zero padding Message padding used for block cipher algorithms. Binary zeros are appended to the end of the message in order to make the message length an exact integer multiple of the block length. The block length is implicitly specified through the algorithm and mode of operation.
+
+Table A.50 - 0601 Padding mechanism code list identifier

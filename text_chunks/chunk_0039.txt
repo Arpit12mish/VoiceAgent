@@ -1,0 +1,107 @@
+Interchange recipient internal sub-identification
+
+Table 38 - S004 DATE AND TIME OF PREPARATION
+
+S004 DATE AND TIME OF PREPARATION Desc.: Date and time of preparation of the interchange. POS
+
+0017
+
+Date
+
+0019
+
+Time
+
+Table 39 - S005 RECIPIENT REFERENCE/PASSWORD DETAILS
+
+S005 RECIPIENT REFERENCE/PASSWORD DETAILS Desc.: Reference or password as agreed between the communicating partners. POS
+
+0022
+
+Recipient reference/password
+
+an..14
+
+0025
+
+Recipient reference/password qualifier
+
+an2
+
+Table 40 - S006 APPLICATION SENDER IDENTIFICATION
+
+S006 APPLICATION SENDER IDENTIFICATION Desc.: Sender identification of for example a division, branch or application computer system/process. POS
+
+0040
+
+Application sender identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+Table 41 - S007 APPLICATION RECIPIENT IDENTIFICATION
+
+S007 APPLICATION RECIPIENT IDENTIFICATION Desc.: Recipient identification of for example a division, branch or application computer system/process. POS
+
+0044
+
+Application recipient identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+Table 42 - S009 MESSAGE IDENTIFIER
+
+S009 MESSAGE IDENTIFIER Desc.: Identification of the type, version, etc. of the message being interchanged. POS
+
+0065
+
+Message type
+
+an..6
+
+0052
+
+Message version number
+
+0054
+
+Message release number
+
+0051
+
+Controlling agency, coded
+
+Table 42 (continued)
+
+S009 MESSAGE IDENTIFIER Desc.: Identification of the type, version, etc. of the message being interchanged. POS 050
+
+0057
+
+Association assigned code
+
+an..6
+
+0110
+
+Code list directory version number
+
+an..6
+
+0113
+
+Message type sub-function identification
+
+an..6
+
+Table 43 - S010 STATUS OF THE TRANSFER
+
+S010 STATUS OF THE TRANSFER Desc.: Statement that the message is one in a sequence of transfers relating to the same topic. POS
+
+0070

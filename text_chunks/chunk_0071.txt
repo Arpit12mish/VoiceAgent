@@ -1,0 +1,37 @@
+0543 Certificate original character set repertoire, coded Desc.: Identification of the character set repertoire used to create the certificate it was signed.
+
+UN/ECE level A As defined in the basic code table of ISO/IEC 646 with the exceptions of lower case letters, alternative graphic character allocations and national or application-oriented graphic character allocations.
+
+Table A.39 - 0545 Certificate syntax and version, coded
+
+0545 Certificate syntax and version, coded Desc.: Coded identification of the syntax and version used to create the certificate.
+
+EDIFACT version 4 ISO 9735 version 4.
+
+Table A.40 - 0551 Service character for signature qualifier
+
+0551 Service character for signature qualifier Desc.: Identification of the type of service character used when the signature was computed.
+
+Segment terminator Specifies that this is the separator at the end of segments.
+
+Table A.41 - 0563 Validation value, qualifier
+
+0563 Validation value, qualifier Desc.: Identification of the type of validation value.
+
+Unique validation value Specifies that this is the unique validation value. This code shall be used when the algorithm involved produces a single parameter result (one MAC with DES algorithm, or one digital signature with RSA algorithm, for instance).
+
+Table A.42 - 0565 Message relation, coded
+
+0565 Message relation, coded Desc.: Relationship with another message, past or future.
+
+No relation The message is initial.
+
+Table A.43 - 0567 Security status, coded
+
+0567 Security status, coded Desc.: Identification of the security element (key or certificate, for instance) status.
+
+Valid The security element is valid.
+
+Table A.44 - 0569 Revocation reason, coded
+
+0569 Revocation reason, coded Desc.: Identification of the reason why the certificate has been revoked.

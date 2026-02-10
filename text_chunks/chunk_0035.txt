@@ -1,0 +1,145 @@
+Application sender identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+S007
+
+APPLICATION RECIPIENT IDENTIFICATION
+
+0044
+
+Application recipient identification
+
+0007
+
+Identification code qualifier
+
+an..4
+
+0062
+
+MESSAGE REFERENCE NUMBER
+
+an..14
+
+2,4
+
+S009
+
+MESSAGE IDENTIFIER
+
+0065
+
+Message type
+
+an..6
+
+0052
+
+Message version number
+
+0054
+
+Message release number
+
+0051
+
+Controlling agency, coded
+
+0057
+
+Association assigned code
+
+an..6
+
+0110
+
+Code list directory version number
+
+an..6
+
+0113
+
+Message type sub-function identification
+
+an..6
+
+0800
+
+PACKAGE REFERENCE NUMBER
+
+S501
+
+SECURITY DATE AND TIME
+
+0517
+
+Date and time qualifier
+
+0338
+
+Event date
+
+n..8
+
+0314
+
+Event time
+
+an..15
+
+0336
+
+Time offset
+
+DEPENDENCY NOTES: D5(050, 040) If first, then all. D1(070, 090) One and only one. 3 D5(060, 040) If first, then all. 4 D5(080, 070) If first, then all.
+
+Table 34 - Details of USY SECURITY ON REFERENCES segment
+
+USY SECURITY ON REFERENCES segment Function: To identify the applicable header, and to contain the security result and/or to indicate the possible cause of security rejection for the referred value.
+
+0534
+
+SECURITY REFERENCE NUMBER
+
+an..14
+
+S508
+
+VALIDATION RESULT
+
+DEPENDENCY NOTES: D3(020, 030) One or more.
+
+Table 34 (continued)
+
+USY SECURITY ON REFERENCES segment Function: To identify the applicable header, and to contain the security result and/or to indicate the possible cause of security rejection for the referred value.
+
+0563
+
+Validation value qualifier
+
+0560
+
+Validation value
+
+an..1024
+
+0571
+
+SECURITY ERROR, CODED
+
+DEPENDENCY NOTES: D3(020, 030) One or more.
+
+5.2 Service composite data element directory
+
+5.2.1
+
+Service composite data element specification legend
+
+POS
+
+The sequential position number of the component data element in the composite data element

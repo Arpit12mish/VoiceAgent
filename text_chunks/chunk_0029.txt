@@ -1,0 +1,89 @@
+USC CERTIFICATE segment Function: To convey the public key and the credentials of its owner.
+
+0513
+
+Security party code list qualifier
+
+0515
+
+Security party code list responsible agency, coded
+
+0586
+
+Security party name
+
+0586
+
+Security party name
+
+0586
+
+Security party name
+
+0545
+
+CERTIFICATE SYNTAX AND VERSION, CODED
+
+0505
+
+FILTER FUNCTION, CODED
+
+0507
+
+ORIGINAL CHARACTER SET ENCODING, CODED
+
+0543
+
+CERTIFICATE ORIGINAL CHARACTER SET REPER
+
+TOIRE, CODED
+
+0546
+
+USER AUTHORIZATION LEVEL
+
+S505
+
+SERVICE CHARACTER FOR SIGNATURE
+
+0551
+
+Service character for signature qualifier
+
+0548
+
+Service character for signature
+
+an..4
+
+S501
+
+SECURITY DATE AND TIME
+
+0517
+
+Date and time qualifier
+
+0338
+
+Event date
+
+n..8
+
+0314
+
+Event time
+
+an..15
+
+0336
+
+Time offset
+
+0567
+
+SECURITY STATUS, CODED
+
+0569
+
+REVOCATION REASON, CODED

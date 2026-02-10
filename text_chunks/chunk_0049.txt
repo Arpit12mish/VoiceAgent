@@ -1,0 +1,191 @@
+Interchange recipient internal sub-identification
+
+0004
+
+Interchange sender identification
+
+0008
+
+Interchange sender internal identification
+
+0042
+
+Interchange sender internal sub-identification
+
+0579
+
+Key management function qualifier
+
+0538
+
+Key name
+
+0335
+
+Language, coded
+
+0556
+
+Length of data in octets of bits
+
+0810
+
+Length of object in octets of bits
+
+0558
+
+List parameter
+
+0575
+
+List parameter qualifier
+
+0121
+
+Message implementation guideline identification
+
+0124
+
+Message implementation guideline release number
+
+0122
+
+Message implementation guideline version number
+
+0062
+
+Message reference number
+
+Tag 0565
+
+Message relation, coded
+
+0054
+
+Message release number
+
+0115
+
+Message subset identification
+
+0118
+
+Message subset release number
+
+0116
+
+Message subset version number
+
+0065
+
+Message type
+
+0113
+
+Message type sub-function identification
+
+0052
+
+Message version number
+
+0533
+
+Mode of operation code list identifier
+
+0582
+
+Number of padding bytes
+
+0588
+
+Number of security segments
+
+0814
+
+Number of segments before object
+
+0074
+
+Number of segments in a message
+
+0808
+
+Object type attribute
+
+0809
+
+Object type attribute identification
+
+0805
+
+Object type qualifier
+
+0507
+
+Original character set encoding, coded
+
+0800
+
+Package reference number
+
+0601
+
+Padding mechanism code list identifier
+
+0591
+
+Padding mechanism, coded
+
+0029
+
+Processing priority code
+
+0022
+
+Recipient reference/password
+
+0025
+
+Recipient reference/password qualifier
+
+0802
+
+Reference identification number
+
+0813
+
+Reference qualifier
+
+0331
+
+Report function, coded
+
+0304
+
+Responder control reference
+
+0503
+
+Response type, coded
+
+0569
+
+Revocation reason, coded
+
+0509
+
+Role of security provider, coded
+
+0127
+
+Scenario identification
+
+0130
+
+Scenario release number
+
+0128
+
+Scenario version number
+
+0541
