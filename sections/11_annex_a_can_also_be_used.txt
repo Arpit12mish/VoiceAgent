@@ -1,0 +1,144 @@
+– Water content (mg/kg)
+IEC 60814
+Max. 100
+– Corrosive sulphur
+DIN 51353
+Not corrosive
+– Corrosive sulphur
+ASTM D1275
+Not corrosive
+– Potentially corrosive sulphur
+IEC 62535
+Not corrosive
+IEC 60666
+Max. 1 %
+– All Additivesd (%)
+Electrical
+– Breakdown voltage (kV)
+IEC 60156
+Min. 35e/70e
+– Volume resistivity at 90 °C
+IEC 60247
+Min. 500c
+(GΩ · m)
+– Dielectric dissipation factor,
+IEC 60247
+Max. 0,002c
+tan δ at 90 °C and 40 Hz to
+60 Hz
+IEC 60628/Method A
+Max. −100
+– Gassing tendencyf (mm3/min)
+2,30 to 2,80
+– Permittivityg
+IEC 60247a or IEC 61620
+Health, safety and environment (HSE)
+– Flash point (°C)
+ISO 2592
+Min. 130
+– PCB (mg/kg)
+IEC 61619
+Not detected (ND) (< 2)
+a
+Reference method.
+b
+Maximum value for alkyldiphenylethanes is 7.
+c
+These values relate to liquids as received.
+d
+The supplier shall declare the function and chemical family of all additives, and the concentrations in the case
+of inhibitors, antioxidants and passivators.
+e
+The value of 35 kV is for the liquid, as received. The value of 70 kV is for the liquid after laboratory treatment
+consisting of filtration of liquid at 60 °C by vacuum pressure below 2,5 kPa through sintered glass filtering
+(with maximum pore size of 2,5 μm). This test shall be conducted in accordance with IEC 60156.
+f
+Specification requires the gassing limits as measured by method A.
+g
+Shall be reported for information.
+7
+IS/IEC 60867 : 2022
+Table 3 – Specifications for capacitor methylpolyarylmethanes
+Property
+Test method
+Permissible value for capacitors only
+Physical
+– Appearance
+-
+Clear, no suspended matter or sediments
+Max. 1,020
+– Density at 20 °C (kg/dm3)
+ISO12185a, ISO 3675 or
+ASTM D7042
+Max. 5
+– Kinematic viscosity at 40 °C (mm2/s)
+ISO 3104a or
+ASTM D7042
+– Pour point (°C)
+Max. −50
+Chemical
+– Neutralization value (mg KOH/g)
+IEC 62021
+Max. 0,03
+ISO 9562 or ASTM D4929
+– Chlorine content (mg/kg)
+Max. 30
+or ASTM D7536. Method
+described in Annex A can
+also be used.
+– Water content (mg/kg)
+IEC 60814
+Max. 100
+– Corrosive sulphur
+DIN 51353
+Not corrosive
+– Corrosive sulphur
+ASTM D1275
+Not corrosive
+– Potentially corrosive sulphur
+IEC 62535
+Not corrosive
+IEC 60666
+< 1,0
+– All additivesc (%)
+Electrical
+– Breakdown voltage (kV)
+IEC 60156
+Min. 35d/70d
+– Volume resistivity at 90 °C (GΩ · m)
+IEC 60247a or IEC 61620
+Min. 250b
+– Dielectric dissipation factor, tan δ at
+IEC 60247a or IEC 61620
+Max. 0,004b
+90 °C and 40 Hz to 60 Hz
+IEC 60628/Method A
+Max. −130
+– Gassing tendencye (mm3/min)
+IEC 60247
+2,30 to 2,80
+– Permittivityf
+Health, safety and environment (HSE)
+– Flash point (°C)
+ISO 2592
+Min. 130
+– PCB (mg/kg)
+IEC 61619
+Not detected (ND) (< 2)
+a
+Reference method.
+b
+These values relate to liquids as received.
+c
+The supplier shall declare the function and chemical family of all additives, and the concentrations in the case
+of inhibitors antioxidants and passivators.
+d
+The value of 35 kV is for the liquid, as received. The value of 70 kV is for the liquid after laboratory treatment
+consisting of filtration of liquid at 60 °C by vacuum pressure below 2,5 kPa through sintered glass filtering
+(with maximum pore size of 2,5 μm). This test shall be conducted in accordance with IEC 60156.
+e
+Specification requires the gassing limits as measured by method A.
+f
+Shall be reported for information.
+8
+IS/IEC 60867 : 2022

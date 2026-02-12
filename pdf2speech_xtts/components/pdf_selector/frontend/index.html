@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>PDF Selector</title>
+
+    <style>
+      body { margin: 0; background: #0b0f19; color: white; font-family: system-ui, sans-serif; }
+      #viewer { height: 100vh; overflow: auto; padding: 12px; }
+      .hint {
+        position: sticky; top: 0; z-index: 10;
+        padding: 10px 12px; margin-bottom: 12px;
+        background: rgba(0,0,0,0.55); backdrop-filter: blur(6px);
+        border-radius: 10px;
+      }
+      .page { margin: 0 auto 16px; background: #111827; padding: 8px; border-radius: 12px; width: fit-content; position: relative; }
+      canvas { display: block; border-radius: 10px; }
+      .textLayer { position: absolute; inset: 8px; opacity: 0.01; } /* invisible but selectable */
+    </style>
+  </head>
+
+  <body>
+    <div id="viewer">
+      <div class="hint">Highlight text on the PDF. The selected text will be sent back to Streamlit.</div>
+      <div id="pages"></div>
+    </div>
+
+    <!-- Streamlit component bridge -->
+    <script src="https://unpkg.com/streamlit-component-lib/dist/streamlit-component-lib.js"></script>
+
+    <!-- PDF.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.2.67/pdf.min.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>

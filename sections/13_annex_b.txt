@@ -1,0 +1,36 @@
+(informative)
+IR spectra of typical synthetic aromatic hydrocarbons
+NOTE All IR spectra conditions are: KBr cells between wavelength 400 cm−1 to 4 000 cm−1.
+B.1
+IR spectra typical of the family of alkylbenzenes
+See Figure B.1 and Figure B.2.
+Figure B.1 – IR spectra of branched alkylbenzenes
+11
+IS/IEC 60867 : 2022
+Figure B.2 – IR spectra of linear alkylbenzenes
+NOTE The two types of alkylbenzene shown in Figure B.1 and Figure B.2 can be distinguished by infrared
+spectrophotometric analysis. The straight-chain type shows a single absorption peak in the region 1 360 cm−1 to
+1 380 cm−1 and the branched-chain type shows a double peak in that region.
+B.2
+Alkyldiphenylethanes
+See Figure B.3.
+Figure B.3 – IR spectrum of phenylxylylethane (PXE)
+NOTE Phenylxylylethane (PXE) is characterized by infrared absorption bands at 3 070 cm−1, 1 606 cm−1 and
+705 cm−1.
+12
+IS/IEC 60867 : 2022
+B.3
+Alkylnaphtalenes – typified by 1-methylnaphthalene
+See Figure B.4.
+Figure B.4 – IR spectrum of 1-methylnaphthalene
+B.4
+Methylpolyarylmethanes
+See Figure B.5 and Figure B.6.
+Figure B.5 – IR spectrum of monobenzyltoluene (MBT)
+NOTE Methylpolyarylmethanes are characterized by infrared absorption bands at 3 025 cm−1, 1 606 cm−1 and
+705 cm−1.
+13
+IS/IEC 60867 : 2022
+Figure B.6 – IR spectrum of dibenzyltoluene (DBT)
+14
+IS/IEC 60867 : 2022

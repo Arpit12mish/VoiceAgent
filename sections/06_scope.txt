@@ -1,0 +1,3 @@
+This document covers specifications and test methods for unused synthetic aromatic
+hydrocarbons intended for use as insulating liquid in cables and capacitors.
+2

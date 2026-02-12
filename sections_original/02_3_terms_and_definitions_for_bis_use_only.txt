@@ -1,0 +1,19 @@
+3 Terms and definitions FOR BIS USE ONLY
+
+For the purposes of this document, the terms and definitions given in ISO 9735-1 apply.
+
+ISO and IEC maintain terminology databases for use in standardization at the following addresses:
+
+— ISO Online browsing platform: available at https://​
+
+www​
+
+.iso​ .org/​ obp
+
+— IEC Electropedia: available at https://​
+
+www​
+
+.electropedia​
+
+.org/​

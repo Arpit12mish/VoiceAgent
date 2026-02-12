@@ -1,0 +1,22 @@
+WARNING – Health and safety
+This document does not purport to address all the safety problems associated with its use. It is
+the responsibility of the user of this document to establish appropriate health and safety
+practices and determine the applicability of regulatory limitations prior to use.
+The synthetic aromatic hydrocarbon insulating liquids which are the subject of this document
+should be handled with due regard to personal hygiene. Direct contact with the eyes can cause
+irritation. In the case of eye contact, irrigation with copious quantities of clean running water
+should be carried out and medical advice sought. Some of the tests specified in this document
+involve the use of processes that could lead to a hazardous situation. Attention is drawn to the
+relevant standard for guidance.
+WARNING – Environment
+This document is applicable to synthetic aromatic hydrocarbon insulating liquids, chemicals and
+used sample containers. The disposal of these items can be subject to regulatory requirements
+with regard to their impact on the environment. Every precaution should be taken to prevent
+release of insulating liquids into the environment.
+ix
+IS/IEC 60867 : 2022
+Indian Standard
+INSULATING LIQUIDS — UNUSED LIQUIDS BASED
+ON SYNTHETIC AROMATIC HYDROCARBONS —
+SPECIFICATION
+1

@@ -1,0 +1,83 @@
+(informative)
+Test method for determination of chlorine content
+A.1
+Test method for determination of total chloride
+A.1.1
+Reagents
+–
+standard solution of nitric acid (HNO3), analytical grade. Dilute 190 g of concentrated nitric
+acid to 1 dm3 with distilled water;
+–
+isopropyl alcohol, analytical grade;
+silver nitrate (AgNO3), analytical grade. Standard solution (0,025 mol/dm3);
+–
+0,4247 g of silver nitrate weighed accurately. Transfer it to a 1 l volumetric flask and add
+distilled water to dissolve. Add 3 cm3 of concentrated nitric acid (density 1,42 kg/dm3) and
+then add distilled water to the 1 dm3 mark of the volumetric flask. Standardize this solution
+against a pure chloride standard. Check the solution at least monthly to ensure a constant
+reagent. Dry the silver nitrate overnight in a desiccator before making up the solution. Both
+the solid material and the solution shall be protected from light by storage in brown
+glassware in the dark.
+sodium diphenyl solution (C6H5C6H4Na). Organic halogen reagent: 30 cm3 of this reagent
+–
+are normally needed to give excess reagent. The preparation of sodium diphenyl solution is
+described in 'McCoy – The Inorganic Analysis of Petroleum, Chemical Publishing Co. Inc.,
+212 Fifth Avenue, New York'.
+NOTE A sodium chloride crystal as used in infrared spectrometer cells is a suitable chloride standard.
+A.1.2
+Apparatus
+separatory funnel, 250 cm3;
+–
+–
+potentiometric titration apparatus;
+–
+electrodes: silver and glass electrode combination is preferred. A silver electrode with a
+mercurous sulphate reference electrode is an acceptable alternative;
+micro-burette, 5 cm3 with 0,01 cm3 divisions.
+–
+A.1.3
+Procedure
+Dissolve 35,5 g ± 0,1 g of the liquid under test in 25 cm3 toluene in a 150 cm3 beaker by stirring
+with a small glass rod. Transfer the solution to a separatory funnel. Rinse the beaker several
+times with a total of 25 cm3 toluene and add the rinses to the funnel.
+Add an excess (approximately 30 cm3 is usually sufficient) of sodium diphenyl solution to the
+contents of the separatory funnel. The excess is indicated by a colour change of blue or green.
+Stopper the vessel and gently shake to thoroughly mix the solution, venting occasionally to
+release the excess pressure build-up.
+Allow the blue-green mixture to stand 5 min to ensure complete reaction. Remove stopper, add
+2 cm3 of isopropyl alcohol, and swirl with stopper removed until excess reagent is destroyed.
+Add slowly 50 cm3 of the nitric acid solution. Ensure that the organic and aqueous phases are
+in intimate and uniform contact by gentle swirling and rocking for 5 min. Loosen the stopper
+occasionally to release slight pressure. Drain the aqueous phase into a beaker. Extract the
+organic phase twice more with 50 cm3 portions of nitric acid solution. Drain the aqueous phases
+into the beaker containing the first extract.
+9
+IS/IEC 60867 : 2022
+Place the beaker containing the aqueous phase on the titration stand and insert the electrode
+system. Start the stirrer and record the initial value of potential or pH. Titrate slowly with AgNO3
+solution (0,025 mol/dm3), recording readings after the addition of each drop of AgNO3 solution.
+Continue titrating until the point of maximum change in potential or pH scale reading is reached.
+Plot the volume of silver nitrate as abscissa and voltage or pH reading as ordinates. The end-
+point is selected at the point of inflection of the curve.
+Titrate the same volume of solvent without the sample, as a blank.
+A.1.4
+Calculation
+Calculate the amount of total chlorine as follows:
+Total chlorine (mg/kg) = [(A − B) N/m] 35,5 × 103
+where
+is the number of cubic centimetres of AgNO3 solution required for titration of the
+A
+sample;
+is the number of cubic centimetres of AgNO3 solution required for titration of the blank;
+B
+is the molarity of the AgNO3 solution;
+N
+is the mass in grams of sample used;
+m
+35,5
+is the atomic mass of chlorine.
+A.2
+Test method for determination of organic chloride
+This test method is based on UOP 779/08.
+10
+IS/IEC 60867 : 2022

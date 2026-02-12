@@ -1,0 +1,114 @@
+[
+  {
+    "file": "00_front_matter.txt",
+    "key": "front_matter",
+    "title": "Front matter",
+    "kind": "meta",
+    "start_page": 1,
+    "line_count": 22
+  },
+  {
+    "file": "02_national_foreword.txt",
+    "key": "national_foreword",
+    "title": "NATIONAL FOREWORD",
+    "kind": "named",
+    "start_page": 3,
+    "line_count": 386
+  },
+  {
+    "file": "03_annex_a_informative_test_method_for_determination_of_chlorine_content_.txt",
+    "key": "annex_A",
+    "title": "Annex A informative) Test method for determination of chlorine content ................................ 9",
+    "kind": "annex",
+    "start_page": 7,
+    "line_count": 12
+  },
+  {
+    "file": "04_annex_b_informative_ir_spectra_of_typical_synthetic_aromatic_hydrocarb.txt",
+    "key": "annex_B",
+    "title": "Annex B informative) IR spectra of typical synthetic aromatic hydrocarbons ....................... 11",
+    "kind": "annex",
+    "start_page": 7,
+    "line_count": 21
+  },
+  {
+    "file": "05_introduction.txt",
+    "key": "introduction",
+    "title": "INTRODUCTION",
+    "kind": "named",
+    "start_page": 9,
+    "line_count": 22
+  },
+  {
+    "file": "06_scope.txt",
+    "key": "scope",
+    "title": "Scope",
+    "kind": "named",
+    "start_page": 11,
+    "line_count": 3
+  },
+  {
+    "file": "07_normative_references.txt",
+    "key": "normative_references",
+    "title": "Normative references",
+    "kind": "named",
+    "start_page": 11,
+    "line_count": 42
+  },
+  {
+    "file": "08_terms_and_definitions.txt",
+    "key": "terms_and_definitions",
+    "title": "Terms and definitions",
+    "kind": "named",
+    "start_page": 12,
+    "line_count": 164
+  },
+  {
+    "file": "11_to_50.txt",
+    "key": "11",
+    "title": "to 50",
+    "kind": "num",
+    "start_page": 16,
+    "line_count": 21
+  },
+  {
+    "file": "10_annex_a_can_also_be.txt",
+    "key": "annex_A",
+    "title": "Annex A can also be",
+    "kind": "annex",
+    "start_page": 16,
+    "line_count": 107
+  },
+  {
+    "file": "11_annex_a_can_also_be_used.txt",
+    "key": "annex_A",
+    "title": "Annex A can also be used.",
+    "kind": "annex",
+    "start_page": 17,
+    "line_count": 144
+  },
+  {
+    "file": "12_annex_a.txt",
+    "key": "annex_A",
+    "title": "Annex A",
+    "kind": "annex",
+    "start_page": 19,
+    "line_count": 83
+  },
+  {
+    "file": "13_annex_b.txt",
+    "key": "annex_B",
+    "title": "Annex B",
+    "kind": "annex",
+    "start_page": 21,
+    "line_count": 36
+  },
+  {
+    "file": "14_bibliography.txt",
+    "key": "bibliography",
+    "title": "Bibliography",
+    "kind": "named",
+    "start_page": 25,
+    "line_count": 69
+  }
+]

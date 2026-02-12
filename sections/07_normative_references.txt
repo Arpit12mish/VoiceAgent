@@ -1,0 +1,42 @@
+The following documents are referred to in the text in such a way that some or all of their content
+constitutes requirements of this document. For dated references, only the edition cited applies.
+For undated references, the latest edition of the referenced document (including any
+amendments) applies.
+IEC 60156, Insulating liquids – Determination of the breakdown voltage at power frequency –
+Test method
+IEC 60247, Insulating liquids – Measurement of relative permittivity, dielectric dissipation factor
+(tanδ) and d.c. resistivity
+IEC 60475, Method of sampling insulating liquids
+IEC 60628, Gassing of insulating liquids under electrical stress and ionization
+IEC 60666, Detection and determination of specified additives in mineral insulating oils
+IEC 60814, Insulating liquids – Oil-impregnated paper and pressboard – Determination of water
+by automatic coulometric Karl Fischer titration
+IEC 61619, Insulating liquids – Contamination by polychlorinated biphenyls (PCBs) – Method
+of determination by capillary column gas chromatography
+IEC 61620, Insulating liquids – Determination of the dielectric dissipation factor by
+measurement of the conductance and capacitance – Test method
+IEC 62021 (all parts), Insulating liquids – Determination of acidity
+IEC 62535, Insulating liquids – Test method for detection potentially corrosive sulphur in used
+and unused insulating oil
+ISO 2592, Petroleum and related products – Determination of flash point – Cleveland open cup
+method (PMOC)
+ISO 3016, Petroleum and related products from natural or synthetic sources – Determination of
+pour point
+ISO 3104, Petroleum products – Transparent and opaque liquids – Determination of kinematic
+viscosity and calculation of dynamic viscosity
+ISO 3675, Crude petroleum and liquid petroleum products – Laboratory determination of density
+– Hydrometer method
+1
+IS/IEC 60867 : 2022
+ISO 9562, Water quality – Determination of adsorbable organically bound halogens (AOX)
+ISO 12185, Crude petroleum and petroleum products – Determination of density – Oscillating
+U-tube method
+ASTM D1275, Standard test method for corrosive sulfur in electrical insulating liquids
+ASTM D4929, Standard Test Method for Determination of Organic Chloride Content in Crude
+Oil
+ASTM D7042, Standard Test Method for Dynamic Viscosity and Density of Liquids by Stabinger
+Viscometer (and the Calculation of Kinematic Viscosity)
+ASTM D7536, Standard Test Method for Chlorine in Aromatics by Monochromatic Wavelength
+Dispersive X-ray Fluorescence Spectrometry
+DIN 51353, Testing of insulating oils; detection of corrosive sulfur; Silver strip test
+3

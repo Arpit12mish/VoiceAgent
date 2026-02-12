@@ -1,0 +1,27 @@
+6 Syntax service code list directory
+
+The syntax service code list directory is maintained by ISO/TC 154/JWG1, Joint syntax working group (with UN/ECE); as such it is not reproduced in this document. The most recent version of the syntax service code list directory should be used to reference the code values for the coded data elements in the service simple data element directory (see 5.3).
+
+The syntax service code list directory can be downloaded from the JWG 1 website at https://​
+
+www​
+
+.gefeg​
+
+.com/​
+
+jswg/​
+
+v4x/​ data/​
+
+v4x​ .html. To assist users of the ISO 9735 series, however, an overview of
+
+the syntax service code list directory valid at the time of preparation of this document is included for information as Annex A.
+
+61
+
+﻿
+
+© ISO 2022 – All rights reserved ﻿
+
+ISO 9735-10:2022(E)

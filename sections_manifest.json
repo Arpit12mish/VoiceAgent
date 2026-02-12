@@ -1,0 +1,74 @@
+[
+  {
+    "order": 0,
+    "id": "1_scope",
+    "title": "1 Scope",
+    "file": "sections_original/00_1_scope.txt",
+    "page_start": 7,
+    "page_end": 7,
+    "word_count": 17
+  },
+  {
+    "order": 1,
+    "id": "2_normative_references",
+    "title": "2 Normative references",
+    "file": "sections_original/01_2_normative_references.txt",
+    "page_start": 7,
+    "page_end": 8,
+    "word_count": 373
+  },
+  {
+    "order": 2,
+    "id": "3_terms_and_definitions_for_bis_use_only",
+    "title": "3 Terms and definitions FOR BIS USE ONLY",
+    "file": "sections_original/02_3_terms_and_definitions_for_bis_use_only.txt",
+    "page_start": 8,
+    "page_end": 8,
+    "word_count": 58
+  },
+  {
+    "order": 3,
+    "id": "4_conformance",
+    "title": "4 Conformance",
+    "file": "sections_original/03_4_conformance.txt",
+    "page_start": 8,
+    "page_end": 8,
+    "word_count": 246
+  },
+  {
+    "order": 4,
+    "id": "5_syntax_service_directories",
+    "title": "5 Syntax service directories",
+    "file": "sections_original/04_5_syntax_service_directories.txt",
+    "page_start": 8,
+    "page_end": 67,
+    "word_count": 17033
+  },
+  {
+    "order": 5,
+    "id": "6_syntax_service_code_list_directory",
+    "title": "6 Syntax service code list directory",
+    "file": "sections_original/05_6_syntax_service_code_list_directory.txt",
+    "page_start": 67,
+    "page_end": 68,
+    "word_count": 135
+  },
+  {
+    "order": 6,
+    "id": "annex_a",
+    "title": "Annex A",
+    "file": "sections_original/06_annex_a.txt",
+    "page_start": 68,
+    "page_end": 79,
+    "word_count": 2782
+  },
+  {
+    "order": 7,
+    "id": "bibliography",
+    "title": "Bibliography",
+    "file": "sections_original/07_bibliography.txt",
+    "page_start": 79,
+    "page_end": 80,
+    "word_count": 317
+  }
+]

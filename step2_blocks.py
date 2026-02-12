@@ -3,8 +3,9 @@ from pathlib import Path
 from collections import Counter
 import re
 
-PDF_PATH = Path("ISO9735.pdf")
+PDF_PATH = Path("IS60867.pdf")
 
+# ---------- helpers ----------
 def is_bold(font: str) -> bool:
     return "bold" in (font or "").lower()
 
@@ -15,46 +16,81 @@ def is_italic(font: str) -> bool:
 def normalize_ws(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
+# --- Watermark keyword check (strong filter) ---
+WATERMARK_KEYWORDS = [
+    "supplied by",
+    "under the license",
+    "license from bis",
+    "valid upto",
+    "book supply bureau",
+    "csir-national physical laboratory",
+]
+
+def is_watermark_text(t: str) -> bool:
+    tl = t.strip().lower()
+    return any(k in tl for k in WATERMARK_KEYWORDS)
+
+def in_header_or_footer(y0: float, y1: float, page_h: float) -> bool:
+    # tighter: top 4% + bottom 4%
+    top = page_h * 0.04
+    bottom = page_h * 0.96
+    return (y1 <= top) or (y0 >= bottom)
+
+def in_right_stamp_strip(x0: float, x1: float, page_w: float) -> bool:
+    # right strip: if most of span bbox is in last 5% width
+    return x0 >= page_w * 0.95 or x1 >= page_w * 0.98
+
 def extract_lines(doc, max_pages=None):
-    """
-    Returns a list of lines with merged spans per line.
-    Each line contains: page, y (approx), x, text, avg_size, bold_ratio, italic_ratio
-    """
     lines_out = []
     pages = len(doc) if max_pages is None else min(len(doc), max_pages)
 
     for pno in range(pages):
         page = doc[pno]
+        w = float(page.rect.width)
+        h = float(page.rect.height)
+
         data = page.get_text("dict")
         for block in data.get("blocks", []):
+            if block.get("type", 0) != 0:
+                continue
+
             for line in block.get("lines", []):
                 spans = line.get("spans", [])
                 if not spans:
                     continue
 
-                # Merge spans in that line
-                texts = []
-                sizes = []
-                bold_flags = []
-                italic_flags = []
-                xs = []
-                ys = []
+                texts, sizes, bold_flags, italic_flags = [], [], [], []
+                xs, ys, x1s, y1s = [], [], [], []
 
                 for sp in spans:
                     t = sp.get("text", "")
-                    t = t.replace("\u00ad", "")  # soft hyphen
+                    t = t.replace("\u00ad", "")
                     if not t.strip():
                         continue
+
+                    bbox = sp.get("bbox", None)
+                    if bbox:
+                        x0, y0, x1, y1 = bbox
+
+                        # 1) Remove explicit watermark by keywords (best)
+                        if is_watermark_text(t):
+                            continue
+
+                        # 2) Remove header/footer bands
+                        if in_header_or_footer(y0, y1, h):
+                            continue
+
+                        # 3) Remove right stamp strip (vertical license stamp)
+                        if in_right_stamp_strip(x0, x1, w):
+                            continue
+
+                        xs.append(x0); ys.append(y0); x1s.append(x1); y1s.append(y1)
 
                     texts.append(t)
                     sizes.append(float(sp.get("size", 0)))
                     f = sp.get("font", "")
                     bold_flags.append(is_bold(f))
                     italic_flags.append(is_italic(f))
-                    bbox = sp.get("bbox", None)
-                    if bbox:
-                        xs.append(bbox[0])
-                        ys.append(bbox[1])
 
                 if not texts:
                     continue
@@ -63,12 +99,17 @@ def extract_lines(doc, max_pages=None):
                 if not text:
                     continue
 
-                avg_size = sum(sizes)/len(sizes) if sizes else 0.0
-                bold_ratio = sum(1 for b in bold_flags if b)/len(bold_flags) if bold_flags else 0.0
-                italic_ratio = sum(1 for i in italic_flags if i)/len(italic_flags) if italic_flags else 0.0
+                # if line itself is watermark (merged)
+                if is_watermark_text(text):
+                    continue
+
+                avg_size = sum(sizes) / len(sizes) if sizes else 0.0
+                bold_ratio = sum(1 for b in bold_flags if b) / len(bold_flags) if bold_flags else 0.0
+                italic_ratio = sum(1 for i in italic_flags if i) / len(italic_flags) if italic_flags else 0.0
 
                 x = min(xs) if xs else 0.0
                 y = min(ys) if ys else 0.0
+                bbox_line = [min(xs), min(ys), max(x1s), max(y1s)] if xs and ys and x1s and y1s else None
 
                 lines_out.append({
                     "page": pno + 1,
@@ -77,36 +118,39 @@ def extract_lines(doc, max_pages=None):
                     "text": text,
                     "avg_size": avg_size,
                     "bold_ratio": bold_ratio,
-                    "italic_ratio": italic_ratio
+                    "italic_ratio": italic_ratio,
+                    "bbox": bbox_line,
+                    "page_w": w,
+                    "page_h": h,
                 })
 
-    # Sort reading order: page -> y -> x
     lines_out.sort(key=lambda r: (r["page"], round(r["y"], 1), r["x"]))
     return lines_out
 
-def detect_repeated_headers(lines, top_band_y=120, min_pages_ratio=0.4):
+def detect_repeated_lines_anywhere(lines, min_pages_ratio=0.5, max_len=200):
     """
-    Find lines that repeat on many pages near the top (headers).
-    Works well for 'FOR BIS USE ONLY' etc.
+    Only remove repeated lines if they look like watermark/footer-type lines.
+    Avoid removing common words like 'and', 'of', etc.
     """
-    # Only consider lines in top band
-    candidates = [ln["text"] for ln in lines if ln["y"] <= top_band_y and len(ln["text"]) <= 60]
-    cnt = Counter(candidates)
+    pages_seen = len(set(l["page"] for l in lines))
+    texts = [l["text"] for l in lines if len(l["text"]) <= max_len]
 
-    # Approx page count from data
-    pages_seen = len(set(ln["page"] for ln in lines))
+    cnt = Counter(texts)
     repeated = set()
+
     for text, c in cnt.items():
-        if pages_seen > 0 and (c / pages_seen) >= min_pages_ratio:
+        if pages_seen == 0:
+            continue
+        if (c / pages_seen) < min_pages_ratio:
+            continue
+
+        # ✅ must be long OR must contain watermark keywords
+        if len(text) >= 25 or is_watermark_text(text):
             repeated.add(text)
+
     return repeated
 
 def classify_line(line, body_font_size_guess=11.0):
-    """
-    Heuristic:
-    - heading if size much larger than body OR bold large
-    - paragraph otherwise
-    """
     size = line["avg_size"]
     bold = line["bold_ratio"] >= 0.6
 
@@ -117,18 +161,12 @@ def classify_line(line, body_font_size_guess=11.0):
     return "text"
 
 def merge_into_blocks(lines):
-    """
-    Merge consecutive lines into blocks based on:
-    - same type (heading/text)
-    - proximity in y (line spacing)
-    - indentation similarity
-    """
-    # Estimate typical body size from lines that look like text
     sizes = [ln["avg_size"] for ln in lines if 9 <= ln["avg_size"] <= 13]
     body_size = (sum(sizes)/len(sizes)) if sizes else 11.0
 
     blocks = []
     current = None
+    prev = None
 
     def flush():
         nonlocal current
@@ -138,64 +176,25 @@ def merge_into_blocks(lines):
                 blocks.append(current)
         current = None
 
-    prev = None
     for ln in lines:
         ltype = classify_line(ln, body_font_size_guess=body_size)
+        btype = "heading" if ltype == "heading" else "paragraph"
 
         if current is None:
-            current = {
-                "page_start": ln["page"],
-                "page_end": ln["page"],
-                "type": "heading" if ltype == "heading" else "paragraph",
-                "text": ln["text"],
-                "meta": {
-                    "avg_size": ln["avg_size"],
-                    "bold_ratio": ln["bold_ratio"],
-                    "italic_ratio": ln["italic_ratio"],
-                }
-            }
+            current = {"page": ln["page"], "type": btype, "text": ln["text"]}
         else:
-            # Decide whether to merge
-            same_page_or_next = (ln["page"] == prev["page"]) if prev else True
             y_gap = (ln["y"] - prev["y"]) if (prev and ln["page"] == prev["page"]) else 999
             x_gap = abs(ln["x"] - prev["x"]) if prev else 0
 
-            current_is_heading = (current["type"] == "heading")
-            next_is_heading = (ltype == "heading")
-
-            # Rule: don't mix heading with paragraph
-            if current_is_heading != next_is_heading:
+            if current["type"] != btype:
                 flush()
-                current = {
-                    "page_start": ln["page"],
-                    "page_end": ln["page"],
-                    "type": "heading" if next_is_heading else "paragraph",
-                    "text": ln["text"],
-                    "meta": {
-                        "avg_size": ln["avg_size"],
-                        "bold_ratio": ln["bold_ratio"],
-                        "italic_ratio": ln["italic_ratio"],
-                    }
-                }
+                current = {"page": ln["page"], "type": btype, "text": ln["text"]}
             else:
-                # Merge if close enough (same paragraph)
-                # Typical line gap ~ 8-16 in many PDFs; we use a tolerant threshold.
-                if same_page_or_next and y_gap <= 18 and x_gap <= 25:
+                if ln["page"] == prev["page"] and y_gap <= 18 and x_gap <= 35:
                     current["text"] += " " + ln["text"]
-                    current["page_end"] = ln["page"]
                 else:
                     flush()
-                    current = {
-                        "page_start": ln["page"],
-                        "page_end": ln["page"],
-                        "type": "heading" if next_is_heading else "paragraph",
-                        "text": ln["text"],
-                        "meta": {
-                            "avg_size": ln["avg_size"],
-                            "bold_ratio": ln["bold_ratio"],
-                            "italic_ratio": ln["italic_ratio"],
-                        }
-                    }
+                    current = {"page": ln["page"], "type": btype, "text": ln["text"]}
 
         prev = ln
 
@@ -204,21 +203,20 @@ def merge_into_blocks(lines):
 
 def main():
     doc = fitz.open(PDF_PATH)
-    lines = extract_lines(doc, max_pages=5)  # use first 5 pages for quick iteration
+    lines = extract_lines(doc, max_pages=15)
 
-    headers = detect_repeated_headers(lines, top_band_y=140, min_pages_ratio=0.5)
-    if headers:
-        lines = [ln for ln in lines if ln["text"] not in headers]
+    repeated = detect_repeated_lines_anywhere(lines, min_pages_ratio=0.5)
+    if repeated:
+        lines = [ln for ln in lines if ln["text"] not in repeated]
 
     blocks, body_size = merge_into_blocks(lines)
 
     print(f"Body font size guess: {body_size:.2f}")
-    print(f"Detected repeated headers removed: {list(headers)[:5]}")
-    print(f"Blocks produced (first 5 pages): {len(blocks)}\n")
+    print(f"Repeated lines removed: {list(repeated)[:10]}")
+    print(f"Blocks produced (first 15 pages): {len(blocks)}\n")
 
-    for b in blocks[:30]:
-        p = f'p{b["page_start"]}' if b["page_start"] == b["page_end"] else f'p{b["page_start"]}-p{b["page_end"]}'
-        print(f'[{p}] {b["type"].upper()}: {b["text"]}')
+    for b in blocks[:35]:
+        print(f'[p{b["page"]}] {b["type"].upper()}: {b["text"]}')
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,164 @@
+For the purposes of this document, the following terms and definitions apply.
+ISO and IEC maintain terminology databases for use in standardization at the following
+addresses:
+IEC Electropedia: available at https://www.electropedia.org/
+•
+ISO Online browsing platform: available at https://www.iso.org/obp
+•
+3.1
+alkylbenzenes
+insulating liquids consisting of a benzene ring and an alkyl group where the alkyl group can be
+a straight chain or a branched-chain type
+Note 1 to entry: Examples of IR spectra are given in Annex B.
+3.2
+alkyldiphenylethanes
+insulating liquids consisting of diphenylethanes derivatives where the two aryl groups normally
+carry short alkyl groups
+Note 1 to entry: Examples of IR spectra are given in Annex B.
+3.3
+alkylnaphthalenes
+insulating liquids consisting of a naphthalene structure with substituent alkyl groups
+Note 1 to entry: Examples of IR spectra are given in Annex B.
+3.4
+methylpolyarylmethanes
+insulating liquids consisting of methylpolyarylm ethanes derivatives mainly based on a blend of
+mono/di-benzyl toluene (M/DBT)
+Note 1 to entry: Examples of IR spectra are given in Annex B.
+2
+IS/IEC 60867 : 2022
+4
+Identification and general delivery requirements
+Identification and general delivery requirements are as follows:
+a) The synthetic aromatic hydrocarbons type of liquid is normally delivered in bulk, rail-tank
+cars, tank containers or packed in drums or intermediate bulk containers (IBC). These shall
+be clean and suitable for this purpose to avoid any contamination. The supplier shall take
+all the precautions to ensure the delivery product will be in accordance with the requirements
+of this document.
+b) Drums and sample containers shall carry at least the following markings:
+–
+supplier's designation;
+–
+labelling in accordance with the Globally Harmonized System of Classification and
+Labelling of Chemicals (GHS);
+–
+liquid quantity.
+c)
+As agreed between the supplier and purchaser each liquid delivery shall be accompanied
+by a document specifying the supplier’s designation, labelling and compliance certificate. A
+delivery shall be traceable to a manufactured batch.
+d) The supplier shall declare the generic type of all additives, and the concentrations in the
+case of antioxidants and passivators.
+5
+Sampling
+Sampling shall be carried out in accordance with the procedure described in IEC 60475.
+6
+Test methods
+6.1
+Appearance
+Appearance shall be evaluated by examining, in transmitted light, a representative sample of
+the liquid having a thickness of approximately 10 cm, at ambient temperature.
+6.2
+Density
+Density shall be measured in accordance with ISO 12185 (reference method). ISO 3675 and
+ASTM D7042 are acceptable.
+6.3
+Kinematic viscosity
+Kinematic viscosity shall be measured according to ISO 3104 (reference method) or ASTM
+D7042.
+6.4
+Flash point
+Flash point shall be determined according to ISO 2592.
+6.5
+Pour point
+Pour point shall be determined according to ISO 3016.
+6.6
+Acidity
+Acidity shall be measured according to the IEC 62021 series. Any part of the IEC 62021 series
+(IEC 62021-1 or IEC 62021-2 or IEC 62021-3) can be used.
+3
+IS/IEC 60867 : 2022
+6.7
+Chlorine content
+Chlorine content shall be determined using a test method according to ISO 9562 for the
+determination of adsorbable organically bound halogens (AOX) or ASTM D4929 for the
+determination of organic chloride content in crude oil or ASTM D7536 for the determination of
+chlorine in aromatics by monochromatic wavelength dispersive X-ray fluorescence
+spectrometry. The method described in Annex A can also be used.
+6.8
+Water content
+Water content shall be determined according to IEC 60814.
+6.9
+Corrosive and potentially corrosive sulphur
+Corrosive and potentially corrosive sulphur shall be determined according to DIN 51353 and
+ASTM D1275 and IEC 62535.
+6.10 Additives
+The chemical family of all additives shall be declared in product data sheets and certificates of
+compliance. For antioxidant additives and passivators (IEC 60666), their concentrations shall
+also be stated.
+6.11 Breakdown voltage
+Breakdown voltage shall be determined according to IEC 60156.
+6.12 Dielectric dissipation factor and volume resistivity
+The properties shall be determined according to IEC 60247 (reference method) or IEC 61620.
+6.13 Gassing tendency
+The gassing shall be determined by Method A of IEC 60628.
+NOTE Synthetic aromatic hydrocarbon compositions have been used as additive to improve the gassing tendency
+of insulating liquids.
+6.14 Polychlorinated biphenyl (PCBs) content
+Synthetic aromatic hydrocarbons shall be free from PCBs. The reference test method is
+IEC 61619.
+NOTE Acceptable limits of total or individual PCBs are specified in national and local regulations. Further European
+specifications are described in Directive 96/59/EC and UN Guidelines for the identification of PCBs and materials
+containing PCBs.
+7
+Specifications for capacitor and cable alkylbenzenes
+When tested in accordance with the methods specified in Clause 6, the properties of insulating
+liquids based on alkylbenzenes which are intended for use as impregnant in capacitors and
+hollow-core cables shall meet the requirements and specifications given in Table 1.
+8
+Specifications for capacitor alkyldiphenylethanes
+When tested in accordance with the methods specified in Clause 6, the properties of insulating
+liquids based on alkyldiphenylethanes used as impregnant in capacitors shall meet the
+requirements and specifications given in Table 2.
+4
+IS/IEC 60867 : 2022
+9
+Specifications for capacitor alkylnaphthalenes
+When tested in accordance with the methods specified in Clause 6 the properties of insulating
+liquids based on alkylnaphthalenes used as impregnant in capacitors shall meet the
+requirements and specifications given in Table 2.
+10 Specifications for capacitor methylpolyarylmethanes
+When tested in accordance with the methods specified in Clause 6, the properties of insulating
+liquids based on methylpolyarylmethanes used as impregnant in capacitors shall meet the
+requirements and specifications given in Table 3.
+5
+IS/IEC 60867 : 2022
+Table 1 – Specifications for capacitor and cable alkylbenzenes
+Permissible
+Permissible value
+value
+Property
+Test method
+Cables typea
+Capacitors
+Type I
+Type II
+Type III
+Physical
+– Appearance
+Clear, no suspended matter or
+Clear, no
+sediments
+suspended matter
+or sediments
+Max.
+Max.
+Max.
+Max. 0,880
+– Density at 20 °C (kg/dm3)
+ISO 12185b, ISO 3675
+0,880
+0,880
+0,885
+or ASTM D7042
+– Kinematic viscosity at
+< 6

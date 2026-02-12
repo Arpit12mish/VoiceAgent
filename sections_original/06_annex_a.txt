@@ -1,0 +1,519 @@
+Annex A (informative)
+
+Overview of the syntax service code list directory
+
+FOR BIS USE ONLY
+
+A.1 General
+
+In order to illustrate the usage of the coded data elements shown in the service simple data elements directory, this annex specifies the syntax service code list directory with a link to the external code list.
+
+The syntax service code list directory is maintained by ISO/TC 154/JWG1, Joint syntax working group (with UN/ECE).
+
+The complete ISO 9735 syntax service code list directory is published on the JWG1 website https://​ www​
+
+.gefeg​
+
+.com/​
+
+jswg/​
+
+v4x/​ data/​
+
+v4x​ .html.
+
+NOTE
+
+Each code list below is showing only one code entry as an example.
+
+A.2 Code lists
+
+Change indicators (in comparison with previous release of the syntax service code list):
+
+a plus sign (+)
+
+for an addition
+
+an asterisk (*)
+
+for an addition/subtraction/change to an entry for a particular data element
+
+a hash sign (#)
+
+for changes to names
+
+a vertical bar (|)
+
+for changes to text for descriptions, notes and functions
+
+an X sign (X)
+
+for marked for deletion
+
+Details of the data elements are specified in Table A.1 to Table A.52.
+
+Table A.1 — 0001 Syntax identifier
+
+0001 Syntax identifier Desc.: Coded identification of the agency controlling the syntax, and of the character repertoire used in an inter change. Repr.: a4 Remark 1: The data value consists of the letters “UN”, upper case, identifying the syntax controlling agency, di rectly followed by an a2 code identifying the character repertoire used. UNOA
+
+UN/ECE level A As defined in the basic code table of ISO/IEC 646 with the exceptions of lowercase letters, alternative graphic character allocations and national or application-oriented graphic character allocations.
+
+62
+
+﻿ 
+
+© ISO 2022 – All rights reserved
+
+
+
+﻿
+
+ISO 9735-10:2022(E)
+
+Table A.2 — 0002 Syntax version number
+
+0002 Syntax version number Desc.: Version number of the syntax. Repr.: an1
+
+FOR BIS USE ONLY
+
+Remark 1: Shall be “4” to indicate this version of the syntax. 1
+
+Version 1 ISO 9735:1988
+
+Table A.3 — 0007 Identification code qualifier
+
+0007 Identification code qualifier Desc.: Qualifier referring to the identification code. Repr.: an..4 Remark 1: A qualifier code may refer to an organization identification as in the ISO/IEC 6523 series. 1
+
+DUNS (Data Universal Numbering System) Partner identification code assigned by Dun and Bradstreet.
+
+Table A.4 — 0025 Recipient reference/password qualifier
+
+0025 Recipient reference/password qualifier Desc.: Qualifier for the recipient's reference or password. Repr.: an2 Remark 1: To be used as specified in the partners' interchange agreement. AA
+
+Reference Recipient's reference/password is a reference.
+
+Table A.5 — 0029 Processing priority code
+
+0029 Processing priority code Desc.: Code determined by the sender requesting processing priority for the interchange. Repr.: a1 Remark 1: To be used as specified in the partners' interchange agreement. A
+
+Highest priority Requested processing priority is the highest.
+
+Table A.6 — 0031 Acknowledgement request
+
+0031 Acknowledgement request Desc.: Code requesting acknowledgement for the interchange. Repr.: n1 Remark 1: Used if the sender requests that a message related to syntactical correctness be sent by the recipient in response. Remark 2: For UN/EDIFACT a specific message (Syntax and service report - CONTRL) is defined for this purpose. 1
+
+Acknowledgement requested Acknowledgement is requested.
+
+63
+
+﻿
+
+© ISO 2022 – All rights reserved ﻿
+
+ISO 9735-10:2022(E)
+
+Table A.7 — 0035 Test indicator
+
+0035 Test indicator Desc.: Indication that the structural level containing the test indicator is a test. Repr.: n1
+
+FOR BIS USE ONLY
+
+1
+
+Interchange is a test Indicates that the interchange is a test.
+
+Table A.8 — 0051 Controlling agency, coded
+
+0051 Controlling agency, coded Desc.: Code identifying a controlling agency. Repr.: an..3 AA
+
+EDICONSTRUCT French construction project.
+
+Table A.9 — 0052 Message version number
+
+0052 Message version number Desc.: Version number of a message type. Repr.: an..3 1 Status 1 version Message approved and issued as a status 1 (trial) message. (Valid for directories published after March 1990 and prior to March 1993).
+
+Table A.10 — 0054 Message release number
+
+* 0054 Message release number Desc.: Release number within the current message version number. Repr.: an..3 1
+
+First release User message approved and issued in the first release of the year of the UNTDID (United Nations Trade Data Interchange Directory); valid for directories published prior to March 1990. Service message ap proved and issued as the first release of the message within a version of ISO 9735; valid for version 4 of ISO 9735 and later.
+
+Table A.11 — 0065 Message type
+
+0065 Message type Desc.: Code identifying a type of message and assigned by its controlling agency. Repr.: an..6 Remark 1: In UNSMs (United Nations Standard Messages), the representation is a6. APERAK
+
+Application error and acknowledgement message A code to identify the application error and acknowledgement message.
+
+64
+
+﻿ 
+
+© ISO 2022 – All rights reserved
+
+
+
+﻿
+
+ISO 9735-10:2022(E)
+
+Table A.12 — 0073 First and last transfer
+
+0073 First and last transfer Desc.: Indication used for the first and last message in a sequence of messages related to the same topic. Repr.: a1
+
+FOR BIS USE ONLY
+
+C
+
+Creation First transmission of a number of transfers of the same message.
+
+Table A.13 — 0081 Section identification
+
+0081 Section identification Desc.: Identification of the separation of sections of a message. Repr.: a1 D
+
+Header/detail section separation To qualify the segment UNS, when separating the header from the detail section of a message.
+
+Table A.14 — 0083 Action, coded
+
+0083 Action, coded Desc.: A code indicating acknowledgement, or rejection (the action taken) of a subject interchange, or part of the subject interchange, or indication of interchange receipt. Repr.: an..3 4
+
+This level and all lower levels rejected The corresponding referenced-level and all its lower referenced-levels are rejected. One or more errors are reported at this reporting-level or a lower reporting-level.
+
+Table A.15 — 0085 Syntax error, coded
+
+0085 Syntax error, coded Desc.: A code indicating the error detected. Repr.: an..3 2
+
+Syntax version or level not supported Notification that the syntax version and/or level is not supported by the recipient.
+
+Table A.16 — 0113 Message type sub-function identification
+
+0113 Message type sub-function identification Desc.: Code identifying a sub-function of a message type. Repr.: an..6 Remark 1: The code qualifies the message type data element (0065) to allow the recipient to identify a specific sub-function of a message. AA
+
+Interactive, perform sell This sub-function is to notify the receiver that the purpose of the message is an instruction to perform a sell.
+
+Table A.17 — 0133 Character encoding, coded
+
+0133 Character encoding, coded Desc.: Coded identification of the character encoding used in the interchange. Repr.: an..3
+
+65
+
+﻿
+
+© ISO 2022 – All rights reserved ﻿
+
+ISO 9735-10:2022(E)
+
+Table A.17 (continued)
+
+Remark 1: To be used as specified in the partners' interchange agreement, for the purpose of identifying the char acter repertoire encoding technique used in the interchange (when the default encoding defined by the character repertoire's associated character set specification is not used). 1
+
+ASCII 7 bit
+
+FOR BIS USE ONLY
+
+ASCII 7 bit code.
+
+Table A.18 — 0135 Service segment tag, coded
+
+0135 Service segment tag, coded Desc.: Code identifying a service segment. Repr.: an..3 UCD
+
+Data element error indication To identify an erroneous stand-alone, composite or component data element, and to identify the nature of the error.
+
+Table A.19 — 0323 Transfer position, coded
+
+0323 Transfer position, coded Desc.: Indication of the position of a transfer. Repr.: a1 F
+
+First message First message in sequence. Can only appear once at the start of the sequence.
+
+Table A.20 — 0325 Duplicate Indicator
+
+0325 Duplicate Indicator Desc.: Indication that the structure is a duplicate of a previously sent structure. Repr.: a1 D
+
+Duplicate A duplicate transfer.
+
+Table A.21 — 0331 Report function, coded
+
+0331 Report function, coded Desc.: Coded value identifying type of status or error report. Repr.: an..3 1
+
+Information Non Error information, e.g. acknowledgement that party is still operational.
+
+Table A.22 — 0333 Status, coded
+
+0333 Status, coded Desc.: Code identifying the reason for the status or error report. Repr.: an..3 1
+
+OK response No further information.
+
+66
+
+﻿ 
+
+© ISO 2022 – All rights reserved
+
+
+
+﻿
+
+ISO 9735-10:2022(E)
+
+Table A.23 — 0501 Security service, coded
+
+0501 Security service, coded Desc: Specification of the security service applied. Repr: an..3
+
+FOR BIS USE ONLY
+
+1
+
+Non-repudiation of origin The message includes a digital signature protecting the receiver of the message from the sender's denial of having sent the message.
+
+Table A.24 — 0503 Response type, coded
+
+0503 Response type, coded Desc.: Specification of the type of response expected from the recipient. Repr.: an..3 1
+
+No acknowledgement required No AUTACK acknowledgement message expected.
+
+Table A.25 — 0505 Filter function, coded
+
+0505 Filter function, coded Desc.: Identification of the filtering function used to reversibly map any bit pattern on to a restricted character set. Repr.: an..3 1
+
+No filter No filter function is used.
+
+Table A.26 — 0507 Original character set encoding, coded
+
+0507 Original character set encoding, coded Desc.: Identification of the character set in which the secured EDIFACT structure was encoded when security mechanisms were applied. Repr.: an..3 1
+
+ASCII 7 bit ASCII 7 bit code.
+
+Table A.27 — 0509 Role of security provider, coded
+
+0509 Role of security provider, coded Desc.: Identification of the role of the security provider in relation to the secured item. Repr.: an..3 1
+
+Issuer The security provider is the rightful issuer of the signed document.
+
+Table A.28 — 0513 Security party code list qualifier
+
+0513 Security party code list qualifier Desc.: Identification of the type of identification used to register the security parties. Repr.: an..3 1
+
+ACH Automated clearing house identification.
+
+67
+
+﻿
+
+© ISO 2022 – All rights reserved ﻿
+
+ISO 9735-10:2022(E)
+
+Table A.29 — 0515 Security party code list responsible agency, coded
+
+0515 Security party code list responsible agency, coded Desc.: Identification of the agency in charge of registration of the security parties. Repr.: an..3
+
+FOR BIS USE ONLY
+
+1
+
+UN/CEFACT United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT).
+
+Table A.30 — 0517 Date and time qualifier
+
+0517 Date and time qualifier Desc.: Specification of the type of date and time. Repr.: an..3 1
+
+Security Timestamp Security timestamp of the secured message.
+
+Table A.31 — 0523 Use of algorithm, coded
+
+0523 Use of algorithm, coded Desc.: Specification of the usage made of the algorithm. Repr.: an..3 1
+
+Owner hashing Specifies that the algorithm is used by the message sender to compute the hash function on the message (as in the case of Integrity or Non-repudiation of Origin identified in the security function qualifier of USH).
+
+Table A.32 — 0525 Cryptographic mode of operation, coded
+
+0525 Cryptographic mode of operation, coded Desc.: Specification of the mode of operation used for the algorithm. Repr.: an..3 1
+
+ECB DES modes of operation, Electronic Code Book; FIPS Pub 81 (1981); ISO/IEC 10116 (n-bits).
+
+Table A.33 — 0527 Algorithm, coded
+
+0527 Algorithm, coded Desc.: Identification of the algorithm. Repr.: an..3 1
+
+DES Data Encryption Standard. FIPS Pub 46 (January 1977).
+
+Table A.34 — 0529 Algorithm code list identifier
+
+0529 Algorithm code list identifier Desc.: Specification of the code list used to identify the algorithm. Repr.: an..3 1
+
+UN/CEFACT United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT).
+
+68
+
+﻿ 
+
+© ISO 2022 – All rights reserved
+
+
+
+﻿
+
+ISO 9735-10:2022(E)
+
+Table A.35 — 0531 Algorithm parameter qualifier
+
+0531 Algorithm parameter qualifier Desc.: Specification of the type of parameter value. Repr.: an..3
+
+FOR BIS USE ONLY
+
+1
+
+Initialisation value, clear text Identifies the algorithm parameter value as an unencrypted initialisation value.
+
+Table A.36 — 0533 Mode of operation code list identifier
+
+0533 Mode of operation code list identifier Desc.: Specification of the code list used to identify the cryptographic mode of operation. Repr.: an..3 1
+
+UN/CEFACT United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT).
+
+Table A.37 — 0541 Scope of security application, coded
+
+0541 Scope of security application, coded Desc.: Specification of the scope of application of the security service defined in the security header. Repr.: an..3 Remark 1: It defines the data that have to be taken into account by the related cryptographic process. 1
+
+Security header and message body The current security header segment group and the object body itself, only. In this case no other security header or security trailer segment group shall be encompassed within this scope.
+
+Table A.38 — 0543 Certificate original character set repertoire, coded
+
+0543 Certificate original character set repertoire, coded Desc.: Identification of the character set repertoire used to create the certificate it was signed. Repr.: an..3 1
+
+UN/ECE level A As defined in the basic code table of ISO/IEC 646 with the exceptions of lower case letters, alternative graphic character allocations and national or application-oriented graphic character allocations.
+
+Table A.39 — 0545 Certificate syntax and version, coded
+
+0545 Certificate syntax and version, coded Desc.: Coded identification of the syntax and version used to create the certificate. Repr.: an..3 1
+
+EDIFACT version 4 ISO 9735 version 4.
+
+Table A.40 — 0551 Service character for signature qualifier
+
+0551 Service character for signature qualifier Desc.: Identification of the type of service character used when the signature was computed. Repr.: an..3 1
+
+Segment terminator Specifies that this is the separator at the end of segments.
+
+69
+
+﻿
+
+© ISO 2022 – All rights reserved ﻿
+
+ISO 9735-10:2022(E)
+
+Table A.41 — 0563 Validation value, qualifier
+
+0563 Validation value, qualifier Desc.: Identification of the type of validation value. Repr.: an..3
+
+FOR BIS USE ONLY
+
+1
+
+Unique validation value Specifies that this is the unique validation value. This code shall be used when the algorithm involved produces a single parameter result (one MAC with DES algorithm, or one digital signature with RSA algorithm, for instance).
+
+Table A.42 — 0565 Message relation, coded
+
+0565 Message relation, coded Desc.: Relationship with another message, past or future. Repr.: an..3 1
+
+No relation The message is initial.
+
+Table A.43 — 0567 Security status, coded
+
+0567 Security status, coded Desc.: Identification of the security element (key or certificate, for instance) status. Repr.: an..3 1
+
+Valid The security element is valid.
+
+Table A.44 — 0569 Revocation reason, coded
+
+0569 Revocation reason, coded Desc.: Identification of the reason why the certificate has been revoked. Repr.: an..3 1
+
+Owner key compromised The owner key linked to this certificate has been compromised.
+
+Table A.45 — 0571 Security error, coded
+
+0571 Security error, coded Desc.: Identifies the security error causing the rejection of the EDIFACT structure. Repr.: an..3 Remark 1: This element shall specify the security error encountered. These may be the reason for non-acknowl edgement by a request for secure acknowledgement, or may be sent on the initiative of the receiver of an AUTACK or secured EDIFACT structure which contains error. 1
+
+Wrong authenticator The validation is wrong.
+
+70
+
+﻿ 
+
+© ISO 2022 – All rights reserved
+
+
+
+﻿
+
+ISO 9735-10:2022(E)
+
+Table A.46 — 0575 List parameter qualifier
+
+0575 List parameter qualifier Desc.: Specification of the type of list parameter. Repr.: an..3
+
+FOR BIS USE ONLY
+
+ZZZ
+
+Mutually defined Mutually defined between trading partners.
+
+Table A.47 — 0577 Security party qualifier
+
+0577 Security party qualifier Desc.: Identification of the role of the security party. Repr.: an..3 1
+
+Message sender Identifies the party which generates the security parameters of the message (i.e. security originator).
+
+Table A.48 — 0579 Key management function qualifier
+
+0579 Key management function qualifier Desc.: Specification of the type of key management function. Repr.: an..3 101
+
+Registration submission Submission of information for registration.
+
+Table A.49 — 0591 Padding mechanism, coded
+
+0591 Padding mechanism, coded Desc.: Padding mechanism or padding scheme applied. Repr.: an..3 1
+
+Zero padding Message padding used for block cipher algorithms. Binary zeros are appended to the end of the message in order to make the message length an exact integer multiple of the block length. The block length is implicitly specified through the algorithm and mode of operation.
+
+Table A.50 — 0601 Padding mechanism code list identifier
+
+0601 Padding mechanism code list identifier Desc.: Specification of the code list used to identify the padding mechanism or padding scheme. Repr.: an..3 1
+
+UN/CEFACT United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT).
+
+Table A.51 — 0805 Object type qualifier
+
+0805 Object type qualifier Desc.: Qualifier referring to the type of object. Repr.: an..3 1
+
+Computer environment type Specification of the type of computer environment for which the object is intended.
+
+71
+
+﻿
+
+© ISO 2022 – All rights reserved ﻿
+
+ISO 9735-10:2022(E)
+
+Table A.52 — 0813 Reference qualifier
+
+0813 Reference qualifier Desc.: Code giving specific meaning to a reference identification number. Repr.: an..3
+
+FOR BIS USE ONLY
+
+1
+
+Object identification number Identification number assigned to an object.
+
+72
+
+﻿ 
+
+© ISO 2022 – All rights reserved
+
+
+
+﻿
+
+ISO 9735-10:2022(E)
