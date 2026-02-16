@@ -1,0 +1,35 @@
+[
+  {
+    "order": 0,
+    "id": "00_front_matter",
+    "title": "Front matter",
+    "file": "/mnt/c/Users/mish1/OneDrive/Desktop/VoiceAgent/runs/job_20260216_213505/sections_original/00_00_front_matter.txt",
+    "page_start": 1,
+    "page_end": 14,
+    "word_count": 4489,
+    "tables": [],
+    "table_count": 0
+  },
+  {
+    "order": 1,
+    "id": "annex_a",
+    "title": "Annex A",
+    "file": "/mnt/c/Users/mish1/OneDrive/Desktop/VoiceAgent/runs/job_20260216_213505/sections_original/01_annex_a.txt",
+    "page_start": 15,
+    "page_end": 15,
+    "word_count": 218,
+    "tables": [],
+    "table_count": 0
+  },
+  {
+    "order": 2,
+    "id": "bibliography",
+    "title": "Bibliography",
+    "file": "/mnt/c/Users/mish1/OneDrive/Desktop/VoiceAgent/runs/job_20260216_213505/sections_original/02_bibliography.txt",
+    "page_start": 16,
+    "page_end": 18,
+    "word_count": 536,
+    "tables": [],
+    "table_count": 0
+  }
+]

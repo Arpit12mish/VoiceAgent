@@ -1,0 +1,3542 @@
+[
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "भारतीय मानक",
+    "y": 52.27308654785156
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "Indian Standard",
+    "y": 75.3150863647461
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "इन्सुलेट तरल पदार्थ — ससिंर्ेसटक सुगिंसित",
+    "y": 130.8968963623047
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "हाइड्रोकार्थनपर आिाररतअप्रयुक्त तरल",
+    "y": 160.8968963623047
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "पदार्थ — सिसिसि",
+    "y": 190.77684020996094
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "Insulating Liquids — Unused",
+    "y": 260.35504150390625
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "Liquids Based on Synthetic",
+    "y": 281.07501220703125
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "Aromatic Hydrocarbons —",
+    "y": 301.79498291015625
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "Specification",
+    "y": 322.5150451660156
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": "ICS 29.040.10",
+    "y": 508.68670654296875
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": " BIS 2024  IEC 2022",
+    "y": 577.445556640625
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "भारतीय मानक ब्यूरो",
+    "y": 663.561279296875
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": "BUREAU OF INDIAN STANDARDS",
+    "y": 682.9567260742188
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "मानक भवन, 9 बहादुर शाह ज़फर मार्ग, नई ददल्ली- 110002",
+    "y": 698.0593872070312
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": "MANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG",
+    "y": 715.283447265625
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": "NEW DELHI - 110002",
+    "y": 726.803466796875
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": "www.bis.gov.inwww.standardsbis.in",
+    "y": 738.1818237304688
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": "Price Group 9",
+    "y": 764.6727294921875
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": "February 2024",
+    "y": 765.7147216796875
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Fluids for Electrotechnical Applications Sectional Committee, ETD 03",
+    "y": 72.22346496582031
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "NATIONAL FOREWORD",
+    "y": 129.7234649658203
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "This Indian Standard which is identical to IEC 60867 : 2022 ‘Insulating liquids — Specifications for unused liquids based on synthetic aromatic hydrocarbons’ issued by the International Electrotechnical\nCommission (IEC) was adopted by the Bureau of Indian Standards on the recommendation of the Fluids for Electrotechnical Applications Sectional Committee and approval of the Electrotechnical Division\nCouncil.",
+    "y": 152.76344299316406
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "This Indian Standard covers specifications and test methods for unused synthetic aromatic hydrocarbons intended for use as insulating liquid in cables and capacitors.",
+    "y": 221.76344299316406
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "The text of IEC standard has been approved as suitable for publication as an Indian Standard without deviations. Certain terminologies and conventions are, however, not identical to those used in Indian\nStandards. Attention is particularly drawn to the following:",
+    "y": 256.2334899902344
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Wherever the words ‘International Standard’ appear referring to this standard, they",
+    "y": 302.2454528808594
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "should",
+    "y": 302.2454528808594
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "a) be read as ‘Indian Standard’; and",
+    "y": 302.3134460449219
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Comma (,) has been used as a decimal marker, while in Indian Standards the current\nb) practice is to use a point (.) as the decimal marker.",
+    "y": 336.615478515625
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "In this standard, reference appears to International Standards for which Indian Standards also exists.\nThe corresponding Indian Standards, which are to be substituted, are listed below along with their degree of equivalence for the editions indicated:",
+    "y": 371.1934814453125
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "International Standard",
+    "y": 415.5127868652344
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Corresponding Indian",
+    "y": 415.5127868652344
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Standard",
+    "y": 415.5127868652344
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Degree of Equivalence",
+    "y": 415.5127868652344
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "IS 1448 (Part 69) : 2019/ISO",
+    "y": 440.5984802246094
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "ISO 2592 Petroleum and related",
+    "y": 443.7054748535156
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 444.053466796875
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "2592 : 2017 Methods of test for",
+    "y": 452.0884704589844
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "products — Determination of flash",
+    "y": 455.10546875
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "petroleum and its products: Part 69",
+    "y": 463.5784606933594
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "point — Cleveland open cup",
+    "y": 466.5054626464844
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Determination of flash and fire",
+    "y": 475.0684509277344
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "method (PMOC)",
+    "y": 477.90545654296875
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "points — Cleveland open cup method (second revision)",
+    "y": 486.5584411621094
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "ISO 3016 Petroleum and related",
+    "y": 518.5314331054688
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 520.9443969726562
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "IS 1448 (Part 10/Sec 2) : 2021/ISO",
+    "y": 521.3304443359375
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "products from natural or synthetic",
+    "y": 530.0514526367188
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "3016 : 2019 Methods of test for",
+    "y": 532.8304443359375
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "sources – Determination of pour",
+    "y": 541.5714111328125
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "petroleum and its products: Part 10",
+    "y": 544.3304443359375
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "point",
+    "y": 553.0913696289062
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Petroleum and related products from natural or synthetic sources,\nSection 2 Determination of pour point (third revision)",
+    "y": 555.8304443359375
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 614.8274536132812
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "IS 1448 (Part 25/Sec 1) : 2018/ISO",
+    "y": 615.3274536132812
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "ISO 3104 Petroleum products —",
+    "y": 615.9754638671875
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "3104 : 1994 Methods of test for",
+    "y": 627.2794189453125
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Transparent and opaque liquids —\nDetermination",
+    "y": 627.4554443359375
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "of kinematic",
+    "y": 638.9354248046875
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "petroleum and its products: Part 25",
+    "y": 639.2314453125
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "viscosity",
+    "y": 650.4154663085938
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "and calculation",
+    "y": 650.4154663085938
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "of",
+    "y": 650.4158325195312
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Transparent and opaque liquids,",
+    "y": 651.1834106445312
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "dynamic viscosity",
+    "y": 661.8958129882812
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Section",
+    "y": 663.1354370117188
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Determination",
+    "y": 663.1354370117188
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "of",
+    "y": 663.1354370117188
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "kinematic viscosity and calculation of dynamic",
+    "y": 675.0874633789062
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "viscosity",
+    "y": 687.0684204101562
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "(second",
+    "y": 687.0684204101562
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "revision)",
+    "y": 699.0204467773438
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "International Standard",
+    "y": 70.4627914428711
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Corresponding Indian",
+    "y": 70.4627914428711
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Standard",
+    "y": 70.4627914428711
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Degree of Equivalence",
+    "y": 70.4627914428711
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "ISO 3675 Crude petroleum and",
+    "y": 97.88746643066406
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IS 1448 (Part 16) : 2014/ISO",
+    "y": 99.93244934082031
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "liquid",
+    "y": 109.40748596191406
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "petroleum",
+    "y": 109.40748596191406
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "products",
+    "y": 109.40748596191406
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "—",
+    "y": 109.40748596191406
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 111.33546447753906
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "3675 : 1998 Methods of test for",
+    "y": 111.46046447753906
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Laboratory",
+    "y": 120.92750549316406
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "determination",
+    "y": 120.92750549316406
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "of",
+    "y": 120.92750549316406
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "petroleum and its products: Part 16",
+    "y": 122.98847961425781
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "density — Hydrometermethod",
+    "y": 132.44752502441406
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Crude",
+    "y": 134.51649475097656
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "petroleum",
+    "y": 134.51649475097656
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "and liquid",
+    "y": 134.51649475097656
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "petroleum products — Laboratory determination",
+    "y": 146.0445098876953
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "of density",
+    "y": 157.57252502441406
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "—",
+    "y": 157.57252502441406
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Hydrometer",
+    "y": 169.12953186035156
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "method",
+    "y": 169.12953186035156
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "(fourth",
+    "y": 169.12953186035156
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "revision)",
+    "y": 180.6575469970703
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 206.3534698486328
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IS 3025 (Part 70) : 2018/ISO",
+    "y": 207.7404327392578
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "ISO",
+    "y": 210.3174591064453
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Water",
+    "y": 210.3174591064453
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "quality",
+    "y": 210.3174591064453
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "—",
+    "y": 210.3174591064453
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "9562 : 2004 Methods of sampling",
+    "y": 219.2364044189453
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Determination",
+    "y": 222.2694854736328
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "of adsorbable",
+    "y": 222.2694854736328
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "and test (Physical and Chemical)",
+    "y": 230.7323760986328
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "organically bound halogens (AOX)",
+    "y": 234.2215118408203
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "for water and waste water: Part 70 Adsorbable",
+    "y": 242.2283477783203
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "organically",
+    "y": 253.7243194580078
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "bound",
+    "y": 253.7243194580078
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "halogens (AOX)",
+    "y": 265.2203063964844
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IS 1448 (Part 167) : 2018/ISO",
+    "y": 286.0894470214844
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "ISO 12185 Crude petroleum and",
+    "y": 286.6514587402344
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 296.8734436035156
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "12185 : 1996 Methods of test for",
+    "y": 297.5914611816406
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "petroleum",
+    "y": 298.1114807128906
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "products",
+    "y": 298.1114807128906
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "—",
+    "y": 298.1114807128906
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "petroleum and its products: Part",
+    "y": 309.0934753417969
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Determination",
+    "y": 309.5715026855469
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "of density",
+    "y": 309.5715026855469
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "—",
+    "y": 309.5715026855469
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "167 Determination of density —",
+    "y": 320.5664978027344
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Oscillating U-tube method",
+    "y": 321.031494140625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Oscillating",
+    "y": 332.08349609375
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "U-tube",
+    "y": 332.08349609375
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "method",
+    "y": 332.08349609375
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "(third revision)",
+    "y": 343.6294860839844
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IEC 60156 Insulating liquids —",
+    "y": 364.636474609375
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IS 6792 : 2023/IEC 60156 : 2018",
+    "y": 364.7084655761719
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 365.0794677734375
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Determination of the breakdown",
+    "y": 376.1164855957031
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Insulating liquids — Determination",
+    "y": 376.2034606933594
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "voltage at power frequency — Test",
+    "y": 387.59649658203125
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "of the breakdown voltage at power",
+    "y": 387.6984558105469
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "method",
+    "y": 399.0765075683594
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "frequency — Test method (third revision)",
+    "y": 399.2224426269531
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IS 16840 : 2018/IEC 60247 : 2004",
+    "y": 434.3174743652344
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 435.56048583984375
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IEC 60247 Insulating liquids —",
+    "y": 438.4604797363281
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Insulating liquids — Measurement",
+    "y": 446.26947021484375
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Measurement",
+    "y": 450.4124755859375
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "of relative",
+    "y": 450.4124755859375
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "of relative permittivity, dielectric",
+    "y": 458.2214660644531
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "permittivity, dielectric dissipation",
+    "y": 462.3644714355469
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "dissipation factor (Tan δ) and d.c.",
+    "y": 470.1734619140625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "factor (tanδ) and d.c. resistivity",
+    "y": 474.31646728515625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "resistivity",
+    "y": 482.1254577636719
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Method",
+    "y": 511.0924987792969
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "of",
+    "y": 511.0924987792969
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IS 6855 : 2023/IEC 60475 : 2022",
+    "y": 511.2264709472656
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IEC",
+    "y": 511.4095153808594
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 511.5204772949219
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Method of sampling insulating",
+    "y": 522.7463989257812
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "sampling insulating liquids",
+    "y": 523.3614501953125
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "liquids",
+    "y": 534.2664184570312
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IS 12475 (Part 1 & 2) : 1988",
+    "y": 557.2354125976562
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Modified/Technically",
+    "y": 557.5904541015625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IEC 60628 Gassing ofi nsulating",
+    "y": 559.2984008789062
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Specification",
+    "y": 568.7554321289062
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "for gassing",
+    "y": 568.7554321289062
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "of",
+    "y": 568.7554321289062
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Equivalent",
+    "y": 569.1104125976562
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "liquidsunder electrical stress and",
+    "y": 570.8184204101562
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "insulating",
+    "y": 580.2754516601562
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "liquid",
+    "y": 580.2754516601562
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "under",
+    "y": 580.2754516601562
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "electric",
+    "y": 580.2754516601562
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "ionization",
+    "y": 582.3384399414062
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "stress and ionization",
+    "y": 591.7954711914062
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 622.3734741210938
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IEC",
+    "y": 623.9514770507812
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Detection",
+    "y": 623.9514770507812
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "and",
+    "y": 623.9514770507812
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IS 13631 : 2017/IEC 60666 : 2010",
+    "y": 625.8964233398438
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "determination",
+    "y": 635.9034423828125
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "of specified",
+    "y": 635.9034423828125
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Detection and determination of",
+    "y": 637.8484497070312
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "additives in mineral insulating oils",
+    "y": 647.8554077148438
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "specified",
+    "y": 649.8004150390625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "additives",
+    "y": 649.8004150390625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "in mineral",
+    "y": 649.8004150390625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "insulating oils (first revision)",
+    "y": 661.7814331054688
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IEC 60814 Insulating liquids —",
+    "y": 687.346435546875
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "IS 13567 : 2018/IEC 60814 : 1997",
+    "y": 687.5834350585938
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 689.5874633789062
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Oil-impregnated",
+    "y": 698.826416015625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "paper",
+    "y": 698.826416015625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "and",
+    "y": 698.826416015625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Insulating",
+    "y": 699.5504150390625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "liquids",
+    "y": 699.5504150390625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "— Oil-",
+    "y": 699.5504150390625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "pressboard — Determination of",
+    "y": 710.3064575195312
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "impregnated paper and pressboard",
+    "y": 711.5174560546875
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "water by automaticcoulometric",
+    "y": 721.7864379882812
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Determination",
+    "y": 723.4844360351562
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "of water",
+    "y": 723.4844360351562
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "by",
+    "y": 723.4844360351562
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "karl fischer titration",
+    "y": 733.2664184570312
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "automatic coulometric karl fischer titration (first revision)",
+    "y": 735.451416015625
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Corresponding Indian",
+    "y": 85.8998031616211
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Standard",
+    "y": 85.8998031616211
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "International Standard",
+    "y": 87.4627914428711
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Degree of Equivalence",
+    "y": 87.4627914428711
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "IEC 61619 Insulating liquids —",
+    "y": 110.87745666503906
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "IS 16082: 2013/IEC 61619 : 1997",
+    "y": 111.07344055175781
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 111.16145324707031
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Contamination by polychlorinated",
+    "y": 122.36744689941406
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Insulating liquids — Contamination",
+    "y": 122.56343078613281
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "biphenyls (PCBs) — Method of",
+    "y": 133.85743713378906
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "by polychlorinated",
+    "y": 134.0534210205078
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "biphenyls",
+    "y": 134.0534210205078
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "determination by capillary column",
+    "y": 145.34742736816406
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "(PCBs)",
+    "y": 145.5434112548828
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "—",
+    "y": 145.5434112548828
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Method",
+    "y": 145.5434112548828
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "of",
+    "y": 145.5434112548828
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "gaschromatography",
+    "y": 156.83741760253906
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "determination by capillary column gas chromatography",
+    "y": 157.0334014892578
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 191.0714874267578
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "IS 16086: 2013/IEC 61620 : 1998",
+    "y": 191.25648498535156
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "IEC",
+    "y": 191.2914581298828
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Insulating",
+    "y": 191.2914581298828
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Insulating liquids — Determination",
+    "y": 202.77650451660156
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "liquids",
+    "y": 202.8114776611328
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "— Determination",
+    "y": 202.8114776611328
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "of",
+    "y": 202.8114776611328
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "of the dielectric dissipation factor by measurement",
+    "y": 214.29652404785156
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "the dielectric dissipation factor",
+    "y": 214.3314971923828
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "of the",
+    "y": 225.8166046142578
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "by measurement",
+    "y": 225.8515167236328
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "of the",
+    "y": 225.8515167236328
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "conductance and capacitance —",
+    "y": 237.3366241455078
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "conductance",
+    "y": 237.3715362548828
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "and capacitance",
+    "y": 237.3715362548828
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Test method",
+    "y": 248.8566436767578
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "—Test method",
+    "y": 248.8915557861328
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 276.8304748535156
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "IEC 62021-1 Insulating liquids —",
+    "y": 278.0715026855469
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "IS 16863 (Part 1) : 2018/IEC",
+    "y": 279.0624694824219
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Determination of acidity — Part 1:",
+    "y": 289.5924987792969
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "62021-1 : 2003 Insulating liquids",
+    "y": 290.5824890136719
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Automatic potentiometric titration",
+    "y": 301.1125183105469
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "— Determination of acidity: Part 1\nAutomatic potentiometric titration",
+    "y": 302.1024475097656
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 344.48748779296875
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "IS",
+    "y": 344.532470703125
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "(Part 2) : 2018/",
+    "y": 344.532470703125
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "IEC 62021-2 Insulating liquids —\nDetermination of acidity — Part 2:",
+    "y": 344.5784606933594
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "IEC 62021-2 : 2007 Insulating",
+    "y": 356.0124816894531
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "liquids — Determination of acidity:\nPart 2 Colourimetric titration",
+    "y": 367.49249267578125
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Colourimetric titration",
+    "y": 367.4984436035156
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "IS 16863 (Part 3) : 2018/ IEC",
+    "y": 402.0334777832031
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "IEC 62021-3 Insulating liquids —",
+    "y": 404.7874755859375
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 404.88348388671875
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "62021-3 : 2014 Insulating liquids",
+    "y": 413.5234680175781
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Determination of acidity — Part 3:",
+    "y": 416.2474670410156
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "—Determination of acidity: Part 3",
+    "y": 425.0134582519531
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Test methods for non-mineral",
+    "y": 427.70745849609375
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Test methods",
+    "y": 436.5034484863281
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "for non-mineral",
+    "y": 436.5034484863281
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "insulating oils",
+    "y": 439.16796875
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "insulating oils",
+    "y": 447.9934387207031
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "IS 16310 : 2017/IEC 62535 : 2008",
+    "y": 468.82647705078125
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Identical",
+    "y": 468.9744873046875
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "IEC",
+    "y": 472.12646484375
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "62535 Insulating liquids",
+    "y": 472.12646484375
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Insulating liquids — Test method",
+    "y": 480.31646728515625
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "— Test method for detection",
+    "y": 484.0784606933594
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "for",
+    "y": 491.80645751953125
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "detection",
+    "y": 491.80645751953125
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "of potentially",
+    "y": 491.80645751953125
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "potentially corrosive sulphur in",
+    "y": 496.03045654296875
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "corrosive sulphur in used and",
+    "y": 503.2964782714844
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "used and unused insulating oil",
+    "y": 507.9824523925781
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "unused insulating oil",
+    "y": 514.7864379882812
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "The Committee has reviewed the provisions of the following International Standards referred in this adopted standard and decided that they are acceptable for use in conjunction with this standard:",
+    "y": 545.9734497070312
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "International Standard",
+    "y": 578.6527709960938
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Title",
+    "y": 578.6527709960938
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "ASTM D1275",
+    "y": 603.4534301757812
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Standard test method for corrosive sulfur in electrical insulatingl",
+    "y": 603.4534301757812
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "iquids",
+    "y": 603.4534301757812
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Standard test method for determination of organic chloride",
+    "y": 620.6734619140625
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "content in",
+    "y": 620.6734619140625
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "ASTM D4929",
+    "y": 626.3734741210938
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "crude oil",
+    "y": 637.8934326171875
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "ASTM D7042",
+    "y": 660.9334106445312
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Standard test method for dynamic viscosity and density ofliquids by stabinger viscometer (and the calculation of kinematic viscosity)",
+    "y": 660.9334106445312
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "ASTM D7536",
+    "y": 695.3734741210938
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Standard test method for chlorine in aromatics by monochromatic\nWavelength Dispersive X-ray fluorescence",
+    "y": 695.3734741210938
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "spectrometry",
+    "y": 706.9234619140625
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "DIN 51353",
+    "y": 729.9634399414062
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Testing of insulating oils; detection of corrosive sulfur; Silver strip test",
+    "y": 729.9634399414062
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "as such,",
+    "y": 93.08692932128906
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "Only the English language text has been retained while adopting it in this Indian Standard, and",
+    "y": 93.08747863769531
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "the page numbers given here are not the same as in the IEC Publication.",
+    "y": 104.48695373535156
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "For the purpose of deciding whether a particular requirement of this standard is complied with",
+    "y": 127.52705383300781
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "the final",
+    "y": 127.52705383300781
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "value, observed or calculated expressing the result of a test or analysis shall be rounded",
+    "y": 139.0470733642578
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "off in accordance",
+    "y": 139.0470733642578
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "with IS 2 : 2022 ‘Rules for rounding of numerical values (second revision)’.",
+    "y": 148.80642700195312
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "The number of significant",
+    "y": 150.4469757080078
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "places retained in the rounded off value should be the same as that of the specified value in this standard.",
+    "y": 162.0829620361328
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "CONTENTS",
+    "y": 85.4967041015625
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "INTRODUCTION",
+    "y": 125.74348449707031
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": ".....................................................................................................................",
+    "y": 125.74348449707031
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Scope ..............................................................................................................................\nNormative references ......................................................................................................\nTerms and definitions ......................................................................................................\nIdentification and general delivery requirements ..............................................................\nSampling .........................................................................................................................\nTest methods",
+    "y": 142.18348693847656
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "...................................................................................................................3",
+    "y": 224.7434844970703
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.1",
+    "y": 241.18348693847656
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Appearance ............................................................................................................3",
+    "y": 241.18348693847656
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.2",
+    "y": 255.7034454345703
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Density ...................................................................................................................",
+    "y": 255.7034454345703
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.3",
+    "y": 270.2234802246094
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Kinematic viscosity .................................................................................................3",
+    "y": 270.2234802246094
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.4",
+    "y": 284.6234436035156
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Flash point",
+    "y": 284.6234436035156
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "..............................................................................................................3",
+    "y": 284.6234436035156
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.5",
+    "y": 299.1434631347656
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Pour point ...............................................................................................................",
+    "y": 299.1434631347656
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.6",
+    "y": 313.6634826660156
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Acidity .....................................................................................................................3",
+    "y": 313.6634826660156
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.7",
+    "y": 328.1834716796875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Chlorine content......................................................................................................4",
+    "y": 328.1834716796875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.8",
+    "y": 342.7034606933594
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Water content .........................................................................................................",
+    "y": 342.7034606933594
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.9",
+    "y": 357.2234802246094
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Corrosive and potentially corrosive sulphur",
+    "y": 357.2234802246094
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "..............................................................",
+    "y": 357.2234802246094
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.10",
+    "y": 371.62347412109375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Additives",
+    "y": 371.62347412109375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": ".................................................................................................................",
+    "y": 371.62347412109375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.11",
+    "y": 386.1434631347656
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Breakdown voltage .................................................................................................",
+    "y": 386.1434631347656
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.12",
+    "y": 400.6634826660156
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Dielectric dissipation factor and volume resistivity",
+    "y": 400.6634826660156
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "...................................................",
+    "y": 400.6634826660156
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.13",
+    "y": 415.1834716796875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Gassing tendency ....................................................................................................4",
+    "y": 415.1834716796875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.14",
+    "y": 429.7034606933594
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Polychlorinated biphenyl (PCBs) content..................................................................4\nSpecifications for capacitor and cable alkylbenzenes",
+    "y": 429.7034606933594
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "......................................................4",
+    "y": 444.2234802246094
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Specifications for capacitor alkyldiphenylethanes .............................................................4\nSpecifications for capacitor alkylnaphthalenes",
+    "y": 460.6634826660156
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "..................................................................5",
+    "y": 477.2234802246094
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Specifications for capacitor methylpolyarylmethanes ........................................................5\nAnnex A (informative) Test method for determination of chlorine content ................................\nA.1",
+    "y": 493.6634826660156
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Test method for determination of total chloride ........................................................9 A.1.1",
+    "y": 526.6634521484375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Reagents .........................................................................................................9",
+    "y": 541.1834106445312
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "A.1.2",
+    "y": 555.7034301757812
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Apparatus ........................................................................................................",
+    "y": 555.7034301757812
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "A.1.3",
+    "y": 570.1034545898438
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Procedure",
+    "y": 570.1034545898438
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "........................................................................................................9",
+    "y": 570.1034545898438
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "A.1.4",
+    "y": 584.6234741210938
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Calculation ....................................................................................................",
+    "y": 584.6234741210938
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "A.2",
+    "y": 599.1434326171875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Test method for determination of organic chloride",
+    "y": 599.1434326171875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": ".................................................",
+    "y": 599.1434326171875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Annex B (informative) IR spectra of typical synthetic aromatic hydrocarbons .......................\nB.1",
+    "y": 613.6634521484375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "IR spectra typical of the family of alkylbenzenes ...................................................",
+    "y": 630.1034545898438
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "B.2",
+    "y": 644.6234741210938
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Alkyldiphenylethanes ............................................................................................",
+    "y": 644.6234741210938
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "B.3",
+    "y": 659.1434326171875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Alkylnaphtalenes – typified by 1-methylnaphthalene .............................................13",
+    "y": 659.1434326171875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "B.4",
+    "y": 673.6634521484375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Methylpolyarylmethanes........................................................................................13",
+    "y": 673.6634521484375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Bibliography",
+    "y": 688.1834106445312
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "..........................................................................................................................",
+    "y": 688.1834106445312
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Figure B.1 – IR spectra of branched alkylbenzenes",
+    "y": 721.1864624023438
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "................................................................",
+    "y": 721.1864624023438
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Figure B.2 – IR spectra of linear alkylbenzenes ....................................................................\nFigure B.3 – IR spectrum of phenylxylylethane (PXE) ...........................................................\nFigure B.4 – IR spectrum of 1-methylnaphthalene",
+    "y": 737.6234741210938
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "..................................................................",
+    "y": 770.6234741210938
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Figure B.5 – IR spectrum of monobenzyltoluene (MBT)",
+    "y": 787.1834106445312
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "...........................................................",
+    "y": 787.1834106445312
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "Figure B.6 – IR spectrum of dibenzyltoluene (DBT)",
+    "y": 85.41944885253906
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "...............................................................",
+    "y": 85.41944885253906
+  },
+  {
+    "page": 8,
+    "type": "table",
+    "text": "[TABLE:T1] Table 1 – Specifications for capacitor and cable alkylbenzenes ...............................................",
+    "y": 129.55462646484375,
+    "bbox": [
+      0.0,
+      129.55462646484375,
+      595.3200073242188,
+      389.55462646484375
+    ],
+    "table_id": "T1",
+    "hit_id": "T1_P8",
+    "caption": "Table 1 – Specifications for capacitor and cable alkylbenzenes ..............................................."
+  },
+  {
+    "page": 8,
+    "type": "table",
+    "text": "[TABLE:T2] Table 2 – Specifications for capacitor alkyldiphenylethanes and alkylnaphthalenes ...............7",
+    "y": 145.99066162109375,
+    "bbox": [
+      0.0,
+      145.99066162109375,
+      595.3200073242188,
+      405.99066162109375
+    ],
+    "table_id": "T2",
+    "hit_id": "T2_P8",
+    "caption": "Table 2 – Specifications for capacitor alkyldiphenylethanes and alkylnaphthalenes ...............7"
+  },
+  {
+    "page": 8,
+    "type": "table",
+    "text": "[TABLE:T3] Table 3 – Specifications for capacitor methylpolyarylmethanes ................................................8",
+    "y": 162.5506591796875,
+    "bbox": [
+      0.0,
+      162.5506591796875,
+      595.3200073242188,
+      422.5506591796875
+    ],
+    "table_id": "T3",
+    "hit_id": "T3_P8",
+    "caption": "Table 3 – Specifications for capacitor methylpolyarylmethanes ................................................8"
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "INTRODUCTION",
+    "y": 85.4967041015625
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "WARNING – Health and safety",
+    "y": 114.22346496582031
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "This document does not purport to address all the safety problems associated with its use. It is the responsibility of the user of this document to establish appropriate health and safety\npractices and determine the applicability of regulatory limitations prior to use.",
+    "y": 140.62745666503906
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "The synthetic aromatic hydrocarbon insulating liquids which are the subject of this document should be handled with due regard to personal hygiene. Direct contact with the eyes can cause\nirritation. In the case of eye contact, irrigation with copious quantities of clean running water should be carried out and medical advice sought. Some of the tests specified in this document\ninvolve the use of processes that could lead to a hazardous situation. Attention is drawn to the relevant standard for guidance.",
+    "y": 190.07887268066406
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "WARNING – Environment",
+    "y": 274.2210388183594
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "This document is applicable to synthetic aromatic hydrocarbon insulating liquids, chemicals and used sample containers. The disposal of these items can be subject to regulatory requirements\nwith regard to their impact on the environment. Every precaution should be taken to prevent release of insulating liquids into the environment.",
+    "y": 300.6250305175781
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "Indian Standard",
+    "y": 62.3421630859375
+  },
+  {
+    "page": 11,
+    "type": "heading",
+    "text": "INSULATING LIQUIDS — UNUSED LIQUIDS BASED",
+    "y": 87.6776123046875
+  },
+  {
+    "page": 11,
+    "type": "heading",
+    "text": "ON SYNTHETIC AROMATIC HYDROCARBONS —",
+    "y": 106.87762451171875
+  },
+  {
+    "page": 11,
+    "type": "heading",
+    "text": "SPECIFICATION",
+    "y": 126.07763671875
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "Scope",
+    "y": 165.44578552246094
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "This document covers specifications and test methods for unused synthetic aromatic hydrocarbons intended for use as insulating liquid in cables and capacitors.",
+    "y": 192.9434356689453
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "Normative references",
+    "y": 236.1257781982422
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies.\nFor undated references, the latest edition of the referenced document (including any amendments) applies.",
+    "y": 263.6234436035156
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "IEC 60156, Insulating liquids – Determination of the breakdown voltage at power frequency – Test method",
+    "y": 324.5986328125
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "IEC 60247, Insulating liquids – Measurement of relative permittivity, dielectric dissipation factor (tanδ) and d.c. resistivity",
+    "y": 362.6458435058594
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "IEC 60475, Method of sampling insulating liquids",
+    "y": 400.6930236816406
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "IEC 60628, Gassing of insulating liquids under electrical stress and ionization",
+    "y": 427.21649169921875
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "IEC 60666, Detection and determination of specified additives in mineral insulating oils",
+    "y": 453.7399597167969
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "IEC 60814, Insulating liquids – Oil-impregnated paper and pressboard – Determination of water by automatic coulometric Karl Fischer titration",
+    "y": 480.1439208984375
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "IEC 61619, Insulating liquids – Contamination by polychlorinated biphenyls (PCBs) – Method of determination by capillary column gas chromatography",
+    "y": 518.1911010742188
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "IEC 61620, Insulating liquids – Determination of the dielectric dissipation factor by measurement of the conductance and capacitance – Test method",
+    "y": 556.1187133789062
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "IEC 62021 (all parts), Insulating liquids – Determination of acidity",
+    "y": 594.2854614257812
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "IEC 62535, Insulating liquids – Test method for detection potentially corrosive sulphur in used and unused insulating oil",
+    "y": 620.689453125
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "ISO 2592, Petroleum and related products – Determination of flash point – Cleveland open cup method\n(PMOC)",
+    "y": 658.6171264648438
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "ISO 3016, Petroleum and related products from natural or synthetic sources – Determination of pour point",
+    "y": 696.664306640625
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "ISO 3104, Petroleum products – Transparent and opaque liquids – Determination of kinematic viscosity and calculation of dynamic viscosity",
+    "y": 734.7115478515625
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "ISO 3675, Crude petroleum and liquid petroleum products – Laboratory determination of density\n– Hydrometer method",
+    "y": 772.6392211914062
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "ISO 9562, Water quality – Determination of adsorbable organically bound halogens (AOX)",
+    "y": 85.41926574707031
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "ISO 12185, Crude petroleum and petroleum products – Determination of density – Oscillating\nU-tube method",
+    "y": 111.82325744628906
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "ASTM D1275, Standard test method for corrosive sulfur in electrical insulating liquids",
+    "y": 149.99000549316406
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "ASTM D4929, Standard Test Method for Determination of Organic Chloride Content in Crude Oil",
+    "y": 176.27442932128906
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "ASTM D7042, Standard Test Method for Dynamic Viscosity and Density of Liquids by Stabinger\nViscometer (and the Calculation of Kinematic Viscosity)",
+    "y": 214.32167053222656
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "ASTM D7536, Standard Test Method for Chlorine in Aromatics by Monochromatic Wavelength\nDispersive X-ray Fluorescence Spectrometry",
+    "y": 252.36891174316406
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "DIN 51353, Testing of insulating oils; detection of corrosive sulfur; Silver strip test",
+    "y": 290.4161682128906
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "Terms and definitions",
+    "y": 321.9257507324219
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "For the purposes of this document, the following terms and definitions apply.",
+    "y": 349.5434875488281
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "ISO and IEC maintain terminology databases for use in standardization at the following addresses:",
+    "y": 375.94744873046875
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "• IEC Electropedia: available at https://www.electropedia.org/\n• ISO Online browsing platform: available at https://www.iso.org/obp",
+    "y": 408.7945556640625
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "3.1 alkylbenzenes\ninsulating liquids consisting of a benzene ring and an alkyl group where the alkyl group can be a straight chain or a branched-chain type",
+    "y": 448.3167724609375
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "Note 1 to entry: Examples of IR spectra are given in Annex B.",
+    "y": 509.3215637207031
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "3.2 alkyldiphenylethanes\ninsulating liquids consisting of diphenylethanes derivatives where the two aryl groups normally carry short alkyl groups",
+    "y": 528.4634399414062
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "Note 1 to entry: Examples of IR spectra are given in Annex B.",
+    "y": 589.6016235351562
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "3.3 alkylnaphthalenes\ninsulating liquids consisting of a naphthalene structure with substituent alkyl groups",
+    "y": 608.7434692382812
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "Note 1 to entry: Examples of IR spectra are given in Annex B.",
+    "y": 658.2416381835938
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "3.4 methylpolyarylmethanes\ninsulating liquids consisting of methylpolyarylm ethanes derivatives mainly based on a blend of mono/di-benzyl toluene (M/DBT)",
+    "y": 677.3834228515625
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "Note 1 to entry: Examples of IR spectra are given in Annex B.",
+    "y": 738.401611328125
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "Identification and general delivery requirements",
+    "y": 85.40574645996094
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "Identification and general delivery requirements are as follows:",
+    "y": 113.02345275878906
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "a) The synthetic aromatic hydrocarbons type of liquid is normally delivered in bulk, rail-tank cars, tank containers or packed in drums or intermediate bulk containers (IBC). These shall\nbe clean and suitable for this purpose to avoid any contamination. The supplier shall take all the precautions to ensure the delivery product will be in accordance with the requirements\nof this document.\nb) Drums and sample containers shall carry at least the following markings:\n– supplier's designation;\n– labelling in accordance with the Globally Harmonized System of Classification and\nLabelling of Chemicals (GHS);\n– liquid quantity.\nc) As agreed between the supplier and purchaser each liquid delivery shall be accompanied by a document specifying the supplier’s designation, labelling and compliance certificate. A\ndelivery shall be traceable to a manufactured batch.\nd) The supplier shall declare the generic type of all additives, and the concentrations in the case of antioxidants and passivators.",
+    "y": 134.5071563720703
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "Sampling",
+    "y": 352.0457458496094
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "Sampling shall be carried out in accordance with the procedure described in IEC 60475.",
+    "y": 379.6634826660156
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "Test methods",
+    "y": 411.20574951171875
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "6.1 Appearance",
+    "y": 438.823486328125
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "Appearance shall be evaluated by examining, in transmitted light, a representative sample of the liquid having a thickness of approximately 10 cm, at ambient temperature.",
+    "y": 460.18768310546875
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "6.2 Density",
+    "y": 498.3544006347656
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "Density shall be measured in accordance with ISO 12185 (reference method). ISO 3675 and\nASTM D7042 are acceptable.",
+    "y": 519.7185668945312
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "6.3 Kinematic viscosity",
+    "y": 557.8853149414062
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "Kinematic viscosity shall be measured according to ISO 3104 (reference method) or ASTM D7042.",
+    "y": 579.2494506835938
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "6.4 Flash point",
+    "y": 617.4161987304688
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "Flash point shall be determined according to ISO 2592.",
+    "y": 638.89990234375
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "6.5 Pour point",
+    "y": 665.4234008789062
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "Pour point shall be determined according to ISO 3016.",
+    "y": 686.9071044921875
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "6.6 Acidity",
+    "y": 713.4306030273438
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "Acidity shall be measured according to the IEC 62021 series. Any part of the IEC 62021 series (IEC 62021-1 or IEC 62021-2 or IEC 62021-3) can be used.",
+    "y": 734.7947998046875
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "6.7 Chlorine content",
+    "y": 85.41926574707031
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "Chlorine content shall be determined using a test method according to ISO 9562 for the determination of adsorbable organically bound halogens (AOX) or ASTM D4929 for the\ndetermination of organic chloride content in crude oil or ASTM D7536 for the determination of chlorine in aromatics by monochromatic wavelength dispersive X-ray fluorescence\nspectrometry. The method described in Annex A can also be used.",
+    "y": 106.78346252441406
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "6.8 Water content",
+    "y": 179.40187072753906
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "Water content shall be determined according to IEC 60814.",
+    "y": 201.0050811767578
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "6.9 Corrosive and potentially corrosive sulphur",
+    "y": 227.40907287597656
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "Corrosive and potentially corrosive sulphur shall be determined according to DIN 51353 and\nASTM D1275 and IEC 62535.",
+    "y": 248.8927764892578
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "6.10 Additives",
+    "y": 286.9400329589844
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "The chemical family of all additives shall be declared in product data sheets and certificates of compliance. For antioxidant additives and passivators (IEC 60666), their concentrations shall\nalso be stated.",
+    "y": 308.3042297363281
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "6.11 Breakdown voltage",
+    "y": 357.9946594238281
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "Breakdown voltage shall be determined according to IEC 60156.",
+    "y": 379.4783935546875
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "6.12 Dielectric dissipation factor and volume resistivity",
+    "y": 406.0018615722656
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "The properties shall be determined according to IEC 60247 (reference method) or IEC 61620.",
+    "y": 427.485595703125
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "6.13 Gassing tendency",
+    "y": 454.0090637207031
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "The gassing shall be determined by Method A of IEC 60628.",
+    "y": 475.4927978515625
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "NOTE Synthetic aromatic hydrocarbon compositions have been used as additive to improve the gassing tendency of insulating liquids.",
+    "y": 501.7615661621094
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "6.14 Polychlorinated biphenyl (PCBs) content",
+    "y": 530.263427734375
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "Synthetic aromatic hydrocarbons shall be free from PCBs. The reference test method is IEC\n61619.",
+    "y": 551.7471313476562
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "NOTE Acceptable limits of total or individual PCBs are specified in national and local regulations. Further European specifications are described in Directive 96/59/EC and UN Guidelines for the identification of PCBs and materials containing PCBs.",
+    "y": 589.6016235351562
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "Specifications for capacitor and cable alkylbenzenes",
+    "y": 632.4857788085938
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "When tested in accordance with the methods specified in Clause 6, the properties of insulating liquids based on alkylbenzenes which are intended for use as impregnant in capacitors and\nhollow-core cables shall meet the requirements and specifications given in Table 1.",
+    "y": 659.9834594726562
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "Specifications for capacitor alkyldiphenylethanes",
+    "y": 714.5657958984375
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "When tested in accordance with the methods specified in Clause 6, the properties of insulating liquids based on alkyldiphenylethanes used as impregnant in capacitors shall meet the\nrequirements and specifications given in Table 2.",
+    "y": 742.0634155273438
+  },
+  {
+    "page": 15,
+    "type": "paragraph",
+    "text": "Specifications for capacitor alkylnaphthalenes",
+    "y": 85.40574645996094
+  },
+  {
+    "page": 15,
+    "type": "paragraph",
+    "text": "When tested in accordance with the methods specified in Clause 6 the properties of insulating liquids based on alkylnaphthalenes used as impregnant in capacitors shall meet the\nrequirements and specifications given in Table 2.",
+    "y": 112.90345764160156
+  },
+  {
+    "page": 15,
+    "type": "paragraph",
+    "text": "10 Specifications for capacitor methylpolyarylmethanes",
+    "y": 167.6057586669922
+  },
+  {
+    "page": 15,
+    "type": "paragraph",
+    "text": "When tested in accordance with the methods specified in Clause 6, the properties of insulating liquids based on methylpolyarylmethanes used as impregnant in capacitors shall meet the\nrequirements and specifications given in Table 3.",
+    "y": 195.1034698486328
+  },
+  {
+    "page": 16,
+    "type": "paragraph",
+    "text": "Table 1 – Specifications for capacitor and cable alkylbenzenes",
+    "y": 85.41926574707031
+  },
+  {
+    "page": 16,
+    "type": "table",
+    "text": "[TABLE:T1] Table 1 – Specifications for capacitor and cable alkylbenzenes",
+    "y": 106.5589599609375,
+    "bbox": [
+      70.68000030517578,
+      106.5589599609375,
+      524.6399536132812,
+      779.1599731445312
+    ],
+    "table_id": "T1",
+    "hit_id": "T1_P16",
+    "caption": "Table 1 – Specifications for capacitor and cable alkylbenzenes"
+  },
+  {
+    "page": 17,
+    "type": "paragraph",
+    "text": "Table 2 – Specifications for capacitor alkyldiphenylethanes and alkylnaphthalenes",
+    "y": 85.41926574707031
+  },
+  {
+    "page": 17,
+    "type": "table",
+    "text": "[TABLE:T2] Table 2 – Specifications for capacitor alkyldiphenylethanes and alkylnaphthalenes",
+    "y": 106.5589599609375,
+    "bbox": [
+      70.80000305175781,
+      106.5589599609375,
+      524.4010009765625,
+      700.0799560546875
+    ],
+    "table_id": "T2",
+    "hit_id": "T2_P17",
+    "caption": "Table 2 – Specifications for capacitor alkyldiphenylethanes and alkylnaphthalenes"
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Table 3 – Specifications for capacitor methylpolyarylmethanes",
+    "y": 85.41926574707031
+  },
+  {
+    "page": 18,
+    "type": "table",
+    "text": "[TABLE:T3] Table 3 – Specifications for capacitor methylpolyarylmethanes",
+    "y": 106.5589599609375,
+    "bbox": [
+      70.80000305175781,
+      106.5589599609375,
+      524.4010009765625,
+      657.239990234375
+    ],
+    "table_id": "T3",
+    "hit_id": "T3_P18",
+    "caption": "Table 3 – Specifications for capacitor methylpolyarylmethanes"
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "Annex A (informative)",
+    "y": 85.376708984375
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "Test method for determination of chlorine content",
+    "y": 127.4967041015625
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "A.1 Test method for determination of total chloride",
+    "y": 161.4857635498047
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "A.1.1",
+    "y": 189.1034698486328
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "Reagents",
+    "y": 189.1034698486328
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "– standard solution of nitric acid (HNO3), analytical grade. Dilute 190 g of concentrated nitric acid to 1 dm3 with distilled water;\n– isopropyl alcohol, analytical grade;\nsilver nitrate (AgNO3), analytical grade. Standard solution (0,025 mol/dm3); –",
+    "y": 205.5474395751953
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "0,4247 g of silver nitrate weighed accurately. Transfer it to a 1 l volumetric flask and add distilled water to dissolve. Add 3 cm3 of concentrated nitric acid (density 1,42 kg/dm3) and\nthen add distilled water to the 1 dm3 mark of the volumetric flask. Standardize this solution against a pure chloride standard. Check the solution at least monthly to ensure a constant\nreagent. Dry the silver nitrate overnight in a desiccator before making up the solution. Both the solid material and the solution shall be protected from light by storage in brown\nglassware in the dark.\nsodium diphenyl solution (C6H5C6H4Na). Organic halogen reagent: 30 cm3 of this reagent – are normally needed to give excess reagent. The preparation of sodium diphenyl solution is\ndescribed in 'McCoy – The Inorganic Analysis of Petroleum, Chemical Publishing Co. Inc., 212 Fifth Avenue, New York'.",
+    "y": 273.9473571777344
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "NOTE A sodium chloride crystal as used in infrared spectrometer cells is a suitable chloride standard.",
+    "y": 421.361572265625
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "A.1.2",
+    "y": 440.62347412109375
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "Apparatus separatory funnel, 250 cm3; –\n– potentiometric titration apparatus;\n– electrodes: silver and glass electrode combination is preferred. A silver electrode with a mercurous sulphate reference electrode is an acceptable alternative;\nmicro-burette, 5 cm3 with 0,01 cm3 divisions. –",
+    "y": 440.62347412109375
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "A.1.3",
+    "y": 541.9071655273438
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "Procedure",
+    "y": 541.9071655273438
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "Dissolve 35,5 g ± 0,1 g of the liquid under test in 25 cm3 toluene in a 150 cm3 beaker by stirring with a small glass rod. Transfer the solution to a separatory funnel. Rinse the beaker several\ntimes with a total of 25 cm3 toluene and add the rinses to the funnel.",
+    "y": 563.2015991210938
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "Add an excess (approximately 30 cm3 is usually sufficient) of sodium diphenyl solution to the contents of the separatory funnel. The excess is indicated by a colour change of blue or green.\nStopper the vessel and gently shake to thoroughly mix the solution, venting occasionally to release the excess pressure build-up.",
+    "y": 614.9215698242188
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "Allow the blue-green mixture to stand 5 min to ensure complete reaction. Remove stopper, add 2 cm3 of isopropyl alcohol, and swirl with stopper removed until excess reagent is destroyed.",
+    "y": 677.1585693359375
+  },
+  {
+    "page": 19,
+    "type": "paragraph",
+    "text": "Add slowly 50 cm3 of the nitric acid solution. Ensure that the organic and aqueous phases are in intimate and uniform contact by gentle swirling and rocking for 5 min. Loosen the stopper\noccasionally to release slight pressure. Drain the aqueous phase into a beaker. Extract the organic phase twice more with 50 cm3 portions of nitric acid solution. Drain the aqueous phases\ninto the beaker containing the first extract.",
+    "y": 716.2015991210938
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "Place the beaker containing the aqueous phase on the titration stand and insert the electrode system. Start the stirrer and record the initial value of potential or pH. Titrate slowly with AgNO3\nsolution (0,025 mol/dm3), recording readings after the addition of each drop of AgNO3 solution.",
+    "y": 85.29975891113281
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "Continue titrating until the point of maximum change in potential or pH scale reading is reached.\nPlot the volume of silver nitrate as abscissa and voltage or pH reading as ordinates. The end- point is selected at the point of inflection of the curve.",
+    "y": 141.10731506347656
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "Titrate the same volume of solvent without the sample, as a blank.",
+    "y": 190.6782989501953
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "A.1.4",
+    "y": 217.20179748535156
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "Calculation",
+    "y": 217.20179748535156
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "Calculate the amount of total chlorine as follows:",
+    "y": 238.6855010986328
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "Total chlorine (mg/kg) = [(A − B) N/m] 35,5 × 103",
+    "y": 265.1215515136719
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "where",
+    "y": 292.9069519042969
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "is the number of cubic centimetres of AgNO3 solution required for titration of the",
+    "y": 314.3834533691406
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "A",
+    "y": 314.53167724609375
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "sample;\nis the number of cubic centimetres of AgNO3 solution required for titration of the blank;",
+    "y": 328.42706298828125
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "B",
+    "y": 345.0120544433594
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "is the molarity of the AgNO3 solution;",
+    "y": 363.9434814453125
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "N",
+    "y": 364.0878601074219
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "is the mass in grams of sample used;",
+    "y": 383.02685546875
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "35,5",
+    "y": 399.59033203125
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "is the atomic mass of chlorine.",
+    "y": 399.59033203125
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "A.2 Test method for determination of organic chloride",
+    "y": 426.20574951171875
+  },
+  {
+    "page": 20,
+    "type": "paragraph",
+    "text": "This test method is based on UOP 779/08.",
+    "y": 453.823486328125
+  },
+  {
+    "page": 21,
+    "type": "paragraph",
+    "text": "Annex B (informative)",
+    "y": 85.376708984375
+  },
+  {
+    "page": 21,
+    "type": "paragraph",
+    "text": "IR spectra of typical synthetic aromatic hydrocarbons",
+    "y": 127.4967041015625
+  },
+  {
+    "page": 21,
+    "type": "paragraph",
+    "text": "NOTE All IR spectra conditions are: KBr cells between wavelength 400 cm−1 to 4 000 cm−1.",
+    "y": 156.328369140625
+  },
+  {
+    "page": 21,
+    "type": "paragraph",
+    "text": "B.1 IR spectra typical of the family of alkylbenzenes",
+    "y": 181.7657928466797
+  },
+  {
+    "page": 21,
+    "type": "paragraph",
+    "text": "See Figure B.1 and Figure B.2.",
+    "y": 209.38343811035156
+  },
+  {
+    "page": 21,
+    "type": "paragraph",
+    "text": "Figure B.1 – IR spectra of branched alkylbenzenes",
+    "y": 510.1034851074219
+  },
+  {
+    "page": 22,
+    "type": "paragraph",
+    "text": "Figure B.2 – IR spectra of linear alkylbenzenes",
+    "y": 340.4251708984375
+  },
+  {
+    "page": 22,
+    "type": "paragraph",
+    "text": "NOTE The two types of alkylbenzene shown in Figure B.1 and Figure B.2 can be distinguished by infrared spectrophotometric analysis. The straight-chain type shows a single absorption peak in the region 1 360 cm−1 to 1 380 cm−1 and the branched-chain type shows a double peak in that region.",
+    "y": 366.7615661621094
+  },
+  {
+    "page": 22,
+    "type": "paragraph",
+    "text": "B.2 Alkyldiphenylethanes",
+    "y": 411.8057556152344
+  },
+  {
+    "page": 22,
+    "type": "paragraph",
+    "text": "See Figure B.3.",
+    "y": 439.4234619140625
+  },
+  {
+    "page": 22,
+    "type": "paragraph",
+    "text": "Figure B.3 – IR spectrum of phenylxylylethane (PXE)",
+    "y": 721.4208984375
+  },
+  {
+    "page": 22,
+    "type": "paragraph",
+    "text": "NOTE Phenylxylylethane (PXE) is characterized by infrared absorption bands at 3 070 cm−1, 1 606 cm−1 and 705 cm−1.",
+    "y": 747.6883544921875
+  },
+  {
+    "page": 23,
+    "type": "paragraph",
+    "text": "B.3 Alkylnaphtalenes – typified by 1-methylnaphthalene",
+    "y": 85.40574645996094
+  },
+  {
+    "page": 23,
+    "type": "paragraph",
+    "text": "See Figure B.4.",
+    "y": 113.02345275878906
+  },
+  {
+    "page": 23,
+    "type": "paragraph",
+    "text": "Figure B.4 – IR spectrum of 1-methylnaphthalene",
+    "y": 411.5844421386719
+  },
+  {
+    "page": 23,
+    "type": "paragraph",
+    "text": "B.4 Methylpolyarylmethanes",
+    "y": 443.1257629394531
+  },
+  {
+    "page": 23,
+    "type": "paragraph",
+    "text": "See Figure B.5 and Figure B.6.",
+    "y": 470.74346923828125
+  },
+  {
+    "page": 23,
+    "type": "paragraph",
+    "text": "Figure B.5 – IR spectrum of monobenzyltoluene (MBT)",
+    "y": 752.38232421875
+  },
+  {
+    "page": 23,
+    "type": "paragraph",
+    "text": "NOTE Methylpolyarylmethanes are characterized by infrared absorption bands at 3 025 cm−1, 1 606 cm−1 and 705 cm−1.",
+    "y": 778.768310546875
+  },
+  {
+    "page": 24,
+    "type": "paragraph",
+    "text": "Figure B.6 – IR spectrum of dibenzyltoluene (DBT)",
+    "y": 344.0206604003906
+  },
+  {
+    "page": 25,
+    "type": "paragraph",
+    "text": "Bibliography",
+    "y": 85.4967041015625
+  },
+  {
+    "page": 25,
+    "type": "paragraph",
+    "text": "Globally Harmonized System of Classification and Labelling of Chemicals (GHS), available at https://unece.org/about-ghs",
+    "y": 114.10346984863281
+  },
+  {
+    "page": 25,
+    "type": "paragraph",
+    "text": "Council Directive 96/59/EC on the disposal of polychlorinated biphenyls and polychlorinated terphenyls (PCB/PCT), available at https://eur-lex.europa.eu/eli/dir/1996/59/oj",
+    "y": 152.15065002441406
+  },
+  {
+    "page": 25,
+    "type": "paragraph",
+    "text": "UN Guidelines for the identification of PCBs and materials containing PCBs, available at https://wedocs.unep.org/handle/20.500.11822/8221",
+    "y": 190.07838439941406
+  },
+  {
+    "page": 25,
+    "type": "paragraph",
+    "text": "McCOY. The Inorganic Analysis of Petroleum, Chemical Publishing Co. Inc., 212 Fifth Avenue, New York",
+    "y": 228.12562561035156
+  },
+  {
+    "page": 25,
+    "type": "paragraph",
+    "text": "UOP 779/08, Chloride in Petroleum Distillates by Microcoulometry",
+    "y": 266.2923889160156
+  },
+  {
+    "page": 25,
+    "type": "paragraph",
+    "text": "____________",
+    "y": 319.2196960449219
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Bureau of Indian Standards",
+    "y": 63.88172912597656
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "BIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to\nconnected matters in the country.",
+    "y": 85.0521011352539
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Copyright",
+    "y": 128.82179260253906
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "BIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the\nstandard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.",
+    "y": 149.97207641601562
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Review of Indian Standards",
+    "y": 205.3817901611328
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Amendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are\nneeded; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website-\nwww.bis.gov.in or www.standardsbis.in.",
+    "y": 226.53207397460938
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "This Indian Standard has been developed from Doc No.: ETD 03 (22410).",
+    "y": 291.1221008300781
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Amendments Issued Since Publication",
+    "y": 324.36199951171875
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Amend No.",
+    "y": 350.3717346191406
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Date of Issue",
+    "y": 350.3717346191406
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Text Affected",
+    "y": 350.3717346191406
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "BUREAU OF INDIAN STANDARDS",
+    "y": 476.1517333984375
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Headquarters:",
+    "y": 495.35174560546875
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Manak Bhavan, 9 Bahadur Shah Zafar Marg, New Delhi 110002\nTelephones: 2323 0131, 2323 3375, 2323 9402",
+    "y": 513.3821411132812
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Website: www.bis.gov.in",
+    "y": 524.9021606445312
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Regional Offices:",
+    "y": 543.3517456054688
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Telephones",
+    "y": 544.2780151367188
+  },
+  {
+    "page": 28,
+    "type": "heading",
+    "text": "",
+    "y": 553.3920288085938
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Central",
+    "y": 561.5021362304688
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": ": 601/A, Konnectus Tower -1, 6th Floor,",
+    "y": 561.5021362304688
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "2323 7617",
+    "y": 561.5021362304688
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "DMRC Building, Bhavbhuti Marg, New Delhi 110002",
+    "y": 572.9021606445312
+  },
+  {
+    "page": 28,
+    "type": "heading",
+    "text": "",
+    "y": 599.1420288085938
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "2367 0012",
+    "y": 602.7821044921875
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Eastern",
+    "y": 602.7821655273438
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": ": 8th Floor, Plot No 7/7 & 7/8, CP Block, Sector V,",
+    "y": 602.7821655273438
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Salt Lake, Kolkata, West Bengal 700091",
+    "y": 614.2120971679688
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "2320 9474",
+    "y": 614.2120971679688
+  },
+  {
+    "page": 28,
+    "type": "heading",
+    "text": "",
+    "y": 624.9420166015625
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Northern : Plot No. 4-A, Sector 27-B, Madhya Marg,",
+    "y": 632.5721435546875
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "265 9930",
+    "y": 632.5721435546875
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Chandigarh 160019",
+    "y": 643.9721069335938
+  },
+  {
+    "page": 28,
+    "type": "heading",
+    "text": "",
+    "y": 669.4620361328125
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Southern : C.I.T. Campus, IV Cross Road, Taramani, Chennai 600113",
+    "y": 673.8521118164062
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "2254 1442 2254 1216",
+    "y": 673.8521118164062
+  },
+  {
+    "page": 28,
+    "type": "heading",
+    "text": "",
+    "y": 695.7420043945312
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Western: Plot No. E-9, Road No.-8, MIDC, Andheri",
+    "y": 703.6121215820312
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "2821 8093",
+    "y": 703.6121215820312
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "(East), Mumbai 400093",
+    "y": 715.0121459960938
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "Branches : AHMEDABAD. BENGALURU. BHOPAL. BHUBANESHWAR. CHANDIGARH. CHENNAI.",
+    "y": 744.8881225585938
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "COIMBATORE. DEHRADUN. DELHI. FARIDABAD. GHAZIABAD. GUWAHATI.\nHIMACHAL PRADESH. HUBLI. HYDERABAD.",
+    "y": 756.2881469726562
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "JAIPUR.",
+    "y": 767.80810546875
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "JAMMU & KASHMIR.",
+    "y": 767.80810546875
+  },
+  {
+    "page": 28,
+    "type": "paragraph",
+    "text": "JAMSHEDPUR. KOCHI. KOLKATA. LUCKNOW. MADURAI. MUMBAI. NAGPUR.\nNOIDA. PANIPAT. PATNA. PUNE. RAIPUR. RAJKOT. SURAT. VISAKHAPATNAM.",
+    "y": 779.328125
+  }
+]

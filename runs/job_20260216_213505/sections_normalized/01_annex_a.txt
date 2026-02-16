@@ -1,0 +1,20 @@
+Annex A (informative)
+
+Example of respirometric system based on CO2 measurement
+
+The measurement of the evolved CO2 can be obtained by trapping the evolved CO2 in a closed system and then by quantifying it by suitable titration systems. Microorganisms in the vessel consume the
+oxygen and form CO2. This is absorbed by a CO2 absorber (generally NaOH) that can then be titrated to determine the amount of the absorbed CO2.
+
+In a typical case, a 250 millilitres vessel is used. The sediment occupies about 20 millilitres, the seawater 70 millilitres and the headspace 160 millilitres. The O2 present in air at 1 atm and 28 degree celsius and a relative humidity of 100 % is about
+0.261 milligrams/ml. This means that the O2 available at the beginning is 0.261 milligrams/ml × 160 millilitres = 41.76 milligrams (1.305 mmol). The amount dissolved in the seawater can be neglected. This amount of O2 is sufficient
+to oxidize to CO2 and H2O an amount of biodegradable organic carbon equal to 15.66 milligrams and producing 1.305 × 44 = 57.42 milligrams of CO2.
+
+The system is opened in order to refresh the headspace when the O2 concentration reaches 25 % of the original oxygen concentration.
+
+Key sediment
+sample cover slip
+liquid medium container for the CO2 absorber
+
+Figure A.1 - Test flask﻿
+
+﻿

@@ -1,0 +1,2474 @@
+[
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "भारतीय मानक",
+    "y": 40.13752365112305
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "Indian Standard",
+    "y": 62.595054626464844
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "प्लास्टिक — समुद्री जल/तलछट",
+    "y": 131.03477478027344
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "इंटरफ",
+    "y": 157.55479431152344
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "ेस में गैर-फ्लोटटंग प्लास्टिक",
+    "y": 157.55479431152344
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "सामग्री क",
+    "y": 184.19480895996094
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "े एरोटिक िायोडीग्रेडेशन का",
+    "y": 184.19480895996094
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "टनर्ाारण — उटिकटसत कािान",
+    "y": 210.8647918701172
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "डाइऑक्साइड की टिश्लेषण पद्धटत",
+    "y": 237.3848114013672
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "िारा",
+    "y": 264.0247802734375
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "Plastics — Determination of Aerobic",
+    "y": 324.469970703125
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "Biodegradation of Non-Floating",
+    "y": 348.3499755859375
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "Plastic Materials in a",
+    "y": 372.1299743652344
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "Seawater/Sediment Interface —",
+    "y": 395.8899841308594
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "Method by Analysis of Evolved",
+    "y": 419.7699890136719
+  },
+  {
+    "page": 1,
+    "type": "heading",
+    "text": "Carbon Dioxide",
+    "y": 443.5299987792969
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": "ICS 83.080.01",
+    "y": 563.9199829101562
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": " BIS 2022",
+    "y": 647.679931640625
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": "भारतीय मानक ब्यूरो",
+    "y": 696.4907836914062
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": "BUREAU OF INDIAN STANDARDS\nमानक भवन, 9 बहादुर शाह ज़फर मार्ग, नई ददल्ली- 110002\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG",
+    "y": 710.699951171875
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": "NEW DELHI - 110002",
+    "y": 749.7330322265625
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": "www.bis.gov.inwww.standardsbis.in",
+    "y": 761.052001953125
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": "November 2022",
+    "y": 787.3199462890625
+  },
+  {
+    "page": 1,
+    "type": "paragraph",
+    "text": "Price Group",
+    "y": 787.3199462890625
+  },
+  {
+    "page": 2,
+    "type": "paragraph",
+    "text": "Methods of Sampling and Test for Plastics Sectional Committee, PCD 27",
+    "y": 70.5320816040039
+  },
+  {
+    "page": 2,
+    "type": "paragraph",
+    "text": "NATIONAL FOREWORD",
+    "y": 143.25204467773438
+  },
+  {
+    "page": 2,
+    "type": "paragraph",
+    "text": "This Indian Standard which is identical withISO 19679 : 2020 ‘Plastics — 'Determination of aerobic biodegradation of non-floating plastic materials in a seawater/sediment interface — Method by analysis of evolved\ncarbon dioxide' issued by the International Organization for Standardization (ISO) was adopted by the Bureau of\nIndian Standards on the recommendation of the Methods of Sampling and Test for Plastics Sectional Committee and approval of the Petroleum, Coal and Related Products Division Council.",
+    "y": 166.41201782226562
+  },
+  {
+    "page": 2,
+    "type": "paragraph",
+    "text": "The text of ISO Standard has been approved as suitable for publication as an Indian Standard without deviations.\nCertain conventions are, however, not identical to those used in Indian Standards. Attention is particularly drawn to the following:",
+    "y": 241.28396606445312
+  },
+  {
+    "page": 2,
+    "type": "paragraph",
+    "text": "Wherever the words ‘International Standard’ appear referring to this standard, they should be read as ‘Indian\na) Standard’.\nb) Comma (,) has been used as a decimal marker while in Indian Standards, the current practice is to use a point (.) as the decimal marker.",
+    "y": 291.7701110839844
+  },
+  {
+    "page": 2,
+    "type": "paragraph",
+    "text": "In reporting the result of a test or analysis made in accordance with this standard, if the final value, observed or calculated, is to be rounded off, it shall be done in accordance with IS 2 : 2022 ‘Rules for rounding off numerical\nvalues (second revision)’.",
+    "y": 356.1058349609375
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Page",
+    "y": 99.4722900390625
+  },
+  {
+    "page": 3,
+    "type": "heading",
+    "text": "Contents",
+    "y": 99.51568603515625
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Introduction",
+    "y": 133.931884765625
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "................................................................................................................................................................................................................................iv\nScope..................................................................................................................................................................................................................................1\nNormative references.......................................................................................................................................................................................1\nTerms and definitions......................................................................................................................................................................................1\nPrinciple.........................................................................................................................................................................................................................2\nTest environment..................................................................................................................................................................................................2\nReagents.........................................................................................................................................................................................................................2 Apparatus.",
+    "y": 133.931884765625
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": ".....................................................................................................................................................................................................................3",
+    "y": 258.32159423828125
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Procedure.....................................................................................................................................................................................................................3 8.1 Test material.............................................................................................................................................................................................. 3\n8.2 Reference material.",
+    "y": 276.09088134765625
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "............................................................................................................................................................................... 4",
+    "y": 300.2908935546875
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "8.3 Preparation of the sediment.",
+    "y": 312.390869140625
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "........................................................................................................................................................ 4",
+    "y": 312.390869140625
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "8.4 Test setup.",
+    "y": 324.4908752441406
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "..................................................................................................................................................................................................... 4",
+    "y": 324.4908752441406
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "8.5 Pre-conditioning phase.",
+    "y": 336.59088134765625
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": ".................................................................................................................................................................... 4",
+    "y": 336.59088134765625
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "8.6 Start of the test.",
+    "y": 348.69085693359375
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "........................................................................................................................................................................................ 5",
+    "y": 348.69085693359375
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "8.7 Carbon dioxide measurement.",
+    "y": 360.7908630371094
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": ".................................................................................................................................................... 5",
+    "y": 360.7908630371094
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "8.8 End of the test........................................................................................................................................................................................... 6\nCalculation and expression of results.",
+    "y": 372.890869140625
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": ".............................................................................................................................................6",
+    "y": 390.66015625
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "9.1 Calculation................................................................................................................................................................................................... 6 9.1.1",
+    "y": 402.7601623535156
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Amount of CO2 produced.",
+    "y": 414.86016845703125
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": ".......................................................................................................................................... 6",
+    "y": 414.86016845703125
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "9.1.2",
+    "y": 426.9601745605469
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Percentage of biodegradation............................................................................................................................... 8",
+    "y": 426.9601745605469
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "9.2 Visual inspection.................................................................................................................................................................................... 8 9.3 Expression and interpretation of results.......................................................................................................................... 8\nValidity of results..................................................................................................................................................................................................9 Test report.",
+    "y": 439.0601806640625
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "...................................................................................................................................................................................................................9",
+    "y": 486.6987609863281
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Annex A (informative) Example of respirometric system based on CO2 measurement.",
+    "y": 504.46807861328125
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "...............................11",
+    "y": 504.46807861328125
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "Bibliography..............................................................................................................................................................................................................................12",
+    "y": 522.2330932617188
+  },
+  {
+    "page": 3,
+    "type": "paragraph",
+    "text": "﻿﻿..",
+    "y": 804.0415649414062
+  },
+  {
+    "page": 4,
+    "type": "heading",
+    "text": "Introduction",
+    "y": 82.28179931640625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "Products made with biodegradable plastics are designed to be recovered by means of organic recycling in composting plants or in anaerobic digesters. The uncontrolled dispersion of biodegradable plastics\nin natural environments is not desirable. The biodegradability of products cannot be considered as an excuse to spread wastes that should be recovered and recycled. However, test methods to measure rate\nand level of biodegradation in natural environments (such as soil or the marine environment) are of interest in order to better characterize the behaviour of plastics in these very particular environments.\nAs a matter of fact, some plastics are used in products that are applied in the sea (e.g. fishing gear) and sometimes they can get lost or put willingly in the marine environment. The characterization of\nbiodegradable plastic materials can be enlarged by applying specific test methods that enable the quantitative assessment of biodegradation of plastics exposed to marine sediment and seawater. Plastic\nproducts are directly littered or arrive with fresh waters in the pelagic zone (free water). From there, and depending on density, tides, currents, and marine fouling plastics can sink to the sublittoral, and\nreach the seafloor surface. Many biodegradable plastics have a density higher than 1 and therefore tend to sink. The sediment passes from aerobic to anoxic and finally anaerobic conditions going from the\nsurface (the interface with seawater) into deeper layers, displaying a very steep oxygen gradient.﻿",
+    "y": 116.14068603515625
+  },
+  {
+    "page": 4,
+    "type": "paragraph",
+    "text": "﻿",
+    "y": 804.0415649414062
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Indian Standard",
+    "y": 75.09918212890625
+  },
+  {
+    "page": 5,
+    "type": "heading",
+    "text": "PLASTICS — DETERMINATION OF AEROBIC",
+    "y": 97.878662109375
+  },
+  {
+    "page": 5,
+    "type": "heading",
+    "text": "BIODEGRADATION OF NON-FLOATING PLASTIC",
+    "y": 117.07867431640625
+  },
+  {
+    "page": 5,
+    "type": "heading",
+    "text": "MATERIALS IN A SEAWATER/SEDIMENT INTERFACE —",
+    "y": 136.2786865234375
+  },
+  {
+    "page": 5,
+    "type": "heading",
+    "text": "METHOD BY ANALYSIS OF EVOLVED CARBON DIOXIDE",
+    "y": 155.47869873046875
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "1 Scope",
+    "y": 194.9722900390625
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "This document specifies a test method to determine the degree and rate of aerobic biodegradation of plastic materials when settled on marine sandy sediment at the interface between seawater and the\nseafloor, by measuring the evolved carbon dioxide (CO2). This test method can also be applied to other solid materials.",
+    "y": 218.89398193359375
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "This test method is a simulation under laboratory conditions of the habitat found in different seawater/ sediment-areas in the sea, e.g. in a benthic zone where sunlight reaches the ocean floor (photic zone)\nthat, in marine science, is called sublittoral zone",
+    "y": 276.5009765625
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "The determination of biodegradation of plastic materials and other solid materials buried in marine sediment is outside the scope of this document.",
+    "y": 322.0189208984375
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "NOTE",
+    "y": 356.1323547363281
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Measurement of aerobic biodegradation can also be obtained by monitoring the oxygen consumption,",
+    "y": 356.1323547363281
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "as described in ISO 18830.",
+    "y": 367.1324462890625
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "The conditions described in this document do not always correspond to the optimum conditions for the maximum degree of biodegradation to occur.",
+    "y": 387.4947509765625
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "2 Normative references",
+    "y": 431.1282653808594
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "There are no normative references in this document.",
+    "y": 455.0499572753906
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "3 Terms and definitions",
+    "y": 486.5833740234375
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "For the purposes of this document the following terms and definitions apply.",
+    "y": 510.50506591796875
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "ISO and IEC maintain terminological databases for use in standardization at the following addresses:",
+    "y": 531.8230590820312
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "— ISO Online browsing platform: available at https://​",
+    "y": 553.1302490234375
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "www​ .iso​ .org/​ obp",
+    "y": 553.1302490234375
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "— IEC Electropedia: available at http://​",
+    "y": 574.44287109375
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "www​ .electropedia​",
+    "y": 574.44287109375
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": ".org/​",
+    "y": 574.44287109375
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "3.1 theoretical amount of evolved carbon dioxide\nThCO2 maximum theoretical amount of carbon dioxide evolved after completely oxidising a chemical compound,\ncalculated from the molecular formula or from determination of total organic carbon (TOC) (3.2)",
+    "y": 595.7554931640625
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Note 1 to entry: It is expressed as mg of carbon dioxide evolved per mg or g of test compound.",
+    "y": 666.1686401367188
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "3.2 total organic carbon\nTOC amount of carbon bound in an organic compound",
+    "y": 686.5309448242188
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "Note 1 to entry: Total organic carbon is expressed as mg of carbon per 100 mg of the compound.",
+    "y": 744.84423828125
+  },
+  {
+    "page": 5,
+    "type": "paragraph",
+    "text": "﻿",
+    "y": 804.0415649414062
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "3.3 dissolved organic carbon\nDOC part of the organic carbon in water which cannot be removed by specified phase separation methods,\nfor example by centrifugation at 40 000 ms−2 for 15 min or by membranes with pores of 0,2 µm to 0,45 µm diameter",
+    "y": 83.1436767578125
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "3.4 pre-conditioning phase\npre-incubation of an inoculum under the conditions of the subsequent test in the absence of test material, with the aim to consume potential organic matter present in excess that could disturb biodegradation\nmeasurement and to improve the acclimatization of the microorganisms to the test conditions",
+    "y": 164.95623779296875
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "4 Principle",
+    "y": 244.8897705078125
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "This test method is based on the determination of evolved CO2 and derives from ISO 14852. The testing medium is based on a solid phase and a liquid phase. The solid phase is a sandy marine sediment laid\nin the bottom of a closed flask; the liquid phase is a column of natural or artificial sea water, poured on the sediment. The test material is preferably in the form of a film to be laid down on top of the sediment,\nat the interface between the solid phase and the liquid phase. This is a simulation of an object that has sunk and finally reached the sea floor. The system is contained in a closed flask.",
+    "y": 268.81134033203125
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "The CO2 evolved during the microbial degradation is determined by a suitable analytical method. The level of biodegradation is determined by comparing the amount of CO2 evolved with the theoretical\namount (ThCO2) and expressed in percentage. The test result is the maximum level of biodegradation, determined from the plateau phase of the biodegradation curve. The principle of a system for measuring\nevolved CO2 is given in ISO 14852:2018, Annex A.",
+    "y": 350.62396240234375
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "The details of interlaboratory testing based on the test method specified in this document are available in Reference [6].",
+    "y": 420.3365783691406
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "5 Test environment",
+    "y": 463.9700622558594
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "Incubation shall take place in the dark or in diffuse light in an enclosure which is free from vapours inhibitory to microorganisms and which is maintained at a constant temperature, preferably between\n15 °C to 25 °C, but not exceeding 28 °C, to an accuracy of ± 2 °C. Any change in temperature shall be justified and clearly indicated in the test report.",
+    "y": 487.89166259765625
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "NOTE",
+    "y": 546.204833984375
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "Temperatures applied in the test can be different from those found in marine environments",
+    "y": 546.204833984375
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "6 Reagents",
+    "y": 576.7882080078125
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "6.1 Distilled or deionized water, free of toxic substances (copper in particular) and containing less than 2 mg/l of DOC.",
+    "y": 606.3790283203125
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "6.2 Artificial seawater.",
+    "y": 646.169677734375
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "Dissolve:",
+    "y": 668.191650390625
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "22 g",
+    "y": 693.9593505859375
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "Sodium chloride (NaCl)",
+    "y": 693.9646606445312
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "Magnesium chloride hexahydrate (MgCl2 · 6H2O)",
+    "y": 716.266357421875
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "9,7 g",
+    "y": 716.266357421875
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "Sodium sulfate (Na2SO4)",
+    "y": 738.5733642578125
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "3,7 g﻿",
+    "y": 738.5733642578125
+  },
+  {
+    "page": 6,
+    "type": "paragraph",
+    "text": "﻿",
+    "y": 804.0415649414062
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Calcium chloride (CaCl2)",
+    "y": 87.14337158203125
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "1 g",
+    "y": 87.14337158203125
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Potassium chloride (KCl)",
+    "y": 109.45037841796875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "0,65 g",
+    "y": 109.45037841796875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Sodium hydrogen carbonate (NaHCO3)",
+    "y": 131.75738525390625
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "0,20 g",
+    "y": 131.75738525390625
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "in water (6.1) and make up to 1 000 ml.",
+    "y": 143.85736083984375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "6.3 Natural seawater/sediment.",
+    "y": 170.8389892578125
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Take a sample of a sandy sediment and seawater with a shovel beneath the low-water line into a bucket.\nTransfer the wet sediment together with seawater into sealed containers for transport and fast deliver it to the laboratory. After delivery, conserve the sediment at low temperature (approximately 4 °C) until\nuse. The seawater/sediment sample should be preferably used within 4 weeks after sampling. Record storage time and conditions.",
+    "y": 192.8609619140625
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "NOTE",
+    "y": 263.2734375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Seawater and sediment can also be sampled from large, well-running public marine aquaria.",
+    "y": 263.2734375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Measure the TOC, pH and nitrogen content of the sediment and of the natural seawater if used instead of artificial seawater. The carbon content of sediment should be in the range of 0,1 % to 2 %.",
+    "y": 283.6357421875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "A preliminary oxidation can be applied to the sediment in order to decrease the organic matter content and the background respiration. Sediment and seawater are fluxed with air and gently stirred\n(max. 20 r/min to 30 r/min) in a large container for the desired period of time. Include this pre- treatment process in the test report.",
+    "y": 317.04833984375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "7 Apparatus",
+    "y": 384.8818664550781
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "7.1 Test flasks.",
+    "y": 414.4728698730469
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "Biometer flasks of the volume of about 250 ml are appropriate. Reactors with higher volumes can be used, if test conditions are not affected. The vessels shall be located in a constant-temperature room or\nin a thermostatic apparatus (e.g. water-bath). Stirring can be applied on seawater on condition that it does not disturb the sediment/seawater interface.",
+    "y": 436.49407958984375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "NOTE",
+    "y": 494.8072509765625
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "A suitable apparatus is shown in Figure A.1. An example of a stirred apparatus is given in OECD TG 308:",
+    "y": 494.8072509765625
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "2002, Annex 4[7].",
+    "y": 505.4827880859375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "7.2 Container for the CO2 absorber.",
+    "y": 531.8389892578125
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "A glass beaker to be located in the headspace of the reactor and filled with 10 ml of Ba(OH)2 0,0125 mol/l or with 3 ml of KOH 0,5 mol/l.",
+    "y": 553.8602294921875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "7.3 Analytical balance, shall have a sensitivity of at least 0,1 mg.",
+    "y": 592.942138671875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "7.4 pH meter.",
+    "y": 620.6326904296875
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "8 Procedure",
+    "y": 652.874755859375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "8.1 Test material",
+    "y": 682.6156005859375
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "The test material should be in film or sheet form. Cut samples of the test material in the shape of a disk.\nDisks shall have a smaller diameter than the glass flasks, so that the disks can be easily laid on the bottom of the glass flask.",
+    "y": 705.5869750976562
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "The sample shall be of known mass and contain sufficient carbon to yield CO that can be adequately measured by the system used.﻿",
+    "y": 751.0995483398438
+  },
+  {
+    "page": 7,
+    "type": "paragraph",
+    "text": "﻿",
+    "y": 804.0415649414062
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "Use a test material concentration of at least 100 mg/l of seawater plus sediment. This mass of the sample should correspond to a TOC of about 60 mg/l. The maximum mass of sample per flask is limited by the\noxygen supply to the glass flask. A test material concentration of 150 mg/l to 300 mg/l of seawater plus sediment is recommended.",
+    "y": 83.1436767578125
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "Calculate the TOC from the chemical formula or determine it by a suitable analytical technique (e.g. elemental analysis or measurement in accordance with ISO 8245) and calculate the ThCO2.",
+    "y": 140.76165771484375
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "The form and shape of the test material may influence its biodegradation. Similar shapes and thicknesses should preferably be used if different kinds of plastic materials are to be compared.",
+    "y": 174.17425537109375
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "NOTE",
+    "y": 208.28204345703125
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "When the test material in form of film is laid down on the surface of the sediment, it can limit the gas",
+    "y": 208.28204345703125
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "exchange between the water body and the sediment, promoting the formation of anaerobic zones under the test material. In order to reduce this effect, it is possible to perforate the film sample homogeneously over the entire\nsurface.",
+    "y": 219.28204345703125
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "8.2 Reference material",
+    "y": 267.46356201171875
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "Use ashless cellulose filters as a reference material1). If possible, the TOC, form, and size should be comparable to that of the test material. As a negative control, a non-biodegradable polymer (such as\npolyethylene) in the same form as the test material shall be used.",
+    "y": 290.2855224609375
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "8.3 Preparation of the sediment",
+    "y": 341.76678466796875
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "Filter the sediment in a funnel with a coarse filter paper to eliminate excess seawater. Sediment is ready for testing when dripping of sea water is ended. Sediment after filtering is named “wet sediment”\nhereafter.",
+    "y": 364.7381591796875
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "8.4 Test setup",
+    "y": 416.06988525390625
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "Provide several flasks, so that the test includes at least the following:",
+    "y": 439.0413513183594
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "a) three flasks for the test material (symbol FT);",
+    "y": 460.3538513183594
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "b) three flasks for the blank (symbol FB);",
+    "y": 481.6664733886719
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "c) three flasks for reference material (symbol FC);",
+    "y": 502.97906494140625
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "d) three flasks for negative control (symbol FN).",
+    "y": 524.291748046875
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "Two flasks for test material, blank, reference material, and negative control may be used instead of three for screening purposes.",
+    "y": 545.5987548828125
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "8.5 Pre-conditioning phase",
+    "y": 584.8359375
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "In a typical case, use a test flask with a volume of 250 ml. Put 30 g of the wet sediment on the bottom of the flask. Carefully pour 70 ml of natural or artificial seawater. Reactors with higher volumes can be\nused, if test conditions are not affected. The test should be performed with a water/sediment volume ratio between 3:1 and 5:1 and a sediment layer of about 0,3 cm to 0,5 cm, depending on the granulometry\nof the sediment.",
+    "y": 607.8074951171875
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "When using very coarse-grained sediment, the layer can be increased up to 1,5 cm.",
+    "y": 677.5200805664062
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "Add CO2 absorber to the absorber compartments of the test flask in a typical case 3 ml of KOH 0,5 mol/l or 10 ml of Ba(OH)2 0,0125 mol/l. Place the flasks in a constant-temperature environment and allow all\nvessels to reach the desired temperature. Take the necessary readings and monitor the CO evolution.",
+    "y": 698.8326416015625
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "1) Laboratory filter paper Whatman n° 42 has been found satisfactory for this purpose and is an example of a suitable product available commercially. This information is given for the convenience of users of this document and\ndoes not constitute an endorsement by ISO of this product.﻿",
+    "y": 757.9470825195312
+  },
+  {
+    "page": 8,
+    "type": "paragraph",
+    "text": "﻿",
+    "y": 804.0415649414062
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "This phase is carried out in order to verify that the endogenous respiration is similar in the different vessels and also to obtain a preliminary oxidation of excess organic matter, in order to start the test\nwith a lower endogenous respiration. The inoculum can be gently stirred in order to accelerate the biodegradation of excess organic matter.",
+    "y": 83.1436767578125
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "This phase is generally protracted for a week but is possible to extend this time if a high amount of CO2 evolved is measured.",
+    "y": 140.7615966796875
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "In case the CO2 evolution of a vessel is different, reject the diverging vessel or in case of multiple anomalies, start again using new sediment.",
+    "y": 174.16888427734375
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "8.6 Start of the test",
+    "y": 213.40057373046875
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "Dunk the plastic film sample, cut as described in 8.1, on the sediment of each vessel. Mass of samples (test and reference material) should be about 20 mg each when using a flask with a volume of 250 ml\ncorresponding to an initial test item concentration specified in 8.1. In order to ensure a homogeneous contact between sample and sediment, it is recommended to cover the sample with a suitable cover slip.\nThe cover slips shall also be introduced in blank vessels, for assuring similar conditions.",
+    "y": 236.3719482421875
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "NOTE",
+    "y": 306.7852783203125
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "A suitable cover slip can be made using a common non-biodegradable vinyl-coated fibreglass mosquito",
+    "y": 306.7852783203125
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "net with a fibre diameter of about 280 µm and a 1,8 mm × 1,6 mm mesh.",
+    "y": 317.7852783203125
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "For an example, see Annex A.",
+    "y": 338.1475524902344
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "Repeat the procedure for the reference material and the material for the negative control to the respective flasks. Record the mass of the sediment, the sample and the volume of seawater introduced\nin each vessel.",
+    "y": 359.4655456542969
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "Nutrients may be supplemented as needed to support microbial diversity and to maintain the capacity to biodegrade the test material. The need and timing of additional nutrients or other appropriate\nmeasures may be judged by observation of the temporal course of the biodegradation of the reference substance cellulose. Any addition and the applied method shall be reported in the test report.",
+    "y": 404.9725646972656
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "8.7 Carbon dioxide measurement",
+    "y": 468.40447998046875
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "8.7.1",
+    "y": 497.0452575683594
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "The CO2 reacts with Ba(OH)2 and precipitates as BaCO3. The amount of CO2 produced is",
+    "y": 497.0452575683594
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "determined by titrating the remaining Ba(OH)2 with 0,05 mol/l HCl to a phenolphthalein end-point or by automatic titrator. Because of the static incubation, the BaCO3 builds up on the surface of the liquid\nand shall be broken up periodically by shaking the container gently to ensure continued absorption of the evolved CO2. This problem can be avoided by using KOH instead of Ba(OH)2, which does not form a\nprecipitate.",
+    "y": 509.145263671875
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "NOTE",
+    "y": 580.26708984375
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "A discussion on the use of KOH in place of Ba(OH)2 is reported in Reference [5].",
+    "y": 580.26708984375
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "8.7.2",
+    "y": 606.2987670898438
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "The containers for the CO2 absorber shall be removed and titrated before their capacity is",
+    "y": 606.2987670898438
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "exceeded. The period of time will vary with sediments and test materials and increases slowly as the carbon content of the sediment is reduced (a recommended frequency of every 3 to 4 days for the first\n2 to 3 weeks and every 1 to 3 weeks, thereafter). At the time of removal of the containers, the reactor should be allowed to sit open so that the air is refreshed before replacing 10 ml of fresh Ba(OH)2 and\nresealing the reactor. The reactors should remain open approximately 15 min.",
+    "y": 618.3988037109375
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "8.7.3",
+    "y": 694.4893798828125
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "The CO2 evolution rate may reach a plateau when all of the accessible carbon has been oxidized.",
+    "y": 694.4893798828125
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "The test may be terminated at this point or earlier, at the discretion of the user. If possible, the residual test material may be extracted from the sediment with an appropriate method and quantified (optional).",
+    "y": 706.58935546875
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "NOTE",
+    "y": 741.4111328125
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "The evolved CO2 can be quantitatively measured also using other suitable methods such as those",
+    "y": 741.4111328125
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "based on infrared CO2-analysers or those based on TOC analysers equipped with an infrared photometer or on gravimetric analysis.﻿",
+    "y": 752.4111328125
+  },
+  {
+    "page": 9,
+    "type": "paragraph",
+    "text": "﻿",
+    "y": 804.0415649414062
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "8.8 End of the test",
+    "y": 82.97125244140625
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "When a constant level of CO2 evolution is attained (plateau phase reached) and no further biodegradation is expected, the test is considered to be completed. The maximum test period is 24 months. In the case\nof long test durations, special attention shall be paid to the technical system (e.g. tightness of the test vessels and connections). Any special measures taken, for example, to ensure microbial diversity or\nto provide sufficient nutrients shall be detailed in the test report. On the last day of the test, measure the pH, acidify all the bottles with 1 ml of concentrated HCl in order to decompose the carbonates and\nbicarbonates, continue the test for 24 h and finally measure the amount of CO2 evolved in each of the series of flasks.",
+    "y": 105.9427490234375
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "9 Calculation and expression of results",
+    "y": 222.17626953125
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "9.1 Calculation",
+    "y": 251.9169921875
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "9.1.1",
+    "y": 280.5577392578125
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "Amount of CO2 produced",
+    "y": 280.5577392578125
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "9.1.1.1",
+    "y": 308.248291015625
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "Net CO2 produced",
+    "y": 308.248291015625
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "The first step in calculating the amount of CO2 produced is to correct the test material reactors for endogenous CO2 production. The control reactor serves as a blank to correct for CO2 which may be\nproduced through endogenous respiration of the microorganisms. The amount of CO2 produced by a test material is determined by the difference (in ml of titrant) between the experimental and blank\ncontainers. The next step is to convert ml of HCl titrated into mg of CO2 produced.",
+    "y": 330.2695617675781
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "9.1.1.2",
+    "y": 405.6514587402344
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "Ba(OH)2 used as CO2 absorber",
+    "y": 405.6514587402344
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "When CO2 enters the absorber containers, it reacts in the following manner:",
+    "y": 427.67266845703125
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "Ba(OH)2 + CO2 → BaCO3 s + H2O",
+    "y": 448.9852600097656
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "(1)",
+    "y": 448.9852600097656
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "The BaCO3 formed is insoluble and precipitates. The amount of Ba(OH)2 remaining in the solution is determined by titration of the 10 ml of the CO2 absorber with HCl according to the following chemical\nreaction:",
+    "y": 479.5104675292969
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "Ba(OH)2 + 2HCl → BaCl2 + 2H2O",
+    "y": 525.0230712890625
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "(2)",
+    "y": 525.0230712890625
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "The amount of the remaining Ba(OH)2 is determined with the Formula (3):",
+    "y": 555.5482788085938
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "mol HCl",
+    "y": 575.7647094726562
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "R =",
+    "y": 582.7959594726562
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "(3)",
+    "y": 583.86083984375
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "t",
+    "y": 589.5374755859375
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "where Rt is the remaining Ba(OH)2.",
+    "y": 614.3860473632812
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "The amount of the reacted Ba(OH)2 is determined as the difference between the amount originally present in the absorber and the amount remaining after reaction with CO2, see Formula (4).",
+    "y": 635.6986694335938
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "= − R R R",
+    "y": 668.4534301757812
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "(4)",
+    "y": 669.1112670898438
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "r",
+    "y": 674.7879028320312
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "t",
+    "y": 674.7879028320312
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "where",
+    "y": 699.636474609375
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "Rr is the amount of reacted Ba(OH)2;",
+    "y": 725.4048461914062
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "R0 is the amount of Ba(OH)2 originally present in the absorber;",
+    "y": 747.7118530273438
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "Rt is the amount of Ba(OH)2 remaining after the reaction with CO2.﻿",
+    "y": 770.0189819335938
+  },
+  {
+    "page": 10,
+    "type": "paragraph",
+    "text": "﻿",
+    "y": 804.0415649414062
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "This means that the number of mol of CO2 produced is derived using Formula (5):",
+    "y": 83.1436767578125
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "mol CO",
+    "y": 103.39138793945312
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "R 2=",
+    "y": 103.39138793945312
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "(5)",
+    "y": 104.45623779296875
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "r",
+    "y": 110.13285827636719
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "where Rr is the amount of reacted Ba(OH)2.",
+    "y": 134.9814453125
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "9.1.1.3",
+    "y": 161.96337890625
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "KOH used as CO2 absorber",
+    "y": 161.96337890625
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "The evolved CO2 reacts with KOH in the following manner:",
+    "y": 183.98468017578125
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "2KOH + CO2 → K2CO3 + H2O",
+    "y": 205.2972412109375
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "(6)",
+    "y": 205.2972412109375
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "K2CO3, the product of Formula (6), is soluble and does not precipitate.",
+    "y": 235.8223876953125
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "The fresh KOH solution, where no CO2 has been absorbed, can be titrated with HCl as:",
+    "y": 257.13494873046875
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "KOH + HCl → KCl + H2O, at pH 7",
+    "y": 278.44769287109375
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "(7)",
+    "y": 278.44769287109375
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "The KOH solutions used as CO2 absorbers will have both unreacted KOH and K2CO3 as per Formula (6).",
+    "y": 308.9727783203125
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "During titration, both chemical species will react with HCl, as follows:",
+    "y": 330.290771484375
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "KOH + HCl → KCl + H2O, at pH 7",
+    "y": 351.5980529785156
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "(8)",
+    "y": 351.5980529785156
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "K2CO3 + HCl → KHCO3 + KCl, at pH 8,5",
+    "y": 382.1231689453125
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "(9)",
+    "y": 382.1231689453125
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "The pH shifts in Formulae (6) and (7) are superimposed and cannot be distinguished. Only a single end point in the range of pH between 7 and 8, corresponding to the two reactions, can be identified by using\na suitable indicator.",
+    "y": 412.64837646484375
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "The adsorbed CO2 can be determined by subtracting from the H+ equivalents needed to neutralize the original KOH solution and the H+ equivalents needed to neutralize the reactions represented by\nFormulae (8) and (9), as shown in Formula (10). In practice:",
+    "y": 457.80401611328125
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "(",
+    "y": 498.7395935058594
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": ")×[ ]",
+    "y": 498.7395935058594
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "mmol CO",
+    "y": 505.6087341308594
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "V",
+    "y": 505.6087341308594
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "V",
+    "y": 505.6087341308594
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "=",
+    "y": 506.0157470703125
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "−",
+    "y": 506.0157470703125
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "HCl",
+    "y": 506.2502136230469
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "(10)",
+    "y": 506.673583984375
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "( )",
+    "y": 511.0301513671875
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "( ) +",
+    "y": 511.0301513671875
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "HCl",
+    "y": 512.4126586914062
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "HCl 8 9",
+    "y": 512.4126586914062
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "where",
+    "y": 537.19873046875
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "VHCl(7)",
+    "y": 562.96728515625
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "is the volume of HCl (expressed in ml) consumed in Formula (7);",
+    "y": 562.96728515625
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "VHCl(8+9) is the volume of HCl (expressed in ml) consumed in Formulae (8) and (9);",
+    "y": 585.2742919921875
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "[HCl]",
+    "y": 607.581298828125
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "is the concentration of the HCl solution (0,05 mol/l).",
+    "y": 607.581298828125
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "If an end point titrator is available, the mmol of CO2 can be determined, without using an indicator, with a further reaction. A further addition of HCl makes HCl react with KHCO3, produced with Formula (9):",
+    "y": 628.8935546875
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "KHCO3 + HCl → H2CO3 + KCl, at pH 4",
+    "y": 662.30615234375
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "(11)",
+    "y": 662.30615234375
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "The number of equivalent consumed in Formula (11), and therefore in Formula (9), corresponds to the\nK2CO3 produced during Formula (6), that in turn corresponds to the absorbed CO2.",
+    "y": 692.8313598632812
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "Consequently, 1 mole of KHCO3 corresponds to 1 mole of CO2 reacted in Formula (6), and thus the mmol CO2 are equivalent to the mmol HCl consumed in Formula (11) end point﻿",
+    "y": 726.2439575195312
+  },
+  {
+    "page": 11,
+    "type": "paragraph",
+    "text": "﻿",
+    "y": 804.0415649414062
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "Therefore, the amount of CO2 can be calculated using Formula (12):",
+    "y": 83.1436767578125
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "=(",
+    "y": 99.52230834960938
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": ")×[ ]",
+    "y": 99.52230834960938
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "mmol CO",
+    "y": 106.39138793945312
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "V",
+    "y": 106.39138793945312
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "HCl",
+    "y": 107.03285217285156
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "(12)",
+    "y": 107.45623779296875
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "( ) HCl",
+    "y": 111.81285858154297
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "where",
+    "y": 137.9814453125
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "VHCl(11) is the volume of HCl (expressed in ml) consumed in Formula (11);",
+    "y": 163.74993896484375
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "[HCl]",
+    "y": 186.05694580078125
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "is the concentration of the HCl solution (0,05 mol/l).",
+    "y": 186.05694580078125
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "The amount of CO2 expressed in mg is finally obtained using Formula (13):",
+    "y": 207.369140625
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "mgCO",
+    "y": 227.61703491210938
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "mmol CO =",
+    "y": 227.61703491210938
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "×",
+    "y": 228.02403259277344
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "(13)",
+    "y": 228.681884765625
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "where 44 is the molecular weight (g/mol) of CO2.",
+    "y": 259.20709228515625
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "9.1.2",
+    "y": 286.1888427734375
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "Percentage of biodegradation",
+    "y": 286.1888427734375
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "The percentage of biodegradation is the ration between the evolved CO2 and theoretical CO2 (ThCO2).\nThe ThCO2 is shown in Formula (14) and percentage of biodegradation in Formula (15):",
+    "y": 308.21014404296875
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "( )×",
+    "y": 346.4511413574219
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "ThCO",
+    "y": 347.5578308105469
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "S TOC = ×",
+    "y": 347.5578308105469
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "%",
+    "y": 348.1993103027344
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "(14)",
+    "y": 348.6227722167969
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "where",
+    "y": 379.1479797363281
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "S",
+    "y": 404.9163513183594
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "is the amount of specimen (mg)",
+    "y": 404.9163513183594
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "TOC (%) is the TOC of the plastic material (or reference material) divided by 100;",
+    "y": 427.2233581542969
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "is the molecular weight (g/mol) of CO2;",
+    "y": 449.5303649902344
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "is the molecular weight (g/mol) of C.",
+    "y": 471.83746337890625
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "Therefore:",
+    "y": 493.14447021484375
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "CO %B =",
+    "y": 513.8661499023438
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "×",
+    "y": 522.804443359375
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "(15)",
+    "y": 523.4622802734375
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "ThCO",
+    "y": 531.0223999023438
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "where",
+    "y": 553.987548828125
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "%B",
+    "y": 579.7559814453125
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "is the percentage of biodegradation",
+    "y": 579.7559814453125
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "CO2",
+    "y": 602.06298828125
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "is the CO2 produced, expressed in mg;",
+    "y": 602.06298828125
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "ThCO2",
+    "y": 624.3699951171875
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "is the theoretical amount of evolved CO2.",
+    "y": 624.3699951171875
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "9.2 Visual inspection",
+    "y": 651.5013427734375
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "At the end of the test, check the condition of the samples. If still present, samples can be retrieved for mass determination, other analysis, and photographs.",
+    "y": 674.472900390625
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "9.3 Expression and interpretation of results",
+    "y": 713.70458984375
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "Compile a table of the CO2 values measured and the percentages of biodegradation for each measurement interval and each test flask. For each vessel, plot an evolved CO2 cumulative curve and a biodegradation\ncurve in percentage as a function of time.﻿",
+    "y": 736.6759643554688
+  },
+  {
+    "page": 12,
+    "type": "paragraph",
+    "text": "﻿",
+    "y": 804.0415649414062
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "A curve of mean biodegradation values may be plotted.",
+    "y": 83.1436767578125
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "The maximum level of biodegradation determined as the mean value of the plateau phase of the biodegradation curve or the highest value, e.g. when the curve decreases or, further on, slowly increases\nin the plateau phase, characterizes the degree of biodegradation of the test material.",
+    "y": 104.461669921875
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "The wettability and the shape of the test material may influence the result obtained, and hence the test procedure may be limited to comparing plastic materials of similar chemical structure.",
+    "y": 149.9796142578125
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "Information on the toxicity of the test material may be useful in the interpretation of test results showing a low biodegradability.",
+    "y": 183.3975830078125
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "10Validity of results",
+    "y": 227.01495361328125
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "The test is considered valid if,",
+    "y": 250.93658447265625
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "a) the degree of biodegradation of the reference material (FC) is > 60 % after 180 days,",
+    "y": 272.2491455078125
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "b) the evolved CO2 of the blank FB at the end of the test does not exceed 3,5 mg CO2/g wet sediment (see 8.3) after 6 months;",
+    "y": 293.561767578125
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "NOTE",
+    "y": 327.6749572753906
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "This value has been determined in an interlaboratory test.",
+    "y": 327.6749572753906
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "c) the amount of CO2 evolved from the three blank FB are within 20 % of the mean at the plateau phase or at the end of the test;",
+    "y": 348.037353515625
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "d) the difference between the percentage biodegradation of the reference material in the different vessels is less than 20 % of the mean at the end of the test;",
+    "y": 381.449951171875
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "e) the percentage of biodegradation of the negative control (flasks FN) is below 10 % at the end of the test.",
+    "y": 414.8625793457031
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "If these criteria are not fulfilled, repeat the test using another sediment.",
+    "y": 448.2805480957031
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "11Test report",
+    "y": 479.8086853027344
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "The test report shall contain at least the following information:",
+    "y": 503.730224609375
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "a) a reference to this document, i.e. ISO 19679:2020;",
+    "y": 525.0428466796875
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "b) all information necessary to identify the test and reference materials, including their TOC, ThCO2, chemical;",
+    "y": 546.35546875
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "c) the main test parameters, including test volume, test medium used, incubation temperature and final pH;",
+    "y": 579.76806640625
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "d) the source and amount of the marine sediment used;",
+    "y": 613.1806640625
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "e) any deviations from the procedure;",
+    "y": 634.4932861328125
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "f) any unusual features observed;",
+    "y": 655.8058471679688
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "g) the date of the test;",
+    "y": 677.1184692382812
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "h) the analytical techniques used, including the principle of the respirometer and the TOC;",
+    "y": 698.4310302734375
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "i) all the test results obtained for the test and reference materials (in tabular and graphical form), including the evolved CO2, the percentage biodegradation values;",
+    "y": 719.74365234375
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "j the duration of the lag phase, biodegradation phase and maximum level of degradation, as well as the total test duration; and, optionally, if run or determined, the negative control FN;﻿",
+    "y": 753.15625
+  },
+  {
+    "page": 13,
+    "type": "paragraph",
+    "text": "﻿",
+    "y": 804.0415649414062
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "k) any other relevant data (e.g. result of the visual final inspection and analysis of final samples, if still retrievable; photos of the final samples);",
+    "y": 83.1436767578125
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "l) details of the methods used during the test period in order to support microbial diversity or to avoid nutrient deficiency.﻿",
+    "y": 116.5562744140625
+  },
+  {
+    "page": 14,
+    "type": "paragraph",
+    "text": "﻿",
+    "y": 804.0415649414062
+  },
+  {
+    "page": 15,
+    "type": "heading",
+    "text": "Annex A (informative)",
+    "y": 82.2818603515625
+  },
+  {
+    "page": 15,
+    "type": "heading",
+    "text": "Example of respirometric system based on CO2 measurement",
+    "y": 135.0819091796875
+  },
+  {
+    "page": 15,
+    "type": "paragraph",
+    "text": "The measurement of the evolved CO2 can be obtained by trapping the evolved CO2 in a closed system and then by quantifying it by suitable titration systems. Microorganisms in the vessel consume the\noxygen and form CO2. This is absorbed by a CO2 absorber (generally NaOH) that can then be titrated to determine the amount of the absorbed CO2.",
+    "y": 191.61785888671875
+  },
+  {
+    "page": 15,
+    "type": "paragraph",
+    "text": "In a typical case, a 250 ml vessel is used. The sediment occupies about 20 ml, the seawater 70 ml and the headspace 160 ml. The O2 present in air at 1 atm and 28 °C and a relative humidity of 100 % is about\n0,261 mg/ml. This means that the O2 available at the beginning is 0,261 mg/ml × 160 ml = 41,76 mg (1,305 mmol). The amount dissolved in the seawater can be neglected. This amount of O2 is sufficient\nto oxidize to CO2 and H2O an amount of biodegradable organic carbon equal to 15,66 mg and producing 1,305 × 44 = 57,42 mg of CO2.",
+    "y": 249.23046875
+  },
+  {
+    "page": 15,
+    "type": "paragraph",
+    "text": "The system is opened in order to refresh the headspace when the O2 concentration reaches 25 % of the original oxygen concentration.",
+    "y": 331.0430603027344
+  },
+  {
+    "page": 15,
+    "type": "paragraph",
+    "text": "Key sediment\nsample cover slip\nliquid medium container for the CO2 absorber",
+    "y": 559.982177734375
+  },
+  {
+    "page": 15,
+    "type": "paragraph",
+    "text": "Figure A.1 — Test flask﻿",
+    "y": 663.204345703125
+  },
+  {
+    "page": 15,
+    "type": "paragraph",
+    "text": "﻿",
+    "y": 804.0415649414062
+  },
+  {
+    "page": 16,
+    "type": "heading",
+    "text": "Bibliography",
+    "y": 82.2818603515625
+  },
+  {
+    "page": 16,
+    "type": "paragraph",
+    "text": "[1] ISO 8245, Water quality — Guidelines for the determination of total organic carbon (TOC) and dissolved organic carbon\n(DOC)",
+    "y": 133.1485595703125
+  },
+  {
+    "page": 16,
+    "type": "paragraph",
+    "text": "[2] ISO 14852:2018, Determination of the ultimate aerobic biodegradability of plastic materials in an aqueous medium — Method by analysis of evolved carbon dioxide",
+    "y": 166.5611572265625
+  },
+  {
+    "page": 16,
+    "type": "paragraph",
+    "text": "[3] ISO 18830, Plastics — Determination of aerobic biodegradation of non-floating plastic materials in a seawater/sandy sediment interface — Method by measuring the oxygen demand in closed\nrespirometer",
+    "y": 199.9737548828125
+  },
+  {
+    "page": 16,
+    "type": "paragraph",
+    "text": "[4] Tosin M., Weber M., Siotto M., Lott C., Degli-Innocenti F., Laboratory test methods to determine the degradation of plastics in marine environmental conditions. Front. Microbiol.\n2012, 3 p. 225. DOI:​",
+    "y": 245.48638916015625
+  },
+  {
+    "page": 16,
+    "type": "paragraph",
+    "text": "10​ .3389/​ fmicb​ .2012​ .00225",
+    "y": 269.68634033203125
+  },
+  {
+    "page": 16,
+    "type": "paragraph",
+    "text": "[5] Modelli A., Calcagno B., Scandola M., Kinetics of Aerobic Polymer Degradation in Soil by\nMeans of the ASTM D 5988 Standard Method. Journal of Polymer Degradation, Vol7, No. 2, 1999",
+    "y": 290.99896240234375
+  },
+  {
+    "page": 16,
+    "type": "paragraph",
+    "text": "[6] ISO/TC 61/SC 5/WG 22 doc. N 17, Ring test final report seawater sediment interface, 2015",
+    "y": 324.41156005859375
+  },
+  {
+    "page": 16,
+    "type": "paragraph",
+    "text": "[7] OECD TG 308:2002, Guidelines for the Testing of Chemicals, Test No. 308: Aerobic and Anaerobic\nTransformation in Aquatic Sediment Systems﻿",
+    "y": 345.7241516113281
+  },
+  {
+    "page": 16,
+    "type": "paragraph",
+    "text": "﻿",
+    "y": 804.0415649414062
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Bureau of Indian Standards",
+    "y": 63.88172912597656
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "BIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to\nconnected matters in the country.",
+    "y": 85.0521011352539
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Copyright",
+    "y": 128.82179260253906
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "BIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the\nstandard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.",
+    "y": 149.97207641601562
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Review of Indian Standards",
+    "y": 205.3817901611328
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Amendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are\nneeded; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website-\nwww.bis.gov.in or www.standardsbis.in.",
+    "y": 226.53207397460938
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "This Indian Standard has been developed from Doc No.: PCD 27 (18151).",
+    "y": 291.1221008300781
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Amendments Issued Since Publication",
+    "y": 324.36199951171875
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Amend No.",
+    "y": 350.3717346191406
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Date of Issue",
+    "y": 350.3717346191406
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Text Affected",
+    "y": 350.3717346191406
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "BUREAU OF INDIAN STANDARDS",
+    "y": 476.1517333984375
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Headquarters:",
+    "y": 495.35174560546875
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Manak Bhavan, 9 Bahadur Shah Zafar Marg, New Delhi 110002\nTelephones: 2323 0131, 2323 3375, 2323 9402",
+    "y": 513.3821411132812
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Website: www.bis.gov.in",
+    "y": 524.9021606445312
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Regional Offices:",
+    "y": 543.3517456054688
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Telephones",
+    "y": 544.2780151367188
+  },
+  {
+    "page": 18,
+    "type": "heading",
+    "text": "",
+    "y": 553.3920288085938
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Central",
+    "y": 561.5021362304688
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": ": 601/A, Konnectus Tower -1, 6th Floor,",
+    "y": 561.5021362304688
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "2323 7617",
+    "y": 561.5021362304688
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "DMRC Building, Bhavbhuti Marg, New Delhi 110002",
+    "y": 572.9021606445312
+  },
+  {
+    "page": 18,
+    "type": "heading",
+    "text": "",
+    "y": 599.1420288085938
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "2367 0012",
+    "y": 602.7821044921875
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Eastern",
+    "y": 602.7821655273438
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": ": 8th Floor, Plot No 7/7 & 7/8, CP Block, Sector V,",
+    "y": 602.7821655273438
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Salt Lake, Kolkata, West Bengal 700091",
+    "y": 614.2120971679688
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "2320 9474",
+    "y": 614.2120971679688
+  },
+  {
+    "page": 18,
+    "type": "heading",
+    "text": "",
+    "y": 624.9420166015625
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Northern : Plot No. 4-A, Sector 27-B, Madhya Marg,",
+    "y": 632.5721435546875
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "265 9930",
+    "y": 632.5721435546875
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Chandigarh 160019",
+    "y": 643.9721069335938
+  },
+  {
+    "page": 18,
+    "type": "heading",
+    "text": "",
+    "y": 669.4620361328125
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Southern : C.I.T. Campus, IV Cross Road, Taramani, Chennai 600113",
+    "y": 673.8521118164062
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "2254 1442 2254 1216",
+    "y": 673.8521118164062
+  },
+  {
+    "page": 18,
+    "type": "heading",
+    "text": "",
+    "y": 695.7420043945312
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Western: Plot No. E-9, Road No.-8, MIDC, Andheri",
+    "y": 703.6121215820312
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "2821 8093",
+    "y": 703.6121215820312
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "(East), Mumbai 400093",
+    "y": 715.0121459960938
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "Branches : AHMEDABAD. BENGALURU. BHOPAL. BHUBANESHWAR. CHANDIGARH. CHENNAI.",
+    "y": 744.8881225585938
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "COIMBATORE. DEHRADUN. DELHI. FARIDABAD. GHAZIABAD. GUWAHATI.\nHIMACHAL PRADESH. HUBLI. HYDERABAD.",
+    "y": 756.2881469726562
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "JAIPUR.",
+    "y": 767.80810546875
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "JAMMU & KASHMIR.",
+    "y": 767.80810546875
+  },
+  {
+    "page": 18,
+    "type": "paragraph",
+    "text": "JAMSHEDPUR. KOCHI. KOLKATA. LUCKNOW. MADURAI. MUMBAI. NAGPUR.\nNOIDA. PANIPAT. PATNA. PUNE. RAIPUR. RAJKOT. SURAT. VISAKHAPATNAM.",
+    "y": 779.328125
+  }
+]

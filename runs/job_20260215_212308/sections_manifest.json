@@ -1,0 +1,80 @@
+[
+  {
+    "order": 0,
+    "id": "00_front_matter",
+    "title": "Front matter",
+    "file": "/mnt/c/Users/mish1/OneDrive/Desktop/VoiceAgent/runs/job_20260215_212308/sections_original/00_00_front_matter.txt",
+    "page_start": 1,
+    "page_end": 28,
+    "word_count": 4314,
+    "tables": [
+      {
+        "table_id": "T1",
+        "caption": "Table 1 – Specifications for capacitor and cable alkylbenzenes ...............................................",
+        "page": 8,
+        "bbox": [
+          0.0,
+          129.55462646484375,
+          595.3200073242188,
+          389.55462646484375
+        ]
+      },
+      {
+        "table_id": "T2",
+        "caption": "Table 2 – Specifications for capacitor alkyldiphenylethanes and alkylnaphthalenes ...............7",
+        "page": 8,
+        "bbox": [
+          0.0,
+          145.99066162109375,
+          595.3200073242188,
+          405.99066162109375
+        ]
+      },
+      {
+        "table_id": "T3",
+        "caption": "Table 3 – Specifications for capacitor methylpolyarylmethanes ................................................8",
+        "page": 8,
+        "bbox": [
+          0.0,
+          162.5506591796875,
+          595.3200073242188,
+          422.5506591796875
+        ]
+      },
+      {
+        "table_id": "T1",
+        "caption": "Table 1 – Specifications for capacitor and cable alkylbenzenes",
+        "page": 16,
+        "bbox": [
+          70.68000030517578,
+          106.5589599609375,
+          524.6399536132812,
+          779.1599731445312
+        ]
+      },
+      {
+        "table_id": "T2",
+        "caption": "Table 2 – Specifications for capacitor alkyldiphenylethanes and alkylnaphthalenes",
+        "page": 17,
+        "bbox": [
+          70.80000305175781,
+          106.5589599609375,
+          524.4010009765625,
+          700.0799560546875
+        ]
+      },
+      {
+        "table_id": "T3",
+        "caption": "Table 3 – Specifications for capacitor methylpolyarylmethanes",
+        "page": 18,
+        "bbox": [
+          70.80000305175781,
+          106.5589599609375,
+          524.4010009765625,
+          657.239990234375
+        ]
+      }
+    ],
+    "table_count": 6
+  }
+]

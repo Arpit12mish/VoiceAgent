@@ -1,0 +1,54 @@
+Bibliography
+
+[1] ISO 639 (all parts), Codes for the representation of names of languages
+
+FOR BIS USE ONLY
+
+[2] ISO/IEC 646, Information technology — ISO 7-bit coded character set for information interchange
+
+[3] ISO/IEC 2022, Information technology — Character code structure and extension techniques
+
+[4] ISO/IEC 2375, Information technology — Procedure for registration of escape sequences and coded character sets
+
+[5] ISO/IEC 6523 (all parts), Information technology — Structure for the identification of organizations and organization parts
+
+[6] ISO 8601 (all parts), Data elements and interchange formats — Information interchange —
+Representation of dates and times
+
+[7] ISO/IEC 8859 (all parts), Information technology — 8-bit single-byte coded graphic character sets
+
+[8] ISO/IEC 9594-8, Information technology — Open systems interconnection — Part 8: The Directory:
+Public-key and attribute certificate frameworks
+
+[9] ISO 9735:1988, Electronic data interchange for administration, commerce and transport
+(EDIFACT) — Application level syntax rules
+
+[10] ISO 9735:1988/Amd.1:1992, Electronic data interchange for administration, commerce and transport (EDIFACT) — Application level syntax rules — Amendment 1
+
+[11] ISO/IEC 9796 (all parts), Information technology — Security techniques — Digital signature schemes giving message recovery
+
+[12] ISO/IEC 9797 (all parts), Information technology — Security techniques — Message Authentication Codes
+(MACs)
+
+[13] ISO/IEC 10116, Information technology — Security techniques — Modes of operation for an n-bit block cipher
+
+[14] ISO/IEC 10118-1, Information technology — Security techniques — Hash-functions — Part 1:
+General
+
+[15] ISO/IEC 10118-1/Amd.1:2021, Information technology — Security techniques — Hash-functions —
+Part 1: General — Amendment 1
+
+[16] ISO/IEC 10118-3, IT Security techniques — Hash-functions — Part 3: Dedicated hash-functions
+
+[17] ISO/IEC 10646, Information technology — Universal coded character set (UCS)
+
+[18] ISO/IEC 12042, Information technology — Data compression for information interchange — Binary arithmetic coding algorithm
+
+﻿
+
+FOR BIS USE ONLY
+
+ICS 35.240.63
+Price based on 73 pages
+
+﻿

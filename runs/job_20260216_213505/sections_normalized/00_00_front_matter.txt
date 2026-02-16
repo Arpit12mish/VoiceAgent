@@ -1,0 +1,705 @@
+भारतीय मानक
+
+Indian Standard
+
+प्लास्टिक - समुद्री जल/तलछट
+
+इंटरफ
+
+ेस में गैर-फ्लोटटंग प्लास्टिक
+
+सामग्री क
+
+े एरोटिक िायोडीग्रेडेशन का
+
+टनर्ाारण - उटिकटसत कािान
+
+डाइऑक्साइड की टिश्लेषण पद्धटत
+
+िारा
+
+Plastics - Determination of Aerobic
+
+Biodegradation of Non-Floating
+
+Plastic Materials in a
+
+Seawater/Sediment Interface -
+
+Method by Analysis of Evolved
+
+Carbon Dioxide
+
+ICS 83.080.01
+
+ BIS 2022
+
+भारतीय मानक ब्यूरो
+
+BUREAU OF INDIAN STANDARDS
+मानक भवन, 9 बहादुर शाह ज़फर मार्ग, नई ददल्ली- 110002
+MANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG
+
+NEW DELHI - 110002
+
+www.bis.gov.inwww.standardsbis.in
+
+November 2022
+
+Price Group
+
+Methods of Sampling and Test for Plastics Sectional Committee, PCD 27
+
+NATIONAL FOREWORD
+
+This Indian Standard which is identical withISO 19679 : 2020 'Plastics - 'Determination of aerobic biodegradation of non-floating plastic materials in a seawater/sediment interface - Method by analysis of evolved
+carbon dioxide' issued by the International Organization for Standardization (ISO) was adopted by the Bureau of
+Indian Standards on the recommendation of the Methods of Sampling and Test for Plastics Sectional Committee and approval of the Petroleum, Coal and Related Products Division Council.
+
+The text of ISO Standard has been approved as suitable for publication as an Indian Standard without deviations.
+Certain conventions are, however, not identical to those used in Indian Standards. Attention is particularly drawn to the following:
+
+Wherever the words 'International Standard' appear referring to this standard, they should be read as 'Indian
+a) Standard'.
+b) Comma (,) has been used as a decimal marker while in Indian Standards, the current practice is to use a point (.) as the decimal marker.
+
+In reporting the result of a test or analysis made in accordance with this standard, if the final value, observed or calculated, is to be rounded off, it shall be done in accordance with IS 2 : 2022 'Rules for rounding off numerical
+values (second revision)'.
+
+9.2 Visual inspection 8 9.3 Expression and interpretation of results 8
+Validity of results 9 Test report.
+
+Annex A (informative) Example of respirometric system based on CO2 measurement.
+
+Bibliography 12
+
+﻿﻿..
+
+Introduction
+
+Products made with biodegradable plastics are designed to be recovered by means of organic recycling in composting plants or in anaerobic digesters. The uncontrolled dispersion of biodegradable plastics
+in natural environments is not desirable. The biodegradability of products cannot be considered as an excuse to spread wastes that should be recovered and recycled. However, test methods to measure rate
+and level of biodegradation in natural environments (such as soil or the marine environment) are of interest in order to better characterize the behaviour of plastics in these very particular environments.
+As a matter of fact, some plastics are used in products that are applied in the sea (e.g. fishing gear) and sometimes they can get lost or put willingly in the marine environment. The characterization of
+biodegradable plastic materials can be enlarged by applying specific test methods that enable the quantitative assessment of biodegradation of plastics exposed to marine sediment and seawater. Plastic
+products are directly littered or arrive with fresh waters in the pelagic zone (free water). From there, and depending on density, tides, currents, and marine fouling plastics can sink to the sublittoral, and
+reach the seafloor surface. Many biodegradable plastics have a density higher than 1 and therefore tend to sink. The sediment passes from aerobic to anoxic and finally anaerobic conditions going from the
+surface (the interface with seawater) into deeper layers, displaying a very steep oxygen gradient.﻿
+
+﻿
+
+Indian Standard
+
+PLASTICS - DETERMINATION OF AEROBIC
+
+BIODEGRADATION OF NON-FLOATING PLASTIC
+
+MATERIALS IN A SEAWATER/SEDIMENT INTERFACE -
+
+METHOD BY ANALYSIS OF EVOLVED CARBON DIOXIDE
+
+1 Scope
+
+This document specifies a test method to determine the degree and rate of aerobic biodegradation of plastic materials when settled on marine sandy sediment at the interface between seawater and the
+seafloor, by measuring the evolved carbon dioxide (CO2). This test method can also be applied to other solid materials.
+
+This test method is a simulation under laboratory conditions of the habitat found in different seawater/ sediment-areas in the sea, e.g. in a benthic zone where sunlight reaches the ocean floor (photic zone)
+that, in marine science, is called sublittoral zone
+
+The determination of biodegradation of plastic materials and other solid materials buried in marine sediment is outside the scope of this document.
+
+NOTE
+
+Measurement of aerobic biodegradation can also be obtained by monitoring the oxygen consumption,
+
+as described in ISO 18830.
+
+The conditions described in this document do not always correspond to the optimum conditions for the maximum degree of biodegradation to occur.
+
+2 Normative references
+
+There are no normative references in this document.
+
+3 Terms and definitions
+
+For the purposes of this document the following terms and definitions apply.
+
+ISO and IEC maintain terminological databases for use in standardization at the following addresses:
+
+- ISO Online browsing platform: available at https://​
+
+www​ .iso​ .org/​ obp
+
+- IEC Electropedia: available at http://​
+
+www​ .electropedia​
+
+.org/​
+
+3.1 theoretical amount of evolved carbon dioxide
+ThCO2 maximum theoretical amount of carbon dioxide evolved after completely oxidising a chemical compound,
+calculated from the molecular formula or from determination of total organic carbon (TOC) (3.2)
+
+Note 1 to entry: It is expressed as mg of carbon dioxide evolved per mg or g of test compound.
+
+3.2 total organic carbon
+TOC amount of carbon bound in an organic compound
+
+Note 1 to entry: Total organic carbon is expressed as mg of carbon per 100 milligrams of the compound.
+
+﻿
+
+3.3 dissolved organic carbon
+DOC part of the organic carbon in water which cannot be removed by specified phase separation methods,
+for example by centrifugation at 40 000 ms−2 for 15 min or by membranes with pores of 0.2 micrometer to 0.45 micrometer diameter
+
+3.4 pre-conditioning phase
+pre-incubation of an inoculum under the conditions of the subsequent test in the absence of test material, with the aim to consume potential organic matter present in excess that could disturb biodegradation
+measurement and to improve the acclimatization of the microorganisms to the test conditions
+
+4 Principle
+
+This test method is based on the determination of evolved CO2 and derives from ISO 14852. The testing medium is based on a solid phase and a liquid phase. The solid phase is a sandy marine sediment laid
+in the bottom of a closed flask; the liquid phase is a column of natural or artificial sea water, poured on the sediment. The test material is preferably in the form of a film to be laid down on top of the sediment,
+at the interface between the solid phase and the liquid phase. This is a simulation of an object that has sunk and finally reached the sea floor. The system is contained in a closed flask.
+
+The CO2 evolved during the microbial degradation is determined by a suitable analytical method. The level of biodegradation is determined by comparing the amount of CO2 evolved with the theoretical
+amount (ThCO2) and expressed in percentage. The test result is the maximum level of biodegradation, determined from the plateau phase of the biodegradation curve. The principle of a system for measuring
+evolved CO2 is given in ISO 14852:2018, Annex A.
+
+The details of interlaboratory testing based on the test method specified in this document are available in Reference [6].
+
+5 Test environment
+
+Incubation shall take place in the dark or in diffuse light in an enclosure which is free from vapours inhibitory to microorganisms and which is maintained at a constant temperature, preferably between
+15 degree celsius to 25 degree celsius , but not exceeding 28 degree celsius , to an accuracy of ± 2 degree celsius . Any change in temperature shall be justified and clearly indicated in the test report.
+
+NOTE
+
+Temperatures applied in the test can be different from those found in marine environments
+
+6 Reagents
+
+6.1 Distilled or deionized water, free of toxic substances (copper in particular) and containing less than 2 milligrams/l of DOC.
+
+6.2 Artificial seawater.
+
+Dissolve:
+
+22 grams
+
+Sodium chloride (NaCl)
+
+Magnesium chloride hexahydrate (MgCl2 · 6H2O)
+
+9.7 grams
+
+Sodium sulfate (Na2SO4)
+
+3.7 grams﻿
+
+﻿
+
+Calcium chloride (CaCl2)
+
+1 gram
+
+Potassium chloride (KCl)
+
+0.65 grams
+
+Sodium hydrogen carbonate (NaHCO3)
+
+0.20 grams
+
+in water (6.1) and make up to 1 000 millilitres.
+
+6.3 Natural seawater/sediment.
+
+Take a sample of a sandy sediment and seawater with a shovel beneath the low-water line into a bucket.
+Transfer the wet sediment together with seawater into sealed containers for transport and fast deliver it to the laboratory. After delivery, conserve the sediment at low temperature (approximately 4 degree celsius ) until
+use. The seawater/sediment sample should be preferably used within 4 weeks after sampling. Record storage time and conditions.
+
+NOTE
+
+Seawater and sediment can also be sampled from large, well-running public marine aquaria.
+
+Measure the TOC, pH and nitrogen content of the sediment and of the natural seawater if used instead of artificial seawater. The carbon content of sediment should be in the range of 0.1 % to 2 %.
+
+A preliminary oxidation can be applied to the sediment in order to decrease the organic matter content and the background respiration. Sediment and seawater are fluxed with air and gently stirred
+(max. 20 r/min to 30 r/min) in a large container for the desired period of time. Include this pre- treatment process in the test report.
+
+7 Apparatus
+
+7.1 Test flasks.
+
+Biometer flasks of the volume of about 250 millilitres are appropriate. Reactors with higher volumes can be used, if test conditions are not affected. The vessels shall be located in a constant-temperature room or
+in a thermostatic apparatus (e.g. water-bath). Stirring can be applied on seawater on condition that it does not disturb the sediment/seawater interface.
+
+NOTE
+
+A suitable apparatus is shown in Figure A.1. An example of a stirred apparatus is given in OECD TG 308:
+
+2002, Annex 4[7].
+
+7.2 Container for the CO2 absorber.
+
+A glass beaker to be located in the headspace of the reactor and filled with 10 millilitres of Ba(OH)2 0.0125 mole per litre or with 3 millilitres of KOH 0.5 mole per litre .
+
+7.3 Analytical balance, shall have a sensitivity of at least 0.1 milligrams.
+
+7.4 pH meter.
+
+8 Procedure
+
+8.1 Test material
+
+The test material should be in film or sheet form. Cut samples of the test material in the shape of a disk.
+Disks shall have a smaller diameter than the glass flasks, so that the disks can be easily laid on the bottom of the glass flask.
+
+The sample shall be of known mass and contain sufficient carbon to yield CO that can be adequately measured by the system used.﻿
+
+﻿
+
+Use a test material concentration of at least 100 milligrams/l of seawater plus sediment. This mass of the sample should correspond to a TOC of about 60 milligrams/l. The maximum mass of sample per flask is limited by the
+oxygen supply to the glass flask. A test material concentration of 150 milligrams/l to 300 milligrams/l of seawater plus sediment is recommended.
+
+Calculate the TOC from the chemical formula or determine it by a suitable analytical technique (e.g. elemental analysis or measurement in accordance with ISO 8245) and calculate the ThCO2.
+
+The form and shape of the test material may influence its biodegradation. Similar shapes and thicknesses should preferably be used if different kinds of plastic materials are to be compared.
+
+NOTE
+
+When the test material in form of film is laid down on the surface of the sediment, it can limit the gas
+
+exchange between the water body and the sediment, promoting the formation of anaerobic zones under the test material. In order to reduce this effect, it is possible to perforate the film sample homogeneously over the entire
+surface.
+
+8.2 Reference material
+
+Use ashless cellulose filters as a reference material1). If possible, the TOC, form, and size should be comparable to that of the test material. As a negative control, a non-biodegradable polymer (such as
+polyethylene) in the same form as the test material shall be used.
+
+8.3 Preparation of the sediment
+
+Filter the sediment in a funnel with a coarse filter paper to eliminate excess seawater. Sediment is ready for testing when dripping of sea water is ended. Sediment after filtering is named "wet sediment"
+hereafter.
+
+8.4 Test setup
+
+Provide several flasks, so that the test includes at least the following:
+
+a) three flasks for the test material (symbol FT);
+
+b) three flasks for the blank (symbol FB);
+
+c) three flasks for reference material (symbol FC);
+
+d) three flasks for negative control (symbol FN).
+
+Two flasks for test material, blank, reference material, and negative control may be used instead of three for screening purposes.
+
+8.5 Pre-conditioning phase
+
+In a typical case, use a test flask with a volume of 250 millilitres. Put 30 grams of the wet sediment on the bottom of the flask. Carefully pour 70 millilitres of natural or artificial seawater. Reactors with higher volumes can be
+used, if test conditions are not affected. The test should be performed with a water/sediment volume ratio between 3:1 and 5:1 and a sediment layer of about 0.3 centimetres to 0.5 centimetres, depending on the granulometry
+of the sediment.
+
+When using very coarse-grained sediment, the layer can be increased up to 1.5 centimetres.
+
+Add CO2 absorber to the absorber compartments of the test flask in a typical case 3 millilitres of KOH 0.5 mole per litre or 10 millilitres of Ba(OH)2 0.0125 mole per litre . Place the flasks in a constant-temperature environment and allow all
+vessels to reach the desired temperature. Take the necessary readings and monitor the CO evolution.
+
+1) Laboratory filter paper Whatman n° 42 has been found satisfactory for this purpose and is an example of a suitable product available commercially. This information is given for the convenience of users of this document and
+does not constitute an endorsement by ISO of this product.﻿
+
+﻿
+
+This phase is carried out in order to verify that the endogenous respiration is similar in the different vessels and also to obtain a preliminary oxidation of excess organic matter, in order to start the test
+with a lower endogenous respiration. The inoculum can be gently stirred in order to accelerate the biodegradation of excess organic matter.
+
+This phase is generally protracted for a week but is possible to extend this time if a high amount of CO2 evolved is measured.
+
+In case the CO2 evolution of a vessel is different, reject the diverging vessel or in case of multiple anomalies, start again using new sediment.
+
+8.6 Start of the test
+
+Dunk the plastic film sample, cut as described in 8.1, on the sediment of each vessel. Mass of samples (test and reference material) should be about 20 milligrams each when using a flask with a volume of 250 millilitres
+corresponding to an initial test item concentration specified in 8.1. In order to ensure a homogeneous contact between sample and sediment, it is recommended to cover the sample with a suitable cover slip.
+The cover slips shall also be introduced in blank vessels, for assuring similar conditions.
+
+NOTE
+
+A suitable cover slip can be made using a common non-biodegradable vinyl-coated fibreglass mosquito
+
+net with a fibre diameter of about 280 micrometer and a 1.8 millimetres × 1.6 millimetres mesh.
+
+For an example, see Annex A.
+
+Repeat the procedure for the reference material and the material for the negative control to the respective flasks. Record the mass of the sediment, the sample and the volume of seawater introduced
+in each vessel.
+
+Nutrients may be supplemented as needed to support microbial diversity and to maintain the capacity to biodegrade the test material. The need and timing of additional nutrients or other appropriate
+measures may be judged by observation of the temporal course of the biodegradation of the reference substance cellulose. Any addition and the applied method shall be reported in the test report.
+
+8.7 Carbon dioxide measurement
+
+8.7.1
+
+The CO2 reacts with Ba(OH)2 and precipitates as BaCO3. The amount of CO2 produced is
+
+determined by titrating the remaining Ba(OH)2 with 0.05 mole per litre HCl to a phenolphthalein end-point or by automatic titrator. Because of the static incubation, the BaCO3 builds up on the surface of the liquid
+and shall be broken up periodically by shaking the container gently to ensure continued absorption of the evolved CO2. This problem can be avoided by using KOH instead of Ba(OH)2, which does not form a
+precipitate.
+
+NOTE
+
+A discussion on the use of KOH in place of Ba(OH)2 is reported in Reference [5].
+
+8.7.2
+
+The containers for the CO2 absorber shall be removed and titrated before their capacity is
+
+exceeded. The period of time will vary with sediments and test materials and increases slowly as the carbon content of the sediment is reduced (a recommended frequency of every 3 to 4 days for the first
+2 to 3 weeks and every 1 to 3 weeks, thereafter). At the time of removal of the containers, the reactor should be allowed to sit open so that the air is refreshed before replacing 10 millilitres of fresh Ba(OH)2 and
+resealing the reactor. The reactors should remain open approximately 15 min.
+
+8.7.3
+
+The CO2 evolution rate may reach a plateau when all of the accessible carbon has been oxidized.
+
+The test may be terminated at this point or earlier, at the discretion of the user. If possible, the residual test material may be extracted from the sediment with an appropriate method and quantified (optional).
+
+NOTE
+
+The evolved CO2 can be quantitatively measured also using other suitable methods such as those
+
+based on infrared CO2-analysers or those based on TOC analysers equipped with an infrared photometer or on gravimetric analysis.﻿
+
+﻿
+
+8.8 End of the test
+
+When a constant level of CO2 evolution is attained (plateau phase reached) and no further biodegradation is expected, the test is considered to be completed. The maximum test period is 24 months. In the case
+of long test durations, special attention shall be paid to the technical system (e.g. tightness of the test vessels and connections). Any special measures taken, for example, to ensure microbial diversity or
+to provide sufficient nutrients shall be detailed in the test report. On the last day of the test, measure the pH, acidify all the bottles with 1 millilitre of concentrated HCl in order to decompose the carbonates and
+bicarbonates, continue the test for 24 h and finally measure the amount of CO2 evolved in each of the series of flasks.
+
+9 Calculation and expression of results
+
+9.1 Calculation
+
+9.1.1
+
+Amount of CO2 produced
+
+9.1.1.1
+
+Net CO2 produced
+
+The first step in calculating the amount of CO2 produced is to correct the test material reactors for endogenous CO2 production. The control reactor serves as a blank to correct for CO2 which may be
+produced through endogenous respiration of the microorganisms. The amount of CO2 produced by a test material is determined by the difference (in ml of titrant) between the experimental and blank
+containers. The next step is to convert ml of HCl titrated into mg of CO2 produced.
+
+9.1.1.2
+
+Ba(OH)2 used as CO2 absorber
+
+When CO2 enters the absorber containers, it reacts in the following manner:
+
+Ba(OH)2 + CO2 → BaCO3 s + H2O
+
+(1)
+
+The BaCO3 formed is insoluble and precipitates. The amount of Ba(OH)2 remaining in the solution is determined by titration of the 10 millilitres of the CO2 absorber with HCl according to the following chemical
+reaction:
+
+Ba(OH)2 + 2HCl → BaCl2 + 2H2O
+
+(2)
+
+The amount of the remaining Ba(OH)2 is determined with the Formula (3):
+
+mol HCl
+
+R =
+
+(3)
+
+t
+
+where Rt is the remaining Ba(OH)2.
+
+The amount of the reacted Ba(OH)2 is determined as the difference between the amount originally present in the absorber and the amount remaining after reaction with CO2, see Formula (4).
+
+= − R R R
+
+(4)
+
+r
+
+t
+
+where
+
+Rr is the amount of reacted Ba(OH)2;
+
+R0 is the amount of Ba(OH)2 originally present in the absorber;
+
+Rt is the amount of Ba(OH)2 remaining after the reaction with CO2.﻿
+
+﻿
+
+This means that the number of mol of CO2 produced is derived using Formula (5):
+
+mol CO
+
+R 2=
+
+(5)
+
+r
+
+where Rr is the amount of reacted Ba(OH)2.
+
+9.1.1.3
+
+KOH used as CO2 absorber
+
+The evolved CO2 reacts with KOH in the following manner:
+
+2KOH + CO2 → K2CO3 + H2O
+
+(6)
+
+K2CO3, the product of Formula (6), is soluble and does not precipitate.
+
+The fresh KOH solution, where no CO2 has been absorbed, can be titrated with HCl as:
+
+KOH + HCl → KCl + H2O, at pH 7
+
+(7)
+
+The KOH solutions used as CO2 absorbers will have both unreacted KOH and K2CO3 as per Formula (6).
+
+During titration, both chemical species will react with HCl, as follows:
+
+KOH + HCl → KCl + H2O, at pH 7
+
+(8)
+
+K2CO3 + HCl → KHCO3 + KCl, at pH 8.5
+
+(9)
+
+The pH shifts in Formulae (6) and (7) are superimposed and cannot be distinguished. Only a single end point in the range of pH between 7 and 8, corresponding to the two reactions, can be identified by using
+a suitable indicator.
+
+The adsorbed CO2 can be determined by subtracting from the H+ equivalents needed to neutralize the original KOH solution and the H+ equivalents needed to neutralize the reactions represented by
+Formulae (8) and (9), as shown in Formula (10). In practice:
+
+(
+
+)×[ ]
+
+mmol CO
+
+=
+
+−
+
+HCl
+
+(10)
+
+( )
+
+( ) +
+
+HCl
+
+HCl 8 9
+
+where
+
+VHCl(7)
+
+is the volume of HCl (expressed in ml) consumed in Formula (7);
+
+VHCl(8+9) is the volume of HCl (expressed in ml) consumed in Formulae (8) and (9);
+
+[HCl]
+
+is the concentration of the HCl solution (0.05 mole per litre ).
+
+If an end point titrator is available, the mmol of CO2 can be determined, without using an indicator, with a further reaction. A further addition of HCl makes HCl react with KHCO3, produced with Formula (9):
+
+KHCO3 + HCl → H2CO3 + KCl, at pH 4
+
+(11)
+
+The number of equivalent consumed in Formula (11), and therefore in Formula (9), corresponds to the
+K2CO3 produced during Formula (6), that in turn corresponds to the absorbed CO2.
+
+Consequently, 1 mole of KHCO3 corresponds to 1 mole of CO2 reacted in Formula (6), and thus the mmol CO2 are equivalent to the mmol HCl consumed in Formula (11) end point﻿
+
+﻿
+
+Therefore, the amount of CO2 can be calculated using Formula (12):
+
+=(
+
+)×[ ]
+
+mmol CO
+
+HCl
+
+(12)
+
+( ) HCl
+
+where
+
+VHCl(11) is the volume of HCl (expressed in ml) consumed in Formula (11);
+
+[HCl]
+
+is the concentration of the HCl solution (0.05 mole per litre ).
+
+The amount of CO2 expressed in mg is finally obtained using Formula (13):
+
+mgCO
+
+mmol CO =
+
+×
+
+(13)
+
+where 44 is the molecular weight (g/mol) of CO2.
+
+9.1.2
+
+Percentage of biodegradation
+
+The percentage of biodegradation is the ration between the evolved CO2 and theoretical CO2 (ThCO2).
+The ThCO2 is shown in Formula (14) and percentage of biodegradation in Formula (15):
+
+( )×
+
+ThCO
+
+S TOC = ×
+
+%
+
+(14)
+
+where
+
+S
+
+is the amount of specimen (mg)
+
+TOC (%) is the TOC of the plastic material (or reference material) divided by 100;
+
+is the molecular weight (g/mol) of CO2;
+
+is the molecular weight (g/mol) of C.
+
+Therefore:
+
+CO %B =
+
+×
+
+(15)
+
+ThCO
+
+where
+
+%B
+
+is the percentage of biodegradation
+
+CO2
+
+is the CO2 produced, expressed in mg;
+
+ThCO2
+
+is the theoretical amount of evolved CO2.
+
+9.2 Visual inspection
+
+At the end of the test, check the condition of the samples. If still present, samples can be retrieved for mass determination, other analysis, and photographs.
+
+9.3 Expression and interpretation of results
+
+Compile a table of the CO2 values measured and the percentages of biodegradation for each measurement interval and each test flask. For each vessel, plot an evolved CO2 cumulative curve and a biodegradation
+curve in percentage as a function of time.﻿
+
+﻿
+
+A curve of mean biodegradation values may be plotted.
+
+The maximum level of biodegradation determined as the mean value of the plateau phase of the biodegradation curve or the highest value, e.g. when the curve decreases or, further on, slowly increases
+in the plateau phase, characterizes the degree of biodegradation of the test material.
+
+The wettability and the shape of the test material may influence the result obtained, and hence the test procedure may be limited to comparing plastic materials of similar chemical structure.
+
+Information on the toxicity of the test material may be useful in the interpretation of test results showing a low biodegradability.
+
+10Validity of results
+
+The test is considered valid if,
+
+a) the degree of biodegradation of the reference material (FC) is > 60 % after 180 days,
+
+b) the evolved CO2 of the blank FB at the end of the test does not exceed 3.5 milligrams CO2/g wet sediment (see 8.3) after 6 months;
+
+NOTE
+
+This value has been determined in an interlaboratory test.
+
+c) the amount of CO2 evolved from the three blank FB are within 20 % of the mean at the plateau phase or at the end of the test;
+
+d) the difference between the percentage biodegradation of the reference material in the different vessels is less than 20 % of the mean at the end of the test;
+
+e) the percentage of biodegradation of the negative control (flasks FN) is below 10 % at the end of the test.
+
+If these criteria are not fulfilled, repeat the test using another sediment.
+
+11Test report
+
+The test report shall contain at least the following information:
+
+a) a reference to this document, i.e. ISO 19679:2020;
+
+b) all information necessary to identify the test and reference materials, including their TOC, ThCO2, chemical;
+
+c) the main test parameters, including test volume, test medium used, incubation temperature and final pH;
+
+d) the source and amount of the marine sediment used;
+
+e) any deviations from the procedure;
+
+f) any unusual features observed;
+
+g) the date of the test;
+
+h) the analytical techniques used, including the principle of the respirometer and the TOC;
+
+i) all the test results obtained for the test and reference materials (in tabular and graphical form), including the evolved CO2, the percentage biodegradation values;
+
+j the duration of the lag phase, biodegradation phase and maximum level of degradation, as well as the total test duration; and, optionally, if run or determined, the negative control FN;﻿
+
+﻿
+
+k) any other relevant data (e.g. result of the visual final inspection and analysis of final samples, if still retrievable; photos of the final samples);
+
+l) details of the methods used during the test period in order to support microbial diversity or to avoid nutrient deficiency.﻿
+
+﻿

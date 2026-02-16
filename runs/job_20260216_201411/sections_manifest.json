@@ -1,0 +1,916 @@
+[
+  {
+    "order": 0,
+    "id": "00_front_matter",
+    "title": "Front matter",
+    "file": "/mnt/c/Users/mish1/OneDrive/Desktop/VoiceAgent/runs/job_20260216_201411/sections_original/00_00_front_matter.txt",
+    "page_start": 1,
+    "page_end": 67,
+    "word_count": 9104,
+    "tables": [
+      {
+        "table_id": "T1",
+        "caption": "Table 1 — Details of UCD DATA ELEMENT ERROR INDICATION segment",
+        "page": 12,
+        "bbox": [
+          36.52669906616211,
+          332.6966247558594,
+          524.7332153320312,
+          465.04840087890625
+        ]
+      },
+      {
+        "table_id": "T2",
+        "caption": "Table 2 — Details of UCF GROUP RESPONSE segment",
+        "page": 12,
+        "bbox": [
+          36.526798248291016,
+          498.69970703125,
+          524.7332153320312,
+          777.1893310546875
+        ]
+      },
+      {
+        "table_id": "T2",
+        "caption": "Table 2 (continued)",
+        "page": 13,
+        "bbox": [
+          70.5425033569336,
+          102.4908447265625,
+          558.7490234375,
+          502.3323059082031
+        ]
+      },
+      {
+        "table_id": "T3",
+        "caption": "Table 3 — Details of UCI INTERCHANGE RESPONSE segment:",
+        "page": 13,
+        "bbox": [
+          70.5425033569336,
+          535.9835205078125,
+          558.7490234375,
+          779.56591796875
+        ]
+      },
+      {
+        "table_id": "T3",
+        "caption": "Table 3 (continued)",
+        "page": 14,
+        "bbox": [
+          36.526798248291016,
+          102.4908447265625,
+          524.7332153320312,
+          588.7767944335938
+        ]
+      },
+      {
+        "table_id": "T4",
+        "caption": "Table 4 — Details of UCM MESSAGE/PACKAGE RESPONSE segment",
+        "page": 15,
+        "bbox": [
+          70.5425033569336,
+          103.76513671875,
+          558.7490234375,
+          686.1849365234375
+        ]
+      },
+      {
+        "table_id": "T5",
+        "caption": "Table 5 — Details of UCS SEGMENT ERROR INDICATION segment",
+        "page": 16,
+        "bbox": [
+          36.526798248291016,
+          103.76513671875,
+          524.7332153320312,
+          220.68170166015625
+        ]
+      },
+      {
+        "table_id": "T6",
+        "caption": "Table 6 — Details of UGH ANTI-COLLISION SEGMENT GROUP HEADER segment",
+        "page": 16,
+        "bbox": [
+          36.526798248291016,
+          254.3328857421875,
+          524.7332153320312,
+          354.9806213378906
+        ]
+      },
+      {
+        "table_id": "T7",
+        "caption": "Table 7 — Details of UGT ANTI-COLLISION SEGMENT GROUP TRAILER segment",
+        "page": 16,
+        "bbox": [
+          36.526798248291016,
+          388.6318054199219,
+          524.7332153320312,
+          489.2795104980469
+        ]
+      },
+      {
+        "table_id": "T8",
+        "caption": "Table 8 — Details of UIB INTERACTIVE INTERCHANGE HEADER segment",
+        "page": 16,
+        "bbox": [
+          36.526798248291016,
+          522.9306030273438,
+          524.7332153320312,
+          788.62060546875
+        ]
+      },
+      {
+        "table_id": "T8",
+        "caption": "Table 8 (continued)",
+        "page": 17,
+        "bbox": [
+          70.5425033569336,
+          102.4908447265625,
+          558.7490234375,
+          777.9931030273438
+        ]
+      },
+      {
+        "table_id": "T8",
+        "caption": "Table 8 (continued)",
+        "page": 18,
+        "bbox": [
+          36.526798248291016,
+          102.4908447265625,
+          524.7332153320312,
+          444.0257263183594
+        ]
+      },
+      {
+        "table_id": "T9",
+        "caption": "Table 9 — Details of UIH INTERACTIVE MESSAGE HEADER segment",
+        "page": 18,
+        "bbox": [
+          36.526798248291016,
+          477.6769104003906,
+          524.7332153320312,
+          777.3724975585938
+        ]
+      },
+      {
+        "table_id": "T9",
+        "caption": "Table 9 (continued)",
+        "page": 19,
+        "bbox": [
+          70.5425033569336,
+          102.4908447265625,
+          558.7490234375,
+          432.5244140625
+        ]
+      },
+      {
+        "table_id": "T10",
+        "caption": "Table 10 — Details of UIR INTERACTIVE STATUS segment",
+        "page": 19,
+        "bbox": [
+          70.5425033569336,
+          466.1756286621094,
+          558.7490234375,
+          776.9722290039062
+        ]
+      },
+      {
+        "table_id": "T10",
+        "caption": "Table 10 (continued)",
+        "page": 20,
+        "bbox": [
+          36.526798248291016,
+          102.4908447265625,
+          524.7332153320312,
+          534.6392211914062
+        ]
+      },
+      {
+        "table_id": "T11",
+        "caption": "Table 11 — Details of UIT INTERACTIVE MESSAGE TRAILER segment",
+        "page": 20,
+        "bbox": [
+          36.526798248291016,
+          568.2904052734375,
+          524.7332153320312,
+          674.20703125
+        ]
+      },
+      {
+        "table_id": "T12",
+        "caption": "Table 12 — Details of UIZ INTERACTIVE INTERCHANGE TRAILER segment",
+        "page": 21,
+        "bbox": [
+          70.5425033569336,
+          103.76513671875,
+          558.7490234375,
+          301.09588623046875
+        ]
+      },
+      {
+        "table_id": "T13",
+        "caption": "Table 13 — Details of UNB INTERCHANGE HEADER segment",
+        "page": 21,
+        "bbox": [
+          70.5425033569336,
+          334.7471008300781,
+          558.7490234375,
+          784.9315185546875
+        ]
+      },
+      {
+        "table_id": "T13",
+        "caption": "Table 13 (continued)",
+        "page": 22,
+        "bbox": [
+          36.526798248291016,
+          102.4908447265625,
+          524.7332153320312,
+          279.63372802734375
+        ]
+      },
+      {
+        "table_id": "T14",
+        "caption": "Table 14 — Details of UNE GROUP TRAILER segment",
+        "page": 22,
+        "bbox": [
+          36.526798248291016,
+          313.284912109375,
+          524.7332153320312,
+          419.2015075683594
+        ]
+      },
+      {
+        "table_id": "T15",
+        "caption": "Table 15 — Details of UNG GROUP HEADER segment",
+        "page": 22,
+        "bbox": [
+          36.526798248291016,
+          452.85272216796875,
+          524.7332153320312,
+          784.54931640625
+        ]
+      },
+      {
+        "table_id": "T15",
+        "caption": "Table 15 (continued)",
+        "page": 23,
+        "bbox": [
+          70.5425033569336,
+          102.4908447265625,
+          558.7490234375,
+          479.6943054199219
+        ]
+      },
+      {
+        "table_id": "T16",
+        "caption": "Table 16 — Details of UNH MESSAGE HEADER segment",
+        "page": 23,
+        "bbox": [
+          70.5425033569336,
+          513.3455200195312,
+          558.7490234375,
+          781.502197265625
+        ]
+      },
+      {
+        "table_id": "T16",
+        "caption": "Table 16 (continued)",
+        "page": 24,
+        "bbox": [
+          36.526798248291016,
+          102.4908447265625,
+          524.7332153320312,
+          472.6614074707031
+        ]
+      },
+      {
+        "table_id": "T17",
+        "caption": "Table 17 — Details of UNO OBJECT HEADER segment",
+        "page": 24,
+        "bbox": [
+          36.526798248291016,
+          506.3126220703125,
+          524.7332153320312,
+          781.339599609375
+        ]
+      },
+      {
+        "table_id": "T17",
+        "caption": "Table 17 (continued)",
+        "page": 25,
+        "bbox": [
+          70.5425033569336,
+          102.4908447265625,
+          558.7490234375,
+          559.5455322265625
+        ]
+      },
+      {
+        "table_id": "T18",
+        "caption": "Table 18 — Details of UNP OBJECT TRAILER segment",
+        "page": 25,
+        "bbox": [
+          70.5425033569336,
+          593.1967163085938,
+          558.7490234375,
+          714.6826171875
+        ]
+      },
+      {
+        "table_id": "T19",
+        "caption": "Table 19 — Details of UNS SECTION CONTROL segment",
+        "page": 26,
+        "bbox": [
+          36.526798248291016,
+          103.76513671875,
+          524.7332153320312,
+          194.5128173828125
+        ]
+      },
+      {
+        "table_id": "T20",
+        "caption": "Table 20 — Details of UNT MESSAGE TRAILER",
+        "page": 26,
+        "bbox": [
+          36.526798248291016,
+          228.1639404296875,
+          524.7332153320312,
+          334.08062744140625
+        ]
+      },
+      {
+        "table_id": "T21",
+        "caption": "Table 21 — Details of UNZ INTERCHANGE TRAILER segment",
+        "page": 26,
+        "bbox": [
+          36.526798248291016,
+          367.7318115234375,
+          524.7332153320312,
+          473.6484069824219
+        ]
+      },
+      {
+        "table_id": "T22",
+        "caption": "Table 22 — Details of USA SECURITY ALGORITHM segment",
+        "page": 26,
+        "bbox": [
+          36.526798248291016,
+          507.29962158203125,
+          524.7332153320312,
+          780.5369873046875
+        ]
+      },
+      {
+        "table_id": "T23",
+        "caption": "Table 23 — Details of USB SECURED DATA IDENTIFICATION segment",
+        "page": 27,
+        "bbox": [
+          70.5425033569336,
+          103.76513671875,
+          558.7490234375,
+          391.9757080078125
+        ]
+      },
+      {
+        "table_id": "T24",
+        "caption": "Table 24 — Details of USC CERTIFICATE segment",
+        "page": 27,
+        "bbox": [
+          70.5425033569336,
+          425.6268005371094,
+          558.7490234375,
+          785.285400390625
+        ]
+      },
+      {
+        "table_id": "T24",
+        "caption": "Table 24 (continued)",
+        "page": 28,
+        "bbox": [
+          36.526798248291016,
+          102.4908447265625,
+          524.7332153320312,
+          700.68408203125
+        ]
+      },
+      {
+        "table_id": "T25",
+        "caption": "Table 25 — Details of USD DATA ENCRYPTION HEADER segment",
+        "page": 29,
+        "bbox": [
+          70.5425033569336,
+          103.76513671875,
+          558.7490234375,
+          205.77899169921875
+        ]
+      },
+      {
+        "table_id": "T26",
+        "caption": "Table 26 — Details of USE SECURITY MESSAGE RELATION segment",
+        "page": 29,
+        "bbox": [
+          70.5425033569336,
+          239.43023681640625,
+          558.7490234375,
+          311.10614013671875
+        ]
+      },
+      {
+        "table_id": "T27",
+        "caption": "Table 27 — Details of USF KEY MANAGEMENT FUNCTION segment",
+        "page": 29,
+        "bbox": [
+          70.5425033569336,
+          344.7572021484375,
+          558.7490234375,
+          496.447021484375
+        ]
+      },
+      {
+        "table_id": "T28",
+        "caption": "Table 28 — Details of USH SECURITY HEADER segment",
+        "page": 29,
+        "bbox": [
+          70.5425033569336,
+          530.0982055664062,
+          558.7490234375,
+          784.7489013671875
+        ]
+      },
+      {
+        "table_id": "T28",
+        "caption": "Table 28 (continued)",
+        "page": 30,
+        "bbox": [
+          36.526798248291016,
+          102.4908447265625,
+          524.7332153320312,
+          539.1693115234375
+        ]
+      },
+      {
+        "table_id": "T29",
+        "caption": "Table 29 — Details of USL SECURITY LIST STATUS segment",
+        "page": 30,
+        "bbox": [
+          36.526798248291016,
+          572.820556640625,
+          524.7332153320312,
+          690.0032958984375
+        ]
+      },
+      {
+        "table_id": "T30",
+        "caption": "Table 30 — Details of USR SECURITY RESULT segment",
+        "page": 31,
+        "bbox": [
+          70.5425033569336,
+          103.76513671875,
+          558.7492065429688,
+          244.65069580078125
+        ]
+      },
+      {
+        "table_id": "T31",
+        "caption": "Table 31 — Details of UST SECURITY TRAILER segment",
+        "page": 31,
+        "bbox": [
+          70.5425033569336,
+          278.302001953125,
+          558.7490234375,
+          384.2186279296875
+        ]
+      },
+      {
+        "table_id": "T32",
+        "caption": "Table 32 — Details of USU DATA ENCRYPTION TRAILER segment",
+        "page": 31,
+        "bbox": [
+          70.5425033569336,
+          417.8699035644531,
+          558.7490234375,
+          539.3558349609375
+        ]
+      },
+      {
+        "table_id": "T33",
+        "caption": "Table 33 — Details of USX SECURITY REFERENCES segment",
+        "page": 31,
+        "bbox": [
+          70.5425033569336,
+          573.0070190429688,
+          558.7490234375,
+          786.5574340820312
+        ]
+      },
+      {
+        "table_id": "T33",
+        "caption": "Table 33 (continued)",
+        "page": 32,
+        "bbox": [
+          36.526798248291016,
+          102.4908447265625,
+          524.7332153320312,
+          634.58984375
+        ]
+      },
+      {
+        "table_id": "T34",
+        "caption": "Table 34 — Details of USY SECURITY ON REFERENCES segment",
+        "page": 32,
+        "bbox": [
+          36.526798248291016,
+          668.2410278320312,
+          524.7332153320312,
+          785.4075927734375
+        ]
+      },
+      {
+        "table_id": "T34",
+        "caption": "Table 34 (continued)",
+        "page": 33,
+        "bbox": [
+          70.5425033569336,
+          102.4908447265625,
+          558.7490234375,
+          234.8265380859375
+        ]
+      },
+      {
+        "table_id": "T35",
+        "caption": "Table 35 — S001 SYNTAX IDENTIFIER",
+        "page": 36,
+        "bbox": [
+          36.526798248291016,
+          438.1361999511719,
+          524.7332153320312,
+          570.4881591796875
+        ]
+      },
+      {
+        "table_id": "T36",
+        "caption": "Table 36 — S002 INTERCHANGE SENDER",
+        "page": 36,
+        "bbox": [
+          36.526798248291016,
+          604.1392822265625,
+          524.7332153320312,
+          710.3221435546875
+        ]
+      },
+      {
+        "table_id": "T37",
+        "caption": "Table 37 — S003 INTERCHANGE RECIPIENT",
+        "page": 37,
+        "bbox": [
+          70.5425033569336,
+          103.76513671875,
+          558.7490234375,
+          209.947998046875
+        ]
+      },
+      {
+        "table_id": "T38",
+        "caption": "Table 38 — S004 DATE AND TIME OF PREPARATION",
+        "page": 37,
+        "bbox": [
+          70.5425033569336,
+          243.59912109375,
+          558.7490234375,
+          319.44403076171875
+        ]
+      },
+      {
+        "table_id": "T39",
+        "caption": "Table 39 — S005 RECIPIENT REFERENCE/PASSWORD DETAILS",
+        "page": 37,
+        "bbox": [
+          70.5425033569336,
+          353.09521484375,
+          558.7490234375,
+          428.94000244140625
+        ]
+      },
+      {
+        "table_id": "T40",
+        "caption": "Table 40 — S006 APPLICATION SENDER IDENTIFICATION",
+        "page": 37,
+        "bbox": [
+          70.5425033569336,
+          462.5912170410156,
+          558.7490234375,
+          538.4361572265625
+        ]
+      },
+      {
+        "table_id": "T41",
+        "caption": "Table 41 — S007 APPLICATION RECIPIENT IDENTIFICATION",
+        "page": 37,
+        "bbox": [
+          70.5425033569336,
+          572.0872802734375,
+          558.7490234375,
+          647.9322509765625
+        ]
+      },
+      {
+        "table_id": "T42",
+        "caption": "Table 42 — S009 MESSAGE IDENTIFIER",
+        "page": 37,
+        "bbox": [
+          70.5425033569336,
+          681.5834350585938,
+          558.7490234375,
+          787.7662353515625
+        ]
+      },
+      {
+        "table_id": "T42",
+        "caption": "Table 42 (continued)",
+        "page": 38,
+        "bbox": [
+          36.526798248291016,
+          102.4908447265625,
+          524.7332153320312,
+          193.75469970703125
+        ]
+      },
+      {
+        "table_id": "T43",
+        "caption": "Table 43 — S010 STATUS OF THE TRANSFER",
+        "page": 38,
+        "bbox": [
+          36.526798248291016,
+          227.40594482421875,
+          524.7332153320312,
+          303.250732421875
+        ]
+      },
+      {
+        "table_id": "T44",
+        "caption": "Table 44 — S011 DATA ELEMENT IDENTIFICATION",
+        "page": 38,
+        "bbox": [
+          36.526798248291016,
+          336.90191650390625,
+          524.7332153320312,
+          526.6954345703125
+        ]
+      },
+      {
+        "table_id": "T45",
+        "caption": "Table 45 — S016 MESSAGE SUBSET IDENTIFICATION",
+        "page": 38,
+        "bbox": [
+          36.526798248291016,
+          560.3466186523438,
+          524.7332153320312,
+          666.5294189453125
+        ]
+      },
+      {
+        "table_id": "T46",
+        "caption": "Table 46 — S017 MESSAGE IMPLEMENTATION GUIDELINE IDENTIFICATION",
+        "page": 38,
+        "bbox": [
+          36.526798248291016,
+          700.1806030273438,
+          524.7332153320312,
+          776.0255126953125
+        ]
+      },
+      {
+        "table_id": "T46",
+        "caption": "Table 46 (continued)",
+        "page": 39,
+        "bbox": [
+          70.5425033569336,
+          102.4908447265625,
+          558.7490234375,
+          178.585693359375
+        ]
+      },
+      {
+        "table_id": "T47",
+        "caption": "Table 47 — S018 SCENARIO IDENTIFICATION",
+        "page": 39,
+        "bbox": [
+          70.5425033569336,
+          212.2369384765625,
+          558.7490234375,
+          318.4197998046875
+        ]
+      },
+      {
+        "table_id": "T48",
+        "caption": "Table 48 — S020 REFERENCE IDENTIFICATION",
+        "page": 39,
+        "bbox": [
+          70.5425033569336,
+          352.0709228515625,
+          558.7490234375,
+          427.9158020019531
+        ]
+      },
+      {
+        "table_id": "T49",
+        "caption": "Table 49 — S021 OBJECT TYPE IDENTIFICATION",
+        "page": 39,
+        "bbox": [
+          70.5425033569336,
+          461.5670166015625,
+          558.7490234375,
+          597.8215942382812
+        ]
+      },
+      {
+        "table_id": "T50",
+        "caption": "Table 50 — S022 STATUS OF THE OBJECT",
+        "page": 39,
+        "bbox": [
+          70.5425033569336,
+          631.4727783203125,
+          558.7490234375,
+          737.6556396484375
+        ]
+      },
+      {
+        "table_id": "T51",
+        "caption": "Table 51 — S300 DATE AND/OR TIME OF INITIATION",
+        "page": 40,
+        "bbox": [
+          36.526798248291016,
+          103.76513671875,
+          524.7332153320312,
+          224.850830078125
+        ]
+      },
+      {
+        "table_id": "T52",
+        "caption": "Table 52 — S301 STATUS OF TRANSFER - INTERACTIVE",
+        "page": 40,
+        "bbox": [
+          36.526798248291016,
+          258.50189208984375,
+          524.7332153320312,
+          421.7261047363281
+        ]
+      },
+      {
+        "table_id": "T53",
+        "caption": "Table 53 — S302 DIALOGUE REFERENCE",
+        "page": 40,
+        "bbox": [
+          36.526798248291016,
+          455.3773193359375,
+          524.7332153320312,
+          591.6318969726562
+        ]
+      },
+      {
+        "table_id": "T54",
+        "caption": "Table 54 — S303 TRANSACTION REFERENCE",
+        "page": 40,
+        "bbox": [
+          36.526798248291016,
+          625.2830810546875,
+          524.7332153320312,
+          746.3687133789062
+        ]
+      },
+      {
+        "table_id": "T55",
+        "caption": "Table 55 — S305 DIALOGUE IDENTIFICATION",
+        "page": 41,
+        "bbox": [
+          70.5425033569336,
+          103.76513671875,
+          558.7490234375,
+          209.947998046875
+        ]
+      },
+      {
+        "table_id": "T56",
+        "caption": "Table 56 — S306 INTERACTIVE MESSAGE IDENTIFIER",
+        "page": 41,
+        "bbox": [
+          70.5425033569336,
+          243.59912109375,
+          558.7490234375,
+          380.1199035644531
+        ]
+      },
+      {
+        "table_id": "T57",
+        "caption": "Table 57 — S307 STATUS INFORMATION",
+        "page": 41,
+        "bbox": [
+          70.5425033569336,
+          413.7711181640625,
+          558.7490234375,
+          565.9953002929688
+        ]
+      },
+      {
+        "table_id": "T58",
+        "caption": "Table 58 — S500 SECURITY IDENTIFICATION DETAILS",
+        "page": 41,
+        "bbox": [
+          70.5425033569336,
+          599.646484375,
+          558.7490234375,
+          781.6580200195312
+        ]
+      },
+      {
+        "table_id": "T58",
+        "caption": "Table 58 (continued)",
+        "page": 42,
+        "bbox": [
+          36.526798248291016,
+          102.4908447265625,
+          524.7332153320312,
+          193.488525390625
+        ]
+      },
+      {
+        "table_id": "T59",
+        "caption": "Table 59 — S501 SECURITY DATE AND TIME",
+        "page": 42,
+        "bbox": [
+          36.526798248291016,
+          227.13970947265625,
+          524.7332153320312,
+          333.322509765625
+        ]
+      },
+      {
+        "table_id": "T60",
+        "caption": "Table 60 — S502 SECURITY ALGORITHM",
+        "page": 42,
+        "bbox": [
+          36.526798248291016,
+          366.9737243652344,
+          524.7332153320312,
+          652.051025390625
+        ]
+      },
+      {
+        "table_id": "T61",
+        "caption": "Table 61 — S503 ALGORITHM PARAMETER",
+        "page": 42,
+        "bbox": [
+          36.526798248291016,
+          685.7021484375,
+          524.7332153320312,
+          761.5469970703125
+        ]
+      },
+      {
+        "table_id": "T62",
+        "caption": "Table 62 — S504 LIST PARAMETER",
+        "page": 43,
+        "bbox": [
+          70.5425033569336,
+          103.76513671875,
+          558.7490234375,
+          179.6099853515625
+        ]
+      },
+      {
+        "table_id": "T63",
+        "caption": "Table 63 — S505 SERVICE CHARACTER FOR SIGNATURE",
+        "page": 43,
+        "bbox": [
+          70.5425033569336,
+          213.26123046875,
+          558.7490234375,
+          289.10614013671875
+        ]
+      }
+    ],
+    "table_count": 80
+  },
+  {
+    "order": 1,
+    "id": "annex_a",
+    "title": "Annex A",
+    "file": "/mnt/c/Users/mish1/OneDrive/Desktop/VoiceAgent/runs/job_20260216_201411/sections_original/01_annex_a.txt",
+    "page_start": 68,
+    "page_end": 78,
+    "word_count": 2609,
+    "tables": [],
+    "table_count": 0
+  },
+  {
+    "order": 2,
+    "id": "bibliography",
+    "title": "Bibliography",
+    "file": "/mnt/c/Users/mish1/OneDrive/Desktop/VoiceAgent/runs/job_20260216_201411/sections_original/02_bibliography.txt",
+    "page_start": 79,
+    "page_end": 80,
+    "word_count": 299,
+    "tables": [],
+    "table_count": 0
+  }
+]

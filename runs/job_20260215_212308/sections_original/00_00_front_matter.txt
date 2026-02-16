@@ -1,0 +1,1244 @@
+भारतीय मानक
+
+Indian Standard
+
+इन्सुलेट तरल पदार्थ — ससिंर्ेसटक सुगिंसित
+
+हाइड्रोकार्थनपर आिाररतअप्रयुक्त तरल
+
+पदार्थ — सिसिसि
+
+Insulating Liquids — Unused
+
+Liquids Based on Synthetic
+
+Aromatic Hydrocarbons —
+
+Specification
+
+ICS 29.040.10
+
+ BIS 2024  IEC 2022
+
+भारतीय मानक ब्यूरो
+
+BUREAU OF INDIAN STANDARDS
+
+मानक भवन, 9 बहादुर शाह ज़फर मार्ग, नई ददल्ली- 110002
+
+MANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG
+
+NEW DELHI - 110002
+
+www.bis.gov.inwww.standardsbis.in
+
+Price Group 9
+
+February 2024
+
+Fluids for Electrotechnical Applications Sectional Committee, ETD 03
+
+NATIONAL FOREWORD
+
+This Indian Standard which is identical to IEC 60867 : 2022 ‘Insulating liquids — Specifications for unused liquids based on synthetic aromatic hydrocarbons’ issued by the International Electrotechnical
+Commission (IEC) was adopted by the Bureau of Indian Standards on the recommendation of the Fluids for Electrotechnical Applications Sectional Committee and approval of the Electrotechnical Division
+Council.
+
+This Indian Standard covers specifications and test methods for unused synthetic aromatic hydrocarbons intended for use as insulating liquid in cables and capacitors.
+
+The text of IEC standard has been approved as suitable for publication as an Indian Standard without deviations. Certain terminologies and conventions are, however, not identical to those used in Indian
+Standards. Attention is particularly drawn to the following:
+
+Wherever the words ‘International Standard’ appear referring to this standard, they
+
+should
+
+a) be read as ‘Indian Standard’; and
+
+Comma (,) has been used as a decimal marker, while in Indian Standards the current
+b) practice is to use a point (.) as the decimal marker.
+
+In this standard, reference appears to International Standards for which Indian Standards also exists.
+The corresponding Indian Standards, which are to be substituted, are listed below along with their degree of equivalence for the editions indicated:
+
+International Standard
+
+Corresponding Indian
+
+Standard
+
+Degree of Equivalence
+
+IS 1448 (Part 69) : 2019/ISO
+
+ISO 2592 Petroleum and related
+
+Identical
+
+2592 : 2017 Methods of test for
+
+products — Determination of flash
+
+petroleum and its products: Part 69
+
+point — Cleveland open cup
+
+Determination of flash and fire
+
+method (PMOC)
+
+points — Cleveland open cup method (second revision)
+
+ISO 3016 Petroleum and related
+
+Identical
+
+IS 1448 (Part 10/Sec 2) : 2021/ISO
+
+products from natural or synthetic
+
+3016 : 2019 Methods of test for
+
+sources – Determination of pour
+
+petroleum and its products: Part 10
+
+point
+
+Petroleum and related products from natural or synthetic sources,
+Section 2 Determination of pour point (third revision)
+
+Identical
+
+IS 1448 (Part 25/Sec 1) : 2018/ISO
+
+ISO 3104 Petroleum products —
+
+3104 : 1994 Methods of test for
+
+Transparent and opaque liquids —
+Determination
+
+of kinematic
+
+petroleum and its products: Part 25
+
+viscosity
+
+and calculation
+
+of
+
+Transparent and opaque liquids,
+
+dynamic viscosity
+
+Section
+
+Determination
+
+of
+
+kinematic viscosity and calculation of dynamic
+
+viscosity
+
+(second
+
+revision)
+
+International Standard
+
+Corresponding Indian
+
+Standard
+
+Degree of Equivalence
+
+ISO 3675 Crude petroleum and
+
+IS 1448 (Part 16) : 2014/ISO
+
+liquid
+
+petroleum
+
+products
+
+—
+
+Identical
+
+3675 : 1998 Methods of test for
+
+Laboratory
+
+determination
+
+of
+
+petroleum and its products: Part 16
+
+density — Hydrometermethod
+
+Crude
+
+petroleum
+
+and liquid
+
+petroleum products — Laboratory determination
+
+of density
+
+—
+
+Hydrometer
+
+method
+
+(fourth
+
+revision)
+
+Identical
+
+IS 3025 (Part 70) : 2018/ISO
+
+ISO
+
+Water
+
+quality
+
+—
+
+9562 : 2004 Methods of sampling
+
+Determination
+
+of adsorbable
+
+and test (Physical and Chemical)
+
+organically bound halogens (AOX)
+
+for water and waste water: Part 70 Adsorbable
+
+organically
+
+bound
+
+halogens (AOX)
+
+IS 1448 (Part 167) : 2018/ISO
+
+ISO 12185 Crude petroleum and
+
+Identical
+
+12185 : 1996 Methods of test for
+
+petroleum
+
+products
+
+—
+
+petroleum and its products: Part
+
+Determination
+
+of density
+
+—
+
+167 Determination of density —
+
+Oscillating U-tube method
+
+Oscillating
+
+U-tube
+
+method
+
+(third revision)
+
+IEC 60156 Insulating liquids —
+
+IS 6792 : 2023/IEC 60156 : 2018
+
+Identical
+
+Determination of the breakdown
+
+Insulating liquids — Determination
+
+voltage at power frequency — Test
+
+of the breakdown voltage at power
+
+method
+
+frequency — Test method (third revision)
+
+IS 16840 : 2018/IEC 60247 : 2004
+
+Identical
+
+IEC 60247 Insulating liquids —
+
+Insulating liquids — Measurement
+
+Measurement
+
+of relative
+
+of relative permittivity, dielectric
+
+permittivity, dielectric dissipation
+
+dissipation factor (Tan δ) and d.c.
+
+factor (tanδ) and d.c. resistivity
+
+resistivity
+
+Method
+
+of
+
+IS 6855 : 2023/IEC 60475 : 2022
+
+IEC
+
+Identical
+
+Method of sampling insulating
+
+sampling insulating liquids
+
+liquids
+
+IS 12475 (Part 1 & 2) : 1988
+
+Modified/Technically
+
+IEC 60628 Gassing ofi nsulating
+
+Specification
+
+for gassing
+
+of
+
+Equivalent
+
+liquidsunder electrical stress and
+
+insulating
+
+liquid
+
+under
+
+electric
+
+ionization
+
+stress and ionization
+
+Identical
+
+IEC
+
+Detection
+
+and
+
+IS 13631 : 2017/IEC 60666 : 2010
+
+determination
+
+of specified
+
+Detection and determination of
+
+additives in mineral insulating oils
+
+specified
+
+additives
+
+in mineral
+
+insulating oils (first revision)
+
+IEC 60814 Insulating liquids —
+
+IS 13567 : 2018/IEC 60814 : 1997
+
+Identical
+
+Oil-impregnated
+
+paper
+
+and
+
+Insulating
+
+liquids
+
+— Oil-
+
+pressboard — Determination of
+
+impregnated paper and pressboard
+
+water by automaticcoulometric
+
+Determination
+
+of water
+
+by
+
+karl fischer titration
+
+automatic coulometric karl fischer titration (first revision)
+
+Corresponding Indian
+
+Standard
+
+International Standard
+
+Degree of Equivalence
+
+IEC 61619 Insulating liquids —
+
+IS 16082: 2013/IEC 61619 : 1997
+
+Identical
+
+Contamination by polychlorinated
+
+Insulating liquids — Contamination
+
+biphenyls (PCBs) — Method of
+
+by polychlorinated
+
+biphenyls
+
+determination by capillary column
+
+(PCBs)
+
+—
+
+Method
+
+of
+
+gaschromatography
+
+determination by capillary column gas chromatography
+
+Identical
+
+IS 16086: 2013/IEC 61620 : 1998
+
+IEC
+
+Insulating
+
+Insulating liquids — Determination
+
+liquids
+
+— Determination
+
+of
+
+of the dielectric dissipation factor by measurement
+
+the dielectric dissipation factor
+
+of the
+
+by measurement
+
+of the
+
+conductance and capacitance —
+
+conductance
+
+and capacitance
+
+Test method
+
+—Test method
+
+Identical
+
+IEC 62021-1 Insulating liquids —
+
+IS 16863 (Part 1) : 2018/IEC
+
+Determination of acidity — Part 1:
+
+62021-1 : 2003 Insulating liquids
+
+Automatic potentiometric titration
+
+— Determination of acidity: Part 1
+Automatic potentiometric titration
+
+Identical
+
+IS
+
+(Part 2) : 2018/
+
+IEC 62021-2 Insulating liquids —
+Determination of acidity — Part 2:
+
+IEC 62021-2 : 2007 Insulating
+
+liquids — Determination of acidity:
+Part 2 Colourimetric titration
+
+Colourimetric titration
+
+IS 16863 (Part 3) : 2018/ IEC
+
+IEC 62021-3 Insulating liquids —
+
+Identical
+
+62021-3 : 2014 Insulating liquids
+
+Determination of acidity — Part 3:
+
+—Determination of acidity: Part 3
+
+Test methods for non-mineral
+
+Test methods
+
+for non-mineral
+
+insulating oils
+
+insulating oils
+
+IS 16310 : 2017/IEC 62535 : 2008
+
+Identical
+
+IEC
+
+62535 Insulating liquids
+
+Insulating liquids — Test method
+
+— Test method for detection
+
+for
+
+detection
+
+of potentially
+
+potentially corrosive sulphur in
+
+corrosive sulphur in used and
+
+used and unused insulating oil
+
+unused insulating oil
+
+The Committee has reviewed the provisions of the following International Standards referred in this adopted standard and decided that they are acceptable for use in conjunction with this standard:
+
+International Standard
+
+Title
+
+ASTM D1275
+
+Standard test method for corrosive sulfur in electrical insulatingl
+
+iquids
+
+Standard test method for determination of organic chloride
+
+content in
+
+ASTM D4929
+
+crude oil
+
+ASTM D7042
+
+Standard test method for dynamic viscosity and density ofliquids by stabinger viscometer (and the calculation of kinematic viscosity)
+
+ASTM D7536
+
+Standard test method for chlorine in aromatics by monochromatic
+Wavelength Dispersive X-ray fluorescence
+
+spectrometry
+
+DIN 51353
+
+Testing of insulating oils; detection of corrosive sulfur; Silver strip test
+
+as such,
+
+Only the English language text has been retained while adopting it in this Indian Standard, and
+
+the page numbers given here are not the same as in the IEC Publication.
+
+For the purpose of deciding whether a particular requirement of this standard is complied with
+
+the final
+
+value, observed or calculated expressing the result of a test or analysis shall be rounded
+
+off in accordance
+
+with IS 2 : 2022 ‘Rules for rounding of numerical values (second revision)’.
+
+The number of significant
+
+places retained in the rounded off value should be the same as that of the specified value in this standard.
+
+CONTENTS
+
+INTRODUCTION
+
+.....................................................................................................................
+
+Scope ..............................................................................................................................
+Normative references ......................................................................................................
+Terms and definitions ......................................................................................................
+Identification and general delivery requirements ..............................................................
+Sampling .........................................................................................................................
+Test methods
+
+...................................................................................................................3
+
+6.1
+
+Appearance ............................................................................................................3
+
+6.2
+
+Density ...................................................................................................................
+
+6.3
+
+Kinematic viscosity .................................................................................................3
+
+6.4
+
+Flash point
+
+..............................................................................................................3
+
+6.5
+
+Pour point ...............................................................................................................
+
+6.6
+
+Acidity .....................................................................................................................3
+
+6.7
+
+Chlorine content......................................................................................................4
+
+6.8
+
+Water content .........................................................................................................
+
+6.9
+
+Corrosive and potentially corrosive sulphur
+
+..............................................................
+
+6.10
+
+Additives
+
+.................................................................................................................
+
+6.11
+
+Breakdown voltage .................................................................................................
+
+6.12
+
+Dielectric dissipation factor and volume resistivity
+
+...................................................
+
+6.13
+
+Gassing tendency ....................................................................................................4
+
+6.14
+
+Polychlorinated biphenyl (PCBs) content..................................................................4
+Specifications for capacitor and cable alkylbenzenes
+
+......................................................4
+
+Specifications for capacitor alkyldiphenylethanes .............................................................4
+Specifications for capacitor alkylnaphthalenes
+
+..................................................................5
+
+Specifications for capacitor methylpolyarylmethanes ........................................................5
+Annex A (informative) Test method for determination of chlorine content ................................
+A.1
+
+Test method for determination of total chloride ........................................................9 A.1.1
+
+Reagents .........................................................................................................9
+
+A.1.2
+
+Apparatus ........................................................................................................
+
+A.1.3
+
+Procedure
+
+........................................................................................................9
+
+A.1.4
+
+Calculation ....................................................................................................
+
+A.2
+
+Test method for determination of organic chloride
+
+.................................................
+
+Annex B (informative) IR spectra of typical synthetic aromatic hydrocarbons .......................
+B.1
+
+IR spectra typical of the family of alkylbenzenes ...................................................
+
+B.2
+
+Alkyldiphenylethanes ............................................................................................
+
+B.3
+
+Alkylnaphtalenes – typified by 1-methylnaphthalene .............................................13
+
+B.4
+
+Methylpolyarylmethanes........................................................................................13
+
+Bibliography
+
+..........................................................................................................................
+
+Figure B.1 – IR spectra of branched alkylbenzenes
+
+................................................................
+
+Figure B.2 – IR spectra of linear alkylbenzenes ....................................................................
+Figure B.3 – IR spectrum of phenylxylylethane (PXE) ...........................................................
+Figure B.4 – IR spectrum of 1-methylnaphthalene
+
+..................................................................
+
+Figure B.5 – IR spectrum of monobenzyltoluene (MBT)
+
+...........................................................
+
+Figure B.6 – IR spectrum of dibenzyltoluene (DBT)
+
+...............................................................
+
+[[TABLE|T1|Table 1 – Specifications for capacitor and cable alkylbenzenes ...............................................]]
+
+[[TABLE|T2|Table 2 – Specifications for capacitor alkyldiphenylethanes and alkylnaphthalenes ...............7]]
+
+[[TABLE|T3|Table 3 – Specifications for capacitor methylpolyarylmethanes ................................................8]]
+
+INTRODUCTION
+
+WARNING – Health and safety
+
+This document does not purport to address all the safety problems associated with its use. It is the responsibility of the user of this document to establish appropriate health and safety
+practices and determine the applicability of regulatory limitations prior to use.
+
+The synthetic aromatic hydrocarbon insulating liquids which are the subject of this document should be handled with due regard to personal hygiene. Direct contact with the eyes can cause
+irritation. In the case of eye contact, irrigation with copious quantities of clean running water should be carried out and medical advice sought. Some of the tests specified in this document
+involve the use of processes that could lead to a hazardous situation. Attention is drawn to the relevant standard for guidance.
+
+WARNING – Environment
+
+This document is applicable to synthetic aromatic hydrocarbon insulating liquids, chemicals and used sample containers. The disposal of these items can be subject to regulatory requirements
+with regard to their impact on the environment. Every precaution should be taken to prevent release of insulating liquids into the environment.
+
+Indian Standard
+
+INSULATING LIQUIDS — UNUSED LIQUIDS BASED
+
+ON SYNTHETIC AROMATIC HYDROCARBONS —
+
+SPECIFICATION
+
+Scope
+
+This document covers specifications and test methods for unused synthetic aromatic hydrocarbons intended for use as insulating liquid in cables and capacitors.
+
+Normative references
+
+The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies.
+For undated references, the latest edition of the referenced document (including any amendments) applies.
+
+IEC 60156, Insulating liquids – Determination of the breakdown voltage at power frequency – Test method
+
+IEC 60247, Insulating liquids – Measurement of relative permittivity, dielectric dissipation factor (tanδ) and d.c. resistivity
+
+IEC 60475, Method of sampling insulating liquids
+
+IEC 60628, Gassing of insulating liquids under electrical stress and ionization
+
+IEC 60666, Detection and determination of specified additives in mineral insulating oils
+
+IEC 60814, Insulating liquids – Oil-impregnated paper and pressboard – Determination of water by automatic coulometric Karl Fischer titration
+
+IEC 61619, Insulating liquids – Contamination by polychlorinated biphenyls (PCBs) – Method of determination by capillary column gas chromatography
+
+IEC 61620, Insulating liquids – Determination of the dielectric dissipation factor by measurement of the conductance and capacitance – Test method
+
+IEC 62021 (all parts), Insulating liquids – Determination of acidity
+
+IEC 62535, Insulating liquids – Test method for detection potentially corrosive sulphur in used and unused insulating oil
+
+ISO 2592, Petroleum and related products – Determination of flash point – Cleveland open cup method
+(PMOC)
+
+ISO 3016, Petroleum and related products from natural or synthetic sources – Determination of pour point
+
+ISO 3104, Petroleum products – Transparent and opaque liquids – Determination of kinematic viscosity and calculation of dynamic viscosity
+
+ISO 3675, Crude petroleum and liquid petroleum products – Laboratory determination of density
+– Hydrometer method
+
+ISO 9562, Water quality – Determination of adsorbable organically bound halogens (AOX)
+
+ISO 12185, Crude petroleum and petroleum products – Determination of density – Oscillating
+U-tube method
+
+ASTM D1275, Standard test method for corrosive sulfur in electrical insulating liquids
+
+ASTM D4929, Standard Test Method for Determination of Organic Chloride Content in Crude Oil
+
+ASTM D7042, Standard Test Method for Dynamic Viscosity and Density of Liquids by Stabinger
+Viscometer (and the Calculation of Kinematic Viscosity)
+
+ASTM D7536, Standard Test Method for Chlorine in Aromatics by Monochromatic Wavelength
+Dispersive X-ray Fluorescence Spectrometry
+
+DIN 51353, Testing of insulating oils; detection of corrosive sulfur; Silver strip test
+
+Terms and definitions
+
+For the purposes of this document, the following terms and definitions apply.
+
+ISO and IEC maintain terminology databases for use in standardization at the following addresses:
+
+• IEC Electropedia: available at https://www.electropedia.org/
+• ISO Online browsing platform: available at https://www.iso.org/obp
+
+3.1 alkylbenzenes
+insulating liquids consisting of a benzene ring and an alkyl group where the alkyl group can be a straight chain or a branched-chain type
+
+Note 1 to entry: Examples of IR spectra are given in Annex B.
+
+3.2 alkyldiphenylethanes
+insulating liquids consisting of diphenylethanes derivatives where the two aryl groups normally carry short alkyl groups
+
+Note 1 to entry: Examples of IR spectra are given in Annex B.
+
+3.3 alkylnaphthalenes
+insulating liquids consisting of a naphthalene structure with substituent alkyl groups
+
+Note 1 to entry: Examples of IR spectra are given in Annex B.
+
+3.4 methylpolyarylmethanes
+insulating liquids consisting of methylpolyarylm ethanes derivatives mainly based on a blend of mono/di-benzyl toluene (M/DBT)
+
+Note 1 to entry: Examples of IR spectra are given in Annex B.
+
+Identification and general delivery requirements
+
+Identification and general delivery requirements are as follows:
+
+a) The synthetic aromatic hydrocarbons type of liquid is normally delivered in bulk, rail-tank cars, tank containers or packed in drums or intermediate bulk containers (IBC). These shall
+be clean and suitable for this purpose to avoid any contamination. The supplier shall take all the precautions to ensure the delivery product will be in accordance with the requirements
+of this document.
+b) Drums and sample containers shall carry at least the following markings:
+– supplier's designation;
+– labelling in accordance with the Globally Harmonized System of Classification and
+Labelling of Chemicals (GHS);
+– liquid quantity.
+c) As agreed between the supplier and purchaser each liquid delivery shall be accompanied by a document specifying the supplier’s designation, labelling and compliance certificate. A
+delivery shall be traceable to a manufactured batch.
+d) The supplier shall declare the generic type of all additives, and the concentrations in the case of antioxidants and passivators.
+
+Sampling
+
+Sampling shall be carried out in accordance with the procedure described in IEC 60475.
+
+Test methods
+
+6.1 Appearance
+
+Appearance shall be evaluated by examining, in transmitted light, a representative sample of the liquid having a thickness of approximately 10 cm, at ambient temperature.
+
+6.2 Density
+
+Density shall be measured in accordance with ISO 12185 (reference method). ISO 3675 and
+ASTM D7042 are acceptable.
+
+6.3 Kinematic viscosity
+
+Kinematic viscosity shall be measured according to ISO 3104 (reference method) or ASTM D7042.
+
+6.4 Flash point
+
+Flash point shall be determined according to ISO 2592.
+
+6.5 Pour point
+
+Pour point shall be determined according to ISO 3016.
+
+6.6 Acidity
+
+Acidity shall be measured according to the IEC 62021 series. Any part of the IEC 62021 series (IEC 62021-1 or IEC 62021-2 or IEC 62021-3) can be used.
+
+6.7 Chlorine content
+
+Chlorine content shall be determined using a test method according to ISO 9562 for the determination of adsorbable organically bound halogens (AOX) or ASTM D4929 for the
+determination of organic chloride content in crude oil or ASTM D7536 for the determination of chlorine in aromatics by monochromatic wavelength dispersive X-ray fluorescence
+spectrometry. The method described in Annex A can also be used.
+
+6.8 Water content
+
+Water content shall be determined according to IEC 60814.
+
+6.9 Corrosive and potentially corrosive sulphur
+
+Corrosive and potentially corrosive sulphur shall be determined according to DIN 51353 and
+ASTM D1275 and IEC 62535.
+
+6.10 Additives
+
+The chemical family of all additives shall be declared in product data sheets and certificates of compliance. For antioxidant additives and passivators (IEC 60666), their concentrations shall
+also be stated.
+
+6.11 Breakdown voltage
+
+Breakdown voltage shall be determined according to IEC 60156.
+
+6.12 Dielectric dissipation factor and volume resistivity
+
+The properties shall be determined according to IEC 60247 (reference method) or IEC 61620.
+
+6.13 Gassing tendency
+
+The gassing shall be determined by Method A of IEC 60628.
+
+NOTE Synthetic aromatic hydrocarbon compositions have been used as additive to improve the gassing tendency of insulating liquids.
+
+6.14 Polychlorinated biphenyl (PCBs) content
+
+Synthetic aromatic hydrocarbons shall be free from PCBs. The reference test method is IEC
+61619.
+
+NOTE Acceptable limits of total or individual PCBs are specified in national and local regulations. Further European specifications are described in Directive 96/59/EC and UN Guidelines for the identification of PCBs and materials containing PCBs.
+
+Specifications for capacitor and cable alkylbenzenes
+
+When tested in accordance with the methods specified in Clause 6, the properties of insulating liquids based on alkylbenzenes which are intended for use as impregnant in capacitors and
+hollow-core cables shall meet the requirements and specifications given in Table 1.
+
+Specifications for capacitor alkyldiphenylethanes
+
+When tested in accordance with the methods specified in Clause 6, the properties of insulating liquids based on alkyldiphenylethanes used as impregnant in capacitors shall meet the
+requirements and specifications given in Table 2.
+
+Specifications for capacitor alkylnaphthalenes
+
+When tested in accordance with the methods specified in Clause 6 the properties of insulating liquids based on alkylnaphthalenes used as impregnant in capacitors shall meet the
+requirements and specifications given in Table 2.
+
+10 Specifications for capacitor methylpolyarylmethanes
+
+When tested in accordance with the methods specified in Clause 6, the properties of insulating liquids based on methylpolyarylmethanes used as impregnant in capacitors shall meet the
+requirements and specifications given in Table 3.
+
+Table 1 – Specifications for capacitor and cable alkylbenzenes
+
+[[TABLE|T1|Table 1 – Specifications for capacitor and cable alkylbenzenes]]
+
+Table 2 – Specifications for capacitor alkyldiphenylethanes and alkylnaphthalenes
+
+[[TABLE|T2|Table 2 – Specifications for capacitor alkyldiphenylethanes and alkylnaphthalenes]]
+
+Table 3 – Specifications for capacitor methylpolyarylmethanes
+
+[[TABLE|T3|Table 3 – Specifications for capacitor methylpolyarylmethanes]]
+
+Annex A (informative)
+
+Test method for determination of chlorine content
+
+A.1 Test method for determination of total chloride
+
+A.1.1
+
+Reagents
+
+– standard solution of nitric acid (HNO3), analytical grade. Dilute 190 g of concentrated nitric acid to 1 dm3 with distilled water;
+– isopropyl alcohol, analytical grade;
+silver nitrate (AgNO3), analytical grade. Standard solution (0,025 mol/dm3); –
+
+0,4247 g of silver nitrate weighed accurately. Transfer it to a 1 l volumetric flask and add distilled water to dissolve. Add 3 cm3 of concentrated nitric acid (density 1,42 kg/dm3) and
+then add distilled water to the 1 dm3 mark of the volumetric flask. Standardize this solution against a pure chloride standard. Check the solution at least monthly to ensure a constant
+reagent. Dry the silver nitrate overnight in a desiccator before making up the solution. Both the solid material and the solution shall be protected from light by storage in brown
+glassware in the dark.
+sodium diphenyl solution (C6H5C6H4Na). Organic halogen reagent: 30 cm3 of this reagent – are normally needed to give excess reagent. The preparation of sodium diphenyl solution is
+described in 'McCoy – The Inorganic Analysis of Petroleum, Chemical Publishing Co. Inc., 212 Fifth Avenue, New York'.
+
+NOTE A sodium chloride crystal as used in infrared spectrometer cells is a suitable chloride standard.
+
+A.1.2
+
+Apparatus separatory funnel, 250 cm3; –
+– potentiometric titration apparatus;
+– electrodes: silver and glass electrode combination is preferred. A silver electrode with a mercurous sulphate reference electrode is an acceptable alternative;
+micro-burette, 5 cm3 with 0,01 cm3 divisions. –
+
+A.1.3
+
+Procedure
+
+Dissolve 35,5 g ± 0,1 g of the liquid under test in 25 cm3 toluene in a 150 cm3 beaker by stirring with a small glass rod. Transfer the solution to a separatory funnel. Rinse the beaker several
+times with a total of 25 cm3 toluene and add the rinses to the funnel.
+
+Add an excess (approximately 30 cm3 is usually sufficient) of sodium diphenyl solution to the contents of the separatory funnel. The excess is indicated by a colour change of blue or green.
+Stopper the vessel and gently shake to thoroughly mix the solution, venting occasionally to release the excess pressure build-up.
+
+Allow the blue-green mixture to stand 5 min to ensure complete reaction. Remove stopper, add 2 cm3 of isopropyl alcohol, and swirl with stopper removed until excess reagent is destroyed.
+
+Add slowly 50 cm3 of the nitric acid solution. Ensure that the organic and aqueous phases are in intimate and uniform contact by gentle swirling and rocking for 5 min. Loosen the stopper
+occasionally to release slight pressure. Drain the aqueous phase into a beaker. Extract the organic phase twice more with 50 cm3 portions of nitric acid solution. Drain the aqueous phases
+into the beaker containing the first extract.
+
+Place the beaker containing the aqueous phase on the titration stand and insert the electrode system. Start the stirrer and record the initial value of potential or pH. Titrate slowly with AgNO3
+solution (0,025 mol/dm3), recording readings after the addition of each drop of AgNO3 solution.
+
+Continue titrating until the point of maximum change in potential or pH scale reading is reached.
+Plot the volume of silver nitrate as abscissa and voltage or pH reading as ordinates. The end- point is selected at the point of inflection of the curve.
+
+Titrate the same volume of solvent without the sample, as a blank.
+
+A.1.4
+
+Calculation
+
+Calculate the amount of total chlorine as follows:
+
+Total chlorine (mg/kg) = [(A − B) N/m] 35,5 × 103
+
+where
+
+is the number of cubic centimetres of AgNO3 solution required for titration of the
+
+A
+
+sample;
+is the number of cubic centimetres of AgNO3 solution required for titration of the blank;
+
+B
+
+is the molarity of the AgNO3 solution;
+
+N
+
+is the mass in grams of sample used;
+
+35,5
+
+is the atomic mass of chlorine.
+
+A.2 Test method for determination of organic chloride
+
+This test method is based on UOP 779/08.
+
+Annex B (informative)
+
+IR spectra of typical synthetic aromatic hydrocarbons
+
+NOTE All IR spectra conditions are: KBr cells between wavelength 400 cm−1 to 4 000 cm−1.
+
+B.1 IR spectra typical of the family of alkylbenzenes
+
+See Figure B.1 and Figure B.2.
+
+Figure B.1 – IR spectra of branched alkylbenzenes
+
+Figure B.2 – IR spectra of linear alkylbenzenes
+
+NOTE The two types of alkylbenzene shown in Figure B.1 and Figure B.2 can be distinguished by infrared spectrophotometric analysis. The straight-chain type shows a single absorption peak in the region 1 360 cm−1 to 1 380 cm−1 and the branched-chain type shows a double peak in that region.
+
+B.2 Alkyldiphenylethanes
+
+See Figure B.3.
+
+Figure B.3 – IR spectrum of phenylxylylethane (PXE)
+
+NOTE Phenylxylylethane (PXE) is characterized by infrared absorption bands at 3 070 cm−1, 1 606 cm−1 and 705 cm−1.
+
+B.3 Alkylnaphtalenes – typified by 1-methylnaphthalene
+
+See Figure B.4.
+
+Figure B.4 – IR spectrum of 1-methylnaphthalene
+
+B.4 Methylpolyarylmethanes
+
+See Figure B.5 and Figure B.6.
+
+Figure B.5 – IR spectrum of monobenzyltoluene (MBT)
+
+NOTE Methylpolyarylmethanes are characterized by infrared absorption bands at 3 025 cm−1, 1 606 cm−1 and 705 cm−1.
+
+Figure B.6 – IR spectrum of dibenzyltoluene (DBT)
+
+Bibliography
+
+Globally Harmonized System of Classification and Labelling of Chemicals (GHS), available at https://unece.org/about-ghs
+
+Council Directive 96/59/EC on the disposal of polychlorinated biphenyls and polychlorinated terphenyls (PCB/PCT), available at https://eur-lex.europa.eu/eli/dir/1996/59/oj
+
+UN Guidelines for the identification of PCBs and materials containing PCBs, available at https://wedocs.unep.org/handle/20.500.11822/8221
+
+McCOY. The Inorganic Analysis of Petroleum, Chemical Publishing Co. Inc., 212 Fifth Avenue, New York
+
+UOP 779/08, Chloride in Petroleum Distillates by Microcoulometry
+
+____________
+
+Bureau of Indian Standards
+
+BIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to
+connected matters in the country.
+
+Copyright
+
+BIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the
+standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.
+
+Review of Indian Standards
+
+Amendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are
+needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website-
+www.bis.gov.in or www.standardsbis.in.
+
+This Indian Standard has been developed from Doc No.: ETD 03 (22410).
+
+Amendments Issued Since Publication
+
+Amend No.
+
+Date of Issue
+
+Text Affected
+
+BUREAU OF INDIAN STANDARDS
+
+Headquarters:
+
+Manak Bhavan, 9 Bahadur Shah Zafar Marg, New Delhi 110002
+Telephones: 2323 0131, 2323 3375, 2323 9402
+
+Website: www.bis.gov.in
+
+Regional Offices:
+
+Telephones
+
+
+
+Central
+
+: 601/A, Konnectus Tower -1, 6th Floor,
+
+2323 7617
+
+DMRC Building, Bhavbhuti Marg, New Delhi 110002
+
+
+
+2367 0012
+
+Eastern
+
+: 8th Floor, Plot No 7/7 & 7/8, CP Block, Sector V,
+
+Salt Lake, Kolkata, West Bengal 700091
+
+2320 9474
+
+
+
+Northern : Plot No. 4-A, Sector 27-B, Madhya Marg,
+
+265 9930
+
+Chandigarh 160019
+
+
+
+Southern : C.I.T. Campus, IV Cross Road, Taramani, Chennai 600113
+
+2254 1442 2254 1216
+
+
+
+Western: Plot No. E-9, Road No.-8, MIDC, Andheri
+
+2821 8093
+
+(East), Mumbai 400093
+
+Branches : AHMEDABAD. BENGALURU. BHOPAL. BHUBANESHWAR. CHANDIGARH. CHENNAI.
+
+COIMBATORE. DEHRADUN. DELHI. FARIDABAD. GHAZIABAD. GUWAHATI.
+HIMACHAL PRADESH. HUBLI. HYDERABAD.
+
+JAIPUR.
+
+JAMMU & KASHMIR.
+
+JAMSHEDPUR. KOCHI. KOLKATA. LUCKNOW. MADURAI. MUMBAI. NAGPUR.
+NOIDA. PANIPAT. PATNA. PUNE. RAIPUR. RAJKOT. SURAT. VISAKHAPATNAM.
+
