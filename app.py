@@ -1,11 +1,8 @@
-# app.py (FINAL - FIXED)
-# ✅ Fix 1: build_table_index_from_blocks now dedupes TOC-vs-caption by canonical "T{n}" id
-# ✅ Fix 2: render_table_explanations_ui uses rendered=set() guard (never renders textarea twice per table_id)
-# ✅ Fix 3: ui_scope is REQUIRED + used in ALL widget keys + BOTH call-sites pass different ui_scope
-#
-# Result: No StreamlitDuplicateElementKey even when:
-# - the same table is referenced in Table of Contents AND above the table
-# - you render the table UI twice in same run (after-processing + job-level)
+# app.py (FULL UPDATED)
+# ✅ Adds Step3b formula pipeline + Formula Narrations UI + injection into normalized text
+# Flow:
+# PDF -> Step2 blocks -> Step3b_formula (detect/crop formula, pix2tex) -> Step2c sections
+# -> Step3 normalize (inject formula narrations + unit normalization) -> Step4 SSML preview
 
 import streamlit as st
 import json
@@ -26,6 +23,7 @@ RUNS_DIR = ROOT / "runs"
 RUNS_DIR.mkdir(exist_ok=True)
 
 STEP2 = ROOT / "step2_blocks.py"
+STEP3B = ROOT / "step3b_formula.py"  # ✅ formula pipeline (pix2tex/mathpix)
 STEP2C = ROOT / "step2c_sections.py"
 STEP5A = ROOT / "step5a_make_text_chunks_from_sections.py"
 STEP5B = ROOT / "step5b_synthesize_wav_chunks.py"
@@ -38,29 +36,33 @@ STEP6 = ROOT / "step6_merge_wavs.py"  # optional; we merge inside app.py too
 # ---------------------------
 TABLE_TOKEN_NEW_RE = re.compile(r"\[\[TABLE\|([^|]+)\|([^\]]+)\]\]")
 TABLE_TOKEN_OLD_RE = re.compile(r"^\[TABLE:([^\]]+)\]\s*(.*)$")
-
-# canonical table number extraction: "Table 1", "TABLE 10:", "Table 2 (continued)" etc.
 TABLE_NO_RE = re.compile(r"\btable\s*([0-9]{1,4})\b", re.IGNORECASE)
 
+# ---------------------------
+# ✅ FORMULA TOKENS (optional inline injection)
+# If you later decide to embed placeholders into section text:
+#   [[FORMULA|F12|...]]
+#   [FORMULA:F12]
+# ---------------------------
+FORMULA_TOKEN_NEW_RE = re.compile(r"\[\[FORMULA\|([^|]+)\|([^\]]*)\]\]")
+FORMULA_TOKEN_OLD_RE = re.compile(r"\[FORMULA:([^\]]+)\]")
 
 # ---------------------------
-# PDF caching + table image crop
+# PDF caching + region crop
 # ---------------------------
 @st.cache_resource(show_spinner=False)
 def _open_pdf_cached(pdf_path_str: str):
     return fitz.open(pdf_path_str)
 
-
-def crop_table_png_bytes(pdf_path: Path, page_num_1based: int, bbox, zoom: float = 2.0) -> bytes:
+def crop_region_png_bytes(pdf_path: Path, page_num_1based: int, bbox, zoom: float = 2.0) -> bytes:
     """
-    Crop a table region from pdf using bbox (fitz coords), return PNG bytes.
+    Crop a region from pdf using bbox (fitz coords), return PNG bytes.
     bbox: [x0,y0,x1,y1]
     """
     doc = _open_pdf_cached(str(pdf_path))
     page = doc[page_num_1based - 1]
     rect = fitz.Rect(float(bbox[0]), float(bbox[1]), float(bbox[2]), float(bbox[3]))
 
-    # small padding to avoid cutting borders
     pad = 2.0
     rect = fitz.Rect(
         max(0, rect.x0 - pad),
@@ -78,24 +80,13 @@ def crop_table_png_bytes(pdf_path: Path, page_num_1based: int, bbox, zoom: float
 # Canonical table_id logic
 # ---------------------------
 def canonical_table_id(raw_table_id: str | None, caption: str | None) -> str | None:
-    """
-    Unifies TOC entry and real table caption into ONE logical id:
-      - If caption contains "Table N" => returns "T{N}"
-      - Else if raw_table_id contains "T{N}" pattern => returns that "T{N}"
-      - Else falls back to raw_table_id (p8_t0 etc.)
-
-    This is the key fix for "Table of contents" vs "Above the table" duplication.
-    """
     rid = (raw_table_id or "").strip()
     cap = (caption or "").strip()
 
-    # 1) Prefer caption "Table N"
     m = TABLE_NO_RE.search(cap)
     if m:
         return f"T{int(m.group(1))}"
 
-    # 2) Try raw id containing Table N or Tn
-    #    e.g. "20260215_210600_T1" or "job_..._T12"
     m2 = re.search(r"\bT([0-9]{1,4})\b", rid, flags=re.IGNORECASE)
     if m2:
         return f"T{int(m2.group(1))}"
@@ -104,35 +95,13 @@ def canonical_table_id(raw_table_id: str | None, caption: str | None) -> str | N
     if m3:
         return f"T{int(m3.group(1))}"
 
-    # 3) Fallback
     return rid or None
 
 
 # ---------------------------
-# Table extraction/grouping from blocks (FIX 1)
+# Table extraction/grouping from blocks
 # ---------------------------
 def build_table_index_from_blocks(blocks):
-    """
-    Returns dict keyed by logical table_id (canonical):
-      {
-        "T10": {
-           "caption": "Table 10 — ...",
-           "occurrences": [
-              {"page": 13, "bbox": [...], "hit_id": "p13_t0", "caption": "..."},
-              {"page": 14, "bbox": [...], "hit_id": "p14_t0", "caption": "Table 10 (continued)"},
-           ]
-        },
-        ...
-      }
-
-    Supports:
-    - step2 explicit blocks: type=table with table_id/caption/bbox/hit_id/page
-    - older inline tokens fallback (no bbox -> screenshots not possible)
-
-    IMPORTANT:
-    - Canonicalizes TOC-vs-caption duplication into one id via canonical_table_id()
-    - Dedupes identical occurrences (same page + bbox) defensively
-    """
     idx = {}
 
     def _ensure(tid: str):
@@ -140,7 +109,6 @@ def build_table_index_from_blocks(blocks):
             idx[tid] = {"caption": "", "occurrences": []}
 
     def _add_occ(tid: str, occ: dict):
-        # Defensive de-dupe: same page + same bbox (or both None) + same hit_id
         page = int(occ.get("page") or 0)
         bbox = occ.get("bbox")
         hit_id = (occ.get("hit_id") or "").strip()
@@ -155,27 +123,23 @@ def build_table_index_from_blocks(blocks):
     for b in blocks:
         text = (b.get("text") or "").strip()
 
-        # Best case: Step2 explicit fields
         if b.get("type") == "table":
             raw_tid = str(b.get("table_id") or "").strip()
             caption = (b.get("caption") or b.get("text") or "").strip()
             page = int(b.get("page") or 0)
             bbox = b.get("bbox")
-            hit_id = (b.get("hit_id") or raw_tid or "").strip()  # preserve original as hit_id
+            hit_id = (b.get("hit_id") or raw_tid or "").strip()
 
             tid = canonical_table_id(raw_tid, caption)
             if tid:
                 _ensure(tid)
-
-                # prefer the "real" caption (longer, non-empty)
-                if caption:
-                    if not idx[tid]["caption"] or len(caption) > len(idx[tid]["caption"]):
-                        idx[tid]["caption"] = caption
+                if caption and (not idx[tid]["caption"] or len(caption) > len(idx[tid]["caption"])):
+                    idx[tid]["caption"] = caption
 
                 _add_occ(tid, {"page": page, "bbox": bbox, "hit_id": hit_id, "caption": caption})
             continue
 
-        # Fallback 1: token inside text (no bbox)
+        # Fallback: inline tokens
         for m in TABLE_TOKEN_NEW_RE.finditer(text):
             raw_tid = m.group(1).strip()
             caption = m.group(2).strip()
@@ -184,14 +148,8 @@ def build_table_index_from_blocks(blocks):
                 _ensure(tid)
                 if caption and (not idx[tid]["caption"] or len(caption) > len(idx[tid]["caption"])):
                     idx[tid]["caption"] = caption
-                _add_occ(tid, {
-                    "page": int(b.get("page") or 0),
-                    "bbox": None,
-                    "hit_id": raw_tid,
-                    "caption": caption
-                })
+                _add_occ(tid, {"page": int(b.get("page") or 0), "bbox": None, "hit_id": raw_tid, "caption": caption})
 
-        # Fallback 2: old whole-line placeholder (no bbox)
         m2 = TABLE_TOKEN_OLD_RE.match(text)
         if m2:
             raw_tid = (m2.group(1) or "").strip()
@@ -201,18 +159,11 @@ def build_table_index_from_blocks(blocks):
                 _ensure(tid)
                 if caption and (not idx[tid]["caption"] or len(caption) > len(idx[tid]["caption"])):
                     idx[tid]["caption"] = caption
-                _add_occ(tid, {
-                    "page": int(b.get("page") or 0),
-                    "bbox": None,
-                    "hit_id": raw_tid,
-                    "caption": caption
-                })
+                _add_occ(tid, {"page": int(b.get("page") or 0), "bbox": None, "hit_id": raw_tid, "caption": caption})
 
-    # Clean helper key
     for tid in list(idx.keys()):
         idx[tid].pop("_seen_keys", None)
 
-    # Stable sort occurrences: by page then y0 if bbox
     def occ_sort_key(o):
         y = 0.0
         if o.get("bbox"):
@@ -227,7 +178,6 @@ def build_table_index_from_blocks(blocks):
         v["occurrences"] = sorted(v["occurrences"], key=occ_sort_key)
         items.append((tid, v))
 
-    # Sort tables by first occurrence page then id
     items.sort(key=lambda kv: (kv[1]["occurrences"][0]["page"] if kv[1]["occurrences"] else 10**9, kv[0]))
     return dict(items)
 
@@ -241,34 +191,186 @@ def load_table_explanations(job_dir: Path):
             return {}
     return {}
 
-
 def save_table_explanations(job_dir: Path, data: dict):
     path = job_dir / "table_explanations.json"
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
 # ---------------------------
-# UI: Table explanations (FIX 2 + FIX 3)
+# ✅ Formulas: load/save + UI + injection
+# Step3b_formula.py writes: job_dir/formulas.json and job_dir/formulas/xxx.png
+# ---------------------------
+def load_formulas(job_dir: Path) -> dict:
+    """
+    Reads formulas.json created by step3b_formula.py.
+    Format: {"F1": {...}, "F2": {...}}
+    """
+    p = job_dir / "formulas.json"
+    if not p.exists():
+        return {}
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+def load_formula_narrations(job_dir: Path) -> dict:
+    p = job_dir / "formula_narrations.json"
+    if p.exists():
+        try:
+            return json.loads(p.read_text(encoding="utf-8"))
+        except Exception:
+            return {}
+    return {}
+
+def save_formula_narrations(job_dir: Path, data: dict):
+    p = job_dir / "formula_narrations.json"
+    p.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+
+def render_formula_narrations_ui(job_dir: Path, title="∑ Formula Narrations", ui_scope: str = "job"):
+    st.divider()
+    st.header(title)
+
+    formulas = load_formulas(job_dir)
+    if not formulas:
+        st.info("No formulas detected (formulas.json not found). Run processing first.")
+        return
+
+    existing = load_formula_narrations(job_dir)
+    updated = dict(existing)
+
+    st.caption("Edit narration ONCE per formula_id. This narration is injected into normalized sections.")
+    st.info(f"Detected {len(formulas)} formula(s).")
+
+    # Stable order: by page then id
+    def _sort_key(item):
+        fid, meta = item
+        p = meta.get("page") or 10**9
+        try:
+            p = int(p)
+        except Exception:
+            p = 10**9
+        return (p, fid)
+
+    for fid, meta in sorted(formulas.items(), key=_sort_key):
+        page = meta.get("page")
+        latex = (meta.get("latex") or "").strip()
+        provider = meta.get("provider") or ""
+        spoken_auto = (meta.get("spoken") or "").strip()
+        img_rel = meta.get("image")  # e.g. "formulas/F3_p12.png"
+
+        st.subheader(f"{fid}" + (f"  • page {page}" if page else ""))
+
+        with st.expander("📌 Show details (LaTeX / screenshot / auto-spoken)", expanded=False):
+            if latex:
+                st.code(latex, language="latex")
+            if spoken_auto:
+                st.code(spoken_auto, language="text")
+            if provider:
+                st.write(f"provider: `{provider}`")
+
+            # Prefer step3b saved image if exists
+            if img_rel:
+                img_path = job_dir / img_rel
+                if img_path.exists():
+                    st.image(img_path.read_bytes(), caption=f"{fid} • page {page}", use_container_width=True)
+                else:
+                    st.info("Formula image path recorded but file not found.")
+            else:
+                st.info("No image path recorded for this formula.")
+
+        default_text = (existing.get(fid) or spoken_auto or "").strip()
+        narration = st.text_area(
+            f"Narration for {fid}",
+            value=default_text,
+            height=120,
+            key=f"formula_narr_{ui_scope}_{job_dir.name}_{fid}"
+        )
+        updated[fid] = (narration or "").strip()
+
+    cA, cB = st.columns(2)
+    if cA.button("💾 Save Formula Narrations", key=f"save_formula_narr_{ui_scope}_{job_dir.name}"):
+        save_formula_narrations(job_dir, updated)
+        st.success(f"Saved: {job_dir / 'formula_narrations.json'}")
+
+    if cB.button("🧹 Clear all narrations", key=f"clear_formula_narr_{ui_scope}_{job_dir.name}"):
+        save_formula_narrations(job_dir, {})
+        st.warning("Cleared. (formula_narrations.json reset)")
+
+def inject_formula_narrations_inline(text: str, formula_map: dict) -> str:
+    """
+    Optional inline replacement if your text contains:
+      [[FORMULA|F12|...]] or [FORMULA:F12]
+    """
+    if not text or not formula_map:
+        return text
+
+    def repl_new(m):
+        fid = (m.group(1) or "").strip()
+        narr = (formula_map.get(fid) or "").strip()
+        if narr:
+            return f" Formula {fid}: {narr} "
+        return f" Formula {fid}. "
+
+    def repl_old(m):
+        fid = (m.group(1) or "").strip()
+        narr = (formula_map.get(fid) or "").strip()
+        if narr:
+            return f" Formula {fid}: {narr} "
+        return f" Formula {fid}. "
+
+    text = FORMULA_TOKEN_NEW_RE.sub(repl_new, text)
+    text = FORMULA_TOKEN_OLD_RE.sub(repl_old, text)
+    return text
+
+def append_formulas_for_section(text: str, page_start: int, page_end: int, formulas: dict, formula_map: dict) -> str:
+    """
+    ✅ Main injection strategy (works even without inline tokens):
+    If a section spans pages that contain formulas, append them at end of section.
+    """
+    if not text or not formulas:
+        return text
+
+    hits = []
+    for fid, meta in formulas.items():
+        p = meta.get("page")
+        if p is None:
+            continue
+        try:
+            p = int(p)
+        except Exception:
+            continue
+        if page_start <= p <= page_end:
+            narr = (formula_map.get(fid) or meta.get("spoken") or "").strip()
+            if narr:
+                hits.append((p, fid, narr))
+
+    if not hits:
+        return text
+
+    hits.sort(key=lambda x: (x[0], x[1]))
+
+    lines = ["", "Formulas in this section:"]
+    for p, fid, narr in hits:
+        lines.append(f"- {fid} (page {p}): {narr}")
+
+    return (text.rstrip() + "\n" + "\n".join(lines)).strip()
+
+
+# ---------------------------
+# UI: Table explanations
 # ---------------------------
 def render_table_explanations_ui(
     job_dir: Path,
     pdf_path: Path,
     blocks_data: list,
     title="🧾 Table Explanations",
-    ui_scope: str = "job"   # ✅ FIX 3: scope is part of widget keys
+    ui_scope: str = "job"
 ):
-    """
-    UI:
-    - shows all detected table placeholders (per occurrence)
-    - shows screenshot crop if bbox exists
-    - one textarea per logical table_id (canonical)
-    """
-
     st.divider()
     st.header(title)
 
     table_index = build_table_index_from_blocks(blocks_data)
-
     if not table_index:
         st.info("No tables detected for this job.")
         return
@@ -279,9 +381,7 @@ def render_table_explanations_ui(
     st.caption("Write the explanation ONCE per table_id. The same explanation will be reused for continued pages.")
     st.info(f"Detected {len(table_index)} unique table_id(s).")
 
-    # ✅ FIX 2: never render a textarea twice per table_id within a run (defensive)
     rendered = set()
-
     for table_id, meta in table_index.items():
         if table_id in rendered:
             continue
@@ -316,14 +416,13 @@ def render_table_explanations_ui(
                     bbox = occ.get("bbox")
                     if bbox and pdf_path and pdf_path.exists():
                         try:
-                            png = crop_table_png_bytes(pdf_path, int(page), bbox, zoom=2.0)
+                            png = crop_region_png_bytes(pdf_path, int(page), bbox, zoom=2.0)
                             st.image(png, caption=f"{table_id} • page {page}", use_container_width=True)
                         except Exception as e:
                             st.warning(f"Could not render screenshot for {table_id} on page {page}: {e}")
                     else:
                         st.info("No bbox available for this occurrence (cannot crop screenshot).")
 
-        # ✅ FIX 3: key includes ui_scope + job + table_id
         default_text = existing.get(table_id, "")
         explanation = st.text_area(
             f"Explanation for {table_id}",
@@ -334,8 +433,6 @@ def render_table_explanations_ui(
         updated[table_id] = (explanation or "").strip()
 
     cA, cB = st.columns(2)
-
-    # ✅ FIX 3: button keys include ui_scope too
     if cA.button("💾 Save Table Explanations", key=f"save_table_expl_{ui_scope}_{job_dir.name}"):
         save_table_explanations(job_dir, updated)
         st.success(f"Saved: {job_dir / 'table_explanations.json'}")
@@ -349,9 +446,6 @@ def render_table_explanations_ui(
 # Helpers
 # ---------------------------
 def run_cmd(cmd, cwd=None, env=None):
-    """
-    Run a command and return (ok, stdout+stderr).
-    """
     try:
         p = subprocess.run(
             cmd,
@@ -366,175 +460,13 @@ def run_cmd(cmd, cwd=None, env=None):
     except Exception as e:
         return False, f"Exception running command: {e}"
 
-
 def safe_name(s: str, max_len=80) -> str:
     s = (s or "").strip().replace(" ", "_")
     s = "".join(ch for ch in s if ch.isalnum() or ch in "_-")
     return s[:max_len] if s else "section"
 
-
 def normalize_ws(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "")).strip()
-
-
-def ensure_normalized_and_ssml(job_dir: Path, sections: list):
-    """
-    If sections_normalized/ or sections_ssml_preview/ is missing,
-    generate them from sections_original/ using the existing normalize/ssml functions.
-    """
-    orig_dir = job_dir / "sections_original"
-    sections_norm = job_dir / "sections_normalized"
-    sections_ssml = job_dir / "sections_ssml_preview"
-
-    # Create dirs if missing
-    sections_norm.mkdir(exist_ok=True)
-    sections_ssml.mkdir(exist_ok=True)
-
-    # If already populated, skip
-    already_has_norm = any(sections_norm.glob("*.txt"))
-    already_has_ssml = any(sections_ssml.glob("*.xml"))
-
-    if already_has_norm and already_has_ssml:
-        return
-
-    # Generate missing files
-    for s in sections:
-        sec_file = Path(s["file"])
-        if not sec_file.exists():
-            sec_file = orig_dir / Path(s["file"]).name
-
-        raw = sec_file.read_text(encoding="utf-8")
-        norm_text = normalize_section_text(raw)
-
-        (sections_norm / sec_file.name).write_text(norm_text, encoding="utf-8")
-        (sections_ssml / f"{sec_file.stem}.xml").write_text(
-            text_to_ssml_preview(norm_text),
-            encoding="utf-8"
-        )
-
-
-def detect_header_footer_candidates(
-    pdf_path: Path,
-    top_pct=0.08,
-    bottom_pct=0.92,
-    max_len=160,
-    min_pages_ratio=0.6,
-    sample_pages=6
-):
-    """
-    Detect repeated header/footer lines in top/bottom bands.
-    Also returns common page-number regex suggestions.
-    """
-    doc = fitz.open(str(pdf_path))
-    pages = len(doc)
-
-    seen = {}         # (band, text) -> set(pages)
-    page_samples = {} # (band, text) -> [page nos]
-
-    for pno in range(pages):
-        page = doc[pno]
-        h = float(page.rect.height)
-
-        data = page.get_text("dict")
-        for block in data.get("blocks", []):
-            if block.get("type", 0) != 0:
-                continue
-
-            for line in block.get("lines", []):
-                spans = line.get("spans", [])
-                if not spans:
-                    continue
-
-                parts = []
-                ys = []
-                for sp in spans:
-                    t = (sp.get("text", "") or "").replace("\u00ad", "")
-                    if t.strip():
-                        parts.append(t)
-                        bbox = sp.get("bbox")
-                        if bbox:
-                            ys.append(bbox[1])
-
-                if not parts:
-                    continue
-
-                text = normalize_ws("".join(parts))
-                if not text or len(text) > max_len:
-                    continue
-
-                y0 = min(ys) if ys else 0.0
-
-                if y0 <= h * top_pct:
-                    band = "TOP"
-                elif y0 >= h * bottom_pct:
-                    band = "BOTTOM"
-                else:
-                    continue
-
-                key = (band, text)
-                seen.setdefault(key, set()).add(pno + 1)
-
-                if key not in page_samples:
-                    page_samples[key] = []
-                if len(page_samples[key]) < sample_pages:
-                    page_samples[key].append(pno + 1)
-
-    rows = []
-    for (band, text), pset in seen.items():
-        ratio = (len(pset) / pages) if pages else 0.0
-        if ratio >= min_pages_ratio and len(text) >= 2:
-            rows.append({
-                "remove": True,
-                "band": band,
-                "text": text,
-                "pages_count": len(pset),
-                "pages_ratio": round(ratio, 2),
-                "sample_pages": ", ".join(map(str, page_samples.get((band, text), [])[:sample_pages]))
-            })
-
-    page_number_regex = [
-        r"^\s*\d+\s*$",
-        r"^\s*page\s*\d+\s*$",
-        r"^\s*\d+\s*/\s*\d+\s*$",
-        r"^\s*-\s*\d+\s*-\s*$",
-        r"^\s*\d{1,4}\s*$",
-        r"^\s*[ivxlcdm]{1,8}\s*$",
-        r"^\s*page\s*\d{1,4}\s*$",
-        r"^\s*\d{1,4}\s*/\s*\d{1,4}\s*$",
-        r"^\s*\d{1,4}\s+of\s+\d{1,4}\s*$",
-        r"^\s*-\s*\d{1,4}\s*-\s*$",
-        r"^\s*\d{1,4}\s*[\|\-]\s*\d{1,4}\s*$",
-        r"^\s*\d{1,4}\s*(?:BS|BIS)\s*$",
-        r"^\s*\d{1,4}\s*(?:BS|BIS)\s*[^\w\s]?\s*$",
-        r"^\s*(?:BS|BIS)\s*\d{1,4}\s*$",
-        r"^\s*\d{1,4}(?:BS|BIS)\s*$",
-        r"^\s*\d{1,4}\s*[\.\-\|\u00b7:]?\s*(?:BS|BIS)\s*$",
-    ]
-
-    return rows, page_number_regex
-
-
-def merge_wavs_in_order(wav_files, out_path: Path):
-    """
-    Merge WAV files in order using wave module (no ffmpeg needed).
-    All chunks must have same params.
-    """
-    wav_files = [Path(p) for p in wav_files if Path(p).exists()]
-    if not wav_files:
-        raise FileNotFoundError("No WAV files found to merge.")
-
-    with wave.open(str(wav_files[0]), "rb") as w0:
-        params = w0.getparams()
-
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    with wave.open(str(out_path), "wb") as out:
-        out.setparams(params)
-        for f in wav_files:
-            with wave.open(str(f), "rb") as w:
-                if w.getparams() != params:
-                    raise ValueError(f"WAV params mismatch: {f.name}")
-                out.writeframes(w.readframes(w.getnframes()))
-
 
 
 # ---------------------------
@@ -552,7 +484,6 @@ ABBREV = {
 
 TOC_START_TITLES = {"contents", "table of contents"}
 
-
 def norm_unicode(s: str) -> str:
     s = unicodedata.normalize("NFKC", s or "")
     for k, v in LIGATURES.items():
@@ -562,15 +493,12 @@ def norm_unicode(s: str) -> str:
     s = s.replace("–", "-").replace("—", "-")
     return s
 
-
 def fix_decimal_spacing(s: str) -> str:
     return re.sub(r"(\d)\s*\.\s*(\d)", r"\1.\2", s or "")
-
 
 def remove_dot_leaders(s: str) -> str:
     s = re.sub(r"\.{5,}", " ", s or "")
     return normalize_ws(s)
-
 
 PAGE_MARKER_PATTERNS = [
     r"^\s*\d{1,4}\s*$",
@@ -587,7 +515,6 @@ PAGE_MARKER_PATTERNS = [
     r"^\s*\d{1,4}\s*[\.\-\|\u00b7:]?\s*(?:BS|BIS)\s*$",
 ]
 
-
 def looks_like_page_marker(s: str) -> bool:
     t = (s or "").strip().lower()
     if t in {"page"}:
@@ -596,7 +523,6 @@ def looks_like_page_marker(s: str) -> bool:
         if re.fullmatch(pat, t, flags=re.IGNORECASE):
             return True
     return False
-
 
 def is_boilerplate_line(s: str) -> bool:
     t = (s or "").strip().lower()
@@ -608,7 +534,6 @@ def is_boilerplate_line(s: str) -> bool:
         "published in switzerland",
     ]
     return any(b in t for b in boiler)
-
 
 def drop_toc_from_text(text: str) -> str:
     lines = [ln.rstrip() for ln in (text or "").splitlines()]
@@ -683,7 +608,6 @@ def drop_toc_from_text(text: str) -> str:
 
     return "\n".join(out).strip()
 
-
 def split_sentences(text: str):
     t = text or ""
     t = re.sub(r"(\d)\.(\d)", r"\1<DEC>\2", t)
@@ -706,14 +630,11 @@ def split_sentences(text: str):
             out.append(p)
     return out
 
-
 # -------------------------------
-# ✅ NEW: Plural-aware unit normalization used by app.py Step-3
+# Plural-aware unit normalization
 # -------------------------------
 def normalize_decimal_commas(text: str) -> str:
-    # 0,01 -> 0.01 (only between digits)
     return re.sub(r"(?<=\d),(?=\d)", ".", text or "")
-
 
 def _is_plural_number(num_str: str) -> bool:
     try:
@@ -721,7 +642,6 @@ def _is_plural_number(num_str: str) -> bool:
         return abs(v - 1.0) > 1e-12
     except Exception:
         return True
-
 
 def _maybe_pluralize(unit_word: str, plural: bool) -> str:
     if not plural:
@@ -738,23 +658,12 @@ def _maybe_pluralize(unit_word: str, plural: bool) -> str:
         parts[-1] = last + "s"
     return " ".join(parts)
 
-
 def normalize_symbols_units_plural(text: str) -> str:
-    """
-    Converts:
-      250 ml  -> 250 millilitres
-      30 g    -> 30 grams
-      0,3 cm  -> 0.3 centimetres
-      1,5 cm  -> 1.5 centimetres
-      250 cm3 / cm³ / cm^3 -> cubic centimetre(s)
-      mol/l   -> mole per litre
-    """
     if not text:
         return text
 
     text = normalize_decimal_commas(text)
 
-    # normalize special glyph units and superscripts
     text = (text
             .replace("㎜", "mm")
             .replace("㎝", "cm")
@@ -770,7 +679,6 @@ def normalize_symbols_units_plural(text: str) -> str:
             .replace("³", "3")
             )
 
-    # direct safe replacements
     safe_direct = {
         "°C": " degree celsius ",
         "°c": " degree celsius ",
@@ -803,7 +711,6 @@ def normalize_symbols_units_plural(text: str) -> str:
         base = kind_map.get(unit, unit)
         return f"{num} {_maybe_pluralize(base, plural)}"
 
-    # volume: 250 cm3, 250 cm^3, 250 cm 3
     text = re.sub(
         r"(?P<num>\d+(?:\.\d+)?)\s*(?P<unit>mm|cm|m|km)\s*(?:\^?\s*3)\b",
         lambda m: repl_powered(m, unit_volume),
@@ -811,7 +718,6 @@ def normalize_symbols_units_plural(text: str) -> str:
         flags=re.IGNORECASE
     )
 
-    # area: 10 cm2 etc
     text = re.sub(
         r"(?P<num>\d+(?:\.\d+)?)\s*(?P<unit>mm|cm|m|km)\s*(?:\^?\s*2)\b",
         lambda m: repl_powered(m, unit_area),
@@ -819,7 +725,6 @@ def normalize_symbols_units_plural(text: str) -> str:
         flags=re.IGNORECASE
     )
 
-    # length: 0.3 cm, 5 cm
     text = re.sub(
         r"(?P<num>\d+(?:\.\d+)?)\s*(?P<unit>mm|cm|m|km)\b",
         lambda m: repl_plain(m, unit_length),
@@ -827,7 +732,6 @@ def normalize_symbols_units_plural(text: str) -> str:
         flags=re.IGNORECASE
     )
 
-    # mass: 30 g
     text = re.sub(
         r"(?P<num>\d+(?:\.\d+)?)\s*(?P<unit>mg|g|kg)\b",
         lambda m: repl_plain(m, unit_mass),
@@ -835,7 +739,6 @@ def normalize_symbols_units_plural(text: str) -> str:
         flags=re.IGNORECASE
     )
 
-    # liquids: 250 ml
     text = re.sub(
         r"(?P<num>\d+(?:\.\d+)?)\s*(?P<unit>ml|l)\b",
         lambda m: repl_plain(m, unit_liquid),
@@ -843,15 +746,31 @@ def normalize_symbols_units_plural(text: str) -> str:
         flags=re.IGNORECASE
     )
 
-    # mol/l (common in standards)
     text = re.sub(r"(?i)\bmol\s*/\s*l\b", " mole per litre ", text)
-
     return re.sub(r"\s+", " ", text).strip()
 
 
-def normalize_section_text(text: str) -> str:
+def normalize_section_text(
+    text: str,
+    formula_map: dict | None = None,
+    formulas: dict | None = None,
+    page_start: int | None = None,
+    page_end: int | None = None,
+) -> str:
+    """
+    ✅ Step3 normalize:
+    - Unicode cleanup, TOC drop
+    - Optional inline formula tokens replacement
+    - Line cleaning, page-marker removal, boilerplate removal
+    - Unit normalization
+    - Optional per-section formula append by page range (robust injection)
+    """
     text = norm_unicode(text)
     text = drop_toc_from_text(text)
+
+    # Optional inline token injection (only if tokens exist)
+    if formula_map:
+        text = inject_formula_narrations_inline(text, formula_map)
 
     lines = text.splitlines()
     kept = []
@@ -859,7 +778,7 @@ def normalize_section_text(text: str) -> str:
         t = remove_dot_leaders(ln)
         t = fix_decimal_spacing(t)
 
-        # ✅ THE MISSING STEP (unit conversion happens here)
+        # unit conversion
         t = normalize_symbols_units_plural(t)
 
         t = normalize_ws(t)
@@ -875,6 +794,11 @@ def normalize_section_text(text: str) -> str:
 
     cleaned = "\n".join(kept)
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
+
+    # ✅ Robust injection at end by section page range
+    if formulas and formula_map and page_start and page_end:
+        cleaned = append_formulas_for_section(cleaned, int(page_start), int(page_end), formulas, formula_map)
+
     return cleaned
 
 
@@ -882,7 +806,6 @@ def escape_ssml(text: str) -> str:
     return (text.replace("&", "&amp;")
                 .replace("<", "&lt;")
                 .replace(">", "&gt;"))
-
 
 def text_to_ssml_preview(text: str) -> str:
     paras = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
@@ -893,6 +816,165 @@ def text_to_ssml_preview(text: str) -> str:
         parts.append(inner + '<break time="350ms"/>')
     return "<speak>\n" + "\n".join(parts) + "\n</speak>"
 
+
+def ensure_normalized_and_ssml(job_dir: Path, sections: list):
+    """
+    If sections_normalized/ or sections_ssml_preview/ is missing,
+    generate them from sections_original/ using normalize + ssml.
+    ✅ Includes formula injection.
+    """
+    orig_dir = job_dir / "sections_original"
+    sections_norm = job_dir / "sections_normalized"
+    sections_ssml = job_dir / "sections_ssml_preview"
+
+    sections_norm.mkdir(exist_ok=True)
+    sections_ssml.mkdir(exist_ok=True)
+
+    already_has_norm = any(sections_norm.glob("*.txt"))
+    already_has_ssml = any(sections_ssml.glob("*.xml"))
+    if already_has_norm and already_has_ssml:
+        return
+
+    formulas = load_formulas(job_dir)
+    formula_map = load_formula_narrations(job_dir)
+
+    for s in sections:
+        sec_file = Path(s["file"])
+        if not sec_file.exists():
+            sec_file = orig_dir / Path(s["file"]).name
+
+        raw = sec_file.read_text(encoding="utf-8")
+
+        ps = int(s.get("page_start") or 0)
+        pe = int(s.get("page_end") or ps)
+
+        norm_text = normalize_section_text(
+            raw,
+            formula_map=formula_map,
+            formulas=formulas,
+            page_start=ps,
+            page_end=pe
+        )
+
+        (sections_norm / sec_file.name).write_text(norm_text, encoding="utf-8")
+        (sections_ssml / f"{sec_file.stem}.xml").write_text(
+            text_to_ssml_preview(norm_text),
+            encoding="utf-8"
+        )
+
+
+def detect_header_footer_candidates(
+    pdf_path: Path,
+    top_pct=0.08,
+    bottom_pct=0.92,
+    max_len=160,
+    min_pages_ratio=0.6,
+    sample_pages=6
+):
+    doc = fitz.open(str(pdf_path))
+    pages = len(doc)
+
+    seen = {}
+    page_samples = {}
+
+    for pno in range(pages):
+        page = doc[pno]
+        h = float(page.rect.height)
+
+        data = page.get_text("dict")
+        for block in data.get("blocks", []):
+            if block.get("type", 0) != 0:
+                continue
+
+            for line in block.get("lines", []):
+                spans = line.get("spans", [])
+                if not spans:
+                    continue
+
+                parts = []
+                ys = []
+                for sp in spans:
+                    t = (sp.get("text", "") or "").replace("\u00ad", "")
+                    if t.strip():
+                        parts.append(t)
+                        bbox = sp.get("bbox")
+                        if bbox:
+                            ys.append(bbox[1])
+
+                if not parts:
+                    continue
+
+                text = normalize_ws("".join(parts))
+                if not text or len(text) > max_len:
+                    continue
+
+                y0 = min(ys) if ys else 0.0
+                if y0 <= h * top_pct:
+                    band = "TOP"
+                elif y0 >= h * bottom_pct:
+                    band = "BOTTOM"
+                else:
+                    continue
+
+                key = (band, text)
+                seen.setdefault(key, set()).add(pno + 1)
+
+                if key not in page_samples:
+                    page_samples[key] = []
+                if len(page_samples[key]) < sample_pages:
+                    page_samples[key].append(pno + 1)
+
+    rows = []
+    for (band, text), pset in seen.items():
+        ratio = (len(pset) / pages) if pages else 0.0
+        if ratio >= min_pages_ratio and len(text) >= 2:
+            rows.append({
+                "remove": True,
+                "band": band,
+                "text": text,
+                "pages_count": len(pset),
+                "pages_ratio": round(ratio, 2),
+                "sample_pages": ", ".join(map(str, page_samples.get((band, text), [])[:sample_pages]))
+            })
+
+    page_number_regex = [
+        r"^\s*\d+\s*$",
+        r"^\s*page\s*\d+\s*$",
+        r"^\s*\d+\s*/\s*\d+\s*$",
+        r"^\s*-\s*\d+\s*-\s*$",
+        r"^\s*\d{1,4}\s*$",
+        r"^\s*[ivxlcdm]{1,8}\s*$",
+        r"^\s*page\s*\d{1,4}\s*$",
+        r"^\s*\d{1,4}\s*/\s*\d{1,4}\s*$",
+        r"^\s*\d{1,4}\s+of\s+\d{1,4}\s*$",
+        r"^\s*-\s*\d{1,4}\s*-\s*$",
+        r"^\s*\d{1,4}\s*[\|\-]\s*\d{1,4}\s*$",
+        r"^\s*\d{1,4}\s*(?:BS|BIS)\s*$",
+        r"^\s*\d{1,4}\s*(?:BS|BIS)\s*[^\w\s]?\s*$",
+        r"^\s*(?:BS|BIS)\s*\d{1,4}\s*$",
+        r"^\s*\d{1,4}(?:BS|BIS)\s*$",
+        r"^\s*\d{1,4}\s*[\.\-\|\u00b7:]?\s*(?:BS|BIS)\s*$",
+    ]
+
+    return rows, page_number_regex
+
+
+def merge_wavs_in_order(wav_files, out_path: Path):
+    wav_files = [Path(p) for p in wav_files if Path(p).exists()]
+    if not wav_files:
+        raise FileNotFoundError("No WAV files found to merge.")
+
+    with wave.open(str(wav_files[0]), "rb") as w0:
+        params = w0.getparams()
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with wave.open(str(out_path), "wb") as out:
+        out.setparams(params)
+        for f in wav_files:
+            with wave.open(str(f), "rb") as w:
+                if w.getparams() != params:
+                    raise ValueError(f"WAV params mismatch: {f.name}")
+                out.writeframes(w.readframes(w.getnframes()))
 
 
 # ---------------------------
@@ -983,8 +1065,11 @@ if uploaded:
                 st.success(f"Saved rules to: {rules_path}")
                 st.session_state["remove_rules_path"] = str(rules_path)
 
+    # ---------------------------
+    # Start Processing
+    # ---------------------------
     if st.button("📥 Start Processing"):
-        st.info("Running Step 2 (blocks) + Step 2c (sections)...")
+        st.info("Running Step 2 (blocks) ...")
 
         out_blocks = job_dir / "out_blocks.json"
         sections_orig = job_dir / "sections_original"
@@ -1002,7 +1087,6 @@ if uploaded:
             cmd1 += ["--remove_rules", str(remove_rules_path)]
 
         ok1, log1 = run_cmd(cmd1, cwd=ROOT)
-
         st.subheader("Logs: Step2 blocks")
         st.code(log1 or "(no output)", language="text")
 
@@ -1010,6 +1094,35 @@ if uploaded:
             st.error("Step2 failed. Fix logs above.")
             st.stop()
 
+        # ✅ Step3b Formula pipeline (matches your step3b_formula.py CLI)
+        st.info("Running Step 3b (formula detect/crop → pix2tex/mathpix → formulas.json)...")
+        formulas_json = job_dir / "formulas.json"
+
+        cmd3b = [
+            sys.executable, str(STEP3B),
+            "--pdf", str(pdf_path),
+            "--blocks", str(out_blocks),
+            "--out", str(formulas_json),
+            "--zoom", "3.0"
+        ]
+        ok3b, log3b = run_cmd(cmd3b, cwd=ROOT)
+        st.subheader("Logs: Step3b formula")
+        st.code(log3b or "(no output)", language="text")
+
+        if not ok3b:
+            st.warning("Step3b failed. Continuing without formula narrations.")
+        else:
+            st.success(f"✅ Step3b done: {formulas_json}")
+
+        # ✅ Formula Narrations UI right after Step3b output exists
+        if formulas_json.exists():
+            render_formula_narrations_ui(
+                job_dir=job_dir,
+                title="∑ Formula Narrations (New upload)",
+                ui_scope="after_process"
+            )
+
+        st.info("Running Step 2c (sections) ...")
         cmd2 = [
             sys.executable, str(STEP2C),
             "--blocks", str(out_blocks),
@@ -1030,9 +1143,11 @@ if uploaded:
         sections_norm.mkdir(exist_ok=True)
         sections_ssml.mkdir(exist_ok=True)
 
-        st.info("Running Step 3 (normalize sections) + Step 4 (SSML preview per section)...")
+        st.info("Running Step 3 (normalize + inject formulas + unit normalization) + Step 4 (SSML preview)...")
 
         manifest_data = json.loads(manifest_path.read_text(encoding="utf-8"))
+        formula_map = load_formula_narrations(job_dir)
+        formulas = load_formulas(job_dir)
 
         for s in manifest_data:
             sec_file = Path(s["file"])
@@ -1041,7 +1156,16 @@ if uploaded:
 
             raw = sec_file.read_text(encoding="utf-8")
 
-            norm_text = normalize_section_text(raw)
+            ps = int(s.get("page_start") or 0)
+            pe = int(s.get("page_end") or ps)
+
+            norm_text = normalize_section_text(
+                raw,
+                formula_map=formula_map,
+                formulas=formulas,
+                page_start=ps,
+                page_end=pe
+            )
             (sections_norm / sec_file.name).write_text(norm_text, encoding="utf-8")
 
             (sections_ssml / f"{sec_file.stem}.xml").write_text(
@@ -1049,13 +1173,10 @@ if uploaded:
                 encoding="utf-8"
             )
 
-        st.success("✅ Step2 + Step2c + Step3 + Step4 completed. Scroll down to edit sections.")
+        st.success("✅ Step2 + Step3b + Step2c + Step3 + Step4 completed. Scroll down to edit sections.")
         st.session_state["active_job_dir"] = str(job_dir)
 
-        # ---------------------------
         # Table Explanations UI (after processing)
-        # ✅ FIX 3: ui_scope is DIFFERENT from job-level section so keys never collide
-        # ---------------------------
         if out_blocks.exists():
             blocks_data = json.loads(out_blocks.read_text(encoding="utf-8"))
             render_table_explanations_ui(
@@ -1063,9 +1184,8 @@ if uploaded:
                 pdf_path=pdf_path,
                 blocks_data=blocks_data,
                 title="🧾 Table Explanations (New upload)",
-                ui_scope="after_process"  # ✅ FIX 3
+                ui_scope="after_process"
             )
-
 
 # ---------------------------
 # 2) Select Job
@@ -1103,10 +1223,15 @@ if not manifest.exists():
 pdf_candidates = list(job_dir.glob("*.pdf"))
 job_pdf_path = pdf_candidates[0] if pdf_candidates else None
 
-# ---------------------------
-# Table explanations UI for existing jobs too
-# ✅ FIX 3: ui_scope="job_level" so keys are unique from after_process UI
-# ---------------------------
+# ✅ Job-level Formula Narrations UI
+if (job_dir / "formulas.json").exists():
+    render_formula_narrations_ui(
+        job_dir=job_dir,
+        title="∑ Formula Narrations (Job-level)",
+        ui_scope="job_level"
+    )
+
+# Table explanations UI for existing jobs
 out_blocks_path = job_dir / "out_blocks.json"
 if out_blocks_path.exists() and job_pdf_path and job_pdf_path.exists():
     blocks_data = json.loads(out_blocks_path.read_text(encoding="utf-8"))
@@ -1115,19 +1240,7 @@ if out_blocks_path.exists() and job_pdf_path and job_pdf_path.exists():
         pdf_path=job_pdf_path,
         blocks_data=blocks_data,
         title="🧾 Table Explanations (Job-level)",
-        ui_scope="job_level"  # ✅ FIX 3
-    )
-elif out_blocks_path.exists():
-    st.divider()
-    st.header("🧾 Table Explanations (Job-level)")
-    st.warning("out_blocks.json exists, but I couldn't find the PDF file in this job folder to render screenshots.")
-    blocks_data = json.loads(out_blocks_path.read_text(encoding="utf-8"))
-    render_table_explanations_ui(
-        job_dir=job_dir,
-        pdf_path=job_pdf_path if job_pdf_path else (job_dir / "missing.pdf"),
-        blocks_data=blocks_data,
-        title="🧾 Table Explanations (Job-level)",
-        ui_scope="job_level"  # ✅ FIX 3
+        ui_scope="job_level"
     )
 else:
     st.divider()
@@ -1146,7 +1259,7 @@ st.header("3) Edit Sections")
 st.sidebar.header("Sections")
 search = st.sidebar.text_input("Search section title", "")
 
-filtered = [s for s in sections if search.lower() in s["title"].lower()]
+filtered = [s for s in sections if search.lower() in (s.get("title", "").lower())]
 selected = st.sidebar.selectbox(
     "Select section",
     filtered,
